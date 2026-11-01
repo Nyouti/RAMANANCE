@@ -1,0 +1,72 @@
+{
+    "ConfigVersion": 1,
+    "IntervalMinSeconds": 10,
+    "IntervalMaxSeconds": 60,
+    "PauseIfAliveMoreThan": 20,
+    "ResumeWhenAliveLessThan": 15,
+    "AliveCountRadius": 70.0,
+    "EventPlayerRadius": 80.0,
+    "SpawnRadiusMin": 15.0,
+    "SpawnRadiusMax": 70.0,
+    "SpawnMinDistanceToPlayer": 12.0,
+    "SpawnAttempts": 25,
+    "Easy": {
+        "CountMin": 2,
+        "CountMax": 8,
+        "ClassNames": [
+            "SFP_DikoDog",
+            "SFP_RatDog",
+            "SFP_Plot_style1",
+            "SFP_Plot_style2",
+            "SFP_SlepoDOG_Brown",
+            "SFP_SlepoDOG_bulterer",
+            "SFP_SlepoDOG_Red",
+            "SFP_SlepoDOG_White",
+            "SFP_tushkano",
+            "SFP_Boar_Brown",
+            "SFP_Boar_black"
+        ]
+    },
+    "Hard": {
+        "CountMin": 2,
+        "CountMax": 7,
+        "ClassNames": [
+            "SFP_ZombieCivilian_1",
+            "SFP_ZombieCivilian_2",
+            "SFP_ZombieCivilian_3",
+            "SFP_ZombieCivilian_4",
+            "SFP_ZombieCivilian_5",
+            "SFP_ZombieCivilian_6",
+            "SFP_ZombieCivilian_7",
+            "SFP_ZombieCivilian_8",
+            "SFP_ZombieCivilian_9",
+            "SFP_ZombieCivilian_10",
+            "SFP_ZombieCivilian_11",
+            "SFP_ZombieCivilian_12",
+            "SFP_ZombieCivilian_13",
+            "SFP_izlome_1",
+            "SFP_izlome_2",
+            "SFP_izlome_3",
+            "SFP_izlome_4",
+            "SFP_Mutant_Snork",
+            "SFP_Mutant_Snork2",
+            "SFP_PseDOG_Brown"
+        ]
+    },
+    "VeryHard": {
+        "CountMin": 1,
+        "CountMax": 4,
+        "ClassNames": [
+            "SFP_Piyavka_invz",
+            "SFP_ANM_Krovosos_inviz",
+            "SFP_ANM_Krovosos_Boloto_inviz",
+            "SFP_ANM_Krovosos_Dark_inviz",
+            "SFP_MozgoTras",
+            "SFP_MozgoTras_red",
+            "SFP_Shipastiy_invz",
+            "SFP_BearZMB",
+            "SFP_Himera",
+            "SFP_Trupojor"
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 107,
+    "Type": 1,
+    "Title": "Le camp des zeks",
+    "Descriptions": [
+        "Je vais te dire d'où on vient, %1. Tu as vu le vieux camp militaire, à l'ouest de Garbage, à plus d'un kilomètre ? Des tentes, une baraque, un puits. Avant, c'était un camp de travail. Quand la Zone a grandi d'un coup, on y a amené des zeks, des détenus, sous escorte, pour creuser, ramasser la ferraille contaminée et enterrer ce qui devait l'être. On nous promettait une remise de peine. Et puis un matin, les gardes sont montés dans les camions, et ils ne sont jamais revenus. Ceux qui sont restés ont pris les armes oubliées dans la baraque. Borov était le pakhan du camp. Voilà d'où sortent les bandits de Garbage. Dans la cour, il y a encore la caisse du chef de camp, avec le registre. Je veux ce registre. Des zombifiés tournent autour du camp : fais le ménage d'abord.",
+        "Le vieux camp militaire, à l'ouest de Garbage. Les zombifiés autour, puis le registre dans la caisse de la cour.",
+        "Le registre. Fais voir. Les noms, les matricules, les heures de corvée. Là, en bas de la page : matricule 1147, Kozlov S. C'était moi, %1. Ceux qui sont rayés en rouge ne sont jamais sortis du camp. On va graver leurs noms sur le mur de l'usine. Tiens. Maintenant, tu sais qui on est."
+    ],
+    "ObjectiveText": "Élimine les zombifiés autour du vieux camp militaire, à l'ouest de Garbage, récupère le registre dans la caisse du chef de camp et rapporte-le à Stas.",
+    "FollowUpQuest": 108,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 107,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 107,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 107,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        106
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

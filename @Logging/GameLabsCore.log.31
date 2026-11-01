@@ -1,0 +1,62 @@
+************************** 2026-07-03T13:10:46+00:00 **************************
+2026-07-03T13:10:46+00:00 | [INFO	] GameLabs v1.963 start for server c7a4057d-8d00-48e6-a686-825cd4272e06
+2026-07-03T13:10:46+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-07-03T13:10:46+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-07-03T13:10:46+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-07-03T13:10:54+00:00 | [DEBUG	] Loaded MissionServer
+2026-07-03T13:10:54+00:00 | [DEBUG	] API-Register status=1, error=invalid
+2026-07-03T13:10:54+00:00 | [ERROR	] The configured serverId does not exist or your configuration is outdated.
+2026-07-03T13:10:54+00:00 | [WARN	] CONNECTION VERIFICATION DISABLED - SERVER WILL NOT EXIT
+2026-07-03T13:10:55+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-07-03T13:10:55+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-07-03T13:10:55+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-07-03T13:10:55+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000210521D50C0><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000210521E4480><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002106405F380><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEvent(_Event<0x000002106AF8EF70><Land_ContainerLocked_Blue_DE>) - success
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000002106AF909B0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-03T13:10:57+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000210713D2240><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T13:10:58+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000021076F3DC70><ScientificBriefcase>) - success
+2026-07-03T13:10:58+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x0000021076F48470><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-03T13:10:58+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002107C2592A0><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-07-03T13:10:58+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-07-03T13:11:36+00:00 | [INFO	] Mission fully loaded in 82.596s. Server ready for connections.
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:14:26+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514, steam64=76561199417217773, name=Yabra)
+2026-07-03T13:14:26+00:00 | [DEBUG	] Player<SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514> no cached CFTools Id for steam64=76561199417217773, contacting api
+2026-07-03T13:17:33+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:34+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:34+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:35+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:35+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:36+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:17:37+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:19+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:19+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:53+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:53+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:54+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:18:55+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:02+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:09+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:16+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:16+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:27+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:29+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:49+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:49+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:19:50+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:20:46+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020D02E63220><Mutant_XZ_Burer2>) - success
+2026-07-03T13:21:23+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:21:25+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514) => 
+2026-07-03T13:22:22+00:00 | [ERROR	] PlayerDisconnected<SurvivorBase<0x0000020F620050D0> SurvivorM_Taiki:27514> fired for already disconnected player [steam64=76561199417217773]
+2026-07-03T13:26:00+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020D02E63220>) - success
+2026-07-03T13:37:53+00:00 | [INFO	] (Core) Attempting graceful exit
+2026-07-03T13:37:53+00:00 | [DEBUG	] (Core) All ref holding buffers cleared
+2026-07-03T13:37:53+00:00 | [DEBUG	] Gracefully closing core logger

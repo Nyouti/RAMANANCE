@@ -1,0 +1,89 @@
+{
+    "ConfigVersion": 22,
+    "ID": 35,
+    "Type": 1,
+    "Title": "La dernière patrouille",
+    "Descriptions": [
+        "D'après le carnet, leur dernière patrouille est partie vers le sud-ouest, à un peu moins d'un kilomètre d'ici : quelques bâtisses au milieu d'un champ d'anomalies. Ils y faisaient halte. Retrouve ce qu'ils ont laissé. Un sac, des papiers, n'importe quoi. Le coin est plein de Jarka et de Voronka : regarde où tu poses les pieds, et ne cours pas.",
+        "Au sud-ouest, les bâtisses au milieu des anomalies. Le sac de la patrouille. Doucement.",
+        "Un ordre de repli, signé de leur chef. Toutes les patrouilles devaient rentrer à la base, sans attendre. Ils l'ont reçu, ils ont laissé leur sac, et ils sont partis vers la base. On ne rappelle pas toutes ses patrouilles sans raison, %1. Tiens. Repose-toi : la suite sera plus longue."
+    ],
+    "ObjectiveText": "Retrouve le sac de la dernière patrouille de Clear Sky, au sud-ouest, et rapporte l'ordre qu'il contient au Silencieux.",
+    "FollowUpQuest": 36,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        10
+    ],
+    "QuestTurnInIDs": [
+        10
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 35,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 35,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        34
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

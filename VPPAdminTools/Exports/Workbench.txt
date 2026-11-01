@@ -1,0 +1,17 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "StaticObj_Furniture_box_c", "4626.439941 76.514000 1822.469971", "90.895279 0.000000 -0.000000" );
+SpawnObject( "StaticObj_Furniture_box_c", "4629.419922 76.526398 1827.349976", "90.999992 0.000000 -0.000000" );
+SpawnObject( "StaticObj_Furniture_box_c", "4846.819824 92.611397 2360.479980", "0.000000 0.000000 -0.000000" );
+SpawnObject( "StaticObj_Furniture_box_c", "5026.839844 119.072998 4632.240234", "0.000000 0.000000 -0.000000" );
+SpawnObject( "StaticObj_Furniture_box_c", "4850.319824 121.779999 6662.750000", "0.000000 0.000000 -0.000000" );

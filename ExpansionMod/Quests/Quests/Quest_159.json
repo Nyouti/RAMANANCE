@@ -1,0 +1,123 @@
+{
+    "ConfigVersion": 22,
+    "ID": 159,
+    "Type": 1,
+    "Title": "La chanson de Ticha",
+    "Descriptions": [
+        "Je ne t'ai jamais dit pourquoi je ne cours plus, %1. Au début, les coureurs, c'était Ticha et moi. Tikhon, un gamin de Tchernigov qui chantait faux et marchait plus vite que tout le monde. Notre premier dépôt, c'était le grand hangar, au bout des Entrepôts, à quatre cents mètres au nord. Un soir, un pseudo-géant est entré par le fond. Il m'a écrasé le genou contre une caisse. Ticha m'a traîné dehors, puis il est retourné chercher les sacs. Il n'est jamais ressorti. Depuis, la bête dort là-bas, et le sac de Ticha est toujours à l'entrée. On n'a jamais pu chanter sa chanson comme il faut : sans ses affaires posées à côté, ça ne compte pas. Tue cette bête, et rapporte-moi son sac. Ne la suis pas vers le fond du hangar : il y a une tache brûlante juste derrière. Et pas vers l'est non plus : des zombifiés y tournent en bande.",
+        "Le grand hangar, à quatre cents mètres au nord. Le pseudo-géant, puis le sac de Ticha, à l'entrée. Pas vers le fond, pas vers l'est.",
+        "Son sac. Son couteau, sa tasse, sa cassette. Il l'écoutait en boucle, il n'en connaissait que le refrain, et il le chantait faux. Merci, %1. Ce soir, on posera ses affaires près du feu, et on chantera enfin sa chanson. Faux, comme lui. Tu chanteras avec nous. Et prends ça : un fusil du dépôt, deux chargeurs, des cartouches et de quoi boire à sa santé. Un jour, tu seras peut-être coureur. Chez nous, il n'y a pas de serment pour ça : il suffit de revenir."
+    ],
+    "ObjectiveText": "Abats le pseudo-géant du grand hangar, au nord de la base de Svoboda, retrouve le sac de Ticha à l'entrée et rapporte-le à Makarov.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Vikhr",
+            "Amount": 1,
+            "Attachments": [
+                "Mag_Vikhr_30Rnd"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Mag_Vikhr_30Rnd",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_9x39_20Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Vodka_Sibir",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 159,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 159,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 159,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        158
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

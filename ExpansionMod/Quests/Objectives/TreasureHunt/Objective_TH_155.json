@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 155,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la planque du Comptable",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Green",
+    "DigInStash": 0,
+    "MarkerName": "Planque du Comptable",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5322.9,
+            148.0,
+            8480.7
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

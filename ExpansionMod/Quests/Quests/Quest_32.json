@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 32,
+    "Type": 1,
+    "Title": "Les chiens du ravin",
+    "Descriptions": [
+        "Le sac de Grisha n'a pas été ouvert au couteau, %1 : ce sont des crocs. Une meute de chiens mutants s'est installée au ravin, à l'est de la route du nord, juste là où les porteurs font halte. Tant qu'elle y est, je n'enverrai personne plus au nord. Ces bêtes ne chassent pas comme des chiens ordinaires : elles te tournent autour, elles attendent que tu leur tournes le dos, et elles reviennent quand tu crois en avoir fini. Abats-en deux. La route redeviendra praticable, au moins pour un temps.",
+        "Les chiens mutants du ravin, à l'est de la route du nord. Deux bêtes. Ne leur tourne jamais le dos.",
+        "Deux de moins. Ils reviendront, ils reviennent toujours, mais ça me laisse le temps qu'il me faut. Pour Grisha, je ne sais toujours pas s'il s'est arrêté au ravin de lui-même ou si quelqu'un l'y a envoyé. Tiens, ta paie, et un pansement hémostatique : le registre dira que tu l'as mérité."
+    ],
+    "ObjectiveText": "Abats 2 chiens mutants au ravin, à l'est de la route du nord, puis reviens voir Dmitri.",
+    "FollowUpQuest": 33,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        8
+    ],
+    "QuestTurnInIDs": [
+        8
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 32,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        31
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

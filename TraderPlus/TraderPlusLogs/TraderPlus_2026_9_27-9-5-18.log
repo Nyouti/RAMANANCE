@@ -1,0 +1,926 @@
+Creation Time: 2026_9_27-9-5-18
+9-5-18 | [INFO] | SafeZoneCore - Started !
+9-5-18 | [INFO] | DEBUG MODE ENABLED
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Vêtements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Nourriture.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovich — Parties de Mutant.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Medical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - boites.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs — Tickets stash.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Vêtements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Attachements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits-Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Vêtements Bandits.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Vêtements Civils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom MK2.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Chapeaux et Casques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Cannabis.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Champignons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Med.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Attachments.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - boites de conserves.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Bulat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Seva.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - basiques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Médocs.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Matos d'armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - matos de Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Bouffe.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Fringues.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\Liberté — morceaux de béstioles.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\Liberté — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Matériel de survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Matériel de Secours.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - armements léger.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - armements de combat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - boites de munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - matériel Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - nourritures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - accessoires d'armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - effets.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Fournitures divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires — échantillons mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Bulat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Beryl.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Armée.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - tablettes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - injecteurs.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - anti radiations.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - ampoules.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - electronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste — Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Sunrise.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Seva.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Medical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Attachments.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - casse dalle.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Vétements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Vêtements FS Eco.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Combinaisons SEVA.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Détecteurs d'Anomalies.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Anti-Radiation et Psi.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Exosquelettes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Documents et Objets.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de Secours.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - armes légères.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - armes de combat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - cartouches.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - vivres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - habits.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - Fournitures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - échantillons de créatures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament — Revente Artefacts.json
+9-5-44 | [INFO] | obj created: mm_npc_sidorovich
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_tekhnik
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_tekhnik_3
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_bandit_2
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_boroda
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_barman
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_ecolog_v2_black
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_stalker_2
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_stalker
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_stalker
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_saharov
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_nebo
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_bandit_2
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_saharov
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | obj created: mm_npc_nebo_2
+9-5-44 | [INFO] | TraderStatic created and added!: 
+9-5-44 | [INFO] | DefaultTraderStock - Started
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Vêtements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Nourriture.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovich — Parties de Mutant.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_0\Sidorovitch — revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Medical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs - boites.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs — Tickets stash.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_1\Veilleurs — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Vêtements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_2\Faction Veilleurs — Attachements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits-Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Vêtements Bandits.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Vêtements Civils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_3\Bandits — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom MK2.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Vêtements Freedom Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Chapeaux et Casques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Cannabis.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_4\SVOB — Champignons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Med.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Attachments.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - boites de conserves.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_6\Barman — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Bulat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Seva.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Vêtements Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_7\DUTY — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - basiques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Médocs.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Matos d'armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - matos de Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Bouffe.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Fringues.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\liberté - Divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\Liberté — morceaux de béstioles.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_8\Liberté — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Matériel de survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Matériel de Secours.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - armements léger.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - armements de combat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - boites de munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - matériel Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - nourritures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - accessoires d'armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - effets.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires - Fournitures divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires — échantillons mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_9\militaires — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Bulat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Beryl.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Vêtements Armée.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_10\Mili — Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - tablettes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - injecteurs.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - anti radiations.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - ampoules.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste - electronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\ecologiste — Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_11\Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky - Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Sunrise.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Seva.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Wind.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Vêtements Ballistic.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Casques et Têtes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Patches et Tags.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Masques à Gaz.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Attachements Armes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_12\ClearSky — Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Medical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - armes secondaires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - armes principales.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Attachments.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - casse dalle.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Vétements.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks - Divers.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_13\Gopniks — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Vêtements FS Eco.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Chaussures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Sacs à dos.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Combinaisons SEVA.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Gants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Masques.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Filtres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Ceintures et Accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Armes et Outils.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Électronique.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Détecteurs d'Anomalies.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Outils de Réparation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Médical.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Anti-Radiation et Psi.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Nourriture et Boissons.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Armes et Munitions.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Exosquelettes.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Documents et Objets.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Parties de Mutants.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_14\ECO — Revente Artefacts.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de survie.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de Secours.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - armes légères.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - armes de combat.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - cartouches.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - outils de Radiation.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - vivres.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - accessoires.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - habits.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - Fournitures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament - échantillons de créatures.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament — Revente.json
+9-5-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusDatabase\ID_15\Firmament — Revente Artefacts.json
+9-17-21 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+9-17-29 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+9-17-29 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+9-17-32 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+9-17-32 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_12gaPellets quantity:60 health:0 price:112
+9-17-34 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+9-17-34 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+9-17-35 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+9-17-35 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_12gaPellets quantity:60 health:0 price:112
+9-24-21 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+9-27-7 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-35-31 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_86364433.json
+9-38-46 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+9-38-55 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+9-38-58 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-38-58 | [INFO] | TraderID: 6 - Customer: Daniil Krestov - Category: Barman - Survie - ClassName: PetrolLighter - Quantity: 20 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 25 - CollateralMoney: 0 - TradeMode:Buy
+9-38-58 | [INFO] | Player:Daniil Krestov - currency amount:4359
+9-38-58 | [INFO] | Transaction Buy Succeeded:Daniil Krestov product:PetrolLighter quantity:20 health:0 price:25
+9-39-10 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-39-14 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+9-39-31 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Radiation - ClassName: TerjeDosimetrMkc01A - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 741 - CollateralMoney: 0 - TradeMode:Buy
+9-39-31 | [INFO] | Player:Red Zongouale - currency amount:2156
+9-39-31 | [INFO] | Transaction Buy Succeeded:Red Zongouale product:TerjeDosimetrMkc01A quantity:0 health:0 price:741
+9-39-34 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Radiation - ClassName: TerjePillsMexamine - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 497 - CollateralMoney: 0 - TradeMode:Buy
+9-39-34 | [INFO] | Player:Red Zongouale - currency amount:1415
+9-39-34 | [INFO] | Transaction Buy Succeeded:Red Zongouale product:TerjePillsMexamine quantity:10 health:0 price:497
+9-39-36 | [INFO] | TraderID: 6 - Customer: Daniil Krestov - Category: Barman - Attachments - ClassName: UniversalLight - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 235 - CollateralMoney: 0 - TradeMode:Buy
+9-39-36 | [INFO] | Player:Daniil Krestov - currency amount:4334
+9-39-36 | [INFO] | Transaction Buy Succeeded:Daniil Krestov product:UniversalLight quantity:0 health:0 price:235
+9-39-43 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Survie - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 15 - CollateralMoney: 0 - TradeMode:Buy
+9-39-43 | [INFO] | Player:Red Zongouale - currency amount:918
+9-39-43 | [INFO] | Transaction Buy Succeeded:Red Zongouale product:Battery9V quantity:50 health:0 price:15
+9-39-44 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+9-39-53 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-39-54 | [INFO] | TraderID: 6 - Customer: Daniil Krestov - Category: Barman - Survie - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 15 - CollateralMoney: 0 - TradeMode:Buy
+9-39-54 | [INFO] | Player:Daniil Krestov - currency amount:4099
+9-39-54 | [INFO] | Transaction Buy Succeeded:Daniil Krestov product:Battery9V quantity:50 health:0 price:15
+9-40-1 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-40-6 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Radiation - ClassName: TerjeDosimetrCdv700 - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 109 - CollateralMoney: 0 - TradeMode:Sell
+9-40-6 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:TerjeDosimetrCdv700 quantity:0 health:0 price:109
+9-40-18 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-40-26 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+9-40-31 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 310 - CollateralMoney: 0 - TradeMode:Sell
+9-40-31 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Krovosos_liver quantity:0 health:0 price:310
+9-40-34 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 240 - CollateralMoney: 0 - TradeMode:Sell
+9-40-34 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Krovosos_serdce quantity:0 health:0 price:240
+9-40-37 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+9-40-37 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Krovosos_brain quantity:0 health:0 price:340
+9-40-43 | [INFO] | TraderID: 6 - Customer: Red Zongouale - Category: Barman - Survie - ClassName: Binoculars - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 2 - Price: 66 - CollateralMoney: 0 - TradeMode:Sell
+9-40-43 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:Binoculars quantity:0 health:2 price:66
+9-59-23 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+10-1-49 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_86364433.json
+10-1-50 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_47137116.json
+10-1-52 | [INFO] | TraderID: 6 - Customer: Karl Heim - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+10-1-52 | [INFO] | Transaction Sell Succeeded:Karl Heim product:XZ_Krovosos_brain quantity:0 health:0 price:340
+10-1-54 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: XZ_Dog_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+10-1-54 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:XZ_Dog_serdce quantity:0 health:0 price:120
+10-1-54 | [INFO] | TraderID: 6 - Customer: Karl Heim - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 310 - CollateralMoney: 0 - TradeMode:Sell
+10-1-54 | [INFO] | Transaction Sell Succeeded:Karl Heim product:XZ_Krovosos_liver quantity:0 health:0 price:310
+10-1-56 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 310 - CollateralMoney: 0 - TradeMode:Sell
+10-1-56 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:XZ_Krovosos_liver quantity:0 health:0 price:310
+10-1-57 | [INFO] | TraderID: 6 - Customer: Karl Heim - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 240 - CollateralMoney: 0 - TradeMode:Sell
+10-1-57 | [INFO] | Transaction Sell Succeeded:Karl Heim product:XZ_Krovosos_serdce quantity:0 health:0 price:240
+10-1-59 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: XZ_Dog_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 160 - CollateralMoney: 0 - TradeMode:Sell
+10-1-59 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:XZ_Dog_liver quantity:0 health:0 price:160
+10-2-1 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 240 - CollateralMoney: 0 - TradeMode:Sell
+10-2-1 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:XZ_Krovosos_serdce quantity:0 health:0 price:240
+10-2-4 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: Mutant_XZ_Dog_Tail - Quantity: 2000 - Multiplier: 2 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+10-2-4 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:Mutant_XZ_Dog_Tail quantity:4000 health:0 price:260
+10-2-6 | [INFO] | TraderID: 6 - Customer: Franck Schmit - Category: Barman - Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+10-2-6 | [INFO] | Transaction Sell Succeeded:Franck Schmit product:XZ_Krovosos_brain quantity:0 health:0 price:340
+10-11-22 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+10-11-37 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - electronique - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 9 - CollateralMoney: 0 - TradeMode:Buy
+10-11-37 | [INFO] | Player:Mykola Hrytsenko - currency amount:2398
+10-11-37 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:Battery9V quantity:50 health:0 price:9
+10-11-39 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - electronique - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 9 - CollateralMoney: 0 - TradeMode:Buy
+10-11-39 | [INFO] | Player:Mykola Hrytsenko - currency amount:2389
+10-11-39 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:Battery9V quantity:50 health:0 price:9
+10-40-7 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-40-15 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-40-20 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-41-20 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+10-41-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+10-41-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+10-41-43 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+10-41-43 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_brain quantity:0 health:0 price:360
+10-41-44 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+10-41-44 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_brain quantity:0 health:0 price:360
+10-41-46 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 300 - CollateralMoney: 0 - TradeMode:Sell
+10-41-46 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_liver quantity:0 health:0 price:300
+10-41-50 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+10-41-50 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+10-41-52 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+10-41-52 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+10-41-54 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+10-41-54 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+10-41-55 | [INFO] | TraderID: 11 - Customer: Red Zongouale - Category: ecologiste — Parties de Mutants - ClassName: XZ_Snork_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 322 - CollateralMoney: 0 - TradeMode:Sell
+10-41-55 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Snork_serdce quantity:0 health:0 price:322
+10-41-57 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+10-41-57 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_serdce quantity:0 health:0 price:340
+10-41-58 | [INFO] | TraderID: 11 - Customer: Red Zongouale - Category: ecologiste — Parties de Mutants - ClassName: XZ_Zombi_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 90 - CollateralMoney: 0 - TradeMode:Sell
+10-41-58 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Zombi_liver quantity:0 health:0 price:90
+10-41-59 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_86364433.json
+10-41-59 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 300 - CollateralMoney: 0 - TradeMode:Sell
+10-41-59 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_liver quantity:0 health:0 price:300
+10-42-1 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+10-42-1 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+10-42-1 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_serdce quantity:0 health:0 price:340
+10-42-1 | [INFO] | TraderID: 11 - Customer: Red Zongouale - Category: ecologiste — Parties de Mutants - ClassName: XZ_Zombi_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 90 - CollateralMoney: 0 - TradeMode:Sell
+10-42-1 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Zombi_serdce quantity:0 health:0 price:90
+10-42-12 | [INFO] | TraderID: 11 - Customer: Red Zongouale - Category: ecologiste — Parties de Mutants - ClassName: XZ_Snork_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+10-42-12 | [INFO] | Transaction Sell Succeeded:Red Zongouale product:XZ_Snork_liver quantity:0 health:0 price:260
+10-42-16 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+10-42-19 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Krovosos_Jaw - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+10-42-19 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Mutant_XZ_Krovosos_Jaw quantity:1000 health:0 price:360
+10-42-26 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+10-42-34 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-42-37 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+10-42-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+10-42-44 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Snork_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 322 - CollateralMoney: 0 - TradeMode:Sell
+10-42-44 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Snork_serdce quantity:0 health:0 price:322
+10-42-46 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Snork_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+10-42-46 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Snork_liver quantity:0 health:0 price:260
+10-42-47 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-42-49 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Burer_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 590 - CollateralMoney: 0 - TradeMode:Sell
+10-42-49 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Burer_brain quantity:0 health:0 price:590
+10-42-51 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Zombi_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 90 - CollateralMoney: 0 - TradeMode:Sell
+10-42-51 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Zombi_liver quantity:0 health:0 price:90
+10-42-53 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Zombi_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 90 - CollateralMoney: 0 - TradeMode:Sell
+10-42-53 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Zombi_serdce quantity:0 health:0 price:90
+10-42-56 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Burer_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 430 - CollateralMoney: 0 - TradeMode:Sell
+10-42-56 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Burer_serdce quantity:0 health:0 price:430
+10-43-2 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-43-24 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - anti radiations - ClassName: TerjeSyringeEmpty - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 50 - CollateralMoney: 0 - TradeMode:Buy
+10-43-24 | [INFO] | Player:Guidere Boulerd - currency amount:2460
+10-43-24 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:TerjeSyringeEmpty quantity:0 health:0 price:50
+10-43-27 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - anti radiations - ClassName: TerjeSyringeEmpty - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 50 - CollateralMoney: 0 - TradeMode:Buy
+10-43-27 | [INFO] | Player:Guidere Boulerd - currency amount:2410
+10-43-27 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:TerjeSyringeEmpty quantity:0 health:0 price:50
+10-43-39 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-44-36 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+10-45-5 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-45-10 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-45-13 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+10-45-15 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste - tablettes - ClassName: TerjePillsVenlafaxine - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 422 - CollateralMoney: 0 - TradeMode:Buy
+10-45-15 | [INFO] | Player:Daniil Krestov - currency amount:4084
+10-45-15 | [INFO] | Transaction Buy Succeeded:Daniil Krestov product:TerjePillsVenlafaxine quantity:10 health:0 price:422
+10-45-34 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+10-45-34 | [INFO] | Player:Guidere Boulerd - currency amount:2360
+10-45-34 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+10-45-51 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - tablettes - ClassName: TerjePillsVenlafaxine - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 422 - CollateralMoney: 0 - TradeMode:Buy
+10-45-51 | [INFO] | Player:Guidere Boulerd - currency amount:2089
+10-45-51 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:TerjePillsVenlafaxine quantity:10 health:0 price:422
+10-46-30 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+10-46-32 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-46-35 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+10-46-38 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Électronique - ClassName: TerjeSurgicalKit - Quantity: 5 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 1185 - CollateralMoney: 0 - TradeMode:Buy
+10-46-38 | [INFO] | Player:Zoya Chernenkova - currency amount:2250
+10-46-38 | [INFO] | Transaction Buy Succeeded:Zoya Chernenkova product:TerjeSurgicalKit quantity:5 health:0 price:1185
+10-46-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+10-46-42 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+10-46-42 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+10-46-44 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+10-46-44 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+10-46-44 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 390 - CollateralMoney: 0 - TradeMode:Sell
+10-46-44 | [INFO] | Transaction Sell Succeeded:Aaron Ananenko (2) product:XZ_Krovosos_serdce quantity:0 health:0 price:390
+10-46-46 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+10-46-46 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+10-46-47 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 495 - CollateralMoney: 0 - TradeMode:Sell
+10-46-47 | [INFO] | Transaction Sell Succeeded:Aaron Ananenko (2) product:XZ_Krovosos_liver quantity:0 health:0 price:495
+10-46-49 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 495 - CollateralMoney: 0 - TradeMode:Sell
+10-46-49 | [INFO] | Transaction Sell Succeeded:Aaron Ananenko (2) product:XZ_Krovosos_brain quantity:0 health:0 price:495
+10-47-26 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_86364433.json
+10-48-38 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+10-49-8 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+10-50-19 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+10-50-22 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+10-50-25 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Médical - ClassName: TerjeSurgicalKit - Quantity: 5 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+10-50-25 | [INFO] | Player:Aaron Ananenko (2) - currency amount:6423
+10-50-25 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko (2) product:TerjeSurgicalKit quantity:5 health:0 price:200
+10-50-28 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Médical - ClassName: BandageDressing - Quantity: 4 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+10-50-28 | [INFO] | Player:Aaron Ananenko (2) - currency amount:6223
+10-50-28 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko (2) product:BandageDressing quantity:4 health:0 price:200
+10-50-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+10-50-41 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+10-50-43 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Médical - ClassName: BandageDressing - Quantity: 4 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+10-50-43 | [INFO] | Player:Aaron Ananenko (2) - currency amount:6023
+10-50-43 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko (2) product:BandageDressing quantity:4 health:0 price:200
+10-55-58 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+10-56-1 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+10-56-1 | [INFO] | Player:Mykola Hrytsenko - currency amount:2380
+10-56-1 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+10-58-9 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+10-58-31 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-58-39 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-58-44 | [INFO] | TraderID: 1 - Customer: Zoya Chernenkova - Category: Veilleurs - armes principales - ClassName: Izh43Shotgun - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 680 - CollateralMoney: 0 - TradeMode:Sell
+10-58-44 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Izh43Shotgun quantity:0 health:0 price:680
+10-58-48 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-58-53 | [INFO] | TraderID: 1 - Customer: Zoya Chernenkova - Category: Veilleurs - armes principales - ClassName: Izh43Shotgun - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 680 - CollateralMoney: 0 - TradeMode:Sell
+10-58-53 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Izh43Shotgun quantity:0 health:0 price:680
+10-59-25 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+10-59-34 | [INFO] | TraderID: 1 - Customer: Zoya Chernenkova - Category: Veilleurs - Medical - ClassName: SFP_AI2_medkit_standart - Quantity: 2 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 270 - CollateralMoney: 0 - TradeMode:Buy
+10-59-34 | [INFO] | Player:Zoya Chernenkova - currency amount:2925
+10-59-34 | [INFO] | Transaction Buy Succeeded:Zoya Chernenkova product:SFP_AI2_medkit_standart quantity:2 health:0 price:270
+10-59-37 | [INFO] | TraderID: 1 - Customer: Zoya Chernenkova - Category: Veilleurs - Medical - ClassName: TerjeSurgicalKit - Quantity: 5 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 1185 - CollateralMoney: 0 - TradeMode:Buy
+10-59-37 | [INFO] | Player:Zoya Chernenkova - currency amount:2655
+10-59-37 | [INFO] | Transaction Buy Succeeded:Zoya Chernenkova product:TerjeSurgicalKit quantity:5 health:0 price:1185
+11-0-6 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+11-7-25 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_333790753.json
+11-7-31 | [INFO] | TraderID: 11 - Customer: Sacha Volkov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 3 - Multiplier: 3 - MaxStock: -1 - Health: 0 - Price: 990 - CollateralMoney: 0 - TradeMode:Sell
+11-7-31 | [INFO] | Transaction Sell Succeeded:Sacha Volkov product:XZ_Krovosos_liver quantity:9 health:0 price:990
+11-7-34 | [INFO] | TraderID: 11 - Customer: Sacha Volkov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 3 - Multiplier: 3 - MaxStock: -1 - Health: 0 - Price: 780 - CollateralMoney: 0 - TradeMode:Sell
+11-7-34 | [INFO] | Transaction Sell Succeeded:Sacha Volkov product:XZ_Krovosos_serdce quantity:9 health:0 price:780
+11-7-37 | [INFO] | TraderID: 11 - Customer: Sacha Volkov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 3 - Multiplier: 3 - MaxStock: -1 - Health: 0 - Price: 990 - CollateralMoney: 0 - TradeMode:Sell
+11-7-37 | [INFO] | Transaction Sell Succeeded:Sacha Volkov product:XZ_Krovosos_brain quantity:9 health:0 price:990
+11-8-26 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+11-8-31 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-8-31 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_9x19 quantity:60 health:0 price:100
+11-8-35 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-8-35 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_9x19 quantity:60 health:0 price:100
+11-8-37 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-8-37 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_380 quantity:60 health:0 price:80
+11-8-41 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-8-41 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_9x19 quantity:60 health:0 price:100
+11-8-44 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-8-44 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_380 quantity:60 health:0 price:80
+11-8-47 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-8-47 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_380 quantity:60 health:0 price:80
+11-8-50 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-8-50 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_9x19 quantity:60 health:0 price:100
+11-8-53 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-8-53 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_380 quantity:60 health:0 price:80
+11-9-51 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+11-9-59 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Médical - ClassName: TerjeInjectorNeirox - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+11-9-59 | [INFO] | Player:Aaron Ananenko (2) - currency amount:5823
+11-9-59 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko (2) product:TerjeInjectorNeirox quantity:0 health:0 price:200
+11-10-11 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko (2) - Category: ECO — Médical - ClassName: TerjeInjectorAmoxiclav - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+11-10-11 | [INFO] | Player:Aaron Ananenko (2) - currency amount:5623
+11-10-11 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko (2) product:TerjeInjectorAmoxiclav quantity:0 health:0 price:200
+11-25-20 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+11-26-8 | [INFO] | TraderID: 11 - Customer: Red Zongouale - Category: ecologiste - electronique - ClassName: TraderPlus_Wallet - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 25 - CollateralMoney: 0 - TradeMode:Buy
+11-26-8 | [INFO] | Player:Red Zongouale - currency amount:2330
+11-26-8 | [INFO] | Transaction Buy Succeeded:Red Zongouale product:TraderPlus_Wallet quantity:0 health:0 price:25
+11-26-23 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+11-26-51 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: XZ_Burer_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 480 - CollateralMoney: 0 - TradeMode:Sell
+11-26-51 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:XZ_Burer_serdce quantity:0 health:0 price:480
+11-26-56 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: XZ_Dog_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 160 - CollateralMoney: 0 - TradeMode:Sell
+11-26-56 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:XZ_Dog_liver quantity:0 health:0 price:160
+11-26-59 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: XZ_Burer_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 590 - CollateralMoney: 0 - TradeMode:Sell
+11-26-59 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:XZ_Burer_brain quantity:0 health:0 price:590
+11-27-1 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: XZ_Dog_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+11-27-1 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:XZ_Dog_serdce quantity:0 health:0 price:120
+11-27-5 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: Mutant_XZ_Dog_Tail - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 130 - CollateralMoney: 0 - TradeMode:Sell
+11-27-5 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:Mutant_XZ_Dog_Tail quantity:1000 health:0 price:130
+11-29-31 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+11-29-32 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+11-29-34 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+11-29-34 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+11-29-35 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Krovosos_Jaw - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+11-29-35 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Mutant_XZ_Krovosos_Jaw quantity:1000 health:0 price:360
+11-29-37 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 300 - CollateralMoney: 0 - TradeMode:Sell
+11-29-37 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_liver quantity:0 health:0 price:300
+11-29-38 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+11-29-38 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:XZ_Krovosos_serdce quantity:0 health:0 price:340
+11-29-39 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+11-29-39 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_brain quantity:0 health:0 price:360
+11-29-40 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 300 - CollateralMoney: 0 - TradeMode:Sell
+11-29-40 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:XZ_Krovosos_liver quantity:0 health:0 price:300
+11-29-42 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 340 - CollateralMoney: 0 - TradeMode:Sell
+11-29-42 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:XZ_Krovosos_serdce quantity:0 health:0 price:340
+11-29-43 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 360 - CollateralMoney: 0 - TradeMode:Sell
+11-29-43 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:XZ_Krovosos_brain quantity:0 health:0 price:360
+11-29-45 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-29-45 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-29-47 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+11-29-47 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+11-29-48 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+11-29-48 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_12gaPellets quantity:60 health:0 price:112
+11-29-51 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovich — Parties de Mutant - ClassName: Mutant_XZ_Fresh_Eye - Quantity: 1000 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 120 - CollateralMoney: 0 - TradeMode:Sell
+11-29-51 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Mutant_XZ_Fresh_Eye quantity:1000 health:0 price:120
+11-29-52 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-29-52 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-30-8 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_84841434.json
+11-30-19 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+11-31-42 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+11-31-45 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-31-45 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+11-31-46 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+11-31-46 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_12gaPellets quantity:60 health:0 price:112
+11-31-48 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-31-48 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+11-31-49 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_9x19 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 100 - CollateralMoney: 0 - TradeMode:Sell
+11-31-49 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_9x19 quantity:60 health:0 price:100
+11-31-59 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-31-59 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-32-2 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-32-2 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-32-4 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-32-4 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-32-8 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-32-8 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-32-10 | [INFO] | TraderID: 0 - Customer: Nikolai Petrov - Category: Sidorovitch — Armes - ClassName: Ammo_380 - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 80 - CollateralMoney: 0 - TradeMode:Sell
+11-32-10 | [INFO] | Transaction Sell Succeeded:Nikolai Petrov product:Ammo_380 quantity:60 health:0 price:80
+11-32-54 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+11-35-20 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+11-35-25 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+11-35-25 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_12gaPellets quantity:60 health:0 price:112
+11-35-30 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Armes - ClassName: Ammo_12gaPellets - Quantity: 60 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 112 - CollateralMoney: 0 - TradeMode:Sell
+11-35-30 | [INFO] | Transaction Sell Succeeded:Zoya Chernenkova product:Ammo_12gaPellets quantity:60 health:0 price:112
+11-35-59 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_333790753.json
+11-36-40 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+11-36-44 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Parties de Mutants - ClassName: XZ_Burer_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 480 - CollateralMoney: 0 - TradeMode:Sell
+11-36-44 | [INFO] | Transaction Sell Succeeded:Vladimir Soklav product:XZ_Burer_serdce quantity:0 health:0 price:480
+11-36-59 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Med - ClassName: BandageDressing - Quantity: 4 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 95 - CollateralMoney: 0 - TradeMode:Buy
+11-36-59 | [INFO] | Player:Vladimir Soklav - currency amount:2545
+11-36-59 | [INFO] | Transaction Buy Succeeded:Vladimir Soklav product:BandageDressing quantity:4 health:0 price:95
+11-37-2 | [INFO] | TraderID: 6 - Customer: Vladimir Soklav - Category: Barman - Med - ClassName: BandageDressing - Quantity: 4 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 95 - CollateralMoney: 0 - TradeMode:Buy
+11-37-2 | [INFO] | Player:Vladimir Soklav - currency amount:2450
+11-37-2 | [INFO] | Transaction Buy Succeeded:Vladimir Soklav product:BandageDressing quantity:4 health:0 price:95
+11-42-19 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+11-42-59 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_86364433.json
+11-43-12 | [INFO] | TraderID: 8 - Customer: Karl Heim - Category: liberté - basiques - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 15 - CollateralMoney: 0 - TradeMode:Buy
+11-43-12 | [INFO] | Player:Karl Heim - currency amount:11799
+11-43-12 | [INFO] | Transaction Buy Succeeded:Karl Heim product:Battery9V quantity:50 health:0 price:15
+11-43-13 | [INFO] | TraderID: 8 - Customer: Karl Heim - Category: liberté - basiques - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 15 - CollateralMoney: 0 - TradeMode:Buy
+11-43-13 | [INFO] | Player:Karl Heim - currency amount:11784
+11-43-13 | [INFO] | Transaction Buy Succeeded:Karl Heim product:Battery9V quantity:50 health:0 price:15
+11-43-15 | [INFO] | TraderID: 8 - Customer: Karl Heim - Category: liberté - basiques - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 15 - CollateralMoney: 0 - TradeMode:Buy
+11-43-15 | [INFO] | Player:Karl Heim - currency amount:11769
+11-43-15 | [INFO] | Transaction Buy Succeeded:Karl Heim product:Battery9V quantity:50 health:0 price:15
+11-50-21 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_47137116.json
+11-51-54 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+11-52-0 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+11-52-0 | [INFO] | Player:Mykola Hrytsenko - currency amount:2109
+11-52-0 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+11-52-3 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+11-52-3 | [INFO] | Player:Mykola Hrytsenko - currency amount:1838
+11-52-3 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+11-52-4 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+11-52-4 | [INFO] | Player:Mykola Hrytsenko - currency amount:1567
+11-52-4 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+11-54-32 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_333790753.json
+11-54-36 | [INFO] | TraderID: 11 - Customer: Sacha Volkov - Category: ecologiste - electronique - ClassName: Anomaly_Detector_Otklik - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 2 - Price: 150 - CollateralMoney: 0 - TradeMode:Sell
+11-54-36 | [INFO] | Transaction Sell Succeeded:Sacha Volkov product:Anomaly_Detector_Otklik quantity:0 health:2 price:150
+11-58-52 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_2556074.json
+12-14-31 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+12-14-36 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Électronique - ClassName: TerjeDosimetrCdv700 - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 219 - CollateralMoney: 0 - TradeMode:Buy
+12-14-36 | [INFO] | Player:Zoya Chernenkova - currency amount:5094
+12-14-36 | [INFO] | Transaction Buy Succeeded:Zoya Chernenkova product:TerjeDosimetrCdv700 quantity:0 health:0 price:219
+12-14-38 | [INFO] | TraderID: 0 - Customer: Zoya Chernenkova - Category: Sidorovitch — Électronique - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 12 - CollateralMoney: 0 - TradeMode:Buy
+12-14-38 | [INFO] | Player:Zoya Chernenkova - currency amount:4875
+12-14-38 | [INFO] | Transaction Buy Succeeded:Zoya Chernenkova product:Battery9V quantity:50 health:0 price:12
+12-15-18 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+12-17-23 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-19-0 | [INFO] | HideOutObjectHandle
+12-19-0 | [INFO] | m_SafeZoneStatus == SZ_OUT_SAFEZONE
+12-19-0 | [INFO] | DetachHideOutObjectFromPlayer
+12-19-16 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-19-34 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_377165540.json
+12-19-49 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-20-54 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-20-56 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Outils de Réparation - ClassName: WeaponCleaningKit - Quantity: 100 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-20-56 | [INFO] | Player:Aaron Ananenko - currency amount:5423
+12-20-56 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:WeaponCleaningKit quantity:100 health:0 price:200
+12-25-16 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+12-25-27 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - tablettes - ClassName: TerjePillsCharcoalTablets - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 271 - CollateralMoney: 0 - TradeMode:Buy
+12-25-27 | [INFO] | Player:Guidere Boulerd - currency amount:1667
+12-25-27 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:TerjePillsCharcoalTablets quantity:10 health:0 price:271
+12-37-49 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-38-4 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Anti-Radiation et Psi - ClassName: TerjeInjectorAmfitalicyne - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-38-4 | [INFO] | Player:Aaron Ananenko - currency amount:5223
+12-38-4 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:TerjeInjectorAmfitalicyne quantity:0 health:0 price:200
+12-38-6 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Anti-Radiation et Psi - ClassName: TerjeInjectorAmfitalicyne - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-38-6 | [INFO] | Player:Aaron Ananenko - currency amount:5023
+12-38-6 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:TerjeInjectorAmfitalicyne quantity:0 health:0 price:200
+12-38-18 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Médical - ClassName: TerjeInjectorAmoxiclav - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-38-18 | [INFO] | Player:Aaron Ananenko - currency amount:4823
+12-38-18 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:TerjeInjectorAmoxiclav quantity:0 health:0 price:200
+12-42-50 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+12-42-52 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+12-43-10 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+12-43-11 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_850843836.json
+12-43-42 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_827091090.json
+12-43-57 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+12-44-0 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste - electronique - ClassName: Battery9V - Quantity: 50 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 9 - CollateralMoney: 0 - TradeMode:Buy
+12-44-0 | [INFO] | Player:Guidere Boulerd - currency amount:1396
+12-44-0 | [INFO] | Transaction Buy Succeeded:Guidere Boulerd product:Battery9V quantity:50 health:0 price:9
+12-44-36 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-44-39 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Outils de Réparation - ClassName: WeaponCleaningKit - Quantity: 100 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-44-39 | [INFO] | Player:Aaron Ananenko - currency amount:4623
+12-44-39 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:WeaponCleaningKit quantity:100 health:0 price:200
+12-44-40 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Outils de Réparation - ClassName: WeaponCleaningKit - Quantity: 100 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-44-40 | [INFO] | Player:Aaron Ananenko - currency amount:4423
+12-44-40 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:WeaponCleaningKit quantity:100 health:0 price:200
+12-44-42 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Outils de Réparation - ClassName: WeaponCleaningKit - Quantity: 100 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-44-42 | [INFO] | Player:Aaron Ananenko - currency amount:4223
+12-44-42 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:WeaponCleaningKit quantity:100 health:0 price:200
+12-44-43 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Outils de Réparation - ClassName: WeaponCleaningKit - Quantity: 100 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 200 - CollateralMoney: 0 - TradeMode:Buy
+12-44-43 | [INFO] | Player:Aaron Ananenko - currency amount:4023
+12-44-43 | [INFO] | Transaction Buy Succeeded:Aaron Ananenko product:WeaponCleaningKit quantity:100 health:0 price:200
+12-45-5 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+12-45-45 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+12-45-55 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste - tablettes - ClassName: TerjePillsVenlafaxine - Quantity: 10 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 422 - CollateralMoney: 0 - TradeMode:Buy
+12-45-55 | [INFO] | Player:Mykola Hrytsenko - currency amount:1296
+12-45-55 | [INFO] | Transaction Buy Succeeded:Mykola Hrytsenko product:TerjePillsVenlafaxine quantity:10 health:0 price:422
+12-46-4 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_38391340.json
+12-46-9 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 330 - CollateralMoney: 0 - TradeMode:Sell
+12-46-9 | [INFO] | Transaction Sell Succeeded:Mykola Hrytsenko product:XZ_Krovosos_brain quantity:0 health:0 price:330
+12-46-12 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+12-46-12 | [INFO] | Transaction Sell Succeeded:Mykola Hrytsenko product:XZ_Krovosos_serdce quantity:0 health:0 price:260
+12-46-14 | [INFO] | TraderID: 11 - Customer: Mykola Hrytsenko - Category: ecologiste — Parties de Mutants - ClassName: XZ_Krovosos_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 330 - CollateralMoney: 0 - TradeMode:Sell
+12-46-14 | [INFO] | Transaction Sell Succeeded:Mykola Hrytsenko product:XZ_Krovosos_liver quantity:0 health:0 price:330
+12-47-8 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_47137116.json
+12-52-6 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-52-19 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-52-26 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_14580945.json
+12-52-34 | [INFO] | TraderID: 14 - Customer: Aaron Ananenko - Category: ECO — Revente Artefacts - ClassName: MH_ART_Battery_Redux - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 10000 - CollateralMoney: 0 - TradeMode:Sell
+12-52-34 | [INFO] | Transaction Sell Succeeded:Aaron Ananenko product:MH_ART_Battery_Redux quantity:0 health:0 price:10000
+12-59-55 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_119629901.json
+12-59-58 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_128998118.json
+12-59-59 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_brain - Quantity: 2 - Multiplier: 2 - MaxStock: -1 - Health: 0 - Price: 420 - CollateralMoney: 0 - TradeMode:Sell
+12-59-59 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Izlom_brain quantity:4 health:0 price:420
+13-0-0 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 210 - CollateralMoney: 0 - TradeMode:Sell
+13-0-0 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_brain quantity:0 health:0 price:210
+13-0-2 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 230 - CollateralMoney: 0 - TradeMode:Sell
+13-0-2 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_liver quantity:0 health:0 price:230
+13-0-2 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_serdce - Quantity: 2 - Multiplier: 2 - MaxStock: -1 - Health: 0 - Price: 520 - CollateralMoney: 0 - TradeMode:Sell
+13-0-2 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Izlom_serdce quantity:4 health:0 price:520
+13-0-4 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_brain - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 210 - CollateralMoney: 0 - TradeMode:Sell
+13-0-4 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_brain quantity:0 health:0 price:210
+13-0-5 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_liver - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 230 - CollateralMoney: 0 - TradeMode:Sell
+13-0-5 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_liver quantity:0 health:0 price:230
+13-0-6 | [INFO] | TraderID: 11 - Customer: Guidere Boulerd - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_liver - Quantity: 2 - Multiplier: 2 - MaxStock: -1 - Health: 0 - Price: 460 - CollateralMoney: 0 - TradeMode:Sell
+13-0-6 | [INFO] | Transaction Sell Succeeded:Guidere Boulerd product:XZ_Izlom_liver quantity:4 health:0 price:460
+13-0-7 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+13-0-7 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_serdce quantity:0 health:0 price:260
+13-0-8 | [INFO] | TraderID: 11 - Customer: Daniil Krestov - Category: ecologiste — Parties de Mutants - ClassName: XZ_Izlom_serdce - Quantity: 0 - Multiplier: 1 - MaxStock: -1 - Health: 0 - Price: 260 - CollateralMoney: 0 - TradeMode:Sell
+13-0-8 | [INFO] | Transaction Sell Succeeded:Daniil Krestov product:XZ_Izlom_serdce quantity:0 health:0 price:260
+13-0-50 | [INFO] | TraderPlusJsonLoader::LoadFromFile Loaded file: $profile:TraderPlus\TraderPlusGarageDatabase\Garage_972045425.json
+13-3-23 | [INFO] | HideOutObjectHandle
+13-3-23 | [INFO] | m_SafeZoneStatus == SZ_OUT_SAFEZONE
+13-3-23 | [INFO] | DetachHideOutObjectFromPlayer

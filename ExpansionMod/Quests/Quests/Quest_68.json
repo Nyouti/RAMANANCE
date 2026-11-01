@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 68,
+    "Type": 1,
+    "Title": "Casque oublié",
+    "Descriptions": [
+        "%1, un militaire est reparti à la hâte et a laissé traîner son casque tactique vert sur une caisse. Ce n'est pas une déco : sans ce casque, le porteur s'expose à un ricochet en pleine tête. Pourriez-vous le rapporter à Grechko au point indiqué ? Il saura quoi en faire.",
+        "Tant que Grechko n'a pas récupéré le casque, la course reste ouverte.",
+        "Bien vu. Voici un livre de médecine, le deuxième de la série, utile quand les premiers soins partent en vrille."
+    ],
+    "ObjectiveText": "Rapporter le casque tactique vert oublié à Grechko",
+    "FollowUpQuest": 69,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 706,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        67
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

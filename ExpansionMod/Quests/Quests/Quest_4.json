@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 4,
+    "Type": 1,
+    "Title": "Un colis pour la ferme",
+    "Descriptions": [
+        "Grâce à toi, l'abri est plein, %1. Maintenant, on rend la pareille. Au nord, il y a la vieille ferme : ce sont les Veilleurs qui la tiennent, les gens de Viktor. Ils surveillent le Cordon jour et nuit, et ils ne mangent pas tous les jours à leur faim. Porte ce colis à Dmitri Volkov, leur magasinier : c'est lui qui tient les réserves. Il note tout, alors ne t'étonne pas s'il te fait signer quelque chose. Passe au large du tunnel, tu sais ce qui t'y attend, et ne redescends surtout pas vers l'avant-poste militaire : les soldats ne font pas la différence entre un stalker et une cible. Autour de la ferme aussi, la Zone a laissé quelques pièges. Regarde où tu mets les pieds. Et une fois là-bas, écoute ce qu'ils ont à dire : rien de ce qui se passe au Cordon ne leur échappe.",
+        "Tu as encore le colis ? La ferme des Veilleurs est au nord. Évite le tunnel, tiens-toi loin de l'avant-poste, et méfie-toi des anomalies autour de la ferme. Dmitri t'attend.",
+        "Un colis de Papa ? Pose-le sur la balance. Voyons voir... conserves, pain, vodka. Le vieux pense toujours à nous. Dmitri Volkov, responsable des réserves de cette ferme. Ici, je fais en sorte que nos gars aient de quoi manger, de quoi se soigner et, si possible, de quoi rentrer entiers. Nous, les Veilleurs, on tient cette ferme et on garde un œil sur tout le Cordon : qui entre, qui sort, qui ne revient pas. Au sud, les militaires de l'avant-poste tirent sur tout ce qui bouge. Nous, on écoute. On note les patrouilles, les mouvements des bandits, les Émissions qui approchent, et on prévient ceux qui veulent bien nous entendre. Tiens, prends cette radio et garde-la sur toi : quand le ciel commence à rougir ou que les militaires sortent de leur trou, c'est sur notre fréquence que tu l'apprendras en premier. Une radio, sortie inscrite au registre. Des piles, on n'en a plus : le vieux technicien, à côté, t'en vendra une pour quelques roubles. Signe là. Oui, toi aussi."
+    ],
+    "ObjectiveText": "Porte le colis de Papa Voronine à Dmitri Volkov, le magasinier des Veilleurs, à la ferme au nord, en évitant le tunnel et l'avant-poste militaire.",
+    "FollowUpQuest": 5,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "PersonalRadio",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        8
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 2,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        3
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

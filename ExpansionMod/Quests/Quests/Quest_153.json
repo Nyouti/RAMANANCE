@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 153,
+    "Type": 1,
+    "Title": "Le convoi de reprise",
+    "Descriptions": [
+        "Tu veux savoir comment Svoboda est née, %1 ? Pas de serment, pas de héros. Avant, j'étais chauffeur ici, au dépôt de l'armée. Civil. Le jour où la Zone a grandi, l'ordre est arrivé par radio : évacuation du personnel militaire uniquement. Les soldats sont partis dans les camions. Nous, les chauffeurs, les magasiniers, les gars de l'entretien, on est restés devant le portail, avec des entrepôts pleins. Six semaines plus tard, l'armée a envoyé un convoi pour reprendre le matériel. On a ouvert le portail, on leur a servi à boire, et on a parlé toute la nuit. Le lendemain matin, la moitié des soldats est restée avec nous. Le lieutenant est reparti avec ses camions vides, et il a laissé son ordre de mission dans une caisse, au poste de l'entrée ouest. Je veux le récupérer : les jeunes ne me croient pas. Des sangliers ont pris le poste, à sept cents mètres à l'ouest. Quatre, au moins. Passe par le sud, comme pour la Jarka : pas par la Voronka.",
+        "Le poste de l'entrée ouest des Entrepôts, à sept cents mètres à l'ouest, par le sud. Les sangliers, puis la caisse et l'ordre de mission du convoi.",
+        "Le voilà. Lis : « Récupérer le matériel du dépôt. À défaut, détruire sur place. » Détruire. Ils allaient brûler des tonnes de rations, de couvertures et de munitions plutôt que de les laisser à ceux qui restaient. Les soldats de ce convoi n'avaient pas touché leur solde depuis quatre mois. Ils ont choisi. Personne ne leur a fait signer quoi que ce soit, %1. La Duty a écrit un serment. Nous, on a ouvert un portail : c'est toute la différence. Tiens, des munitions de 5,56. Le dépôt en a encore, et elles sont à tout le monde."
+    ],
+    "ObjectiveText": "Abats les sangliers du poste de l'entrée ouest des Entrepôts, fouille la caisse laissée par le lieutenant et rapporte l'ordre de mission du convoi à Makarov.",
+    "FollowUpQuest": 154,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_556x45Tracer_20Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 153,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 153,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 153,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        152
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

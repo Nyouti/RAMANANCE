@@ -1,0 +1,93 @@
+{
+    "ConfigVersion": 22,
+    "ID": 119,
+    "Type": 1,
+    "Title": "L'appel du dernier matin",
+    "Descriptions": [
+        "Il y a une dernière chose, %1, et après, je ne te demanderai plus rien. Dans le journal de garde, à la dernière page, il y a l'appel du dernier matin : tous les détenus présents quand nous sommes partis. Ceux qui ne sont jamais sortis du camp sont dedans. J'ai recopié la liste, proprement, avec les matricules. À Garbage, à l'usine du nord, il y a un homme qui grave les noms des morts du camp sur un mur. Stas, Dent-d'Or. Il était le matricule 1147 ; je l'ai appelé tous les matins pendant un an. Porte-lui la liste. Ne lui dis pas qui l'envoie. S'il le devine, ce sera son droit.",
+        "La liste de l'appel du dernier matin, à porter à Stas, à l'usine du nord de Garbage. Ne dis pas qui l'envoie.",
+        "Qu'est-ce que c'est ? Montre. L'appel du matin... Kozlov S., 1147, présent. Je reconnais cette écriture. C'est celle d'un garde. On n'oublie pas une écriture qui t'appelle tous les matins pendant un an. Ne dis rien, %1. Je ne veux pas savoir. Les noms iront sur le mur, tous, avec ceux du registre. Celui qui a écrit ça a bien fait de ne pas venir lui-même. Tiens, et prends ce filtre neuf pour la route. Ce n'est pas de sa part, c'est de la mienne."
+    ],
+    "ObjectiveText": "Porte la liste de l'appel du dernier matin à Stas, à l'usine du nord de Garbage, sans dire qui l'envoie.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SKS",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_762x39_20Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "STO_Gasmask_Filter_GP21",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        54
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 119,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        118
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 72,
+    "Type": 1,
+    "Title": "Désinfection",
+    "Descriptions": [
+        "%1, les antalgiques, c'est bien, mais si on oublie l'hygiène, on envoie les gens au pire. Une plaie mal lavée, des mains ou du matériel non désinfectés, et l'infection part dans le sang. La septicémie, ici, ce n'est pas un mot qu'on aime, c'est ce qu'on voit quand les germes gagnent. Il me faut trois sprays désinfectants pour le poste, sur les mains avant de toucher une blessure, sur l'équipement qu'on réutilise, sans quoi tout le reste ne sert à rien. Rapportez-m'en trois quand vous pourrez.",
+        "Tant que je n'ai pas les trois sprays, on reste à sec sur la désinfection. Revenez avec la quantité complète.",
+        "Voilà qui nous remet d'aplomb pour limiter les infections. Continuez à désinfecter mains et matériel ; c'est simple, et ça évite tant de drames. Tenez, un ouvrage de plus sur la médecine de terrain."
+    ],
+    "ObjectiveText": "Trois sprays désinfectants au Doc",
+    "FollowUpQuest": 73,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 712,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        71
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

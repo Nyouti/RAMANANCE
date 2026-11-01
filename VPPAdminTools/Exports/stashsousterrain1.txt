@@ -1,0 +1,25 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "Land_Furniture_box_metall_case", "118.412003 132.628006 261.084991", "72.221336 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "140.026993 128.792999 282.332001", "73.625511 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "172.998993 127.890999 298.920990", "34.762932 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "168.378998 127.890999 302.199005", "35.156052 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "175.744995 123.185997 314.402008", "-53.295658 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "181.369003 123.148003 309.903015", "-53.913395 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "186.619995 118.444000 323.335999", "36.953156 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "185.529999 118.444000 316.214996", "35.492985 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "238.072006 118.217003 291.471985", "4.942061 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "238.813004 119.660004 297.816010", "-11.568909 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "249.822998 118.092003 290.621002", "0.393119 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "243.789993 118.092003 264.540985", "-56.384445 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "227.632004 118.181999 250.477005", "51.273918 0.000000 -0.000000" );

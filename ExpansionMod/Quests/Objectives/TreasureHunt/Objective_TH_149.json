@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 149,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve ce qui reste de la patrouille de Gekko",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Black",
+    "DigInStash": 0,
+    "MarkerName": "Restes de la patrouille",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5600.4,
+            121.2,
+            4291.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

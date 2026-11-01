@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 22,
+    "ID": 74,
+    "Type": 1,
+    "Title": "Radio pour Riko",
+    "Descriptions": [
+        "%1, j'ai ici un émetteur-récepteur qu'un contact m'a confié pour un type du coin, un bandit qui se fait appeler Riko. Ce n'est pas un jouet, ça sert à coordonner sans crier sur les toits. Je vous le confie, remettez-lui cet appareil en main propre, sans le démonter ni le flinguer. Le rendez-vous, c'est Riko sur son terrain.",
+        "Tant que Riko n'a pas reçu l'appareil, la livraison n'est pas faite.",
+        "Enfin. Tu n'as pas grillé la radio, c'est déjà ça. Tiens, un bouquin de médecine que le Doc m'avait laissé pour le livreur : à toi."
+    ],
+    "ObjectiveText": "Livrer l'émetteur-récepteur au bandit Riko",
+    "FollowUpQuest": 75,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "RIP_Transceiver",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        53
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 714,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        73
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

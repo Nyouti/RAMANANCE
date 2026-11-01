@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 157,
+    "Type": 1,
+    "Title": "L'épreuve du coureur",
+    "Descriptions": [
+        "Tu as bien travaillé, %1. Alors je vais te faire passer l'épreuve des coureurs. Chez nous, pas d'examen, pas de serment, pas de grade : une course, c'est tout. Mes gars ont trouvé ça dans un hangar de l'ouest : les plaques de deux hommes de la Duty, une patrouille disparue l'automne dernier. La Duty grave le nom de ses morts sur un mur, au Bar, et sans preuve, pas de nom. On ne s'aime pas, eux et nous. Mais un mort est un mort, et sa mère a le droit de savoir. Porte ces plaques au sergent Gekko, à l'entrée sud-ouest du Bar de Rostok. Tu as dix minutes. Si tu arrives en retard, la course ne compte pas : reviens me voir, et on recommence. Ne t'arrête pas pour tirer : un coureur ne se bat pas, il passe.",
+        "Les plaques des deux hommes de la Duty, à remettre à Gekko, à l'entrée sud-ouest du Bar de Rostok, en moins de dix minutes.",
+        "Halte ! Tu arrives en courant... Des Entrepôts ? Des plaques. De la Duty. Fais voir. Brovko. Lysenko. La patrouille de l'automne dernier, partie vers les Entrepôts. On ne les a jamais retrouvés. Et c'est Svoboda qui les rapporte. Makarov, évidemment. Dis-lui... Non. Ne lui dis rien, il sait. Ce soir, deux noms de plus iront sur le mur. Tiens, %1, pour ta course. Ce n'est pas l'argent de Svoboda : c'est le nôtre."
+    ],
+    "ObjectiveText": "Porte les plaques de deux hommes de la Duty à Gekko, à l'entrée sud-ouest du Bar de Rostok, en moins de dix minutes. En retard, la course ne compte pas : recommence auprès de Makarov.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        65
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 157,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        156
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

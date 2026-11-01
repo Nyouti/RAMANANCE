@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 93,
+    "Type": 1,
+    "Title": "Liaison vers l'arrière",
+    "Descriptions": [
+        "%1, le gestionnaire a besoin qu'un message passe au relais militaire. Tu vas voir l'homme qu'on appelle « L'autre » aux coordonnées qu'on te donne, tu confirmes que la liaison est faite, et c'est lui qui validera la paye.",
+        "Tant que tu n'as pas rejoint le relais et parlé au bon interlocuteur, la liaison n'est pas faite.",
+        "Bien reçu. La chaîne tient. Voici ce qui était prévu pour le trajet."
+    ],
+    "ObjectiveText": "Rejoindre le relais (L'autre), puis valider auprès de lui.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 4,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        68
+    ],
+    "QuestTurnInIDs": [
+        69
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 93,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

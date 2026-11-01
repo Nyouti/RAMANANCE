@@ -1,0 +1,135 @@
+{
+    "_comment_00_Main": "SFP_muta_srez_logic: строки _comment нужны только для пояснений админам. В JSON оставлены только балансные настройки; стадии заморозки, материалы, звук, уведомления и видимый damage заданы внутри скрипта.",
+    "_comment_EnableNegativeEffects": "true = болезни и урон включены; false = части мутантов не заражают и не бьют по здоровью.",
+    "EnableNegativeEffects": 1,
+    "_comment_DebugMode": "true = включить подробный debug в script.log и, если DebugLogToFile=true, в отдельный файл.",
+    "DebugMode": 0,
+    "_comment_DebugLogToFile": "true = при DebugMode писать отдельный лог-файл; false = писать только через Print в script.log.",
+    "DebugLogToFile": 1,
+    "_comment_DebugLogPath": "Путь к отдельному debug-логу. По умолчанию $profile:SFP\\SFP_muta_srez_logic.log.",
+    "DebugLogPath": "$profile:SFP\\SFP_muta_srez_logic.log",
+    "_comment_RandomDiseases": "Общий список случайных болезней. Профиль DangerLevels может переопределить список для конкретного уровня.",
+    "RandomDiseases": [
+        "MDF_COMMON_COLD",
+        "MDF_POISONING",
+        "AGENT_SALMONELLA"
+    ],
+    "_comment_UseDangerLevelsFromConfig": "true = читать sfpMutaDangerLevel из config.cpp каждой части мутанта; false = все части используют DefaultDangerLevel.",
+    "UseDangerLevelsFromConfig": 1,
+    "_comment_DefaultDangerLevel": "Уровень опасности по умолчанию, если у части нет sfpMutaDangerLevel или подходящий профиль не найден.",
+    "DefaultDangerLevel": 1,
+    "_comment_DangerLevels": "Профили силы эффектов по уровням. Предмет с sfpMutaDangerLevel=3 использует профиль, где Level=3.",
+    "DangerLevels": [
+        {
+            "_comment_Level": "Номер уровня опасности. В config.cpp части мутанта укажите sfpMutaDangerLevel с таким же числом.",
+            "Level": 0,
+            "_comment_InfectionChancePercent": "Шанс заражения в процентах для этого уровня опасности.",
+            "InfectionChancePercent": 15.0,
+            "_comment_HealthDamageMin": "Минимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMin": 0.0,
+            "_comment_HealthDamageMax": "Максимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMax": 1.0,
+            "_comment_InventoryTickSeconds": "Как часто в секундах часть этого уровня бьёт по здоровью и кидает шанс болезни в обычном инвентаре.",
+            "InventoryTickSeconds": 30,
+            "_comment_RandomDiseases": "Список болезней для этого уровня. Если оставить пустым, будет использован общий RandomDiseases выше.",
+            "RandomDiseases": [
+                "MDF_COMMON_COLD"
+            ]
+        },
+        {
+            "_comment_Level": "Номер уровня опасности. В config.cpp части мутанта укажите sfpMutaDangerLevel с таким же числом.",
+            "Level": 1,
+            "_comment_InfectionChancePercent": "Шанс заражения в процентах для этого уровня опасности.",
+            "InfectionChancePercent": 35.0,
+            "_comment_HealthDamageMin": "Минимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMin": 1.0,
+            "_comment_HealthDamageMax": "Максимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMax": 3.0,
+            "_comment_InventoryTickSeconds": "Как часто в секундах часть этого уровня бьёт по здоровью и кидает шанс болезни в обычном инвентаре.",
+            "InventoryTickSeconds": 25,
+            "_comment_RandomDiseases": "Список болезней для этого уровня. Если оставить пустым, будет использован общий RandomDiseases выше.",
+            "RandomDiseases": [
+                "MDF_COMMON_COLD"
+            ]
+        },
+        {
+            "_comment_Level": "Номер уровня опасности. В config.cpp части мутанта укажите sfpMutaDangerLevel с таким же числом.",
+            "Level": 2,
+            "_comment_InfectionChancePercent": "Шанс заражения в процентах для этого уровня опасности.",
+            "InfectionChancePercent": 65.0,
+            "_comment_HealthDamageMin": "Минимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMin": 2.0,
+            "_comment_HealthDamageMax": "Максимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMax": 5.0,
+            "_comment_InventoryTickSeconds": "Как часто в секундах часть этого уровня бьёт по здоровью и кидает шанс болезни в обычном инвентаре.",
+            "InventoryTickSeconds": 20,
+            "_comment_RandomDiseases": "Список болезней для этого уровня. Если оставить пустым, будет использован общий RandomDiseases выше.",
+            "RandomDiseases": [
+                "MDF_POISONING"
+            ]
+        },
+        {
+            "_comment_Level": "Номер уровня опасности. В config.cpp части мутанта укажите sfpMutaDangerLevel с таким же числом.",
+            "Level": 3,
+            "_comment_InfectionChancePercent": "Шанс заражения в процентах для этого уровня опасности.",
+            "InfectionChancePercent": 80.0,
+            "_comment_HealthDamageMin": "Минимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMin": 4.0,
+            "_comment_HealthDamageMax": "Максимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMax": 8.0,
+            "_comment_InventoryTickSeconds": "Как часто в секундах часть этого уровня бьёт по здоровью и кидает шанс болезни в обычном инвентаре.",
+            "InventoryTickSeconds": 15,
+            "_comment_RandomDiseases": "Список болезней для этого уровня. Если оставить пустым, будет использован общий RandomDiseases выше.",
+            "RandomDiseases": [
+                "AGENT_SALMONELLA"
+            ]
+        },
+        {
+            "_comment_Level": "Номер уровня опасности. В config.cpp части мутанта укажите sfpMutaDangerLevel с таким же числом.",
+            "Level": 4,
+            "_comment_InfectionChancePercent": "Шанс заражения в процентах для этого уровня опасности.",
+            "InfectionChancePercent": 95.0,
+            "_comment_HealthDamageMin": "Минимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMin": 6.0,
+            "_comment_HealthDamageMax": "Максимальный урон по здоровью за один тик для этого уровня.",
+            "HealthDamageMax": 12.0,
+            "_comment_InventoryTickSeconds": "Как часто в секундах часть этого уровня бьёт по здоровью и кидает шанс болезни в обычном инвентаре.",
+            "InventoryTickSeconds": 10,
+            "_comment_RandomDiseases": "Список болезней для этого уровня. Если оставить пустым, будет использован общий RandomDiseases выше.",
+            "RandomDiseases": [
+                "CHEMICAL_POISON"
+            ]
+        }
+    ],
+    "_comment_HealthDamageMin": "Глобальный fallback: минимальный урон, если профиль уровня не найден.",
+    "HealthDamageMin": 2.0,
+    "_comment_HealthDamageMax": "Глобальный fallback: максимальный урон, если профиль уровня не найден.",
+    "HealthDamageMax": 5.0,
+    "_comment_InfectionChancePercent": "Глобальный fallback: процент шанса заражения, если профиль уровня не найден.",
+    "InfectionChancePercent": 65.0,
+    "_comment_InventoryTickSeconds": "Глобальный fallback: как часто идёт вредный тик, если профиль уровня не найден.",
+    "InventoryTickSeconds": 20,
+    "_comment_SafeContainerClasses": "Список классов безопасных контейнеров. Поддерживается наследование: если класс-наследник от указанного класса, он тоже считается безопасным.",
+    "SafeContainerClasses": [
+        "SFP_Muta_Case_Base"
+    ],
+    "_comment_SafeSlots": "Список безопасных attachment-слотов. Только в этих слотах контейнер замораживает и обезвреживает части мутантов.",
+    "SafeSlots": [
+        "sfp_muta_srez_01_slot",
+        "sfp_muta_srez_02_slot",
+        "sfp_muta_srez_03_slot",
+        "sfp_muta_srez_04_slot",
+        "sfp_muta_srez_05_slot",
+        "sfp_muta_srez_06_slot",
+        "sfp_muta_srez_07_slot",
+        "sfp_muta_srez_08_slot",
+        "sfp_muta_srez_09_slot",
+        "sfp_muta_srez_10_slot",
+        "sfp_muta_srez_11_slot",
+        "sfp_muta_srez_12_slot",
+        "sfp_muta_srez_13_slot",
+        "sfp_muta_srez_14_slot",
+        "sfp_muta_srez_15_slot"
+    ],
+    "_comment_99_OtherModsHelp": "Другие моды могут добавить контейнер через JSON SafeContainerClasses или скриптом вызвать SFP_MutaSrezHelper.RegisterSafeContainerClass(\"ClassName\") и RegisterSafeSlotName(\"slot_name\"). Уровень опасности предмета задаётся в config.cpp параметром sfpMutaDangerLevel."
+}

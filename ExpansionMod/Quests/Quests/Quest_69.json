@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 69,
+    "Type": 1,
+    "Title": "Ampoules pour l'infirmerie",
+    "Descriptions": [
+        "%1, le petit stock d'ampoules fond vite. Il me faudrait une ampoule d'alcool à usage soignant et une ampoule de morphine, les modèles qu'on scelle encore pour les perfusions d'urgence. Si vous en trouvez une de chaque, vous pourriez me les rapporter ici ?",
+        "Il manque encore une des deux ampoules, ou les deux. Revenez quand c'est complet.",
+        "Parfait, ça complète le tiroir critique. Voici le deuxième livre de médecine de la série ; tenez-le au sec."
+    ],
+    "ObjectiveText": "Une ampoule d'alcool médical et une ampoule de morphine au Doc",
+    "FollowUpQuest": 70,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 707,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        68
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

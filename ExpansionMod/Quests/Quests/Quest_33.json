@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 33,
+    "Type": 1,
+    "Title": "Les caisses de la mine",
+    "Descriptions": [
+        "Le ravin est dégagé, alors on va voir où sont passées mes caisses. Mon faux registre parle du hameau, tout au nord, avant la décharge. Mais je connais la route : personne ne monterait jusque-là avec une caisse sur le dos. Celui qui a fait ça voulait qu'on cherche au mauvais endroit. Moi, je pense à la vieille mine. Ses galeries passent sous le Cordon, et sa sortie est juste au nord du poste de contrôle, près du virage de la route. C'est le chemin idéal pour déplacer des caisses sans croiser personne. Si elles sont quelque part, c'est là. Rapporte-m'en une, avec son numéro. Fais attention : des chairs rôdent autour de la sortie, et elles chargent en meute. Et pas un mot de tout ça à qui que ce soit, %1. Pas même aux Veilleurs. Surtout pas aux Veilleurs.",
+        "La sortie de la vieille mine, au nord du poste de contrôle, près du virage de la route. Trouve mes caisses et rapporte-m'en une. Méfie-toi des chairs.",
+        "Caisse n°12. Mon numéro, mon tampon, et le cadenas a été ouvert avec une clé, pas forcé. Il n'existe que trois clés de la réserve, %1, et l'une d'elles est dans ma poche. Et le hameau du registre, c'était pour nous envoyer au mauvais endroit. Je vais devoir regarder les miens dans les yeux en me demandant lequel me ment. Tu as fait ce que je t'ai demandé, et tu as tenu ta langue. Tiens, ta paie. Si un jour j'ai besoin de quelqu'un de confiance, je saurai où te trouver."
+    ],
+    "ObjectiveText": "Fouille les abords de la sortie de la vieille mine, au nord du poste de contrôle, retrouve les caisses volées et rapporte une caisse des Veilleurs à Dmitri.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        8
+    ],
+    "QuestTurnInIDs": [
+        8
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 33,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 33,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        32
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

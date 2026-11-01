@@ -1,0 +1,24 @@
+{
+    "ConfigVersion": 6,
+    "ID": 59,
+    "ClassName": "ExpansionQuestNPCDenis",
+    "Position": [
+        4962.157715,
+        121.371780,
+        6774.916992
+    ],
+    "Orientation": [
+        17.309479,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Officier Duty",
+    "DefaultNPCText": "%1, les ordres de mission ne sortent pas de la chaîne Duty. Si tu n'es pas affecté à notre faction, je n'ai rien à te confier.",
+    "NPCLoadoutFile": "DutyLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCType": 0,
+    "Active": 1
+}

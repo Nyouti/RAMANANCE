@@ -1,0 +1,31 @@
+{
+    "ConfigVersion": 28,
+    "ID": 2,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Du pain ou du saucisson pour l'abri",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "SFP_Food_Buhanka",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "SFP_Food_LomtikHleb",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "SFP_Food_Kolbasa",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 1
+}

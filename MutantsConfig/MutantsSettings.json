@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 1,
+    "Controller": {
+        "PsyCooldown": 20.0,
+        "MeleeCooldown": 2.200000047683716,
+        "ZombifyCooldown": 25.0,
+        "MeleeRange": 2.5,
+        "PsyRangeMin": 4.0,
+        "PsyRangeMax": 35.0,
+        "ZombifyRangeMin": 6.0,
+        "ZombifyRangeMax": 18.0,
+        "CorpseRiseHpThreshold": 0.20000000298023225,
+        "CorpseRiseRadius": 25.0,
+        "CorpseRiseMinHpPercent": 0.30000001192092898,
+        "CorpseRiseMaxHpPercent": 0.5,
+        "PassiveDmgRadius": 50.0,
+        "PassiveDmgInterval": 1.0,
+        "PassiveHealthDmg": 2.5,
+        "PassiveShockDmg": 5.0,
+        "ProtectionItems": [
+            {
+                "ItemName": "ExampleClassname",
+                "SlotName": "Headgear",
+                "ProtectionValue": 0.800000011920929
+            }
+        ]
+    }
+}

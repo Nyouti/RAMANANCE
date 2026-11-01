@@ -1,0 +1,203 @@
+************************** 2026-08-21T12:13:27+00:00 **************************
+2026-08-21T12:13:27+00:00 | [INFO	] GameLabs v1.1395 start for server b859b7a7-ef69-49a1-b5be-79cc7d2983ca
+2026-08-21T12:13:27+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-08-21T12:13:27+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-08-21T12:13:27+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-08-21T12:13:27+00:00 | [DEBUG	] [Loadout] Loaded preset "Example" (2 items) from $profile:@GameLabsStorage\presets\example.json
+2026-08-21T12:13:27+00:00 | [INFO	] [Loadout] Loaded 1 preset(s)
+2026-08-21T12:13:32+00:00 | [INFO	] Server locked on start
+2026-08-21T12:13:32+00:00 | [DEBUG	] Loaded MissionServer
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionBuildOven" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionBuildPart" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionBuildShelter" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDestroyCodeLockOnTent" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDigGardenPlot" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDismantlePart" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionFoldBaseBuildingObject" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionPackTent" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionRaiseFlag" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionLowerFlag" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDestroyPart" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDigOutStash" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionFoldItem" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDismantleItem" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "HDSN_ActionDeployBreachingCharge" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "HDSN_ActionDefuseBreachingCharge" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionAttachCodeLockToTent" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionAttachCodeLockToFence" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionDestroyCodeLockOnFence" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] "ActionHackCodeLock" has been added as monitored action
+2026-08-21T12:13:32+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-08-21T12:13:32+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-08-21T12:13:32+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDEyOjEzOjMyLjYyMjgyNCIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.n1-bJG7nhncCxid08RvW0MjFVkWMzTFyGvU21R5RCRc
+2026-08-21T12:13:32+00:00 | [DEBUG	] API-Register status=2, error=, attempt=1
+2026-08-21T12:13:32+00:00 | [INFO	] Server up (GameLabs v1.1395; terrain=;)
+2026-08-21T12:13:32+00:00 | [INFO	] RPC interface initiated and handler registered
+2026-08-21T12:13:32+00:00 | [DEBUG	] (ItemDiscovery) Discovered 8982 items
+2026-08-21T12:13:32+00:00 | [DEBUG	] (Reporter) Metrics Dump enabled
+2026-08-21T12:13:32+00:00 | [DEBUG	] [GameLabs-Dependencies] FeatureFlag<gl_featuresExpansionAI> '1'
+2026-08-21T12:13:33+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-08-21T12:13:33+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-08-21T12:13:33+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-08-21T12:13:33+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-08-21T12:13:34+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000000085B1CF00><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-08-21T12:13:34+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000000747B5060><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-08-21T12:13:34+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000000088393120><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000000080920A50><Land_ContainerLocked_Blue_DE>) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x00000000892DE430><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008572E050><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEvent(_Event<0x000000008ADF55F0><ScientificBriefcase>) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000000008AF3CD20><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008BC66400><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008D95DB20><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008DA2D270><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000000008DA52CC0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008E0F8D10>, 100) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008E278F40>, 100) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008E9C7B50>, 100) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEvent(_Event<0x000000008ECEA8B0>) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000000008ED4ED70>, 50, StaticObj_Wreck_Decal_Small1) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008EF7AEE0>, 100) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEvent(_Event<0x000000008F637CF0>) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000000008F6F8370>, 50, StaticObj_Wreck_Decal_Small1) - failed (_reference already added)
+2026-08-21T12:13:35+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000009026DF60>, 100) - failed (_reference already added)
+2026-08-21T12:13:36+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000000091760600>, 100) - failed (_reference already added)
+2026-08-21T12:13:36+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000000008F39B470>, 100) - failed (_reference already added)
+2026-08-21T12:13:36+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x00000000917B8200>, 50, StaticObj_Wreck_Decal_Small1) - failed (_reference already added)
+2026-08-21T12:13:36+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000000092574470><ScientificBriefcase>) - success
+2026-08-21T12:13:36+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD0FB010> established for 34154D7D-207A-4B24-8BAB-DDA8D4C6C49F @ $profile:@GameLabsStorage/34154D7D-207A-4B24-8BAB-DDA8D4C6C49F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000DD1175A0> BBP_BDoor:32178 uuid=34154D7D-207A-4B24-8BAB-DDA8D4C6C49F;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD0FB010> established for 34154D7D-207A-4B24-8BAB-DDA8D4C6C49F @ $profile:@GameLabsStorage/34154D7D-207A-4B24-8BAB-DDA8D4C6C49F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000DD1175A0> BBP_BDoor:32178 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D99C4C50> established for 1A90B556-E080-49E5-A341-7163B5971D28 @ $profile:@GameLabsStorage/1A90B556-E080-49E5-A341-7163B5971D28.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000D99C2190> BBP_SDoor:28291 uuid=1A90B556-E080-49E5-A341-7163B5971D28;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D99C4C50> established for 1A90B556-E080-49E5-A341-7163B5971D28 @ $profile:@GameLabsStorage/1A90B556-E080-49E5-A341-7163B5971D28.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000D99C2190> BBP_SDoor:28291 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA3A27D0> established for DD80D3F7-031C-421B-939D-1BE143FE2078 @ $profile:@GameLabsStorage/DD80D3F7-031C-421B-939D-1BE143FE2078.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000DA3FD9E0> BBP_BDoor:28900 uuid=DD80D3F7-031C-421B-939D-1BE143FE2078;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA3A27D0> established for DD80D3F7-031C-421B-939D-1BE143FE2078 @ $profile:@GameLabsStorage/DD80D3F7-031C-421B-939D-1BE143FE2078.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000DA3FD9E0> BBP_BDoor:28900 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD0EA520> established for 6D8F6E24-2D80-4A53-82FE-FB9F8076625C @ $profile:@GameLabsStorage/6D8F6E24-2D80-4A53-82FE-FB9F8076625C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DD0E7550> BBP_SDoor:32160 uuid=6D8F6E24-2D80-4A53-82FE-FB9F8076625C;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD0EA520> established for 6D8F6E24-2D80-4A53-82FE-FB9F8076625C @ $profile:@GameLabsStorage/6D8F6E24-2D80-4A53-82FE-FB9F8076625C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DD0E7550> BBP_SDoor:32160 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E12330D0> established for 9DEE478E-EA55-402E-AE7E-6305F43B89A9 @ $profile:@GameLabsStorage/9DEE478E-EA55-402E-AE7E-6305F43B89A9.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000E122FDF0> BBP_SDoor:36488 uuid=9DEE478E-EA55-402E-AE7E-6305F43B89A9;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E12330D0> established for 9DEE478E-EA55-402E-AE7E-6305F43B89A9 @ $profile:@GameLabsStorage/9DEE478E-EA55-402E-AE7E-6305F43B89A9.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000E122FDF0> BBP_SDoor:36488 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD4FB7E0> established for FBD11354-D58A-4A02-9CF9-CE4252ADAE1F @ $profile:@GameLabsStorage/FBD11354-D58A-4A02-9CF9-CE4252ADAE1F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000DD4F8710> BBP_BDoor:32425 uuid=FBD11354-D58A-4A02-9CF9-CE4252ADAE1F;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD4FB7E0> established for FBD11354-D58A-4A02-9CF9-CE4252ADAE1F @ $profile:@GameLabsStorage/FBD11354-D58A-4A02-9CF9-CE4252ADAE1F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000DD4F8710> BBP_BDoor:32425 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DCE56BA0> established for F92185FC-BA74-4836-8F71-9147883E87AE @ $profile:@GameLabsStorage/F92185FC-BA74-4836-8F71-9147883E87AE.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DCE53050> BBP_SDoor:31912 uuid=F92185FC-BA74-4836-8F71-9147883E87AE;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DCE56BA0> established for F92185FC-BA74-4836-8F71-9147883E87AE @ $profile:@GameLabsStorage/F92185FC-BA74-4836-8F71-9147883E87AE.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DCE53050> BBP_SDoor:31912 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DBE353C0> established for FFEB1C35-34D9-4F5A-93A6-C0D51D02B17C @ $profile:@GameLabsStorage/FFEB1C35-34D9-4F5A-93A6-C0D51D02B17C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x00000000DBE33520> BBP_Bwall:30694 uuid=FFEB1C35-34D9-4F5A-93A6-C0D51D02B17C;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DBE353C0> established for FFEB1C35-34D9-4F5A-93A6-C0D51D02B17C @ $profile:@GameLabsStorage/FFEB1C35-34D9-4F5A-93A6-C0D51D02B17C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x00000000DBE33520> BBP_Bwall:30694 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DF2D22F0> established for 6A417384-7044-4D5B-A51A-7002E7135578 @ $profile:@GameLabsStorage/6A417384-7044-4D5B-A51A-7002E7135578.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DF438110> BBP_SDoor:34082 uuid=6A417384-7044-4D5B-A51A-7002E7135578;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DF2D22F0> established for 6A417384-7044-4D5B-A51A-7002E7135578 @ $profile:@GameLabsStorage/6A417384-7044-4D5B-A51A-7002E7135578.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DF438110> BBP_SDoor:34082 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA02AC20> established for 36A36132-94FF-41EC-9F8E-3FCD2D8E050F @ $profile:@GameLabsStorage/36A36132-94FF-41EC-9F8E-3FCD2D8E050F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DA045040> BBP_SDoor:28691 uuid=36A36132-94FF-41EC-9F8E-3FCD2D8E050F;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA02AC20> established for 36A36132-94FF-41EC-9F8E-3FCD2D8E050F @ $profile:@GameLabsStorage/36A36132-94FF-41EC-9F8E-3FCD2D8E050F.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DA045040> BBP_SDoor:28691 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD51C0E0> established for AF71846D-82EB-47C9-A957-0F16BF41EF2B @ $profile:@GameLabsStorage/AF71846D-82EB-47C9-A957-0F16BF41EF2B.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DD519500> BBP_SDoor:32437 uuid=AF71846D-82EB-47C9-A957-0F16BF41EF2B;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD51C0E0> established for AF71846D-82EB-47C9-A957-0F16BF41EF2B @ $profile:@GameLabsStorage/AF71846D-82EB-47C9-A957-0F16BF41EF2B.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DD519500> BBP_SDoor:32437 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA140740> established for 98133940-EDD5-4630-969E-014FAE0B86D2 @ $profile:@GameLabsStorage/98133940-EDD5-4630-969E-014FAE0B86D2.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000DA13CEB0> BBP_BDoor:28744 uuid=98133940-EDD5-4630-969E-014FAE0B86D2;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DA140740> established for 98133940-EDD5-4630-969E-014FAE0B86D2 @ $profile:@GameLabsStorage/98133940-EDD5-4630-969E-014FAE0B86D2.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000DA13CEB0> BBP_BDoor:28744 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD032C40> established for E666BA6C-3AEE-401C-93AC-DA8761CA3442 @ $profile:@GameLabsStorage/E666BA6C-3AEE-401C-93AC-DA8761CA3442.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DD02F890> BBP_SDoor:32087 uuid=E666BA6C-3AEE-401C-93AC-DA8761CA3442;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DD032C40> established for E666BA6C-3AEE-401C-93AC-DA8761CA3442 @ $profile:@GameLabsStorage/E666BA6C-3AEE-401C-93AC-DA8761CA3442.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DD02F890> BBP_SDoor:32087 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DAA3FFC0> established for 01EEFAB7-C467-463E-8C3F-458C2D9A8525 @ $profile:@GameLabsStorage/01EEFAB7-C467-463E-8C3F-458C2D9A8525.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x00000000DAA3C910> BBP_Bwall:29305 uuid=01EEFAB7-C467-463E-8C3F-458C2D9A8525;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DAA3FFC0> established for 01EEFAB7-C467-463E-8C3F-458C2D9A8525 @ $profile:@GameLabsStorage/01EEFAB7-C467-463E-8C3F-458C2D9A8525.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x00000000DAA3C910> BBP_Bwall:29305 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000000008CAC9780> established for B714F83D-B04A-4106-A1D4-56E6A397F451 @ $profile:@GameLabsStorage/B714F83D-B04A-4106-A1D4-56E6A397F451.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x000000008CAC6270> BBP_BDoor:32503 uuid=B714F83D-B04A-4106-A1D4-56E6A397F451;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000000008CAC9780> established for B714F83D-B04A-4106-A1D4-56E6A397F451 @ $profile:@GameLabsStorage/B714F83D-B04A-4106-A1D4-56E6A397F451.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x000000008CAC6270> BBP_BDoor:32503 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D9C53700> established for 8317D9DC-17D1-4284-B945-CC8F103DA38D @ $profile:@GameLabsStorage/8317D9DC-17D1-4284-B945-CC8F103DA38D.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000D9C75030> BBP_SDoor:28423 uuid=8317D9DC-17D1-4284-B945-CC8F103DA38D;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D9C53700> established for 8317D9DC-17D1-4284-B945-CC8F103DA38D @ $profile:@GameLabsStorage/8317D9DC-17D1-4284-B945-CC8F103DA38D.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000D9C75030> BBP_SDoor:28423 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E0830850> established for 3BE9DF51-FD8B-45E6-B4E4-785EAC0A1C2A @ $profile:@GameLabsStorage/3BE9DF51-FD8B-45E6-B4E4-785EAC0A1C2A.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000E0839D20> BBP_BDoor:35627 uuid=3BE9DF51-FD8B-45E6-B4E4-785EAC0A1C2A;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E0830850> established for 3BE9DF51-FD8B-45E6-B4E4-785EAC0A1C2A @ $profile:@GameLabsStorage/3BE9DF51-FD8B-45E6-B4E4-785EAC0A1C2A.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000E0839D20> BBP_BDoor:35627 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DC9E0550> established for 7A778A4E-6C9E-4090-8488-CEADC0D440FD @ $profile:@GameLabsStorage/7A778A4E-6C9E-4090-8488-CEADC0D440FD.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x00000000DC9DD890> BBP_Bwall:31588 uuid=7A778A4E-6C9E-4090-8488-CEADC0D440FD;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DC9E0550> established for 7A778A4E-6C9E-4090-8488-CEADC0D440FD @ $profile:@GameLabsStorage/7A778A4E-6C9E-4090-8488-CEADC0D440FD.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x00000000DC9DD890> BBP_Bwall:31588 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000000008FD48580> established for 9D9DA365-09D7-488D-9BC2-6BC669350035 @ $profile:@GameLabsStorage/9D9DA365-09D7-488D-9BC2-6BC669350035.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x000000008FD58CD0> BBP_SDoor:32882 uuid=9D9DA365-09D7-488D-9BC2-6BC669350035;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000000008FD48580> established for 9D9DA365-09D7-488D-9BC2-6BC669350035 @ $profile:@GameLabsStorage/9D9DA365-09D7-488D-9BC2-6BC669350035.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x000000008FD58CD0> BBP_SDoor:32882 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DEF1D6B0> established for 5E7CCD14-5E23-4422-821D-1BB3012EF0DB @ $profile:@GameLabsStorage/5E7CCD14-5E23-4422-821D-1BB3012EF0DB.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DEF1B640> BBP_SDoor:33728 uuid=5E7CCD14-5E23-4422-821D-1BB3012EF0DB;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DEF1D6B0> established for 5E7CCD14-5E23-4422-821D-1BB3012EF0DB @ $profile:@GameLabsStorage/5E7CCD14-5E23-4422-821D-1BB3012EF0DB.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DEF1B640> BBP_SDoor:33728 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DF4CB0D0> established for FD07AAFD-529A-49B7-A694-A0C5CA79A905 @ $profile:@GameLabsStorage/FD07AAFD-529A-49B7-A694-A0C5CA79A905.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000DF4C8030> BBP_BDoor:34129 uuid=FD07AAFD-529A-49B7-A694-A0C5CA79A905;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DF4CB0D0> established for FD07AAFD-529A-49B7-A694-A0C5CA79A905 @ $profile:@GameLabsStorage/FD07AAFD-529A-49B7-A694-A0C5CA79A905.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000DF4C8030> BBP_BDoor:34129 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D9777B10> established for 90FCB1D7-FA17-477F-AF89-E2BB0E0AB98A @ $profile:@GameLabsStorage/90FCB1D7-FA17-477F-AF89-E2BB0E0AB98A.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000D9774550> BBP_SDoor:28135 uuid=90FCB1D7-FA17-477F-AF89-E2BB0E0AB98A;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000D9777B10> established for 90FCB1D7-FA17-477F-AF89-E2BB0E0AB98A @ $profile:@GameLabsStorage/90FCB1D7-FA17-477F-AF89-E2BB0E0AB98A.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000D9774550> BBP_SDoor:28135 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DBB05F80> established for DB855EE8-84AB-4D09-9127-F7BED74F6A59 @ $profile:@GameLabsStorage/DB855EE8-84AB-4D09-9127-F7BED74F6A59.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x00000000DBB283E0> BBP_SDoor:30503 uuid=DB855EE8-84AB-4D09-9127-F7BED74F6A59;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DBB05F80> established for DB855EE8-84AB-4D09-9127-F7BED74F6A59 @ $profile:@GameLabsStorage/DB855EE8-84AB-4D09-9127-F7BED74F6A59.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x00000000DBB283E0> BBP_SDoor:30503 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E00A9A70> established for 93018D11-8B15-4434-9EB3-57EF75D52349 @ $profile:@GameLabsStorage/93018D11-8B15-4434-9EB3-57EF75D52349.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x00000000E00A6CB0> BBP_Bwall:34937 uuid=93018D11-8B15-4434-9EB3-57EF75D52349;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E00A9A70> established for 93018D11-8B15-4434-9EB3-57EF75D52349 @ $profile:@GameLabsStorage/93018D11-8B15-4434-9EB3-57EF75D52349.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x00000000E00A6CB0> BBP_Bwall:34937 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DCA3E250> established for 01C9C4DF-85E5-43AA-8D29-3E663D3A6E2C @ $profile:@GameLabsStorage/01C9C4DF-85E5-43AA-8D29-3E663D3A6E2C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x00000000DCA3B550> BBP_Bwall:31622 uuid=01C9C4DF-85E5-43AA-8D29-3E663D3A6E2C;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000DCA3E250> established for 01C9C4DF-85E5-43AA-8D29-3E663D3A6E2C @ $profile:@GameLabsStorage/01C9C4DF-85E5-43AA-8D29-3E663D3A6E2C.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x00000000DCA3B550> BBP_Bwall:31622 has no disk presence
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E11AD8C0> established for B9CDF401-8280-445D-952C-ADD91288B644 @ $profile:@GameLabsStorage/B9CDF401-8280-445D-952C-ADD91288B644.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x00000000E11AA530> BBP_BDoor:36447 uuid=B9CDF401-8280-445D-952C-ADD91288B644;
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000000E11AD8C0> established for B9CDF401-8280-445D-952C-ADD91288B644 @ $profile:@GameLabsStorage/B9CDF401-8280-445D-952C-ADD91288B644.json
+2026-08-21T12:13:45+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x00000000E11AA530> BBP_BDoor:36447 has no disk presence
+2026-08-21T12:14:02+00:00 | [INFO	] Mission fully loaded in 43.416s. Server ready for connections.
+2026-08-21T13:14:08+00:00 | [ERROR	] ServerPoll2 errorCode(5)
+2026-08-21T13:14:08+00:00 | [ERROR	] GameLabs API error, reauthenticating...
+2026-08-21T13:14:08+00:00 | [DEBUG	] ServerPoll OnSuccess(_Response_Register<0x000000004DEA80E0>) : {"authKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDEzOjE0OjA4Ljc0MDczNyIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.SSbtStF2x8eVXnhKyBke3ieLjlRU3RO2iNLcvcZbEN4","features":{"allowReporting":1,"kvEnabled":false,"metricsInterval":60,"pollProtocolVersion":2,"reportingInterval":120,"statisticsReporting":2},"modLicensingOffender":"<all mod licenses valid>","modLicensingStatus":2,"monitoredActions":["ActionBuildOven","ActionBuildPart","ActionBuildShelter","ActionDestroyCodeLockOnTent","ActionDigGardenPlot","ActionDismantlePart","ActionFoldBaseBuildingObject","ActionPackTent","ActionRaiseFlag","ActionLowerFlag","ActionDestroyPart","ActionDigOutStash","ActionFoldItem","ActionDismantleItem","HDSN_ActionDeployBreachingCharge","HDSN_ActionDefuseBreachingCharge","ActionAttachCodeLockToTent","ActionAttachCodeLockToFence","ActionDestroyCodeLockOnFence","ActionDestroyCodeLockOnTent","ActionHackCodeLock"],"status":2}
+
+2026-08-21T13:14:08+00:00 | [WARN	] RegisterAsync re-authorized
+2026-08-21T13:14:08+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-08-21T13:14:08+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-08-21T13:14:08+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDEzOjE0OjA4Ljc0MDczNyIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.SSbtStF2x8eVXnhKyBke3ieLjlRU3RO2iNLcvcZbEN4
+2026-08-21T13:49:19+00:00 | [ERROR	] ServerPoll2 errorCode(8)
+2026-08-21T14:14:09+00:00 | [ERROR	] ServerPoll2 errorCode(5)
+2026-08-21T14:14:09+00:00 | [ERROR	] GameLabs API error, reauthenticating...
+2026-08-21T14:14:10+00:00 | [DEBUG	] ServerPoll OnSuccess(_Response_Register<0x00000000C13FC2F0>) : {"authKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDE0OjE0OjEwLjAwMjg5NyIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.n0_4vZZ2i_4pPzePUK1wNLnAVWV9DTfiN_lyhaR-8V0","features":{"allowReporting":1,"kvEnabled":false,"metricsInterval":60,"pollProtocolVersion":2,"reportingInterval":120,"statisticsReporting":2},"modLicensingOffender":"<all mod licenses valid>","modLicensingStatus":2,"monitoredActions":["ActionBuildOven","ActionBuildPart","ActionBuildShelter","ActionDestroyCodeLockOnTent","ActionDigGardenPlot","ActionDismantlePart","ActionFoldBaseBuildingObject","ActionPackTent","ActionRaiseFlag","ActionLowerFlag","ActionDestroyPart","ActionDigOutStash","ActionFoldItem","ActionDismantleItem","HDSN_ActionDeployBreachingCharge","HDSN_ActionDefuseBreachingCharge","ActionAttachCodeLockToTent","ActionAttachCodeLockToFence","ActionDestroyCodeLockOnFence","ActionDestroyCodeLockOnTent","ActionHackCodeLock"],"status":2}
+
+2026-08-21T14:14:10+00:00 | [WARN	] RegisterAsync re-authorized
+2026-08-21T14:14:10+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-08-21T14:14:10+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-08-21T14:14:10+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDE0OjE0OjEwLjAwMjg5NyIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.n0_4vZZ2i_4pPzePUK1wNLnAVWV9DTfiN_lyhaR-8V0
+2026-08-21T15:14:11+00:00 | [ERROR	] ServerPoll2 errorCode(5)
+2026-08-21T15:14:11+00:00 | [ERROR	] GameLabs API error, reauthenticating...
+2026-08-21T15:14:11+00:00 | [DEBUG	] ServerPoll OnSuccess(_Response_Register<0x00000000DB78E4A0>) : {"authKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDE1OjE0OjExLjE3NDY0OCIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.qMyTyYmMZHNhbQe-axmfQfpMnklpo_ote2Hh7Zz188I","features":{"allowReporting":1,"kvEnabled":false,"metricsInterval":60,"pollProtocolVersion":2,"reportingInterval":120,"statisticsReporting":2},"modLicensingOffender":"<all mod licenses valid>","modLicensingStatus":2,"monitoredActions":["ActionBuildOven","ActionBuildPart","ActionBuildShelter","ActionDestroyCodeLockOnTent","ActionDigGardenPlot","ActionDismantlePart","ActionFoldBaseBuildingObject","ActionPackTent","ActionRaiseFlag","ActionLowerFlag","ActionDestroyPart","ActionDigOutStash","ActionFoldItem","ActionDismantleItem","HDSN_ActionDeployBreachingCharge","HDSN_ActionDefuseBreachingCharge","ActionAttachCodeLockToTent","ActionAttachCodeLockToFence","ActionDestroyCodeLockOnFence","ActionDestroyCodeLockOnTent","ActionHackCodeLock"],"status":2}
+
+2026-08-21T15:14:11+00:00 | [WARN	] RegisterAsync re-authorized
+2026-08-21T15:14:11+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-08-21T15:14:11+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-08-21T15:14:11+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6ImI4NTliN2E3LWVmNjktNDlhMS1iNWJlLTc5Y2M3ZDI5ODNjYSIsInNlcnZlcl9pZCI6IjZhODQ0OTI3NGEwMTkzNjBkZjQwODkyNCIsImlwdjQiOiIzNy4xODcuMjUwLjEwOCIsImNyZWF0ZWRfYXQiOiIyMDI2LTA4LTIxVDE1OjE0OjExLjE3NDY0OCIsInBvbGx2ZXIiOjIsImludm0iOjYwLCJpbnZyIjoxMjAsImt2IjpmYWxzZX0.qMyTyYmMZHNhbQe-axmfQfpMnklpo_ote2Hh7Zz188I
+2026-08-21T16:14:02+00:00 | [INFO	] (Reporter) Disabled
+2026-08-21T16:14:02+00:00 | [DEBUG	] (Reporter) Timers gracefully closed
+2026-08-21T16:14:02+00:00 | [INFO	] (Core) Attempting graceful exit
+2026-08-21T16:14:02+00:00 | [DEBUG	] (Core) All ref holding buffers cleared
+2026-08-21T16:14:02+00:00 | [DEBUG	] Gracefully closing core logger

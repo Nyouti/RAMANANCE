@@ -1,0 +1,68 @@
+************************** 2026-07-07T11:01:49+00:00 **************************
+2026-07-07T11:01:49+00:00 | [INFO	] GameLabs v1.963 start for server 2e5af3a9-fe3e-4c68-8f4d-76f314aae20e
+2026-07-07T11:01:49+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-07-07T11:01:49+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-07-07T11:01:49+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-07-07T11:01:58+00:00 | [INFO	] Server locked on start
+2026-07-07T11:01:58+00:00 | [DEBUG	] Loaded MissionServer
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionBuildOven" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionBuildPart" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionBuildShelter" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDestroyCodeLockOnTent" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDigGardenPlot" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDismantlePart" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionFoldBaseBuildingObject" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionPackTent" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionRaiseFlag" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionLowerFlag" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDestroyPart" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDigOutStash" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionFoldItem" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDismantleItem" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "HDSN_ActionDeployBreachingCharge" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "HDSN_ActionDefuseBreachingCharge" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionAttachCodeLockToTent" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionAttachCodeLockToFence" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionDestroyCodeLockOnFence" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] "ActionHackCodeLock" has been added as monitored action
+2026-07-07T11:01:58+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-07-07T11:01:58+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-07-07T11:01:58+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6IjJlNWFmM2E5LWZlM2UtNGM2OC04ZjRkLTc2ZjMxNGFhZTIwZSIsInNlcnZlcl9pZCI6IjZhNDgxYjljMjdiNjU0NzNkN2VmZmY4YiIsImlwdjQiOiIxNTIuMjI4LjIyNC4xNjgiLCJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wN1QxMTowMTo1OC41NzczNTMiLCJwb2xsdmVyIjoyLCJpbnZtIjo2MCwiaW52ciI6MTIwLCJrdiI6ZmFsc2V9.cbs3c824hBiRvCb3CLJnApweTKve45MTb3mJuSrxuoA
+2026-07-07T11:01:58+00:00 | [DEBUG	] API-Register status=2, error=
+2026-07-07T11:01:58+00:00 | [INFO	] Server up (GameLabs v1.963; terrain=exclusionzone;)
+2026-07-07T11:01:58+00:00 | [INFO	] RPC interface initiated and handler registered
+2026-07-07T11:01:58+00:00 | [DEBUG	] (ItemDiscovery) Discovered 8834 items
+2026-07-07T11:01:58+00:00 | [DEBUG	] (Reporter) Metrics Dump enabled
+2026-07-07T11:01:59+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-07-07T11:01:59+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-07-07T11:02:00+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-07-07T11:02:00+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000241537EB230><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002415432C6D0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000024164FBD360><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEvent(_Event<0x000002416BC0D0D0><Land_ContainerLocked_Blue_DE>) - success
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000002416BC0EED0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-07T11:02:02+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002416C5B2790><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-07T11:02:03+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000024173462E10><ScientificBriefcase>) - success
+2026-07-07T11:02:03+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000002417346C9B0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-07T11:02:03+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000241785A25D0><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-07-07T11:02:03+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-07-07T11:02:41+00:00 | [INFO	] Mission fully loaded in 79.006s. Server ready for connections.
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495) => 
+2026-07-07T11:03:52+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495, steam64=76561199417217773, name=Yabra)
+2026-07-07T11:03:52+00:00 | [DEBUG	] Player<SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495> no cached CFTools Id for steam64=76561199417217773, contacting api
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.SetUpstreamIdentity(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495, 67e07a6e7a463028961dcf05)
+2026-07-07T11:03:52+00:00 | [DEBUG	] PlayerBase.SetGamesessionId(SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495, 6a4cdcf8c82865a1a0ac23a3)
+2026-07-07T11:03:52+00:00 | [DEBUG	] Player<SurvivorBase<0x00000245704BCD40> SurvivorM_Taiki:28495> received CFTools Id from API cftools_id=67e07a6e7a463028961dcf05, gamesession_id=6a4cdcf8c82865a1a0ac23a3
+2026-07-07T11:04:41+00:00 | [DEBUG	] RegisterAI(_AI<0x0000024573922030><Mutant_XZ_Snork1>) - success
+2026-07-07T11:04:50+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-07T11:04:50+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-07T11:05:27+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-07T11:05:36+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-07T11:06:54+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-07T11:06:54+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)

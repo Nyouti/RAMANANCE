@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 75,
+    "Type": 1,
+    "Title": "Stock opératoire",
+    "Descriptions": [
+        "%1, après votre passage chez Riko, il reste à remplir les étagères du poste. Il me faut trois kits de chirurgie de terrain complets et un kit de couture pour recoudre vite fait quand on est absent. Trouvez-les dans la Zone et rapportez-les-moi quand vous pouvez.",
+        "Il manque encore des pièces, soit des kits chirurgicaux, soit le kit de couture. Revenez avec la totalité.",
+        "Merci, on peut à nouveau travailler sans bricoler avec des pinces à linge. Voici le troisième tome de la série médecine, vous l'avez bien mérité."
+    ],
+    "ObjectiveText": "Trois kits de chirurgie de terrain et un kit de couture au Doc",
+    "FollowUpQuest": 76,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 715,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        74
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

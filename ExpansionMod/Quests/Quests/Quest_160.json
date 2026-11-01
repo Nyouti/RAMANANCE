@@ -1,0 +1,140 @@
+{
+    "ConfigVersion": 22,
+    "ID": 160,
+    "Type": 1,
+    "Title": "Les ours du Buisson",
+    "Descriptions": [
+        "Ne cherche pas, %1, je suis là. Juste à ta gauche. Non, plus bas. Voilà. Tu es passé deux fois devant moi : les gens ne regardent jamais vraiment, et c'est pour ça que je suis encore vivant. On m'appelle le Buisson, quand on m'appelle, ce qui n'arrive pas souvent. Avant, j'étais gardien du jardin d'enfants, en ville. Le jour où la Zone a grandi, les cars sont partis avec les enfants, et les ours en peluche sont restés sur les bancs. Je les ai gardés. Depuis, j'entre partout sans que personne me voie : chez ceux qui se croient à l'abri derrière leurs murs et leurs sentinelles, et là où plus personne n'ose aller. Et à chaque fois, je laisse un ours. Dix ours. Personne ne les a jamais remarqués. Toi, tu m'as trouvé, alors tu as peut-être des yeux. Retrouve-les tous. Je ne te dirai pas où ils sont : un ours qu'on te montre, ce n'est pas un ours que tu as trouvé. Approche-toi assez pour le toucher, et je le saurai : je serai derrière toi, et tu ne me verras pas. Et si tu meurs en route, ce n'est pas grave : ce que tu as trouvé reste trouvé.",
+        "Dix ours en peluche, cachés dans toute la Zone. Pas de carte, pas de repère : ouvre les yeux, et approche-toi assez pour toucher chacun d'eux.",
+        "Dix. Tous les dix. Tu es le premier, %1. Les sentinelles passent devant tous les jours, les officiers s'assoient à côté pour boire leur thé, et personne ne les voit. Toi, si. Alors écoute : voir, c'est la moitié du métier. L'autre moitié, c'est de ne pas être vu, et ça, je ne peux pas te l'apprendre. Alors prends ça : une Kalachnikov en or. Je l'ai décrochée du mur d'un bureau où plus personne ne regardait, et personne ne m'a vu sortir avec. Elle est complète, crosse, garde-main et chargeur. Un peu d'argent aussi, je n'en ai pas l'usage. Et garde cet ours-là : c'était le mien. Ne me cherche pas pour me dire au revoir. Je serai déjà parti."
+    ],
+    "ObjectiveText": "Retrouve les dix ours en peluche que le Buisson a cachés dans la Zone, sans carte ni repère, en t'approchant assez pour toucher chacun d'eux. Puis reviens le voir.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 4,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AKM_Gold",
+            "Amount": 1,
+            "Attachments": [
+                "AK_WoodBttstck_Gold",
+                "AK_WoodHndgrd_Gold",
+                "Mag_AKM_30Rnd_Gold"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Mag_AKM_30Rnd_Gold",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Bear_Dark",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        16
+    ],
+    "QuestTurnInIDs": [
+        16
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 160,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 161,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 162,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 163,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 164,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 165,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 166,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 167,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 168,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 169,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

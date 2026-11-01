@@ -1,0 +1,142 @@
+{
+    "AutoNextTrackEnabled": 1,
+    "MinDurationSeconds": 5.0,
+    "TrackSwitchLeadSeconds": 0.3499999940395355,
+    "_comment_File": "ФАЙЛ КОНФИГА: $profile:SFP/Radio/SFP_RadioConfig.json (читается/пишется сервером).",
+    "_comment_Overall": "ГЛОБАЛЬНАЯ ЛОГИКА: AutoNextTrackEnabled=true заставляет радио ПЕРЕКЛЮЧАТЬСЯ на следующий трек, когда заканчивается DurationSeconds у текущего трека.",
+    "_comment_Duration": "DurationSeconds: длительность трека в СЕКУНДАХ. Пример 3:37 = 217. Если 0 — автопереключение отключено и трек будет играть по кругу.",
+    "_comment_Lead": "",
+    "_comment_Name": "Name: название трека, которое будет показываться игроку (например при переключении трека).",
+    "_comment_Adding": "КАК ДОБАВИТЬ СВОЮ КАССЕТУ: 1) в config.cpp своего мода создай предмет, наследующийся от SFP_Cassette_Config; 2) добавь запись в SFPCassettes[] (CassetteClassName) и список Tracks[]. Каждый Track: SoundSet + Name + DurationSeconds.",
+    "SFPCassettes": [
+        {
+            "CassetteClassName": "SFP_radio_cassette_01",
+            "CassetteDisplayName": "Кассета 01",
+            "Tracks": [
+                {
+                    "SoundSet": "SFP_Cassette01_Prayers_Tears_In_The_Rain_SoundSet",
+                    "Name": "Prayers Tears In The Rain",
+                    "DurationSeconds": 214.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette01_Oddnesse_Summers_Almost_Over_SoundSet",
+                    "Name": "Oddnesse Summers Almost Over",
+                    "DurationSeconds": 162.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette01_Oddnesse_Somewhere_Somehow_SoundSet",
+                    "Name": "Oddnesse Somewhere Somehow",
+                    "DurationSeconds": 164.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette01_Giorgio_Moroder_Right_Combination_SoundSet",
+                    "Name": "Giorgio_Moroder_Right_Combination",
+                    "DurationSeconds": 221.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette01_Rammstein_Sonne_SoundSet",
+                    "Name": "Rammstein_Sonne",
+                    "DurationSeconds": 272.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette01_Singers_Edge_Fire_SoundSet",
+                    "Name": "Singers_Edge_Fire",
+                    "DurationSeconds": 248.0
+                }
+            ]
+        },
+        {
+            "CassetteClassName": "SFP_radio_cassette_02",
+            "CassetteDisplayName": "Кассета 02",
+            "Tracks": [
+                {
+                    "SoundSet": "SFP_Cassette02_Evalyn_A_Pill_to_Crush_SoundSet",
+                    "Name": "Evalyn A Pill to Crush",
+                    "DurationSeconds": 221.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette02_Nick_Rezo_Melllo_In_This_Shirt_SoundSet",
+                    "Name": "Nick Rezo Melllo In his Shirt",
+                    "DurationSeconds": 300.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette02_Night_Club_Civil_War_SoundSet",
+                    "Name": "Night Club Civil War",
+                    "DurationSeconds": 244.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette02_ONEIL_KANVISE_FAVIA_ORGAN_Shut_Your_Mouth_SoundSet",
+                    "Name": "ONEIL KANVISE FAVIA ORGAN Shut Your Mouth",
+                    "DurationSeconds": 175.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette02_The_Dumplings_Frank_SoundSet",
+                    "Name": "The Dumplings Frank",
+                    "DurationSeconds": 196.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette02_Up_The_RIvals_Name_Me_SoundSet",
+                    "Name": "Up The RIvals Name Me",
+                    "DurationSeconds": 120.0
+                }
+            ]
+        },
+        {
+            "CassetteClassName": "SFP_radio_cassette_03",
+            "CassetteDisplayName": "Кассета 03",
+            "Tracks": [
+                {
+                    "SoundSet": "SFP_Cassette03_7B_Molodie_Vetra_SoundSet",
+                    "Name": "7B Molodie Vetra",
+                    "DurationSeconds": 265.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Kola_Komarov_Mne_Povezet_SoundSet",
+                    "Name": "Kola Komarov Mne Povezet",
+                    "DurationSeconds": 185.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Kombine_Bugalter_SoundSet",
+                    "Name": "Kombine Bugalter",
+                    "DurationSeconds": 270.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Kombine_Pupuri_SoundSet",
+                    "Name": "Kombine Pupuri",
+                    "DurationSeconds": 463.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Komisare_You_Exit_SoundSet",
+                    "Name": "Komisare You Exit",
+                    "DurationSeconds": 303.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Olga_Voskoniyan_Gold_Obruc_SoundSet",
+                    "Name": "Olga Voskoniyan Gold Obruc",
+                    "DurationSeconds": 325.0
+                },
+                {
+                    "SoundSet": "SFP_Cassette03_Nastavshevs_Lubennikov_Nenaste_SoundSet",
+                    "Name": "Nastavshevs_Lubennikov_Nenaste",
+                    "DurationSeconds": 360.0
+                }
+            ]
+        },
+        {
+            "CassetteClassName": "SFP_radio_cassette_04",
+            "CassetteDisplayName": "Кассета 04",
+            "Tracks": []
+        },
+        {
+            "CassetteClassName": "SFP_radio_cassette_ClearSkyBar",
+            "CassetteDisplayName": "Clear Sky Bar",
+            "Tracks": [
+                {
+                    "SoundSet": "SFP_RadioPlayHolodBar_SoundSet",
+                    "Name": "Holod bar theme",
+                    "DurationSeconds": 0.0
+                }
+            ]
+        }
+    ]
+}

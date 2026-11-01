@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 104,
+    "Type": 1,
+    "Title": "La marchandise de la ferme",
+    "Descriptions": [
+        "Dis-moi, %1, tu connais la ferme des Veilleurs, au Cordon ? Dans la caisse de la fosse, il y avait aussi des conserves et des cartouches marquées de leur tampon. Ça t'étonne ? Faut pas. Les Veilleurs nous crachent dessus, mais l'un d'eux nous vend leur réserve, en douce, depuis des mois. Un fournisseur, chez nous, c'est sacré. Sa dernière livraison attend au point de dépôt, à six cents mètres au sud-est, au bord du chemin qui part vers l'est. Ramène la caisse, et le mot qu'il laisse toujours avec. Et ne joue pas au malin : ce que tu lis, tu l'oublies.",
+        "Le point de dépôt au bord du chemin de l'est, au sud-est de l'usine. La livraison et le mot du fournisseur.",
+        "Voilà. Le mot n'est pas signé, comme d'habitude : juste une petite clé dessinée dans le coin. Il signe toujours comme ça. Qui c'est ? Je n'en sais rien, et je ne veux pas le savoir. Chez nous, la première règle, c'est qu'on ne balance personne. Ni un frère, ni un fournisseur. Même toi, %1, tu n'as rien vu. Tiens, pour ta mémoire courte."
+    ],
+    "ObjectiveText": "Rejoins le point de dépôt au bord du chemin de l'est, au sud-est de l'usine, récupère la livraison du fournisseur et son mot, et rapporte-les à Stas.",
+    "FollowUpQuest": 105,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeInjectorAmoxiclav",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 104,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 104,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 104,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        103
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

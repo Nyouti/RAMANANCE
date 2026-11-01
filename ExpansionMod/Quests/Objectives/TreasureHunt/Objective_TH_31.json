@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 28,
+    "ID": 31,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de Grisha, au ravin, à l'est de la route du nord",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Green",
+    "DigInStash": 0,
+    "MarkerName": "Sac de Grisha",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5258.479980,
+            120.467461,
+            3551.260742
+        ]
+    ],
+    "LootItemsAmount": 3,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPaper",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "SFP_Can_Meat_closed",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "BandageDressing",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

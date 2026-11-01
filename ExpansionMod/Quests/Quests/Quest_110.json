@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 110,
+    "Type": 1,
+    "Title": "Les lettres du contingent",
+    "Descriptions": [
+        "…Chut. Parle bas, %1. La base est à deux cents mètres, et les oreilles traînent. Grechko. Les stalkers m'appellent l'Adjudant, parce que je l'ai été, il y a longtemps. Aujourd'hui, je ne suis plus rien pour l'armée, et c'est très bien comme ça. Écoute. Là-bas, dans la base, il y a des gamins de dix-neuf ans en uniforme. Ils n'ont pas le droit d'écrire chez eux : tout ce qui sort de la Zone est lu, et ce qui dérange est brûlé. Alors ils me confient leurs lettres. Ce paquet doit sortir. Porte-le au Cordon, à Viktor Sokolov, le Passe-frontière, près de la barrière sud. Lui sait faire passer du courrier de l'autre côté sans que personne ne l'ouvre. La route est longue, et rien ne t'oblige à dire d'où viennent ces lettres.",
+        "Le paquet de lettres, à remettre à Viktor Sokolov, à la frontière sud du Cordon. Personne ne l'ouvre.",
+        "Des lettres de soldats ? De l'Adjudant, alors. Il en envoie tous les mois. Donne. Je connais un chauffeur qui passe la barrière le jeudi, et les gars de la patrouille regardent ailleurs pour une bouteille. Tu vois, %1, la frontière ne retient pas que les stalkers. Elle retient aussi les mots. Tiens, pour la route."
+    ],
+    "ObjectiveText": "Porte le paquet de lettres des soldats d'Agroprom à Viktor Sokolov, à la frontière sud du Cordon, sans l'ouvrir.",
+    "FollowUpQuest": 111,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        54
+    ],
+    "QuestTurnInIDs": [
+        7
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 110,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

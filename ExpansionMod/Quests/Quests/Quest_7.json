@@ -1,0 +1,87 @@
+{
+    "ConfigVersion": 22,
+    "ID": 7,
+    "Type": 1,
+    "Title": "Une jambe, deux bâtons",
+    "Descriptions": [
+        "Hé... t'aurais pas deux minutes, %1 ? Moi c'est Anton, mais ici tout le monde m'appelle Rookie, va savoir pourquoi. J'ai voulu couper par un vieux muret en revenant d'une cache, et ma jambe a fait un bruit que je n'avais jamais entendu. Mes deux bandages, je les ai déjà grillés la semaine dernière. Ce qu'il me faut, c'est une attelle. Ça se fabrique : des chiffons, tu en fais en découpant un vieux vêtement, et du bois bien droit pour tenir la jambe. Tu assembles, et voilà. Tu me la fabriques ? Je te revaudrai ça.",
+        "Alors, cette attelle ? Des chiffons et du bois bien droit, tu assembles et c'est fait. Moi, je ne bouge pas d'ici, de toute façon.",
+        "Ah... ça va déjà mieux, rien qu'à la voir. Merci. Tu sais, j'ai appris un truc ici : la Zone ne te tue pas toujours d'un coup. Une jambe cassée, ça se tient avec une attelle. Une plaie qui saigne, ça se bande, et vite. Et si tu dois soigner une vraie blessure, fais bouillir ton matériel avant, sinon c'est l'infection qui te finit. Le jour où tu tombes pour de bon, tu n'es pas forcément mort : la première fois, c'est un gars de passage qui m'a relevé et traîné à l'abri. Depuis, je ne pars plus jamais seul trop loin. Tiens, prends ce pansement, et cette injection d'antibiotique : une plaie qui s'infecte, ici, ça ne pardonne pas. Moi, je l'ai lu trois fois. À toi de le lire une."
+    ],
+    "ObjectiveText": "Fabrique une attelle avec des chiffons et du bois bien droit, puis apporte-la à Anton, au refuge.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeInjectorAmoxiclav",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        9
+    ],
+    "QuestTurnInIDs": [
+        9
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 11
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 5,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

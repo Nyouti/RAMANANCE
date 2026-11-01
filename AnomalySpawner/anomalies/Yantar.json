@@ -1,0 +1,526 @@
+[
+	{
+		"Unique_Group_Title" : "Anomaly_Studen_Yantar",
+		"Classname_Anomaly_Object": "Anomaly_Studen",
+		"Chance_To_Spawn": 100,
+		"Positions_Spawn_Anomaly": [
+			[2370.405762, 47.712463, 6366.890137],
+			[2433.110107, 37.666531, 5973.810059],
+			[1805.991211, 101.054688, 5678.703613],
+			[2443.477539, 45.839569, 7014.790527]
+		],
+		"m_SpawnByRadius": {
+			"position": 
+			[
+				
+			],
+			"use_chance": 0,
+			"count_minmax": [
+				0,
+				0
+			],
+			"min_radius_minmax": [
+				10,
+				20
+			],
+			"max_radius_minmax": [
+				300,
+				350
+			]
+		},
+		"Enable_Spawn_ArtefactsWithoutDetectors": 1,
+		"Enable_Spawn_ArtefactsWithDetectors": 1,
+		"Distance_To_Group_Art_Trigger" : 20,
+		"Additional_Distance_For_Art_Triggger" : 2,
+		"Additional_Height_For_Art_Trigger" : 3,
+		"ArtefactsWithoutDetectors": {
+			"MaxInOnePoint": 1,
+			"ArtefactsList": [
+				{
+					"Classname": "MH_ART_Compas_Redux",
+					"Chance": 1
+				},
+				{
+					"Classname": "MH_ART_Busi_Redux",
+					"Chance": 1
+				}
+			]
+		},
+		"ArtefactsWithDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname_Detector": "Anomaly_Detector_Otklik",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Medved",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Svarog",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"Unique_Group_Title" : "Anomaly_Steklo_Yantar",
+		"Classname_Anomaly_Object": "Anomaly_Steklo",
+		"Chance_To_Spawn": 100,
+		"Positions_Spawn_Anomaly": [
+			[2554.311768, 75.992981, 7341.570313]
+		],
+		"m_SpawnByRadius": {
+			"position": 
+			[
+				
+			],
+			"use_chance": 0,
+			"count_minmax": [
+				0,
+				0
+			],
+			"min_radius_minmax": [
+				10,
+				20
+			],
+			"max_radius_minmax": [
+				300,
+				350
+			]
+		},
+		"Enable_Spawn_ArtefactsWithoutDetectors": 1,
+		"Enable_Spawn_ArtefactsWithDetectors": 1,
+		"Distance_To_Group_Art_Trigger" : 20,
+		"Additional_Distance_For_Art_Triggger" : 2,
+		"Additional_Height_For_Art_Trigger" : 3,
+		"ArtefactsWithoutDetectors": {
+			"MaxInOnePoint": 1,
+			"ArtefactsList": [
+				{
+					"Classname": "MH_ART_Compas_Redux",
+					"Chance": 1
+				},
+				{
+					"Classname": "MH_ART_Busi_Redux",
+					"Chance": 1
+				}
+			]
+		},
+		"ArtefactsWithDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname_Detector": "Anomaly_Detector_Otklik",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Medved",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Svarog",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"Unique_Group_Title" : "Anomaly_Tramplin_Yantar",
+		"Classname_Anomaly_Object": "Anomaly_Tramplin",
+		"Chance_To_Spawn": 100,
+		"Positions_Spawn_Anomaly": [
+			[2486.470947, 32.793167, 6079.171875],
+			[2705.442139, 58.129601, 6356.408691],
+			[2184.399414, 74.890373, 5664.012695],
+			[1990.183838, 63.249153, 5089.529785],
+			[1758.153809, 111.586502, 5567.943359],
+			[2541.670166, 52.871441, 6955.826172],
+			[2618.041992, 56.868813, 7098.372070]
+		],
+		"m_SpawnByRadius": {
+			"position": 
+			[
+				
+			],
+			"use_chance": 0,
+			"count_minmax": [
+				0,
+				0
+			],
+			"min_radius_minmax": [
+				10,
+				20
+			],
+			"max_radius_minmax": [
+				300,
+				350
+			]
+		},
+		"Enable_Spawn_ArtefactsWithoutDetectors": 1,
+		"Enable_Spawn_ArtefactsWithDetectors": 1,
+		"Distance_To_Group_Art_Trigger" : 20,
+		"Additional_Distance_For_Art_Triggger" : 2,
+		"Additional_Height_For_Art_Trigger" : 3,
+		"ArtefactsWithoutDetectors": {
+			"MaxInOnePoint": 1,
+			"ArtefactsList": [
+				{
+					"Classname": "MH_ART_Compas_Redux",
+					"Chance": 1
+				},
+				{
+					"Classname": "MH_ART_Busi_Redux",
+					"Chance": 1
+				}
+			]
+		},
+		"ArtefactsWithDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname_Detector": "Anomaly_Detector_Otklik",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Medved",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Svarog",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"Unique_Group_Title" : "Anomaly_Electra_Yantar",
+		"Classname_Anomaly_Object": "Anomaly_Electra",
+		"Chance_To_Spawn": 100,
+		"Positions_Spawn_Anomaly": [
+			[2573.182129, 57.444981, 6370.980957],
+			[2997.310303, 75.293495, 6109.913086],
+			[1972.881592, 96.551758, 5462.762695],
+			[2634.318604, 97.983894, 7724.706055]
+		],
+		"m_SpawnByRadius": {
+			"position": 
+			[
+				
+			],
+			"use_chance": 0,
+			"count_minmax": [
+				0,
+				0
+			],
+			"min_radius_minmax": [
+				10,
+				20
+			],
+			"max_radius_minmax": [
+				300,
+				350
+			]
+		},
+		"Enable_Spawn_ArtefactsWithoutDetectors": 0,
+		"Enable_Spawn_ArtefactsWithDetectors": 1,
+		"Distance_To_Group_Art_Trigger" : 20,
+		"Additional_Distance_For_Art_Triggger" : 2,
+		"Additional_Height_For_Art_Trigger" : 3,
+		"ArtefactsWithoutDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname": "FurCourierBag",
+					"Chance": 22
+				},
+				{
+					"Classname": "ImprovisedBag",
+					"Chance": 1
+				},
+				{
+					"Classname": "DryBag_Orange",
+					"Chance": 3
+				}
+			]
+		},
+		"ArtefactsWithDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname_Detector": "Anomaly_Detector_Otklik",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 20
+						},
+						{
+							"Classname": "MH_ART_Kristal_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_GoldFish_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Soul_Redux",
+							"Chance": 2
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Medved",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Soul_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Kristal_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_GoldFish_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Meduza_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Soul_Redux",
+							"Chance": 2
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Svarog",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Kristal_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Soul_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_GoldFish_Redux",
+							"Chance": 2
+						},
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 7
+						},
+						{
+							"Classname": "MH_ART_Soul_Redux",
+							"Chance": 2
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"Unique_Group_Title" : "Anomaly_Voronka_Yantar",
+		"Classname_Anomaly_Object": "Anomaly_Voronka",
+		"Chance_To_Spawn": 100,
+		"Positions_Spawn_Anomaly": [
+			[2677.121826, 56.483971, 6198.543457],
+			[1977.964111, 48.755314, 4981.014160],
+			[2520.216309, 56.130123, 7168.725098]
+		],
+		"m_SpawnByRadius": {
+			"position": 
+			[
+				
+			],
+			"use_chance": 0,
+			"count_minmax": [
+				0,
+				0
+			],
+			"min_radius_minmax": [
+				10,
+				20
+			],
+			"max_radius_minmax": [
+				300,
+				350
+			]
+		},
+		"Enable_Spawn_ArtefactsWithoutDetectors": 1,
+		"Enable_Spawn_ArtefactsWithDetectors": 1,
+		"Distance_To_Group_Art_Trigger" : 20,
+		"Additional_Distance_For_Art_Triggger" : 2,
+		"Additional_Height_For_Art_Trigger" : 3,
+		"ArtefactsWithoutDetectors": {
+			"MaxInOnePoint": 1,
+			"ArtefactsList": [
+				{
+					"Classname": "MH_ART_Compas_Redux",
+					"Chance": 1
+				},
+				{
+					"Classname": "MH_ART_Busi_Redux",
+					"Chance": 1
+				}
+			]
+		},
+		"ArtefactsWithDetectors": {
+			"MaxInOnePoint": 2,
+			"ArtefactsList": [
+				{
+					"Classname_Detector": "Anomaly_Detector_Otklik",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Medved",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				},
+				{
+					"Classname_Detector": "Anomaly_Detector_Svarog",
+					"Detect_Artefacts_Settings": [
+						{
+							"Classname": "MH_ART_Battery_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Busi_Redux",
+							"Chance": 1
+						},
+						{
+							"Classname": "MH_ART_Compas_Redux",
+							"Chance": 1
+						}
+					]
+				}
+			]
+		}
+	}
+]
+

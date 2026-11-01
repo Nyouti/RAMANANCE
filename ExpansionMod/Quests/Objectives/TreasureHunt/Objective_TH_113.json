@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 113,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve la sacoche du pilote près de l'épave du Mi-8",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Blue",
+    "DigInStash": 0,
+    "MarkerName": "Sacoche du pilote",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5349.0,
+            115.6,
+            5212.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPaper",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

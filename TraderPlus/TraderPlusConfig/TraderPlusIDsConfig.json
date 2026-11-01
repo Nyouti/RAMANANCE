@@ -1,0 +1,562 @@
+{
+    "Version": "2.5",
+    "IDs": [
+        {
+            "Id": 0,
+            "Categories": [
+                "Sidorovitch — Vêtements",
+                "Sidorovitch — Armes",
+                "Sidorovitch — Nourriture",
+                "Sidorovitch — Électronique",
+                "Sidorovich — Parties de Mutant",
+                "Sidorovitch — revente"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 1,
+            "Categories": [
+                "Veilleurs - Survie",
+                "Veilleurs - Medical",
+                "Veilleurs - armes secondaires",
+                "Veilleurs - armes principales",
+                "Veilleurs - munitions",
+                "Veilleurs - Radiation",
+                "Veilleurs - boites",
+                "Veilleurs — Tickets stash",
+                "Veilleurs — Revente"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": ["TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"]
+        },
+        {
+            "Id": 2,
+            "Categories": [
+                "Faction Veilleurs - Parties de Mutants",
+                "Faction Veilleurs — Sacs à dos",
+                "Faction Veilleurs — Vêtements",
+                "Faction Veilleurs — Gants",
+                "Faction Veilleurs — Chaussures",
+                "Faction Veilleurs — Masques",
+                "Faction Veilleurs — Filtres",
+                "Faction Veilleurs — Ceintures et Accessoires",
+                "Faction Veilleurs — Armes et Outils",
+                "Faction Veilleurs — Électronique",
+                "Faction Veilleurs — Outils de Réparation",
+                "Faction Veilleurs — Médical",
+                "Faction Veilleurs — Nourriture et Boissons",
+                "Faction Veilleurs — Armes et Munitions",
+                "Faction Veilleurs — Masques à Gaz",
+                "Faction Veilleurs — Patches et Tags",
+                "Faction Veilleurs — Attachements"
+            ],
+            "LicencesRequired": [
+                "Licence Veilleurs"
+            ],
+            "CurrenciesAccepted": ["TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"]
+        },
+        {
+            "Id": 3,
+            "Categories": [
+                "Bandits - Parties de Mutants",
+                "Bandits-Survie",
+                "Bandits — Médical",
+                "Bandits — Gants",
+                "Bandits — Chaussures",
+                "Bandits — Masques",
+                "Bandits — Filtres",
+                "Bandits — Ceintures et Accessoires",
+                "Bandits — Armes et Outils",
+                "Bandits — Électronique",
+                "Bandits — Outils de Réparation",
+                "Bandits — Nourriture et Boissons",
+                "Bandits — Armes et Munitions",
+                "Bandits — Attachements Armes",
+                "Bandits — Masques à Gaz",
+                "Bandits — Vêtements Bandits",
+                "Bandits — Vêtements Civils",
+                "Bandits — Sacs à dos",
+                "Bandits — Patches et Tags",
+                "Bandits — Casques et Têtes",
+                "Bandits — Accessoires"
+            ],
+            "LicencesRequired": [
+                "Licence Bandits"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 4,
+            "Categories": [
+                "SVOB - Parties de Mutants",
+                "SVOB — Médical",
+                "SVOB — Gants",
+                "SVOB — Chaussures",
+                "SVOB — Masques",
+                "SVOB — Filtres",
+                "SVOB — Ceintures et Accessoires",
+                "SVOB — Armes et Outils",
+                "SVOB — Électronique",
+                "SVOB — Outils de Réparation",
+                "SVOB — Nourriture et Boissons",
+                "SVOB — Armes et Munitions",
+                "SVOB — Attachements Armes",
+                "SVOB — Masques à Gaz",
+                "SVOB — Vêtements Freedom Wind",
+                "SVOB — Vêtements Freedom MK2",
+                "SVOB — Vêtements Freedom Ballistic",
+                "SVOB — Sacs à dos",
+                "SVOB — Patches et Tags",
+                "SVOB — Chapeaux et Casques",
+                "SVOB — Cannabis",
+                "SVOB — Champignons"
+            ],
+            "LicencesRequired": [
+                "Licence Liberté"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 5,
+            "Categories": [],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 6,
+            "Categories": [
+                "Barman - Survie",
+                "Barman - Med",
+                "Barman - armes secondaires",
+                "Barman - armes principales",
+                "Barman - munitions",
+                "Barman - Attachments",
+                "Barman - Radiation",
+                "Barman - boites de conserves",
+                "Barman - Parties de Mutants",
+                "Barman — Revente"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 7,
+            "Categories": [
+                "DUTY - Parties de Mutants",
+                "DUTY — Médical",
+                "DUTY — Gants",
+                "DUTY — Chaussures",
+                "DUTY — Masques",
+                "DUTY — Filtres",
+                "DUTY — Ceintures et Accessoires",
+                "DUTY — Armes et Outils",
+                "DUTY — Électronique",
+                "DUTY — Outils de Réparation",
+                "DUTY — Nourriture et Boissons",
+                "DUTY — Armes et Munitions",
+                "DUTY — Attachements Armes",
+                "DUTY — Masques à Gaz",
+                "DUTY — Vêtements Wind",
+                "DUTY — Vêtements Bulat",
+                "DUTY — Vêtements Seva",
+                "DUTY — Vêtements Ballistic",
+                "DUTY — Sacs à dos",
+                "DUTY — Patches et Tags",
+                "DUTY — Casques et Têtes",
+                "DUTY — Accessoires"
+            ],
+            "LicencesRequired": [
+                "Licence Devoir"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 8,
+            "Categories": [
+                "liberté - basiques",
+                "liberté - Médocs",
+                "liberté - armes secondaires",
+                "liberté - armes principales",
+                "liberté - munitions",
+                "liberté - Matos d'armes",
+                "liberté - matos de Radiation",
+                "liberté - Bouffe",
+                "liberté - Fringues",
+                "liberté - Divers",
+                "Liberté — morceaux de béstioles",
+                "Liberté — Revente"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 9,
+            "Categories": [
+                "militaires - Matériel de survie",
+                "militaires - Matériel de Secours",
+                "militaires - armements léger",
+                "militaires - armements de combat",
+                "militaires - boites de munitions",
+                "militaires - matériel Radiation",
+                "militaires - nourritures",
+                "militaires - accessoires d'armes",
+                "militaires - effets",
+                "militaires - Fournitures divers",
+                "militaires — échantillons mutants",
+                "militaires — Revente"
+            ],
+            "LicencesRequired": [
+                "Licence Militaires"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 10,
+            "Categories": [
+                "Mili - Parties de Mutants",
+                "Mili — Médical",
+                "Mili — Gants",
+                "Mili — Chaussures",
+                "Mili — Masques",
+                "Mili — Filtres",
+                "Mili — Ceintures et Accessoires",
+                "Mili — Armes et Outils",
+                "Mili — Électronique",
+                "Mili — Outils de Réparation",
+                "Mili — Nourriture et Boissons",
+                "Mili — Armes et Munitions",
+                "Mili — Attachements Armes",
+                "Mili — Casques et Têtes",
+                "Mili — Vêtements Bulat",
+                "Mili — Vêtements Beryl",
+                "Mili — Vêtements Armée",
+                "Mili — Masques à Gaz",
+                "Mili — Sacs à dos",
+                "Mili — Patches et Tags",
+                "Mili — Accessoires"
+            ],
+            "LicencesRequired": [
+                "Licence Militaires"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 11,
+            "Categories": [
+                "ecologiste - tablettes",
+                "ecologiste - injecteurs",
+                "ecologiste - anti radiations",
+                "ecologiste - ampoules",
+                "ecologiste - electronique",
+                "ecologiste — Parties de Mutants",
+                "Revente Artefacts"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 12,
+            "Categories": [
+                "ClearSky - Parties de Mutants",
+                "ClearSky — Vêtements Sunrise",
+                "ClearSky — Vêtements Seva",
+                "ClearSky — Vêtements Wind",
+                "ClearSky — Vêtements Ballistic",
+                "ClearSky — Casques et Têtes",
+                "ClearSky — Sacs à dos",
+                "ClearSky — Patches et Tags",
+                "ClearSky — Gants",
+                "ClearSky — Chaussures",
+                "ClearSky — Masques",
+                "ClearSky — Masques à Gaz",
+                "ClearSky — Filtres",
+                "ClearSky — Ceintures et Accessoires",
+                "ClearSky — Armes et Outils",
+                "ClearSky — Électronique",
+                "ClearSky — Outils de Réparation",
+                "ClearSky — Médical",
+                "ClearSky — Nourriture et Boissons",
+                "ClearSky — Armes et Munitions",
+                "ClearSky — Attachements Armes",
+                "ClearSky — Revente Artefacts"
+            ],
+            "LicencesRequired": [
+                "Licence Clear Sky"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 13,
+            "Categories": [
+                "Gopniks - Survie",
+                "Gopniks - Medical",
+                "Gopniks - armes secondaires",
+                "Gopniks - armes principales",
+                "Gopniks - munitions",
+                "Gopniks - Attachments",
+                "Gopniks - Radiation",
+                "Gopniks - casse dalle",
+                "Gopniks - Vétements",
+                "Gopniks - Divers",
+                "Gopniks — Revente"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 14,
+            "Categories": [
+                "ECO — Vêtements FS Eco",
+                "ECO — Chaussures",
+                "ECO — Sacs à dos",
+                "ECO — Combinaisons SEVA",
+                "ECO — Gants",
+                "ECO — Masques",
+                "ECO — Filtres",
+                "ECO — Ceintures et Accessoires",
+                "ECO — Armes et Outils",
+                "ECO — Électronique",
+                "ECO — Détecteurs d'Anomalies",
+                "ECO — Outils de Réparation",
+                "ECO — Médical",
+                "ECO — Anti-Radiation et Psi",
+                "ECO — Nourriture et Boissons",
+                "ECO — Armes et Munitions",
+                "ECO — Exosquelettes",
+                "ECO — Documents et Objets",
+                "ECO — Parties de Mutants",
+                "ECO — Revente Artefacts"
+            ],
+            "LicencesRequired": [
+                "Licence Écologistes"
+            ],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        },
+        {
+            "Id": 15,
+            "Categories": [
+                "Firmament - outils de survie",
+                "Firmament - outils de Secours",
+                "Firmament - armes légères",
+                "Firmament - armes de combat",
+                "Firmament - cartouches",
+                "Firmament - outils de Radiation",
+                "Firmament - vivres",
+                "Firmament - accessoires",
+                "Firmament - habits",
+                "Firmament - Fournitures",
+                "Firmament - échantillons de créatures",
+                "Firmament — Revente",
+                "Firmament — Revente Artefacts"
+            ],
+            "LicencesRequired": [],
+            "CurrenciesAccepted": [
+                "TraderPlus_Money_Ruble500",
+                "TraderPlus_Money_Ruble200",
+                "TraderPlus_Money_Ruble100",
+                "TraderPlus_Money_Ruble50",
+                "TraderPlus_Money_Ruble10",
+                "TraderPlus_Money_Ruble5",
+                "TraderPlus_Money_Ruble5_Coin",
+                "TraderPlus_Money_Ruble2_Coin",
+                "TraderPlus_Money_Ruble1_Coin",
+                "TraderPlus_Money_Ruble1000",
+                "TraderPlus_Money_Ruble2000",
+                "TraderPlus_Money_Ruble5000"
+            ]
+        }
+    ]
+}
+                

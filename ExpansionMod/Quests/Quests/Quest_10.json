@@ -1,0 +1,89 @@
+{
+    "ConfigVersion": 22,
+    "ID": 10,
+    "Type": 1,
+    "Title": "Contrat moyen : la meute de l'est",
+    "Descriptions": [
+        "Une meute de chiens s'est installée à l'est du refuge, %1. Trois bêtes, et elles reviennent toujours. Elles ont encore mordu un porteur cette semaine. Va les abattre et rapporte-moi deux queues, que je sache que c'est fait. Attention : un chien seul, ça se gère. Trois qui t'encerclent, c'est autre chose. Dos contre un mur, et tire avant qu'ils soient sur toi.",
+        "Les chiens, à l'est du refuge. Trois bêtes, deux queues. Dos contre un mur, et tire avant qu'ils soient sur toi.",
+        "Deux queues... bien. Les porteurs vont pouvoir passer tranquilles, au moins jusqu'à demain : ces sales bêtes reviennent toujours. Tiens, ta paie. Tu l'as méritée."
+    ],
+    "ObjectiveText": "Abats les 3 chiens de la meute à l'est du refuge, puis rapporte 2 queues de chien à Papa Voronine.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble200",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 2,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 7,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        1
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

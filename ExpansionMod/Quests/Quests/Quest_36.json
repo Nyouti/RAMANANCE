@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 36,
+    "Type": 1,
+    "Title": "Le dernier campement",
+    "Descriptions": [
+        "Entre ici et leur ancienne base, ils avaient un campement, un dernier arrêt avant de rentrer. Il est à l'ouest, à un peu plus d'un kilomètre. Ils y gardaient une réserve, au sud du camp. S'ils sont passés par là en rentrant, ils y ont peut-être laissé quelque chose. Va voir, et prends ce que tu trouves. Mais méfie-toi : depuis quelques semaines, des sauvages traînent autour du camp. Des bandits qui vivent comme des bêtes, avec des haches et des couteaux, et avec eux un colosse au marteau qui encaisse comme trois hommes. Ils ne négocient pas, ils chargent. Ne te laisse pas encercler, et garde des munitions pour le gros. Et prépare la suite : leur base est dans une tache radioactive, et un filtre ordinaire n'y tiendra pas. Il te faudra un GP-21 : bricole-toi le tien à partir d'un filtre ordinaire.",
+        "Le campement, à l'ouest, sur la route de leur base. La réserve est au sud du camp. Méfie-toi des sauvages, et surtout du colosse au marteau. Et pense au GP-21 pour la suite.",
+        "La réserve était encore pleine ? Alors ils sont passés sans s'arrêter, ou ils n'en ont pas eu besoin. Garde ce que tu as trouvé, %1, et prends ça en plus : revenir entier de chez les sauvages, ça se paie. Et procure-toi un GP-21 avant d'aller à leur base : tu en auras besoin."
+    ],
+    "ObjectiveText": "Rejoins le dernier campement de Clear Sky, à l'ouest, fouille la réserve au sud du camp, puis reviens voir le Silencieux.",
+    "FollowUpQuest": 37,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "BandageDressing",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        10
+    ],
+    "QuestTurnInIDs": [
+        10
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 36,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 36,
+            "ObjectiveType": 6
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        35
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,57 @@
+{
+    "Enabled": 1,
+    "FirstDelaySeconds": 300.0,
+    "RepeatEverySeconds": 1800.0,
+    "SirenDurationSeconds": 60.0,
+    "MaxHearDistance": 2000.0,
+    "Zones": [
+        {
+            "Name": "Cordon",
+            "X": 4593.09716796875,
+            "Y": 80.8605728149414,
+            "Z": 1808.22998046875,
+            "Radius": 2000.0,
+            "Enabled": 1
+        },
+        {
+            "Name": "Garbage",
+            "X": 4977.759766,
+            "Y": 133.120193,
+            "Z": 4629.411133,
+            "Radius": 2000.0,
+            "Enabled": 1
+        },
+        {
+            "Name": "Rostock",
+            "X": 4941.952148,
+            "Y": 131.535049,
+            "Z": 6771.062500,
+            "Radius": 2000.0,
+            "Enabled": 1
+        },
+        {
+            "Name": "Agro",
+            "X": 1692.665039,
+            "Y": 57.552315,
+            "Z": 4059.447266,
+            "Radius": 2000.0,
+            "Enabled": 1
+        },
+        {
+            "Name": "Yantar",
+            "X": 2437.339355,
+            "Y": 37.784996,
+            "Z": 6210.198242,
+            "Radius": 2000.0,
+            "Enabled": 1
+        },
+        {
+            "Name": "Army",
+            "X": 5831.058105,
+            "Y": 147.075577,
+            "Z": 7999.535156,
+            "Radius": 2000.0,
+            "Enabled": 1
+        }
+    ]
+}

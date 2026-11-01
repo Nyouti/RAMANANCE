@@ -1,0 +1,98 @@
+{
+    "ConfigVersion": 22,
+    "ID": 108,
+    "Type": 1,
+    "Title": "Les tombes du trou",
+    "Descriptions": [
+        "Les bandits n'ont pas de cimetière, %1. On enterre les nôtres au bord du trou radioactif, à sept cents mètres à l'ouest, là où personne ne vient creuser. Une bouteille sur chaque tombe, et le nom gravé sur une planche. Mais des chairs se sont mises à fouiller la terre, et elles déterrent nos morts. Va là-bas, tue ces bêtes et vérifie l'état des tombes. Des chiens rôdent aussi dans le coin. On ne laisse personne à la Zone, même mort. Le cœur du trou est très irradié : reste sur le bord.",
+        "Les tombes au bord du trou radioactif, à l'ouest. Les chairs qui fouillent la terre. Reste sur le bord.",
+        "Les tombes tiennent ? Bien. Ce soir, je ferai graver le nom de Tolik sur une planche, à côté des autres. Tu sais, %1, les gens croient qu'un bandit n'a ni foi ni loi. On a des lois. Seulement, ce ne sont pas les leurs. Tiens, pour la route."
+    ],
+    "ObjectiveText": "Rejoins les tombes des bandits au bord du trou radioactif, à l'ouest de Garbage, et tue les chairs qui les déterrent.",
+    "FollowUpQuest": 109,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeInjectorAmoxiclav",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Vodka_Rus",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 108,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 108,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        107
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

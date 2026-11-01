@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 715,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Trois kits de chirurgie de terrain et un kit de couture au Doc",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 3,
+            "ClassName": "TerjeSurgicalKit",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "SewingKit",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

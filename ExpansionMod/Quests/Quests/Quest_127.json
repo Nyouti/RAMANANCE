@@ -1,0 +1,89 @@
+{
+    "ConfigVersion": 22,
+    "ID": 127,
+    "Type": 1,
+    "Title": "La tache de l'ouest",
+    "Descriptions": [
+        "Je vous dois une histoire, %1. Il y a deux ans, le professeur Lebedev est parti faire un relevé dans la petite tache radioactive à l'ouest du bunker. Deux cent quarante mètres, une demi-heure aller-retour. Les deux soldats de l'escorte sont revenus seuls, en courant. Une chose invisible avait jeté Lebedev contre un arbre, puis les caisses, puis tout ce qui traînait. Un poltergeist. Lebedev aurait dû y aller avec moi, ce jour-là ; j'étais au lit, malade d'un de mes propres essais. Depuis, nous n'avons plus d'escorte, et je ne demande à personne ce que je ne m'impose pas. Je vous le demande quand même : tuez cette chose, puis faites au cœur de la tache le relevé que Lebedev n'a jamais terminé. GP-21 obligatoire.",
+        "La tache de l'ouest, à deux cent quarante mètres. Le poltergeist d'abord, puis le relevé au cœur, avec un GP-21.",
+        "Le relevé de Lebedev, enfin. Je l'inscrirai sous son nom dans le rapport, pas sous le mien. Merci, %1. Tenez : une poche de soluté, pour le prochain qui reviendra de là-bas. Et si un jour vous voyez une caisse brisée contre un tronc, à l'ouest, laissez-la où elle est."
+    ],
+    "ObjectiveText": "Tue le poltergeist de la tache radioactive à l'ouest du bunker, puis fais un relevé au cœur de la tache (filtre GP-21 obligatoire) et reviens voir le Doc.",
+    "FollowUpQuest": 128,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SalineBagIV",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 127,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 127,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        126
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

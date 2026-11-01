@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 2,
+    "Type": 1,
+    "Title": "Le carnet de Liocha",
+    "Descriptions": [
+        "Avant que tu repartes, %1, il faut que je te parle de Liocha. Un gamin comme toi, arrivé par Viktor lui aussi. Il croyait que la Zone, c'était une forêt avec des loups en plus, et il n'écoutait personne. Il y a trois jours, il est parti seul dans le tunnel. Il n'est pas revenu. Va voir. Mais écoute-moi bien : à l'entrée, si l'air crépite et que des éclairs bleus dansent au-dessus du sol, tu attends qu'ils se calment avant de passer, et tu longes la paroi. Son sac doit être une trentaine de pas plus loin, à côté d'une flaque verte qui fume. Tu n'y mets pas les pieds. Tu prends le sac, tu ne vas pas plus loin, et tu reviens.",
+        "Tu as retrouvé le sac de Liocha ? Non ? Alors retourne au tunnel, et lentement. Si ça crépite, tu attends. Si ça fume, tu contournes. Si quelque chose flotte dans l'air, tu ne le touches pas. Et tu ne vas pas plus loin que le sac.",
+        "Montre-moi ce carnet... C'est bien son écriture. Écoute ce qu'il a noté : « Ici, la Zone a tordu les règles. On ne la voit pas toujours, mais elle se trahit : l'air tremble, ça crépite, les feuilles tournent sur place, rien ne pousse autour. À l'entrée, des éclairs bleus au-dessus des rails. J'ai lancé un boulon, la foudre l'a pris. Plus loin, une flaque verte qui fume : elle a rongé mes bottes. Juste à côté, des éclats de verre qui flottent dans l'air. Au fond, un trou dans l'air qui aspire tout ce que je jette, et du feu qui sort du sol sans prévenir. Je vais juste voir un peu plus loin... » Et c'est tout. Voilà ce qu'est une anomalie, gamin : un piège que la Zone tend à ceux qui sont pressés. Garde ses boulons, et lance-les avant chaque pas. Lui ne l'a pas fait assez."
+    ],
+    "ObjectiveText": "Rejoins l'entrée du tunnel aux anomalies, retrouve le sac de Liocha sans entrer dans les anomalies, puis reviens voir Papa Voronine.",
+    "FollowUpQuest": 3,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "BandageDressing",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 6
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        1
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

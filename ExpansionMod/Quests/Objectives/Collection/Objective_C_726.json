@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 726,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Deux plaquettes d'arsenic et une ampoule d'arsenic au Doc",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 2,
+            "ClassName": "TerjePillsArsenic",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "TerjeAmpouleArsenic",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

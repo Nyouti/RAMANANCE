@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 88,
+    "Type": 1,
+    "Title": "Mallette du Passeur",
+    "Descriptions": [
+        "%1, j'ai une mallette scientifique à retirer du circuit médical sans qu'elle se retrouve sur un marché. Le Passeur sait où la faire disparaître proprement. Je vous la confie ; remettez-la-lui en main propre, sans l'ouvrir pour copier des notes.",
+        "Tant que le Passeur n'a pas récupéré la mallette, la livraison n'est pas faite.",
+        "Parfait, c'est bien la malle promise. Le Doc t'avait parlé d'un livre et d'un peu de matériel si tu faisais le travail sans accroc : tiens, et file avant que quelqu'un ne fouille ton sac."
+    ],
+    "ObjectiveText": "Livrer la mallette scientifique au Passeur",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "ScientificBriefcase",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine4",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeFirstAidKitLarge",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        52
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 729,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        87
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

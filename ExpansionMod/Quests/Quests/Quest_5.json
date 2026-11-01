@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 5,
+    "Type": 1,
+    "Title": "Le crépitement",
+    "Descriptions": [
+        "Bon, %1. Puisque tu as des jambes et un dosimètre, tu vas m'être utile. Je prépare les itinéraires de ravitaillement entre la ferme et le refuge de Papa. Un porteur qui traverse une zone sans le savoir revient en vomissant, et ça me fait un homme en moins. Il me faut des relevés. Deux coins à vérifier, je te les marque. Une zone radioactive, ça ne se voit pas : ni brouillard, ni panneau, juste ton dosimètre qui se met à crépiter. Tu t'approches juste assez pour l'entendre, tu lis le chiffre, et pas un pas de plus. Masque sur le nez et filtre vissé, et garde un œil dessus : là-dedans, un filtre s'use à toute vitesse. Tu donneras les chiffres à Papa, je les récupère par radio.",
+        "Mes relevés ? Deux coins : le champ à l'est de la route, puis la tache près du refuge. Tu entres à peine, tu lis ton dosimètre, tu ressors. Et c'est Papa qui récupère les chiffres.",
+        "Dmitri m'a prévenu par radio. Fais voir tes chiffres... Le champ de l'est, ça va tant qu'on ne s'y promène pas. La petite tache derrière chez moi, elle, a déjà rendu malade plus d'un gamin trop curieux. Écoute bien : les radiations, ton corps les garde. Elles s'accumulent sans que tu sentes rien, et le jour où ça déborde, c'est la nausée, les vomissements, puis bien pire. Pour aider le corps à s'en débarrasser, il y a l'iode, comme les cachets que je t'ai donnés pour l'abri, et la mexamine, plus forte, quand tu as vraiment pris une dose. Mais un cachet ne remplace pas la prudence : tu ne restes jamais dans une zone. Et à l'est, bien au-delà du champ, il y a un endroit où même avec un masque tu ne tiens pas longtemps. N'y va pas. Tiens, ta paie, de la part de Dmitri. Et pour tes filtres, le vieux technicien de la ferme en vend."
+    ],
+    "ObjectiveText": "Fais deux relevés au dosimètre pour Dmitri, en lisière des zones radioactives de la route, puis porte les chiffres à Papa Voronine.",
+    "FollowUpQuest": 6,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble200",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        8
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 2,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 3,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        4
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

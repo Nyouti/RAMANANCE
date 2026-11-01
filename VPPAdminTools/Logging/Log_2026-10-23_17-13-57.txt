@@ -1,0 +1,542 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-10-23_17-13-57
+====================================================================================
+17:13:57 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+17:13:57 | [PermissionManager] Perm (FreeCamera) has been registered!
+17:13:57 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuServerManager) has been registered!
+17:13:57 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+17:13:57 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+17:13:57 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+17:13:57 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+17:13:57 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+17:13:57 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+17:13:57 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+17:13:57 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+17:13:57 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuBansManager) has been registered!
+17:13:57 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+17:13:57 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+17:13:57 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:EditTemplates) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:TestSend) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuWebHooks:ViewURL) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+17:13:57 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+17:13:57 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:EditTypes) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:AddRemoveTypes) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:DistributionMap) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:ViewBackups) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:RestoreBackup) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:DeleteBackup) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:LiveScan) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:DeleteObjects) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:EditMessages) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:EditEvents) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuXMLEditor:EditSpawnables) has been registered!
+17:13:57 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:ItemHealth) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:WeaponLoad) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:CreatureHeal) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:SpawnAttachment) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:CreatureKill) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:ItemQuantity) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:VehicleRefuel) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:WeaponRefill) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:WeaponJam) has been registered!
+17:13:57 | [PermissionManager] Perm (ContextMenu:WeaponEject) has been registered!
+17:13:58 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+17:13:58 | [PermissionManager] Adding Super Admin (76561198317293678)
+17:13:58 | [PermissionManager] Adding Super Admin (76561198207165013)
+17:13:58 | [PermissionManager] Adding Super Admin (76561199417217773)
+17:13:58 | [PermissionManager] Adding Super Admin (76561198097580497)
+17:13:58 | [PermissionManager] Loaded UserGroups.json
+17:13:58 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+17:13:58 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+17:13:58 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+17:13:58 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+17:13:58 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+17:13:58 | [BuildingSetManager] Journal: 20 set(s) loaded, 0 found by the folder scan, 0 dropped
+17:13:58 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+17:13:58 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+18:40:37 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+18:40:59 | "L'asticot" (steamid=76561198207165013) toggled godmode
+18:41:2 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:41:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3716.460205, 115.751976, 452.787323>)
+18:41:10 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:41:17 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:41:20 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3719.816650, 115.739838, 459.082336>)
+18:41:20 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:41:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TerritoryFlag)
+18:41:31 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <3719.816650, 116.039154, 459.082336>
+18:41:32 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <3719.816650, 116.039154, 459.082336>
+18:41:33 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <3719.816650, 116.039154, 459.082336>
+18:41:40 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Flag_DayZ)
+18:42:17 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Red)
+18:42:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Red)
+18:42:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Yellow)
+18:42:35 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Yellow)
+18:42:35 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Yellow)
+18:42:50 | "L'asticot" (steamid=76561198207165013) deleted object "BarrelHoles_Yellow" (pos=<3716.387207, 115.713715, 451.070343>)
+18:42:57 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Blue)
+18:42:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Blue)
+18:43:19 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Green)
+18:43:21 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BarrelHoles_Green)
+18:43:55 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DarkMotoHelmet_Red)
+18:44:6 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DarkMotoHelmet_Yellow)
+18:44:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DarkMotoHelmet_Green)
+18:44:43 | "L'asticot" (steamid=76561198207165013) Spawned Item: (MotoHelmet_Blue)
+18:46:16 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Raincoat_Green)
+18:46:17 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Raincoat_Yellow)
+18:46:19 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Raincoat_Red)
+18:46:21 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Raincoat_Blue)
+18:48:21 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TrackSuitPants_Blue)
+18:48:22 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TrackSuitPants_Green)
+18:48:24 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TrackSuitPants_Red)
+18:48:44 | "L'asticot" (steamid=76561198207165013) Spawned Item: (NBCPantsYellow)
+18:49:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:49:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3559.384277, 115.953018, 302.923553>)
+18:49:26 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:49:37 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:49:42 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3566.932617, 115.953018, 296.195892>)
+18:49:43 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:49:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TerritoryFlag)
+18:49:50 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <3566.609863, 116.252335, 296.338318>
+18:49:50 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <3566.609863, 116.252335, 296.338318>
+18:49:51 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <3566.609863, 116.252335, 296.338318>
+18:50:10 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Flag_DayZ)
+18:50:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:50:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3494.465576, 115.934258, 276.816895>)
+18:50:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:50:31 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TerritoryFlag)
+18:50:33 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <3494.947998, 116.233574, 277.267700>
+18:50:34 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <3494.947998, 116.233574, 277.267700>
+18:50:36 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <3494.947998, 116.233574, 277.267700>
+18:50:44 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Flag_DayZ)
+18:50:55 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:50:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3502.446777, 115.934258, 270.692596>)
+18:50:57 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:51:8 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Blue)
+18:51:9 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Blue)
+18:51:41 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+18:51:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:51:55 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:51:57 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:52:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3559.495117, 115.953018, 302.168884>)
+18:52:1 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:52:12 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Red)
+18:52:22 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Blue)
+18:52:28 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Blue" (pos=<3560.018311, 115.944214, 302.417328>)
+18:52:32 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Red)
+18:52:50 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+18:52:58 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:53:5 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3717.740967, 115.751976, 448.319153>)
+18:53:6 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:53:22 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Red)
+18:54:54 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+18:54:54 | "L'asticot" (steamid=76561198207165013) created new building set (tonneaux)
+18:55:4 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:57:14 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+18:57:14 | [BuildingSetManager] Saving & Reloading Building Set:tonneaux
+18:57:14 | "L'asticot" (steamid=76561198207165013) updated building set (tonneaux)
+18:57:14 | [BuildingSetManager] Deleted file: tonneaux
+18:57:14 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+18:57:17 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:57:27 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3632.838379, 115.814705, 442.153229>)
+18:57:52 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3620.902100, 115.814705, 438.556366>)
+18:57:54 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3621.273682, 115.814705, 436.813812>)
+18:57:58 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3633.525879, 115.814705, 438.687958>)
+18:58:4 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3621.882812, 115.814705, 433.298065>)
+18:58:8 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3609.209961, 115.814705, 436.380371>)
+18:58:9 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3608.894043, 115.814705, 438.103088>)
+18:58:12 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3610.190674, 115.814705, 431.122070>)
+18:58:16 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3599.476807, 115.814705, 429.503357>)
+18:58:17 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3599.163330, 115.814705, 431.284271>)
+18:58:22 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3592.428711, 115.768738, 427.090027>)
+18:58:24 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3591.822754, 115.795654, 430.546753>)
+18:58:27 | "L'asticot" (steamid=76561198207165013) deleted object "Barrel_Green" (pos=<3591.155518, 115.795654, 434.024139>)
+18:59:16 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:59:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3674.199463, 115.905830, 341.449402>)
+18:59:20 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:59:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:59:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3674.632568, 115.905830, 350.378967>)
+18:59:44 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:1:21 | "L'asticot" (steamid=76561198207165013) deleted object "Motorbike_02_Red" (pos=<3609.428223, 115.855072, 375.093872>)
+19:1:22 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:1:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3529.062256, 115.670006, 624.680603>)
+19:1:26 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:1:46 | "L'asticot" (steamid=76561198207165013) toggled godmode
+19:2:51 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:3:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3795.091064, 115.669991, 422.443085>)
+19:3:5 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3514.300537, 115.836662, 391.369232>)
+19:3:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:7:23 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:7:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3436.510742, 115.669998, 587.544495>)
+19:7:26 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:7:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SlacksPants_Black)
+19:7:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ManSuit_Black)
+19:8:13 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DressShoes_Black)
+19:8:25 | Player "Miguel Alvaro" (steamId=76561199850843836) connected to server!
+19:8:34 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:8:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3516.038574, 115.836662, 385.252960>)
+19:8:40 | "L'asticot" (steamid=76561198207165013) healed player "L'asticot" @ crosshair
+19:8:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:9:12 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Megaphone)
+19:9:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:9:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:10:31 | Player "Tamara Belova " (steamId=76561198319349517) connected to server!
+19:11:6 | Player "Schneider Rurik" (steamId=76561199655483869) connected to server!
+19:13:18 | Player "Survivor" (steamId=76561198972390772) connected to server!
+19:14:15 | Player "Nikolai Petrov" (steamId=76561198002556074) connected to server!
+19:15:15 | Player "Nikolai Petrov" (steamId=76561198002556074) disconnected from server.
+19:15:15 | Player "Nikolai Petrov" (steamId=76561198002556074) initiated disconnect process...
+19:15:24 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Lewis" (pos=<3549.618896, 123.177727, 408.468292>)
+19:15:47 | Player "Nikolai Petrov" (steamId=76561198002556074) connected to server!
+19:16:45 | "L'asticot" (steamid=76561198207165013) deleted object "eAI_SurvivorF_Helga" (pos=<3551.777100, 123.328293, 406.853241>)
+19:16:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_TocarevPistol)
+19:16:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_PistolTocarevMag_8rnd)
+19:17:29 | Player "Antony Souvorov" (steamId=76561199008333617) connected to server!
+19:17:34 | "L'asticot" (steamid=76561198207165013) deleted object "eAI_SurvivorF_Maria" (pos=<3553.214111, 123.334129, 408.287628>)
+19:22:53 | [WeatherManager] Send Data Count is 0
+19:23:1 | [Time Manager] Setting Date to 2026/6/21 6:55
+19:27:45 | Player "nyouti" (steamId=76561198317293678) connected to server!
+19:29:18 | Player "Antony Souvorov" (steamId=76561199008333617) initiated disconnect process...
+19:29:28 | "L'asticot" (steamid=76561198207165013) healed player "Survivor" @ crosshair
+19:29:33 | Player "Antony Souvorov" (steamId=76561199008333617) disconnected from server.
+19:29:44 | Player "Survivor" (steamId=76561198972390772) initiated disconnect process...
+19:29:45 | Player "Survivor" (steamId=76561198972390772) disconnected early from server (EXIT NOW).
+19:29:57 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Rolf" (pos=<3554.363770, 123.177727, 395.141296>)
+19:30:51 | Player "Antony Souvorov" (steamId=76561199008333617) connected to server!
+19:31:56 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) connected to server!
+19:32:16 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561199008333617)
+19:32:47 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Epinephrine)
+19:32:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Epinephrine)
+19:33:18 | "L'asticot" (steamid=76561198207165013) healed player "Antony Souvorov" @ crosshair
+19:33:40 | Player "Zwen Yetroucka" (steamId=76561198796657412) connected to server!
+19:34:6 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Cyril" (pos=<3550.762695, 123.177704, 391.591461>)
+19:34:40 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Elias" (pos=<3550.076660, 123.177727, 397.987427>)
+19:39:10 | Player "Antony Souvorov" (steamId=76561199008333617) connected to server!
+19:39:11 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+19:42:24 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Red)
+19:42:32 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+19:42:37 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Yellow)
+19:42:42 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Blue)
+19:42:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Green)
+19:42:50 | "L'asticot" (steamid=76561198207165013) toggled godmode
+19:43:15 | "L'asticot" (steamid=76561198207165013) gave unlimited ammo to (steamid=76561198207165013)
+19:44:0 | "L'asticot" (steamid=76561198207165013) executed kill command on: "76561198106085580"
+19:44:46 | "L'asticot" (steamid=76561198207165013) deleted object "Motorbike_02_Blue" (pos=<3680.261230, 115.814110, 431.628784>)
+19:44:49 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3690.611328, 122.284744, 422.494751>)
+19:45:0 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:4 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Mirek" (pos=<3689.500977, 122.446487, 423.061859>)
+19:45:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:9 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3652.063965, 115.909782, 420.920654>)
+19:45:9 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:28 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Indar" (pos=<3651.103271, 116.256760, 420.388702>)
+19:45:31 | "L'asticot" (steamid=76561198207165013) deleted object "Motorbike_02_Green" (pos=<3649.764404, 116.130867, 422.623627>)
+19:45:33 | "L'asticot" (steamid=76561198207165013) deleted object "Motorbike_02_Red" (pos=<3647.648682, 117.184631, 422.319641>)
+19:45:35 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Guo" (pos=<3649.176758, 116.224396, 424.493927>)
+19:45:37 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3629.819580, 115.909782, 401.077820>)
+19:45:40 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:45:44 | "L'asticot" (steamid=76561198207165013) deleted object "Motorbike_02_Yellow" (pos=<3626.806641, 116.041763, 396.189270>)
+19:45:47 | "L'asticot" (steamid=76561198207165013) deleted object "StaticObj_Panel_Concrete_1" (pos=<3623.129883, 114.570686, 385.144562>)
+19:46:2 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Quinn" (pos=<3623.629150, 116.134514, 395.804626>)
+19:46:9 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:46:13 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3680.907227, 115.779678, 431.728027>)
+19:46:13 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:46:18 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Rolf" (pos=<3680.650146, 116.102394, 432.776337>)
+19:47:54 | Player "Miguel Alvaro" (steamId=76561199850843836) initiated disconnect process...
+19:47:59 | Player "Miguel Alvaro" (steamId=76561199850843836) disconnected early from server (EXIT NOW).
+19:48:9 | Player "Miguel Alvaro" (steamId=76561199850843836) disconnected from server.
+19:48:33 | [WeatherManager] Send Data Count is 0
+19:48:34 | Player "Miguel Alvaro (2)" (steamId=76561199850843836) connected to server!
+19:48:41 | [Time Manager] Setting Date to 2026/6/21 7:1
+19:49:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+19:50:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Lime)
+19:50:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+19:50:5 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Yellow)
+19:51:12 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561198317293678)
+19:51:16 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199655483869)
+19:51:27 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561198796657412)
+19:51:30 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199008333617)
+19:51:49 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Red)
+19:51:53 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Yellow)
+19:51:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Blue)
+19:52:3 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Green)
+19:53:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:53:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3654.076660, 115.853882, 377.808105>)
+19:53:31 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:53:36 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:53:38 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:54:31 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:55:26 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) initiated disconnect process...
+19:56:52 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+19:56:52 | [BuildingSetManager] Saving & Reloading Building Set:tonneaux
+19:56:52 | "L'asticot" (steamid=76561198207165013) updated building set (tonneaux)
+19:56:52 | [BuildingSetManager] Deleted file: tonneaux
+19:56:52 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+19:57:21 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3716.272949, 115.751976, 434.233978>)
+19:57:21 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:57:52 | Player "Antony Souvorov" (steamId=76561199008333617) initiated disconnect process...
+19:57:56 | Player "Antony Souvorov" (steamId=76561199008333617) disconnected early from server (EXIT NOW).
+19:58:7 | Player "Antony Souvorov" (steamId=76561199008333617) disconnected from server.
+19:58:10 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:58:40 | Player "Antony Souvorov (2)" (steamId=76561199008333617) connected to server!
+19:59:2 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+19:59:2 | [BuildingSetManager] Saving & Reloading Building Set:tonneaux
+19:59:2 | "L'asticot" (steamid=76561198207165013) updated building set (tonneaux)
+19:59:2 | [BuildingSetManager] Deleted file: tonneaux
+19:59:2 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/tonneaux.vpp
+19:59:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3712.742676, 115.874756, 427.151154>)
+19:59:28 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:59:55 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:0:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3716.696289, 115.874756, 418.093231>)
+20:0:8 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:0:25 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:0:39 | Player "Miguel Alvaro (2)" (steamId=76561199850843836) initiated disconnect process...
+20:1:19 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199086364433)
+20:1:24 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561198319349517)
+20:1:28 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199008333617)
+20:1:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3712.186279, 115.779678, 439.337677>)
+20:1:51 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:2:12 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Green)
+20:2:13 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Blue)
+20:2:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Yellow)
+20:3:47 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561198106085580)
+20:3:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Motorbike_02_Blue)
+20:4:7 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:4:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3676.188477, 115.808273, 337.493927>)
+20:4:35 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:4:36 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:4:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3668.055176, 120.897102, 334.297119>)
+20:4:39 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:4:49 | Player "nyouti" (steamId=76561198317293678) initiated disconnect process...
+20:4:53 | Player "nyouti" (steamId=76561198317293678) aborted logout process [canceledLogout]
+20:5:23 | "L'asticot" (steamid=76561198207165013) healed player "nyouti" @ crosshair
+20:5:36 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:5:43 | Player "nyouti" (steamId=76561198317293678) initiated disconnect process...
+20:5:44 | Player "nyouti" (steamId=76561198317293678) aborted logout process [canceledLogout]
+20:6:17 | Player "Schneider Rurik" (steamId=76561199655483869) initiated disconnect process...
+20:6:50 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3557.884277, 115.953018, 285.763702>)
+20:6:51 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:6:53 | Player "nyouti" (steamId=76561198317293678) initiated disconnect process...
+20:7:13 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:7:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3710.712646, 115.874756, 409.899231>)
+20:7:27 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:7:43 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:8:4 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3651.254639, 115.915764, 359.628632>)
+20:8:4 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:8:31 | Player "Schneider Rurik" (steamId=76561199655483869) connected to server!
+20:8:49 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:8:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3683.070068, 122.284744, 399.302399>)
+20:8:53 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:10:21 | Player "nyouti" (steamId=76561198317293678) connected to server!
+20:11:24 | "L'asticot" (steamid=76561198207165013) executed kill command on: "76561198002556074"
+20:12:21 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:12:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3687.291016, 122.284744, 405.878998>)
+20:12:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:12:40 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199655483869)
+20:13:12 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:13:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3654.017822, 115.915764, 358.537933>)
+20:13:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:13:20 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Quinn" (pos=<3650.815186, 116.258430, 358.504944>)
+20:13:30 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+20:15:40 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+20:15:44 | "L'asticot" (steamid=76561198207165013) toggled godmode
+20:15:47 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:15:48 | Player "Alexander Louvisky" (steamId=76561198005527727) connected to server!
+20:16:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3122.424805, 115.670258, 496.474823>)
+20:16:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3702.863770, 98.375870, 1067.341064>)
+20:16:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3709.239014, 115.905830, 359.096069>)
+20:16:31 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:16:56 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:17:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3579.666504, 115.669968, 492.715363>)
+20:17:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3733.540039, 92.353333, 1203.305054>)
+20:17:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3841.512451, 85.944611, 1447.597900>)
+20:17:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3658.124023, 118.388092, 1598.420166>)
+20:17:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3522.674316, 145.500504, 1728.465454>)
+20:17:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2861.696289, 107.011574, 1222.457764>)
+20:17:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2779.221924, 116.516983, 1192.389404>)
+20:17:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2605.085449, 119.686996, 1019.327820>)
+20:17:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2690.804688, 109.553093, 828.840576>)
+20:17:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2771.982910, 109.687347, 726.192444>)
+20:17:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3097.823486, 115.965637, 777.700867>)
+20:17:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3284.145508, 120.919128, 897.809265>)
+20:17:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3393.959473, 116.383636, 852.380432>)
+20:17:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3434.948486, 119.871101, 836.448425>)
+20:17:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3585.671143, 115.670074, 708.878784>)
+20:17:33 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3613.781738, 115.669861, 680.607544>)
+20:17:38 | Player "Reggie Novoselki" (steamId=76561198106085580) initiated disconnect process...
+20:17:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3699.523438, 115.905830, 352.441071>)
+20:17:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:18:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:18:22 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3686.245117, 122.284744, 405.393219>)
+20:18:22 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:19:32 | Player "Alexander Louvisky" (steamId=76561198005527727) initiated disconnect process...
+20:19:47 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:19:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3577.281006, 115.953018, 294.746368>)
+20:19:51 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:20:29 | Player "Tamara Belova " (steamId=76561198319349517) initiated disconnect process...
+20:20:31 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+20:20:48 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198002556074)
+20:21:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3585.757080, 115.953018, 300.320953>)
+20:21:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3594.013672, 115.953018, 301.440155>)
+20:21:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3602.065918, 115.931938, 302.466949>)
+20:21:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3608.966797, 115.931938, 303.409515>)
+20:21:38 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198002556074)
+20:21:54 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+20:22:43 | Player "Tamara Belova " (steamId=76561198319349517) connected to server!
+20:24:6 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199655483869)
+20:24:9 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561199008333617)
+20:24:32 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PlateCarrierVest_Black)
+20:24:33 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PlateCarrierVest_Black)
+20:25:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Case_woden01_green)
+20:25:27 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Case_woden01_green)
+20:26:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Case_woden01_beige)
+20:26:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mag_Deagle_9rnd)
+20:27:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Deagle)
+20:27:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:27:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3501.876709, 115.934258, 270.670410>)
+20:27:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:27:43 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_PohodBackPack_Red)
+20:27:57 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mag_Deagle_9rnd)
+20:27:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Deagle)
+20:28:16 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:28:21 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3534.414062, 122.249458, 304.372864>)
+20:28:22 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Blue)
+20:30:32 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Orange)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:30:35 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ConstructionHelmet_Red)
+20:31:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (CZ527)
+20:32:3 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Ammo_762x39Tracer)
+20:32:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:32:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3497.541016, 115.934258, 271.146240>)
+20:32:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:32:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Ammo_762x39Tracer)
+20:32:37 | "L'asticot" (steamid=76561198207165013) Spawned Item: (CZ527)
+20:32:44 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:32:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3559.155273, 115.953018, 302.814117>)
+20:32:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:32:58 | "L'asticot" (steamid=76561198207165013) gave godmode to (steamid=76561198796657412)
+20:33:11 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PlateCarrierVest_Black)
+20:33:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:33:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3532.853760, 122.249458, 307.918579>)
+20:33:16 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:35:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:35:7 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3514.410645, 115.934258, 275.170410>)
+20:35:7 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:35:11 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:35:14 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3521.253174, 122.249458, 306.861542>)
+20:35:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:36:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PlateCarrierVest_Black)
+20:36:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PlateCarrierVest_Black)
+20:36:14 | Player "Alexander Louvisky" (steamId=76561198005527727) connected to server!
+20:36:49 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mag_PM73_25Rnd)
+20:36:50 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PM73Rak)
+20:37:3 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:4 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:9 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198317293678)
+20:37:11 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:14 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3496.422119, 115.934258, 270.706970>)
+20:37:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:19 | "L'asticot" (steamid=76561198207165013) Spawned Item: (PM73Rak)
+20:37:22 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mag_PM73_25Rnd)
+20:37:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3535.798096, 122.249458, 307.717438>)
+20:37:27 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:38:28 | Player "Zwen Yetroucka" (steamId=76561198796657412) initiated disconnect process...
+20:38:28 | Player "Nikolai Petrov" (steamId=76561198002556074) initiated disconnect process...
+20:38:28 | Player "Antony Souvorov (2)" (steamId=76561199008333617) initiated disconnect process...
+20:38:28 | Player "Alexander Louvisky" (steamId=76561198005527727) initiated disconnect process...
+20:38:28 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+20:38:28 | Player "Schneider Rurik" (steamId=76561199655483869) initiated disconnect process...
+20:38:28 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+20:38:28 | Player "nyouti" (steamId=76561198317293678) disconnected from server.
+20:38:28 | Player "nyouti" (steamId=76561198317293678) initiated disconnect process...
+20:38:28 | Player "Tamara Belova " (steamId=76561198319349517) initiated disconnect process...

@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 156,
+    "Type": 1,
+    "Title": "Radio Liberté",
+    "Descriptions": [
+        "Tu as déjà écouté Radio Liberté, %1 ? Chaque soir, à vingt-deux heures, sur la fréquence des stalkers, un de nos gars lit les nouvelles : où passent les patrouilles, où descendent les meutes, quelle route est coupée. Gratuitement, pour tout le monde, même pour la Duty, même pour les bandits. Les nouvelles, c'est comme les artefacts : ça n'appartient à personne. Le relais est en hauteur, à six cents mètres au nord-ouest, et il ne répond plus depuis une semaine. Le gars qui y est monté est redescendu en courant : un chien rôde là-haut, un gros, pas comme les autres. Abats-le et rapporte-moi le boîtier du relais, on le réparera ici. Même chemin que pour la planque : d'abord le sud-ouest, puis l'ouest, jamais par la tanière.",
+        "Le relais de Radio Liberté, à six cents mètres au nord-ouest, en hauteur. Le gros chien, puis le boîtier du relais. Par le sud-ouest, puis l'ouest : jamais par la tanière.",
+        "Le boîtier. Noir de crasse, mais entier. Ce soir, Radio Liberté reprendra l'antenne, et quelque part au Cordon, un bleu saura qu'une meute descend sur sa route. Et si tu veux, %1, on dira ton nom à l'antenne. Ici, on n'a pas peur des noms. Tiens. Et écoute-nous, à vingt-deux heures : on lit même les annonces de la Duty."
+    ],
+    "ObjectiveText": "Abats le gros chien qui rôde autour du relais de Radio Liberté, au nord-ouest des Entrepôts, et rapporte le boîtier du relais à Makarov.",
+    "FollowUpQuest": 157,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_AI2_medkit_standart",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 156,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 156,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 156,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        155
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

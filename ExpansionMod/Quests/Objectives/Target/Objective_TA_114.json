@@ -1,0 +1,31 @@
+{
+    "ConfigVersion": 28,
+    "ID": 114,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Élimine les zombifiés autour du vieux camp militaire",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        4300.0,
+        124.5,
+        4580.0
+    ],
+    "MaxDistance": 150.0,
+    "MinDistance": -1.0,
+    "Amount": 5,
+    "ClassNames": [
+        "Zombi_XZ_Novice1",
+        "Zombi_XZ_Novice2",
+        "Zombi_XZ_Novice3",
+        "Zombi_XZ_Novice4",
+        "Zombi_XZ_Novice5",
+        "Zombi_XZ_Novice6",
+        "Zombi_XZ_Novice7"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

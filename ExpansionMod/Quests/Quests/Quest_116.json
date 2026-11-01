@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 116,
+    "Type": 1,
+    "Title": "Les cartes du génie",
+    "Descriptions": [
+        "Avant que la Zone grandisse, le génie militaire a survolé les Marais en hélicoptère. Ils ont tout cartographié : les champs de mines posés au bord du marais, les passages, les endroits où l'eau a mangé la route. J'ai gardé une copie de ces cartes. Elles ne servent à rien dans un tiroir. Dans les Marais vit un homme qu'on appelle le Silencieux. Il connaît chaque roseau. Porte-lui ces cartes : avec ça, il évitera à des dizaines de bleus de sauter sur une mine de l'armée. Ne lui dis pas qu'elles viennent d'un ancien militaire. Il n'aime pas l'uniforme.",
+        "Les cartes du génie, à remettre au Silencieux, dans les Marais.",
+        "Des cartes du génie. Je reconnais les symboles. Les mines du bord du marais, je les ai trouvées une par une, au boulon et à la chance. Il m'en manquait deux. Celui qui t'envoie a porté l'uniforme, %1, ne me mens pas. Dis-lui merci. Et dis-lui que ça ne rachète rien. Tiens."
+    ],
+    "ObjectiveText": "Porte les cartes du génie militaire au Silencieux, dans les Marais.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Binoculars",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        54
+    ],
+    "QuestTurnInIDs": [
+        10
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 116,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        115
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

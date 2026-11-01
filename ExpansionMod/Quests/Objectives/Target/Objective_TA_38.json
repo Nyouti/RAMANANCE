@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 28,
+    "ID": 38,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Abats un sanglier ou un chien mutant sur le terrain de chasse de Kostia, dans les Marais, à 500 m à l'ouest-nord-ouest de son camp",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        1600.0,
+        82.0,
+        2040.0
+    ],
+    "MaxDistance": 220.0,
+    "MinDistance": -1.0,
+    "Amount": 1,
+    "ClassNames": [
+        "Mutant_XZ_Boar1",
+        "Mutant_XZ_Boar2",
+        "Mutant_XZ_Dog_Fur",
+        "Mutant_XZ_Dog_Brown"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

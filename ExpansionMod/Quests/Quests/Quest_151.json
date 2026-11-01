@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 151,
+    "Type": 1,
+    "Title": "Ce qui est à tout le monde",
+    "Descriptions": [
+        "Tu sais ce que fait la Duty des artefacts, %1 ? Elle les enferme. Elle les confie à des savants dans un bunker, ou elle les casse. Pour eux, ce qui vient de la Zone doit rester dans la Zone. Moi, je dis qu'une Perle, de l'autre côté de la barrière, c'est un médicament qu'un hôpital de province ne pourra jamais acheter, ou un mois de loyer pour une famille. Un artefact appartient à celui qui le trouve, et il doit aller à celui qui en a besoin. C'est pour ça que Svoboda a des coureurs. Rapporte-moi un Cristal et une Perle. Le Cristal se forme dans les Jarkas : il y en a une à six cents mètres à l'ouest, à côté d'un Tramplin. Fais le tour par le sud : des Izlom traînent ces temps-ci autour de la Voronka, à deux cents mètres du portail, et une tache brûlante se cache derrière l'Électra. N'approche pas celle du fond des hangars, au nord-ouest : c'est la tanière dont je t'ai parlé. Des Perles, tu en trouveras dans presque toutes les anomalies. Je te les paie mieux que Sakharov. Lui, il range les artefacts dans un tiroir.",
+        "Un Cristal et une Perle, à rapporter à Makarov. La Jarka de l'ouest, à six cents mètres, à côté d'un Tramplin, en faisant le tour par le sud. Pas celle du nord-ouest.",
+        "Un Cristal, une Perle. Belles pièces. Tiens, six mille : c'est plus que Sakharov, et je ne te demande pas de signer de reçu. Ces deux-là partiront avec le prochain coureur, vers le sud. Où elles finiront ? Chez quelqu'un qui en a besoin. Si tu croises un jour un sergent de la Duty, il te dira le contraire. Il en a le droit. Ici, tout le monde a le droit de penser ce qu'il veut, même la Duty."
+    ],
+    "ObjectiveText": "Rapporte un Cristal et une Perle à Makarov, qui les paie mieux que Sakharov. La Jarka la plus sûre est à six cents mètres à l'ouest de la base.",
+    "FollowUpQuest": 152,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 151,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        150
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

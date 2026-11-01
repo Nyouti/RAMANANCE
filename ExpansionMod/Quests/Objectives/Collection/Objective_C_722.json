@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 722,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Deux ampoules d'adrénaline et une épinéphrine au Doc",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 2,
+            "ClassName": "TerjeAmpouleAdrenalin",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "Epinephrine",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

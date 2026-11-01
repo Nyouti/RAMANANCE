@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 22,
+    "ID": 79,
+    "Type": 1,
+    "Title": "Trousse du perdu",
+    "Descriptions": [
+        "%1, on m'a signalé un stalker en mauvais état, perdu et confus. Je ne peux pas me téléporter jusqu'à lui, mais j'ai préparé une trousse de premiers soins complète, le modèle camouflé qu'on garde pour les longues sorties. Apportez-lui cette trousse, remettez-la-lui en main propre si vous le pouvez, et qu'il cesse de se débattre seul avec ses idées noires.",
+        "Tant que le blessé n'a pas la trousse, il reste sans vrai matériel. Dépêchez-vous, si vous le pouvez.",
+        "Le blessé a reçu la trousse ; Moros m'a prévenu par radio. Merci, %1, vous lui avez peut-être évité le pire."
+    ],
+    "ObjectiveText": "Livrer la trousse de premiers soins au stalker blessé",
+    "FollowUpQuest": 80,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "TerjeFirstAidKitAdvance_Camo",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        66
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 719,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        78
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

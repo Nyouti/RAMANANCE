@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 40,
+    "Type": 1,
+    "Title": "Matos pour le feu",
+    "Descriptions": [
+        "Qui t'es, %1 ? Tu débarques ? On est au Cordon, l'entrée de la Zone pour beaucoup de stalkers. Ça peut sembler calme, ce n'est jamais sans risque, entre routes abandonnées, restes de postes militaires et camps de fortune, champs ouverts et bois sont la ou rôdent mutants et bandits. C'est souvent le premier passage pour apprendre à se débrouiller et pour troquer avant d'aller plus loin. Moi je suis un stalker comme toi, sauf que je file du boulot à ceux qui en ont besoin. Va récolter de quoi faire un feu. Ici le feu nous réchauffe et il nous lie.",
+        "Si tu as du mal, prends un couteau et va chercher de l'écorce sur un arbre. Les bâtons se trouvent dans les buissons.",
+        "Tiens, achète-toi ce que tu as envie"
+    ],
+    "ObjectiveText": "Va me chercher de quoi faire du feu.",
+    "FollowUpQuest": 41,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble50",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+        
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        40
+    ],
+    "QuestTurnInIDs": [
+        40
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 40,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

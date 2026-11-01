@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 65,
+    "Type": 1,
+    "Title": "Kits de couture",
+    "Descriptions": [
+        "%1, pour recoudre les blessures des nôtres et boucher les trous des civières, il nous faut des petits kits de couture, ceux qu'on trouve encore un peu partout. Si vous en trouvez deux en fouillant la Zone, vous pourriez me les déposer ici quand ce sera bon pour vous ?",
+        "Dès que vous aurez deux kits de couture, revenez me voir, sans vous presser.",
+        "Merci, ça va directement au matériel de réparation du poste. Voici encore un livre de médecine, vous l'avez bien mérité."
+    ],
+    "ObjectiveText": "Deux kits de couture au Doc",
+    "FollowUpQuest": 66,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine1",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 703,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        64
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

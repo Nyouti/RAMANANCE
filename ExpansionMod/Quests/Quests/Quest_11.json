@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 22,
+    "ID": 11,
+    "Type": 1,
+    "Title": "Contrat difficile : les Snorks des Marais",
+    "Descriptions": [
+        "Celle-là, %1, je ne la confie pas à n'importe qui. À un kilomètre au nord-ouest du refuge, là où le Cordon s'enfonce dans les Marais, des Snorks ont fait leur nid. Personne ne sait vraiment ce qu'ils étaient avant : ils bondissent, ils mordent, et ils portent encore des lambeaux de masques à gaz. Et ce n'est pas tout : des zombifiés traînent dans le coin, et il y a une tache radioactive juste à côté. Si le combat t'y pousse, ton petit filtre ne suffira pas. Des munitions, beaucoup, et garde toujours un œil derrière toi. Abats-en trois et rapporte-moi deux de leurs pattes. Si tu tombes là-bas, le contrat tombe avec toi.",
+        "Les Snorks, au nord-ouest du refuge, à l'entrée des Marais. Trois bêtes, deux pattes. Et ne te laisse pas pousser dans la tache radioactive d'à côté.",
+        "Deux pattes de Snork... Tu reviens de loin, gamin. Ils seront de retour d'ici quelques jours, ils reviennent toujours, mais pour un temps, l'entrée des Marais sera plus calme. Tiens, ta paie, et elle est méritée. Maintenant, va te reposer : la Zone, elle, ne se repose jamais."
+    ],
+    "ObjectiveText": "Abats 3 Snorks à l'entrée des Marais, au nord-ouest du refuge, puis rapporte 2 pattes de Snork à Papa Voronine. Le contrat échoue si tu meurs.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 3,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 8,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        1
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

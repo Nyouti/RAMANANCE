@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 112,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de la patrouille disparue dans le marais",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Blue",
+    "DigInStash": 0,
+    "MarkerName": "Sac de la patrouille",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            1488.0,
+            46.9,
+            4992.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

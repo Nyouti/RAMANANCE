@@ -1,0 +1,31 @@
+{
+    "ConfigVersion": 28,
+    "ID": 709,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Trois plaquettes au Doc (ibuprofène, Nurofen et analgine)",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "TerjePillsIbuprofen",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "TerjePillsNurofen",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "TerjePillsAnalgin",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

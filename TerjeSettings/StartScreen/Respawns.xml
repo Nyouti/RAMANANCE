@@ -1,0 +1,264 @@
+<!--
+	List of respawns that players will be able to select during respawn creation
+	when the 'StartScreen.MapPageEnabled' setting is enabled in 'StartScreen.cfg'.
+	
+	RESPAWN SPECIFICATION:
+		id: (required) respawn identifier, must be short and unique for each individual respawn.
+		displayName: (required) name of respawn that the player will see in the game UI. Can be used key from stringtable.csv for localication to all supported languages.
+		
+		
+		Points: (optinal) - list of points for current respawn
+			Point: each individual point to respawn
+				pos: (optional) point position in comma-separated format. Uses coordinates format from https://dayz.xam.nu/ (Ctrl+C on the website to copy).
+				x: (optional) x coordinate (decimal point number). Will be used instead of 'pos'.
+				y: (optional) y coordinate (decimal point number). Will be used instead of 'pos'.
+				z: (optional) z coordinate (decimal point number). Will be used instead of 'pos'.
+				angle: (optional) rotation angle (decimal point number from 0 to 360).
+		
+		
+		Objects: (optinal) - list of objects that the player can use as a custom respawn point (Sleeping bag or Flag pole for example).
+			Object: each individual object to respawn
+				classname: (required) object classname
+				singleBind: (optional) (default value is "0"). When "1" - this object can be set as a respawn point for only one player, otherwise there is no limit to the number of players who can set a respawn point on a given object.
+				handler: (optional) (for advanced users only) can be used to define additional logic and conditions on an object (e.g. to create a respawn point only if the object owned to the player). Can be defined as a class inside the mission 'init.c' file or in any another script.
+					EXAMPLE OF EXPANSION TERRITORY FLAG: <Object classname="TerritoryFlag" handler="MyRespawnObjectHandler" />
+					``` [init.c]
+						class MyRespawnObjectHandler : TerjeRespawnObjectHandler
+						{
+							override bool SetAsRespawnObject(PlayerBase player, Object object, string respawnId)
+							{
+								TerritoryFlag territoryFlag = TerritoryFlag.Cast(object);
+								if (territoryFlag && territoryFlag.GetTerritory() && player.GetIdentity())
+								{
+									return territoryFlag.GetTerritory().IsMember(player.GetIdentity().GetId());
+								}
+								return false;
+							}
+							
+							override bool RespawnOnObject(PlayerBase player, Object object, string respawnId)
+							{
+								TerritoryFlag territoryFlag = TerritoryFlag.Cast(object);
+								if (territoryFlag && territoryFlag.GetTerritory() && player.GetIdentity())
+								{
+									return territoryFlag.GetTerritory().IsMember(player.GetIdentity().GetId());
+								}
+								return false;
+							}
+						}
+					```
+		
+		
+		DeathPoint: (optinal) - Uses the player's last death point as a respawn point.
+			requireBody: (optional) When sets to "1", the condition for using this respawn point is that there is a dead body of this player present on this point.
+		
+		
+		Options: (optional) additional respawn options
+			SafeRadius: (optional) Sets of safe radiuses when selecting an point for the player respawn.
+				zombie: (optional) minimal possible distance to zombie (infected)
+				animal: (optional) minimal possible distance to animal
+				player: (optional) minimal possible distance to another player
+				other: (optional) minimal possible distance to static objects (bushes, trees, buildings etc...)
+			
+			
+			MapImage: (optional) Uses the image at the specified path as a preview.
+				path: (required) Path to the image. You can use path to your custom *.paa image or imageset from your own pbo's.
+			
+			
+			MapRender: (optional) Uses the map rendering widget to display target position as preview.
+				pos: (optional) point position in comma-separated format. Uses coordinates format from https://dayz.xam.nu/ (Ctrl+C on the website to copy).
+				x: (optional) x coordinate (decimal point number). Will be used instead of 'pos'.
+				y: (optional) y coordinate (decimal point number). Will be used instead of 'pos'.
+				z: (optional) z coordinate (decimal point number). Will be used instead of 'pos'.
+				zoom: (optional) zoom of the map widget (recommended values range is from 0.1 to 1.0)
+				showPoints: (optional) displays the points of possible respawn positions on the map.
+					"never": default value, do not display points on map
+					"active": display points on the map only when this spawn set is active.
+					"always": always display points on the map
+				showMarker: (optional) displays the marker icon of respawn point on the map.
+					"never": default value, do not display marker on map
+					"active": display marker on the map only when this spawn set is active.
+					"always": always display marker on the map
+				showMarkerName: (optional) specify whether to display the name of the respawn set next to the marker on the map. "1" enabled, "0" disabled (default).
+				allowInteraction: (optional) determines whether the user can interact with the map interactively. "1" enabled, "0" disabled (default).
+				markerPath: (optional) sets a path to a marker icon on the map for this respawn set. Default value is "TerjeStartScreen/Textures/marker.paa"
+				pointsPath: (optional) sets a path to a points icon on the map for this respawn set. Default value is "TerjeStartScreen/Textures/dot.paa"
+				activePointsColor: (optional) sets an active points color in ARGB format. Default value is "0xFFB40000"
+				inactivePointsColor: (optional) sets an active points color in ARGB format. Default value is "0xFF191919"
+				activeMarkerColor: (optional) sets an active points color in ARGB format. Default value is "0xFFB40000"
+				inactiveMarkerColor: (optional) sets an active points color in ARGB format. Default value is "0xFF191919"
+			
+			
+			PlayerStats: (optional) Player will be respawned with the next specific stats.
+				health: (optional) player health value (from 1 to 100)
+				blood: (optional) player blood value (from 2500 to 5000)
+				shock: (optional) player shock value (from 0 to 100)
+				energy: (optional) player energy (food) value (from 0 to 5000)
+				water: (optional) player water value (from 0 to 5000)
+				sleep: (optional) (TerjeMedicine mod required) player sleep value (from 0 to 14000)
+				mind: (optional) (TerjeMedicine mod required) player mental (mind) value (from 0 to 100)
+				heatComfort: (optional) player temperature comfort value (from -1 to 1)
+				heatBuffer: (optional) player temperature buffer value (from -30 to 30)
+		
+		
+		Conditions: (optional) - list of conditions under which the respawn will be available to the player
+			ALL SUPPORTED CONDITIONS YOU CAN FOUND HERE: https://github.com/TerjeBruoygard/TerjeModsScripting/blob/master/Wiki/en/Conditions/README.md
+-->
+<Respawns>
+    <Respawn id="Stalker" displayName="Cordon">
+        <Points>
+            <Point pos="4775.442383, 937.518250" />
+			<Point pos="4754.462402, 874.933472" />
+			<Point pos="4681.286621, 888.797729" />
+			<Point pos="4655.262207, 964.468445" />
+			<Point pos="4726.031738, 984.514160" />
+			<Point pos="4706.191406, 1006.750122" />
+        </Points>
+    </Respawn>
+	<!--Event-->
+	<Respawn id="Stalker" displayName="Events">
+        <Points>
+            <Point pos="3513.794922, 116.005974, 396.340973" />
+        </Points>
+    </Respawn>
+    <Respawn id="Millitaire" displayName="Militaires">
+        <Points>
+            <Point pos="1690.40, 4060.66" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+				<!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Minouchko Alenyev-->
+                <SpecificPlayer steamGUID="76561198972390772" />
+				<!--Steam ID en dessous  Yuriy Igor Konovalec-->
+                <SpecificPlayer steamGUID="76561198364185006" />
+				<!--Steam ID en dessous  nash-->
+                <SpecificPlayer steamGUID="76561198799662309" />
+            </SpecificPlayers>
+        </Conditions>
+    </Respawn>
+	<Respawn id="Devoir" displayName="Devoir">
+        <Points>
+            <Point pos="4936.37, 6770.97" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Pavel Karlov-->
+                <SpecificPlayer steamGUID="76561198052722146" />
+				<!--Steam ID en dessous Vadym Bojchenko-->
+				<SpecificPlayer steamGUID="76561198033476882" />
+				<!--Steam ID en dessous Dmytro Kovalchul-->
+				<SpecificPlayer steamGUID="76561198169293177" />
+            </SpecificPlayers>
+        </Conditions>
+	</Respawn>
+	<Respawn id="Liberté" displayName="Liberté">
+        <Points>
+            <Point pos=" 5809.49, 7970.50" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Balder-->
+                <SpecificPlayer steamGUID="76561198064336758" />
+				<!--Steam ID en dessous Melnik Alexandrovitc-->
+                <SpecificPlayer steamGUID="76561198114075378" />
+				<!--Steam ID en dessous Zoryn Mikhaïlovitch-->
+                <SpecificPlayer steamGUID="76561198066996459" />
+				<!--Steam ID en dessous Iota-->
+                <SpecificPlayer steamGUID="76561198364355560" />
+            </SpecificPlayers>
+        </Conditions>
+    </Respawn>
+	<Respawn id="Ecologiste" displayName="Ecologiste">
+        <Points>
+            <Point pos="2476.26, 6250.33" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Aaron ANANENKO-->
+                <SpecificPlayer steamGUID="76561198014580945" />
+            </SpecificPlayers>
+        </Conditions>
+    </Respawn>
+	<Respawn id="Bandits" displayName="Bandit">
+        <Points>
+            <Point pos="5031.27, 4641.51" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Marek Vasiliev-->
+                <SpecificPlayer steamGUID="76561198168265274" />
+				<!--Steam ID en dessous Yuri Tokarev-->
+                <SpecificPlayer steamGUID="76561199204075381" />
+				<!--Steam ID en dessous Tsehla-->
+                <SpecificPlayer steamGUID="76561198250009630" />
+				<!--Steam ID en dessous Kitaev-->
+				<SpecificPlayer steamGUID="76561198106085580" />
+				<!--Steam ID en dessous Karel Mechenyi "Loki"-->
+                <SpecificPlayer steamGUID="76561199045300430" />
+            </SpecificPlayers>
+        </Conditions>
+	</Respawn>
+	<Respawn id="Clearsky" displayName="Clearsky">
+        <Points>
+            <Point pos="3147.67, 1328.01" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Volodia ISAKOVICH-->
+                <SpecificPlayer steamGUID="76561198097580497" />
+            </SpecificPlayers>
+        </Conditions>
+    </Respawn>
+	<Respawn id="Veilleurs" displayName="Veilleurs">
+        <Points>
+            <Point pos="4870.269, 2365.71" />
+        </Points>
+        <Conditions>
+            <SpecificPlayers hideOwnerWhenFalse="1">
+                <!--Steam ID en dessous Nyouti-->
+                <SpecificPlayer steamGUID="76561198317293678" />
+				<!--Steam ID en dessous Drago-->
+                <SpecificPlayer steamGUID="76561198207165013" />
+				<!--Steam ID en dessous Mboy-->
+                <SpecificPlayer steamGUID="76561199417217773" />
+				<!--Steam ID en dessous Shalashaska Barakov-->
+                <SpecificPlayer steamGUID="76561198070570810" />
+            </SpecificPlayers>
+        </Conditions>
+    </Respawn>
+</Respawns>

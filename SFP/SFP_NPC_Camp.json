@@ -1,0 +1,3499 @@
+{
+    "_comment_00": "Файл создаётся автоматически: $profile:SFP/SFP_NPC_Camp.json. Его можно редактировать после первого запуска сервера.",
+    "_comment_01": "Movement: UseNavmesh включает AIWorld.SampleNavmeshPosition/FindPath. Если navmesh не найден, работает безопасный fallback.",
+    "_comment_02": "Interest: NPC ходит к интересным точкам: костёр, колодец, дом, дерево, вода, край лагеря.",
+    "_comment_03": "ActionRunner: не смешивает ходьбу, fullbody-анимации и modifier-анимации. Еда/питьё получают предмет в руки.",
+    "_comment_04": "DayNight/Schedule: вечером костёр, ночью часть NPC спит возле костра, утром вода/карта/рутина. При сильном дожде NPC могут уходить под укрытия возле домов.",
+    "_comment_05": "SpawnSafety: вода, игроки, объекты, уклон, расстояние между NPC.",
+    "_comment_06": "Performance: если рядом нет игроков, NPC засыпают/замедляются. Инвентарь через LockInventory НЕ блокируется.",
+    "_comment_07": "NPCProfiles: Civilian/Hunter/Guard/Camper/Scavenger/Fisherman/Medic. Можно менять веса поведения и предметы.",
+    "_comment_08": "Zones: главный список точек. Каждый SFP_NPC_Camp_Spawner, поставленный через init/маппинг, автоматически добавляется сюда.",
+    "ConfigVersion": 21,
+    "_comment_ConfigVersion": "Версия структуры конфига. Мод сам обновляет это число при сохранении JSON.",
+    "EnableDebugLogs": 0,
+    "_comment_EnableDebugLogs": "Не используется. Оставлено только для совместимости старых JSON.",
+    "Factions": [
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "stalker",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 40,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Stalker mixed",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 70,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Scavenger",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 45,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "HikingJacket_Black",
+                            "RidersJacket_Black"
+                        ],
+                        "Legs": [
+                            "CargoPants_Green",
+                            "Jeans_Black"
+                        ],
+                        "Feet": [
+                            "HikingBootsLow_Black",
+                            "WorkingBoots_Brown"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "BeanieHat_Black"
+                        ],
+                        "Vest": [],
+                        "Backpack": [
+                            "HuntingBag"
+                        ],
+                        "ShoulderWeapons": [
+                            "SKS",
+                            "Izh18"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                },
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Stalker camp",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 30,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Camper",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 30,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "WoolCoat_Black",
+                            "HikingJacket_Red"
+                        ],
+                        "Legs": [
+                            "Jeans_Grey"
+                        ],
+                        "Feet": [
+                            "WorkingBoots_Brown"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "Ushanka_Black"
+                        ],
+                        "Vest": [],
+                        "Backpack": [
+                            "TaloonBag_Blue"
+                        ],
+                        "ShoulderWeapons": [
+                            "Mosin9130",
+                            "Izh18"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "stalker_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Camp_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Camp_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Camp_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Camp_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Camp_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                },
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "stalker_Type02",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Camp_idle_Type02_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Camp_introJoke_Type02_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Camp_Joke_Type02_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Camp_MeetHello_Type02_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Camp_MeetHideWeapon_Type02_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Camp_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "bandit",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 18,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Bandit light",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 60,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Scavenger",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 70,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "RidersJacket_Black",
+                            "BomberJacket_Brown"
+                        ],
+                        "Legs": [
+                            "Jeans_Black",
+                            "CargoPants_Black"
+                        ],
+                        "Feet": [
+                            "WorkingBoots_Black"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "BalaclavaMask_Black"
+                        ],
+                        "Vest": [
+                            "UKAssVest_Black"
+                        ],
+                        "Backpack": [],
+                        "ShoulderWeapons": [
+                            "SKS",
+                            "AKS74U"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                },
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Bandit armed",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 40,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Guard",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 100,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "PoliceJacket",
+                            "TTsKOJacket_Camo"
+                        ],
+                        "Legs": [
+                            "PolicePants",
+                            "TTSKOPants"
+                        ],
+                        "Feet": [
+                            "MilitaryBoots_Black"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "RadarCap_Black"
+                        ],
+                        "Vest": [
+                            "HighCapacityVest_Black"
+                        ],
+                        "Backpack": [],
+                        "ShoulderWeapons": [
+                            "AKM",
+                            "AK74",
+                            "MP5K"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "bandit_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_bandit_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_bandit_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_bandit_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_bandit_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_bandit_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_bandit_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                },
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "bandit_Type02",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_bandit_Camp_idle_Type02_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_bandit_introJoke_Type02_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_bandit_Joke_Type02_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_bandit_MeetHello_Type02_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_bandit_MeetHideWeapon_Type02_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_bandit_Sleep_Type02_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "Dolg",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 12,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Dolg patrol",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 100,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Guard",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 100,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "TTsKOJacket_Camo",
+                            "BDUJacket"
+                        ],
+                        "Legs": [
+                            "TTSKOPants",
+                            "BDUPants"
+                        ],
+                        "Feet": [
+                            "MilitaryBoots_Black"
+                        ],
+                        "Gloves": [
+                            "TacticalGloves_Black"
+                        ],
+                        "Headgear": [
+                            "BallisticHelmet_Green"
+                        ],
+                        "Vest": [
+                            "HighCapacityVest_Olive"
+                        ],
+                        "Backpack": [],
+                        "ShoulderWeapons": [
+                            "AK74",
+                            "AKM"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "Dolg_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Dolg_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Dolg_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Dolg_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Dolg_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Dolg_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Dolg_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "Freedom",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 12,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Freedom guard",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 100,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Guard",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 95,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "USMCJacket_Woodland",
+                            "HuntingJacket_Summer"
+                        ],
+                        "Legs": [
+                            "USMCPants_Woodland",
+                            "HunterPants_Summer"
+                        ],
+                        "Feet": [
+                            "JungleBoots_Green"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "BoonieHat_Olive"
+                        ],
+                        "Vest": [
+                            "UKAssVest_Camo"
+                        ],
+                        "Backpack": [],
+                        "ShoulderWeapons": [
+                            "M4A1",
+                            "SKS"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "Freedom_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Freedom_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Freedom_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Freedom_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Freedom_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Freedom_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Freedom_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "military",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 12,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Military patrol",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 100,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Guard",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 100,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "BDUJacket",
+                            "TTsKOJacket_Camo"
+                        ],
+                        "Legs": [
+                            "BDUPants",
+                            "TTSKOPants"
+                        ],
+                        "Feet": [
+                            "MilitaryBoots_Black"
+                        ],
+                        "Gloves": [],
+                        "Headgear": [
+                            "BallisticHelmet_UN"
+                        ],
+                        "Vest": [
+                            "PlateCarrierVest"
+                        ],
+                        "Backpack": [
+                            "AliceBag_Green"
+                        ],
+                        "ShoulderWeapons": [
+                            "M4A1",
+                            "AK74",
+                            "AKM"
+                        ],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "military_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_military_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_military_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_military_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_military_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_military_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_military_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "ecolog",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 6,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Ecolog NBC",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 100,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Scavenger",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 5,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "NBCJacketGray",
+                            "NBCJacketYellow"
+                        ],
+                        "Legs": [
+                            "NBCPantsGray",
+                            "NBCPantsYellow"
+                        ],
+                        "Feet": [
+                            "NBCBootsGray",
+                            "NBCBootsYellow"
+                        ],
+                        "Gloves": [
+                            "NBCGlovesGray"
+                        ],
+                        "Headgear": [
+                            "GP5GasMask",
+                            "GasMask"
+                        ],
+                        "Vest": [],
+                        "Backpack": [
+                            "DryBag_Yellow"
+                        ],
+                        "ShoulderWeapons": [],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "ecolog_placeholder_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Camp_idle_Type02_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Camp_introJoke_Type02_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Camp_Joke_Type02_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Camp_MeetHello_Type02_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Camp_MeetHideWeapon_Type02_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Camp_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        },
+        {
+            "_comment": "Группировка NPC. Например: bandit, Dolg, Freedom, military, ecolog, stalker, medic.",
+            "Name": "medic",
+            "_comment_Name": "Название группировки. Именно это имя прописывается в Zones[].AllowedFactions.",
+            "Chance": 4,
+            "_comment_Chance": "Вес выбора группировки, если в зоне разрешено несколько группировок.",
+            "Enabled": 1,
+            "_comment_Enabled": "true = группировка может появляться. false = временно выключить группировку во всех зонах.",
+            "Kits": [
+                {
+                    "_comment": "Один комплект группировки. Если у группировки несколько комплектов, NPC случайно выбирает один по Chance.",
+                    "Name": "Medic",
+                    "_comment_Name": "Название комплекта для администратора. Например: Dolg patrol, Dolg guard, Bandit light.",
+                    "Chance": 100,
+                    "_comment_Chance": "Вес выбора комплекта внутри одной группировки. Чем больше число, тем чаще выбирается.",
+                    "Role": "Medic",
+                    "_comment_Role": "Роль поведения: Civilian, Hunter, Guard, Camper, Scavenger, Fisherman, Medic. Влияет на действия NPC.",
+                    "RandomClothes": 1,
+                    "_comment_RandomClothes": "true = случайно выбрать одежду из массивов Loadout. false = брать первый предмет из каждого массива.",
+                    "RandomWeapon": 1,
+                    "_comment_RandomWeapon": "true = случайно выбрать оружие из Loadout.ShoulderWeapons. false = брать первое оружие.",
+                    "WeaponSpawnChance": 0,
+                    "_comment_WeaponSpawnChance": "Шанс появления оружия за спиной у NPC из этого комплекта, 0-100.",
+                    "Loadout": {
+                        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                        "Body": [
+                            "ParamedicJacket_Blue"
+                        ],
+                        "Legs": [
+                            "ParamedicPants_Blue"
+                        ],
+                        "Feet": [
+                            "AthleticShoes_Black"
+                        ],
+                        "Gloves": [
+                            "SurgicalGloves_LightBlue"
+                        ],
+                        "Headgear": [
+                            "MedicalScrubsHat_Blue"
+                        ],
+                        "Vest": [],
+                        "Backpack": [
+                            "TaloonBag_Blue"
+                        ],
+                        "ShoulderWeapons": [],
+                        "FoodItems": [
+                            "TunaCan_Opened",
+                            "BakedBeansCan_Opened",
+                            "PeachesCan_Opened",
+                            "SpaghettiCan_Opened",
+                            "TacticalBaconCan_Opened",
+                            "SardinesCan_Opened",
+                            "Pajka",
+                            "Apple",
+                            "Pear",
+                            "Plum"
+                        ],
+                        "DrinkItems": [
+                            "WaterBottle",
+                            "Canteen",
+                            "SodaCan_Cola",
+                            "SodaCan_Kvass",
+                            "SodaCan_Spite",
+                            "SodaCan_Pipsi"
+                        ],
+                        "MapItems": [
+                            "ChernarusMap",
+                            "Compass",
+                            "OrienteeringCompass"
+                        ],
+                        "RadioItems": [
+                            "PersonalRadio",
+                            "RemoteDetonatorTrigger"
+                        ],
+                        "MedicalItems": [
+                            "BandageDressing",
+                            "Heatpack",
+                            "Rag",
+                            "Thermometer"
+                        ],
+                        "FireTools": [
+                            "Matchbox",
+                            "Roadflare",
+                            "HandDrillKit",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "FirefighterAxe"
+                        ],
+                        "WoodItems": [
+                            "WoodenStick",
+                            "LongWoodenStick",
+                            "Firewood",
+                            "Bark_Oak",
+                            "Bark_Birch"
+                        ],
+                        "FishingItems": [
+                            "ImprovisedFishingRod",
+                            "FishingRod",
+                            "Hook",
+                            "BoneHook",
+                            "Worm"
+                        ],
+                        "RepairItems": [
+                            "WeaponCleaningKit",
+                            "Hammer",
+                            "Wrench",
+                            "PipeWrench",
+                            "Screwdriver",
+                            "Pliers",
+                            "Shovel",
+                            "FieldShovel",
+                            "Pickaxe",
+                            "KitchenKnife",
+                            "HuntingKnife",
+                            "StoneKnife",
+                            "Hatchet",
+                            "WoodAxe",
+                            "Sickle"
+                        ],
+                        "SewingItems": [
+                            "SewingKit",
+                            "LeatherSewingKit",
+                            "DuctTape"
+                        ],
+                        "PillItems": [
+                            "CharcoalTablets",
+                            "TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "VitaminBottle"
+                        ],
+                        "WringItems": [
+                            "Rag",
+                            "BandageDressing"
+                        ]
+                    },
+                    "_comment_Loadout": "Одежда, оружие и предметы для действий. Для нескольких вариантов добавляйте классы в массивы Body/Legs/Feet и т.д."
+                }
+            ],
+            "_comment_Kits": "Комплекты одежды/оружия этой группировки. Если их несколько, NPC выбирает случайный комплект по Chance.",
+            "SoundProfiles": [
+                {
+                    "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+                    "Name": "medic_placeholder_Type01",
+                    "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+                    "IdleSoundSets": [
+                        "SFP_NPC_Camp_idle_Type01_Soundset"
+                    ],
+                    "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+                    "IntroJokeSoundSets": [
+                        "SFP_NPC_Camp_introJoke_Type01_Soundset"
+                    ],
+                    "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+                    "JokeSoundSets": [
+                        "SFP_NPC_Camp_Joke_Type01_Soundset"
+                    ],
+                    "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+                    "MeetHelloSoundSets": [
+                        "SFP_NPC_Camp_MeetHello_Type01_Soundset"
+                    ],
+                    "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+                    "MeetHideWeaponSoundSets": [
+                        "SFP_NPC_Camp_MeetHideWeapon_Type01_Soundset"
+                    ],
+                    "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+                    "SleepSoundSets": [
+                        "SFP_NPC_Camp_Sleep_Type01_Soundset"
+                    ],
+                    "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+                }
+            ],
+            "_comment_SoundProfiles": "Голоса этой группировки: idle, introJoke, joke, hello, hideWeapon, sleep. Можно добавлять новые Type03/Type04."
+        }
+    ],
+    "_comment_Factions": "ОСНОВНОЙ БЛОК: список группировок. Здесь задаются комплекты одежды/оружия и soundset-наборы для каждой группировки.",
+    "Zones": [
+        {
+            "_comment": "Одна зона NPC-лагеря. Если вы поставили SFP_NPC_Camp_Spawner через init/маппинг, мод сам добавит сюда запись по координатам.",
+            "Id": "example_7500_7500",
+            "_comment_Id": "Уникальный ID зоны. Для авто-спавнеров создаётся по координатам. Не меняйте его без необходимости, иначе мод может создать новую запись.",
+            "Enabled": 0,
+            "_comment_Enabled": "Включить или выключить эту точку. true = NPC здесь появляются, false = точка останется в JSON, но NPC не спавнятся.",
+            "Name": "Example disabled camp - включите Enabled и поставьте координаты",
+            "_comment_Name": "Название точки для администратора. Можно написать, например: Деревня Каменка, Лагерь у озера, Военный пост.",
+            "CampType": "Village",
+            "_comment_CampType": "Тип сцены. Рекомендуемые значения: Village, Campfire, Military, Hunter, Mixed. Влияет на роли и поведение NPC.",
+            "AutoRegistered": 0,
+            "_comment_AutoRegistered": "true означает, что запись создана автоматически после размещения SFP_NPC_Camp_Spawner через init/маппинг.",
+            "Source": "example",
+            "_comment_Source": "Источник точки: placed_spawner/init/mapping/json/example. Поле информационное, нужно для понимания откуда появилась зона.",
+            "Position": [
+                7500.0,
+                0.0,
+                7500.0
+            ],
+            "_comment_Position": "Координаты центра зоны в формате [X, Y, Z]. Обычно совпадает с позицией невидимого SFP_NPC_Camp_Spawner.",
+            "Radius": 100.0,
+            "_comment_Radius": "Радиус жизни NPC в метрах. Минимум задаётся MinRadius, по умолчанию 30. NPC не должны уходить дальше этого радиуса.",
+            "NPCCount": 3,
+            "_comment_NPCCount": "Сколько NPC создать в этой зоне. Значение ограничивается MaxNPCPerCamp, по умолчанию максимум 50.",
+            "SoundSetsEnabled": 1,
+            "_comment_SoundSetsEnabled": "true = звуки NPC в этой зоне включены. false = NPC будут жить и двигаться, но без idle/анекдотов/приветствий/сна.",
+            "AutoCampfireEnabled": 1,
+            "_comment_AutoCampfireEnabled": "true = в этой зоне разрешено авто-создание/поддержание костра, если глобальный AutoCampfiresEnabled тоже true. false = в этой зоне костёр не создаётся автоматически, NPC используют только уже существующие костры.",
+            "AllowedFactions": [
+                "stalker"
+            ],
+            "_comment_AllowedFactions": "Список группировок, которые могут появляться в этой зоне. Например: [\"Dolg\", \"military\"]. Пусто = разрешены все группировки."
+        }
+    ],
+    "_comment_Zones": "ОСНОВНОЙ БЛОК: список зон/спавнеров на карте. Здесь задаются координаты, радиус, количество NPC и разрешённые группировки.",
+    "AutoRegisterPlacedSpawners": 1,
+    "_comment_AutoRegisterPlacedSpawners": "true = если на карте/init найден SFP_NPC_Camp_Spawner, он автоматически добавляется в массив Zones.",
+    "AutoEnableNewPlacedSpawners": 1,
+    "_comment_AutoEnableNewPlacedSpawners": "true = новая авто-добавленная точка сразу включена и начнёт спавнить NPC. false = точка появится в JSON выключенной.",
+    "SpawnerMatchDistance": 3.0,
+    "_comment_SpawnerMatchDistance": "Дистанция в метрах для поиска уже существующей записи Zones рядом с placed-spawner. Помогает не создавать дубликаты.",
+    "SaveConfigAfterAutoRegister": 1,
+    "_comment_SaveConfigAfterAutoRegister": "true = сразу сохранить JSON после авто-добавления нового placed-spawner.",
+    "DefaultRadius": 100.0,
+    "_comment_DefaultRadius": "Радиус по умолчанию для новых placed-spawner записей. Потом можно менять отдельно у каждой точки в Zones.",
+    "MinRadius": 30.0,
+    "_comment_MinRadius": "Минимальный разрешённый радиус. Если админ поставит меньше, мод автоматически поднимет до этого значения.",
+    "DefaultNPCCount": 3,
+    "_comment_DefaultNPCCount": "Количество NPC по умолчанию для новой авто-добавленной точки.",
+    "MaxNPCPerCamp": 50,
+    "_comment_MaxNPCPerCamp": "Максимум NPC на одну точку. Можно поставить до 50, но для больших значений включайте оптимизацию по игрокам.",
+    "RandomClothes": 1,
+    "_comment_RandomClothes": "Глобальная настройка: true = случайная одежда из профилей/списков, false = использовать первый предмет из кастомного комплекта.",
+    "RandomWeapon": 1,
+    "_comment_RandomWeapon": "Глобальная настройка: true = случайное оружие из профиля, false = первый предмет из списка оружия.",
+    "TickMS": 500,
+    "_comment_TickMS": "Частота активного обновления NPC в миллисекундах. Меньше = живее, но тяжелее для сервера.",
+    "MinActionDelaySeconds": 6.0,
+    "_comment_MinActionDelaySeconds": "Минимальная пауза между бытовыми действиями NPC. В v7 уменьшено, чтобы NPC чаще делали живые действия.",
+    "MaxActionDelaySeconds": 18.0,
+    "_comment_MaxActionDelaySeconds": "Максимальная пауза между бытовыми действиями NPC. Чем меньше значение, тем активнее лагерь.",
+    "UseNavmesh": 1,
+    "_comment_UseNavmesh": "true = использовать AIWorld.SampleNavmeshPosition/FindPath для более нормальной ходьбы.",
+    "NavmeshSampleDistance": 8.0,
+    "_comment_NavmeshSampleDistance": "Радиус поиска ближайшей navmesh-позиции для цели движения.",
+    "WaypointReachDistance": 1.5,
+    "_comment_WaypointReachDistance": "На каком расстоянии waypoint считается достигнутым.",
+    "DestinationReachDistance": 1.7999999523162842,
+    "_comment_DestinationReachDistance": "На каком расстоянии конечная цель считается достигнутой.",
+    "PathRebuildIntervalMS": 6000,
+    "_comment_PathRebuildIntervalMS": "Как часто можно перестраивать путь, если NPC упёрся или путь плохой.",
+    "MaxWaypoints": 32,
+    "_comment_MaxWaypoints": "Максимум waypoint-точек в одном маршруте.",
+    "StuckCheckDistance": 0.18000000715255738,
+    "_comment_StuckCheckDistance": "Если NPC прошёл меньше этого расстояния за тик проверки, считается что он может застревать.",
+    "StuckTicksBeforeTurn": 8,
+    "_comment_StuckTicksBeforeTurn": "Сколько проверок подряд NPC может почти не двигаться до выбора нового пути.",
+    "LoopStuckHistorySize": 10,
+    "_comment_LoopStuckHistorySize": "Сколько последних позиций хранить для поиска петли туда-сюда.",
+    "LoopStuckRadius": 1.600000023841858,
+    "_comment_LoopStuckRadius": "Если последние позиции NPC крутятся в маленьком радиусе, он считается зацикленным.",
+    "HardStuckTicksBeforeTeleport": 60,
+    "_comment_HardStuckTicksBeforeTeleport": "Через сколько тяжёлых stuck-проверок NPC мягко переносится в безопасную точку.",
+    "AllowUnstuckTeleport": 1,
+    "_comment_AllowUnstuckTeleport": "true = разрешить аварийный перенос NPC, если он сильно застрял.",
+    "HardUnstuckMinIntervalSeconds": 45.0,
+    "_comment_HardUnstuckMinIntervalSeconds": "Минимальная пауза между аварийными переносами одного NPC. Уменьшает спам Hard unstuck в RPT и не даёт NPC телепортироваться каждые несколько секунд.",
+    "SafePointAttempts": 64,
+    "_comment_SafePointAttempts": "Сколько попыток искать безопасную точку перед fallback-логикой.",
+    "UseInterestPoints": 1,
+    "_comment_UseInterestPoints": "true = NPC ищет интересные точки: костёр, колодец, воду, укрытие, край зоны.",
+    "InterestScanRadius": 70.0,
+    "_comment_InterestScanRadius": "Радиус поиска интересных объектов вокруг NPC.",
+    "InterestScanIntervalMS": 18000,
+    "_comment_InterestScanIntervalMS": "Как часто пересканировать интересные точки.",
+    "FireSearchRadius": 120.0,
+    "_comment_FireSearchRadius": "Радиус поиска горящего костра. В v7 костёр ищется по всей зоне лагеря, это значение оставлено как дополнительный минимум.",
+    "FireSlotCount": 8,
+    "_comment_FireSlotCount": "Сколько мест/слотов вокруг костра использовать для NPC.",
+    "FireSlotMinDistance": 2.299999952316284,
+    "_comment_FireSlotMinDistance": "Минимальная дистанция слота от костра.",
+    "FireSlotMaxDistance": 5.0,
+    "_comment_FireSlotMaxDistance": "Максимальная дистанция слота от костра.",
+    "FireSlotMinNPCDistance": 2.200000047683716,
+    "_comment_FireSlotMinNPCDistance": "Минимальная дистанция между NPC около костра.",
+    "DayNightBehaviourEnabled": 1,
+    "_comment_DayNightBehaviourEnabled": "true = включить разное поведение днём/вечером/ночью/утром.",
+    "MorningStartHour": 5,
+    "_comment_MorningStartHour": "С какого часа считается утро.",
+    "DayStartHour": 8,
+    "_comment_DayStartHour": "С какого часа считается день.",
+    "EveningStartHour": 18,
+    "_comment_EveningStartHour": "С какого часа считается вечер.",
+    "NightStartHour": 22,
+    "_comment_NightStartHour": "С какого часа считается ночь.",
+    "NightEndHour": 5,
+    "_comment_NightEndHour": "До какого часа считается ночь.",
+    "NightSleepNearFire": 1,
+    "_comment_NightSleepNearFire": "true = ночью часть NPC может лечь спать рядом с костром.",
+    "NightSleepChance": 42,
+    "_comment_NightSleepChance": "Шанс, что ночью NPC выберет сон у костра.",
+    "NightSitChance": 35,
+    "_comment_NightSitChance": "Шанс, что ночью NPC будет сидеть у костра.",
+    "NightGuardChance": 18,
+    "_comment_NightGuardChance": "Шанс, что ночью NPC будет патрулировать/стоять на охране.",
+    "NightSleepMinSeconds": 180.0,
+    "_comment_NightSleepMinSeconds": "Минимальное время сна у костра.",
+    "NightSleepMaxSeconds": 520.0,
+    "_comment_NightSleepMaxSeconds": "Максимальное время сна у костра.",
+    "CampfireSitMinSeconds": 140.0,
+    "_comment_CampfireSitMinSeconds": "Минимальное время сидения у костра. Увеличено, чтобы NPC сидели заметно дольше.",
+    "CampfireSitMaxSeconds": 420.0,
+    "_comment_CampfireSitMaxSeconds": "Максимальное время сидения у костра. Можно поднять, если нужны долгие костровые сцены.",
+    "EatDrinkMinSeconds": 10.0,
+    "_comment_EatDrinkMinSeconds": "Минимальная длительность сцены еды/питья. Modifier-анимация держится без ACTIONLOOP, чтобы не было мерцания позы.",
+    "EatDrinkMaxSeconds": 22.0,
+    "_comment_EatDrinkMaxSeconds": "Максимальная длительность сцены еды/питья.",
+    "WorkActionMinSeconds": 35.0,
+    "_comment_WorkActionMinSeconds": "Минимальная длительность бытовой работы: чинит дом, копает червей, крутится у машины, ломает палки.",
+    "WorkActionMaxSeconds": 110.0,
+    "_comment_WorkActionMaxSeconds": "Максимальная длительность бытовой работы. Для долгих сцен ставьте больше.",
+    "FishingMinSeconds": 90.0,
+    "_comment_FishingMinSeconds": "Минимальная длительность рыбалки у воды. Сделано долго, чтобы NPC не уходил сразу.",
+    "FishingMaxSeconds": 260.0,
+    "_comment_FishingMaxSeconds": "Максимальная длительность рыбалки у воды.",
+    "ExtraAmbientWorkEnabled": 1,
+    "_comment_ExtraAmbientWorkEnabled": "true = включить дополнительные бытовые сцены: ремонт дома молотком, черви, статичные машины, двери.",
+    "OpenUnlockedDoors": 1,
+    "_comment_OpenUnlockedDoors": "true = NPC может открывать обычные незапертые двери зданий. Кодовые замки и locked doors не трогает.",
+    "DoorAutoOpenOnPath": 1,
+    "_comment_DoorAutoOpenOnPath": "true = если закрытая незапертая дверь реально мешает пути NPC, он откроет её вместо того, чтобы сразу искать другое место.",
+    "DoorAutoOpenDistance": 2.799999952316284,
+    "_comment_DoorAutoOpenDistance": "Дистанция проверки двери перед NPC во время движения. Обычно 2.5-3.5 метра.",
+    "DoorAutoOpenCooldownMS": 2500,
+    "_comment_DoorAutoOpenCooldownMS": "Минимальная пауза между автоматическими открытиями дверей одним NPC, чтобы не спамить OpenDoor каждый тик.",
+    "DoorSearchRadius": 25.0,
+    "_comment_DoorSearchRadius": "Радиус поиска дверей для бытовой сцены открытия. Двери добавляются как отдельные точки интереса у зданий, а не центр дома.",
+    "VehicleWreckSearchRadius": 45.0,
+    "_comment_VehicleWreckSearchRadius": "Радиус поиска разбитых/статичных машин, возле которых NPC может имитировать ремонт ключом.",
+    "WeatherBehaviourEnabled": 1,
+    "_comment_WeatherBehaviourEnabled": "true = NPC реагирует на погоду.",
+    "RainThreshold": 0.6000000238418579,
+    "_comment_RainThreshold": "С какой силы дождя NPC считает дождь сильным. 0.60 = реагирует только на достаточно сильный дождь.",
+    "RainSeekShelterChance": 90,
+    "_comment_RainSeekShelterChance": "Шанс искать укрытие при сильном дожде. 90 = почти всегда уходит под крышу/к дому.",
+    "RainCatchWaterChance": 12,
+    "_comment_RainCatchWaterChance": "Шанс имитировать сбор воды во время дождя, если подходящее укрытие не найдено.",
+    "RainShelterNearBuildingsEnabled": 1,
+    "_comment_RainShelterNearBuildingsEnabled": "true = при сильном дожде NPC автоматически ищут укрытие рядом с домами/зданиями. false = эта система отключена.",
+    "RainShelterRequireRoof": 0,
+    "_comment_RainShelterRequireRoof": "true = использовать только точки, где raycast вверх нашёл крышу/навес. false = разрешить fallback-точки рядом со стенами домов, если крыша скриптом не найдена.",
+    "RainShelterSearchRadius": 95.0,
+    "_comment_RainShelterSearchRadius": "Радиус поиска зданий для укрытия от дождя вокруг центра лагеря. Обычно 80-120 метров.",
+    "RainShelterPointsPerBuilding": 10,
+    "_comment_RainShelterPointsPerBuilding": "Сколько вариантов точек укрытия пробовать вокруг каждого найденного здания.",
+    "RainShelterMinDistanceToBuilding": 2.0,
+    "_comment_RainShelterMinDistanceToBuilding": "Минимальная дистанция точки укрытия от центра здания. Меньше = ближе к стене/внутрь здания.",
+    "RainShelterMaxDistanceToBuilding": 8.0,
+    "_comment_RainShelterMaxDistanceToBuilding": "Максимальная дистанция точки укрытия от центра здания. Больше = может встать под козырёк/у стены дальше от центра.",
+    "RainShelterRoofCheckHeight": 9.0,
+    "_comment_RainShelterRoofCheckHeight": "Высота проверки крыши raycast'ом вверх. Если над точкой есть крыша/навес, точка получает высокий приоритет.",
+    "RainShelterStayMinSeconds": 90.0,
+    "_comment_RainShelterStayMinSeconds": "Минимальное время, сколько NPC стоит/пережидает дождь под укрытием.",
+    "RainShelterStayMaxSeconds": 240.0,
+    "_comment_RainShelterStayMaxSeconds": "Максимальное время, сколько NPC остаётся под укрытием, прежде чем снова проверить погоду.",
+    "RainShelterJogToShelter": 1,
+    "_comment_RainShelterJogToShelter": "true = при сильном дожде NPC идёт к укрытию спокойным бегом. false = всегда идёт обычным шагом.",
+    "RainShelterJogSpeed": 2.0,
+    "_comment_RainShelterJogSpeed": "Скорость движения к укрытию при сильном дожде. 1.0 = шаг, 2.0 = обычный бег/jog, 3.0 = спринт. Рекомендуется 2.0.",
+    "RainShelterExitAfterRainSeconds": 8.0,
+    "_comment_RainShelterExitAfterRainSeconds": "Если NPC уже стоит в укрытии и сильный дождь закончился, через сколько секунд он вернётся к обычной жизни. Меньше = быстрее уходит из укрытия.",
+    "AutoCampfiresEnabled": 1,
+    "_comment_AutoCampfiresEnabled": "true = если в зоне нет костра, мод сам создаёт обычный Fireplace в безопасной точке. false = NPC используют только существующие костры.",
+    "AutoCampfiresRestoreBurning": 1,
+    "_comment_AutoCampfiresRestoreBurning": "true = если автоматический/найденный костёр потух или прогорел, мод добавит топливо/растопку и снова запустит огонь.",
+    "AutoCampfireCheckIntervalSeconds": 45.0,
+    "_comment_AutoCampfireCheckIntervalSeconds": "Как часто проверять наличие/состояние костра в зоне. Не ставьте слишком мало, чтобы не грузить сервер.",
+    "AutoCampfireSpawnMinDistance": 6.0,
+    "_comment_AutoCampfireSpawnMinDistance": "Минимальная дистанция авто-костра от центра зоны. Может быть равна AutoCampfireSpawnMaxDistance для точного кольца.",
+    "AutoCampfireSpawnMaxDistance": 18.0,
+    "_comment_AutoCampfireSpawnMaxDistance": "Жёсткая максимальная дистанция авто-костра от центра зоны. Мод больше не расширяет поиск за это значение.",
+    "AutoCampfireClearanceRadius": 3.0,
+    "_comment_AutoCampfireClearanceRadius": "Радиус свободного места вокруг авто-костра. Внутри не должно быть домов, стен, палаток, машин, деревьев, кустов и других объектов.",
+    "AutoCampfireRoofCheckHeight": 7.0,
+    "_comment_AutoCampfireRoofCheckHeight": "Высота проверки вверх. Если над точкой есть крыша/навес/объект, костёр там не создаётся — только открытая земля.",
+    "RecognizedCampfireClasses": [
+        "Bonfire"
+    ],
+    "_comment_RecognizedCampfireClasses": "Дополнительные точные классы костров/статических огней других модов. Поддерживается наследование: достаточно указать базовый класс. Такие объекты считаются постоянно горящими, если они не наследуются от FireplaceBase.",
+    "RecognizedCampfireClassNameContains": [
+        "campfire",
+        "bonfire"
+    ],
+    "_comment_RecognizedCampfireClassNameContains": "Фрагменты имени класса для автоматического распознавания модовых статических костров, без учёта регистра. По умолчанию: campfire и bonfire. Добавляйте только характерные фрагменты, чтобы не распознать обычный декор как огонь.",
+    "GroupSceneEnabled": 1,
+    "_comment_GroupSceneEnabled": "true = лагерь старается выглядеть как группа, а не как одинаковые боты.",
+    "GroupSceneRefreshMS": 90000,
+    "_comment_GroupSceneRefreshMS": "Как часто обновлять групповую сцену лагеря.",
+    "LimitSameActionInCamp": 1,
+    "_comment_LimitSameActionInCamp": "true = ограничивать, чтобы все NPC не делали одно и то же одновременно.",
+    "PlayerReactionsEnabled": 1,
+    "_comment_PlayerReactionsEnabled": "true = NPC реагирует на игроков взглядом/отходом, без блокировки инвентаря.",
+    "PlayerLookAtRadius": 14.0,
+    "_comment_PlayerLookAtRadius": "Дистанция, на которой NPC может повернуться к игроку.",
+    "PlayerGreetingRadius": 10.0,
+    "_comment_PlayerGreetingRadius": "Дистанция для дружелюбной реакции на игрока. NPC приветствует серверной анимацией, а не повторяет F-кнопку игрока.",
+    "PlayerStepBackRadius": 2.5999999046325685,
+    "_comment_PlayerStepBackRadius": "Если игрок ближе этого радиуса, NPC может отойти назад.",
+    "PlayerAimReactionRadius": 18.0,
+    "_comment_PlayerAimReactionRadius": "Дистанция реакции на игрока с оружием. NPC может отойти, если игрок рядом держит оружие и смотрит в его сторону.",
+    "PlayerReactionCooldownMS": 7000,
+    "_comment_PlayerReactionCooldownMS": "Пауза между реакциями NPC на игрока.",
+    "IgnorePlayersWhileBusy": 1,
+    "_comment_IgnorePlayersWhileBusy": "true = если NPC уже спит, сидит, ест, чинит, рыбачит или выполняет работу, он НЕ бросает действие из-за подхода игрока.",
+    "PlayerGreetingMemoryMinSeconds": 180.0,
+    "_comment_PlayerGreetingMemoryMinSeconds": "Минимальное время памяти приветствия. NPC не будет здороваться с тем же игроком повторно раньше этого времени.",
+    "PlayerGreetingMemoryMaxSeconds": 300.0,
+    "_comment_PlayerGreetingMemoryMaxSeconds": "Максимальное время памяти приветствия. Рекомендуется 180-300 секунд, чтобы приветствия не повторялись каждые несколько секунд.",
+    "AvoidWater": 1,
+    "_comment_AvoidWater": "true = не спавнить/не выбирать точки в воде.",
+    "AvoidPlayersOnSpawn": 1,
+    "_comment_AvoidPlayersOnSpawn": "true = не спавнить NPC слишком близко к игрокам.",
+    "AvoidPlayersRadius": 35.0,
+    "_comment_AvoidPlayersRadius": "Радиус защиты от спавна рядом с игроком.",
+    "MinDistanceBetweenNPC": 4.0,
+    "_comment_MinDistanceBetweenNPC": "Минимальное расстояние между NPC при спавне/поиске безопасной точки.",
+    "AvoidSteepSlopes": 1,
+    "_comment_AvoidSteepSlopes": "true = избегать слишком крутых склонов.",
+    "MaxSlopeDegrees": 35.0,
+    "_comment_MaxSlopeDegrees": "Максимальный допустимый уклон земли.",
+    "SpawnObjectClearance": 1.649999976158142,
+    "_comment_SpawnObjectClearance": "Минимальное свободное место вокруг точки спавна/цели.",
+    "PlayerActivationRadius": 600.0,
+    "_comment_PlayerActivationRadius": "Если рядом нет игроков в этом радиусе, NPC может перейти в экономичный режим.",
+    "PlayerScanIntervalMS": 5000,
+    "_comment_PlayerScanIntervalMS": "Как часто NPC ищет ближайших игроков.",
+    "FireScanIntervalMS": 15000,
+    "_comment_FireScanIntervalMS": "Как часто NPC ищет костёр.",
+    "StopWhenNoPlayersNearby": 1,
+    "_comment_StopWhenNoPlayersNearby": "true = если рядом нет игроков, NPC не тратит ресурсы на активное поведение.",
+    "InactiveTickMS": 8000,
+    "_comment_InactiveTickMS": "Редкий тик NPC в экономичном режиме.",
+    "ActiveNPCGlobalLimit": 200,
+    "_comment_ActiveNPCGlobalLimit": "Глобальный лимит ambient NPC на сервер.",
+    "GiveItemsForActions": 1,
+    "_comment_GiveItemsForActions": "true = выдавать предметы в руки под действия: еда, вода, карта, радио и т.д.",
+    "DeleteTemporaryActionItems": 1,
+    "_comment_DeleteTemporaryActionItems": "true = удалять временные предметы после действия, чтобы NPC не мусорили.",
+    "SoundSystemEnabled": 1,
+    "_comment_SoundSystemEnabled": "true = включить звуковую систему NPC. false = мод полностью молчит.",
+    "IdleSoundsEnabled": 1,
+    "_comment_IdleSoundsEnabled": "true = NPC иногда произносят idle-реплики, когда стоят/сидят/отдыхают.",
+    "JokeSoundsEnabled": 1,
+    "_comment_JokeSoundsEnabled": "true = NPC могут рассказывать анекдоты у костра. Система проверяет, чтобы рядом не говорил другой NPC.",
+    "HelloSoundsEnabled": 1,
+    "_comment_HelloSoundsEnabled": "true = при приветствии игрока проигрывается MeetHello soundset закреплённого голоса.",
+    "HideWeaponSoundsEnabled": 1,
+    "_comment_HideWeaponSoundsEnabled": "true = если игрок направил оружие на свободного NPC, он может сказать фразу 'опусти оружие'.",
+    "SleepSoundsEnabled": 1,
+    "_comment_SleepSoundsEnabled": "true = у каждого спящего NPC включается loop-звук сна до пробуждения.",
+    "IdleSoundMinIntervalSeconds": 25.0,
+    "_comment_IdleSoundMinIntervalSeconds": "Минимальная пауза между idle-репликами одного NPC.",
+    "IdleSoundMaxIntervalSeconds": 70.0,
+    "_comment_IdleSoundMaxIntervalSeconds": "Максимальная пауза между idle-репликами одного NPC.",
+    "IdleSoundBlockRadius": 28.0,
+    "_comment_IdleSoundBlockRadius": "Радиус, в котором idle-реплики и анекдоты блокируют друг друга, чтобы голоса рядом не накладывались.",
+    "IdleSoundLockSeconds": 6.0,
+    "_comment_IdleSoundLockSeconds": "Сколько секунд после idle-реплики считается, что рядом занят голосовой канал.",
+    "JokeIntroDelaySeconds": 3.0,
+    "_comment_JokeIntroDelaySeconds": "Пауза между introJoke soundset и Joke soundset. По задаче стоит 3 секунды.",
+    "JokeDurationSeconds": 18.0,
+    "_comment_JokeDurationSeconds": "Примерная длительность основного soundset анекдота. Нужна, чтобы idle/анекдоты рядом не накладывались и NPC считался занятым до конца реплики.",
+    "JokeChanceAtFire": 35.0,
+    "_comment_JokeChanceAtFire": "Шанс попытки рассказать анекдот, когда NPC уже сидит/стоит у костра в подходящей группе.",
+    "JokeMinNPCNearFire": 2,
+    "_comment_JokeMinNPCNearFire": "Минимум NPC рядом с костром для анекдотов днём/вечером. Ночью анекдоты тоже разрешены у костра.",
+    "JokeNPCNearFireRadius": 14.0,
+    "_comment_JokeNPCNearFireRadius": "Радиус подсчёта NPC вокруг костра для разрешения анекдота.",
+    "JokeBlockRadius": 70.0,
+    "_comment_JokeBlockRadius": "Радиус запрета второго анекдота рядом, чтобы два NPC не рассказывали одновременно.",
+    "JokeCooldownBetweenNPCSeconds": 95.0,
+    "_comment_JokeCooldownBetweenNPCSeconds": "Пауза между анекдотами разных NPC рядом. Чем меньше число, тем чаще лагерь может говорить, но защита от наложения всё равно работает.",
+    "JokeGlobalCooldownSeconds": 25.0,
+    "_comment_JokeGlobalCooldownSeconds": "Минимальная глобальная пауза между анекдотами на сервере.",
+    "JokeAttemptMinIntervalSeconds": 45.0,
+    "_comment_JokeAttemptMinIntervalSeconds": "Минимальная пауза между повторными попытками одного NPC рассказать анекдот, пока он долго сидит/стоит у костра.",
+    "JokeAttemptMaxIntervalSeconds": 110.0,
+    "_comment_JokeAttemptMaxIntervalSeconds": "Максимальная пауза между повторными попытками одного NPC рассказать анекдот у костра.",
+    "MouthAnimationEnabled": 1,
+    "_comment_MouthAnimationEnabled": "true = при NPC soundset на клиентах включается лёгкое движение рта через talking-additive. Не запускается во время сна и не ломает жесты/действия.",
+    "MouthGreetingSeconds": 1.5,
+    "_comment_MouthGreetingSeconds": "Длительность движения рта на приветствие игрока. Рекомендуется 1-2 секунды.",
+    "MouthHideWeaponSeconds": 2.0,
+    "_comment_MouthHideWeaponSeconds": "Длительность движения рта на фразу 'убери/опусти оружие'.",
+    "MouthJokeIntroSeconds": 3.0,
+    "_comment_MouthJokeIntroSeconds": "Длительность движения рта на intro soundset перед анекдотом.",
+    "MouthJokeSeconds": 10.0,
+    "_comment_MouthJokeSeconds": "Длительность движения рта на основной soundset анекдота. Не обязана совпадать с полной JokeDurationSeconds.",
+    "MouthIdleSeconds": 7.0,
+    "_comment_MouthIdleSeconds": "Длительность движения рта на idle-реплику. Во сне рот не двигается, sleep loop не использует mouth animation.",
+    "SoundProfiles": [
+        {
+            "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+            "Name": "Type01",
+            "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+            "IdleSoundSets": [
+                "SFP_NPC_Camp_idle_Type01_Soundset"
+            ],
+            "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+            "IntroJokeSoundSets": [
+                "SFP_NPC_Camp_introJoke_Type01_Soundset"
+            ],
+            "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+            "JokeSoundSets": [
+                "SFP_NPC_Camp_Joke_Type01_Soundset"
+            ],
+            "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+            "MeetHelloSoundSets": [
+                "SFP_NPC_Camp_MeetHello_Type01_Soundset"
+            ],
+            "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+            "MeetHideWeaponSoundSets": [
+                "SFP_NPC_Camp_MeetHideWeapon_Type01_Soundset"
+            ],
+            "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+            "SleepSoundSets": [
+                "SFP_NPC_Camp_Sleep_Type01_Soundset"
+            ],
+            "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+        },
+        {
+            "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+            "Name": "Type02",
+            "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+            "IdleSoundSets": [
+                "SFP_NPC_Camp_idle_Type02_Soundset"
+            ],
+            "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+            "IntroJokeSoundSets": [
+                "SFP_NPC_Camp_introJoke_Type02_Soundset"
+            ],
+            "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+            "JokeSoundSets": [
+                "SFP_NPC_Camp_Joke_Type02_Soundset"
+            ],
+            "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+            "MeetHelloSoundSets": [
+                "SFP_NPC_Camp_MeetHello_Type02_Soundset"
+            ],
+            "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+            "MeetHideWeaponSoundSets": [
+                "SFP_NPC_Camp_MeetHideWeapon_Type02_Soundset"
+            ],
+            "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+            "SleepSoundSets": [
+                "SFP_NPC_Camp_Sleep_Type01_Soundset"
+            ],
+            "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+        },
+        {
+            "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+            "Name": "GuardPlaceholder",
+            "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+            "IdleSoundSets": [
+                "SFP_NPC_Camp_idle_Type01_Soundset"
+            ],
+            "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+            "IntroJokeSoundSets": [],
+            "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+            "JokeSoundSets": [],
+            "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+            "MeetHelloSoundSets": [
+                "SFP_NPC_Camp_MeetHello_Type01_Soundset"
+            ],
+            "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+            "MeetHideWeaponSoundSets": [
+                "SFP_NPC_Camp_MeetHideWeapon_Type01_Soundset"
+            ],
+            "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+            "SleepSoundSets": [],
+            "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+        },
+        {
+            "_comment": "Один голосовой профиль NPC. Этот профиль закрепляется за NPC при спавне и не меняется, чтобы голос был постоянным.",
+            "Name": "EcologistPlaceholder",
+            "_comment_Name": "Название голосового профиля. Его можно прописать в NPCProfiles[].SoundProfileName для охраны, экологов, лаборатории и т.д.",
+            "IdleSoundSets": [
+                "SFP_NPC_Camp_idle_Type02_Soundset"
+            ],
+            "_comment_IdleSoundSets": "Idle-реплики. Играются редко, когда NPC стоит, сидит или отдыхает. Не накладываются рядом с другими idle/joke.",
+            "IntroJokeSoundSets": [],
+            "_comment_IntroJokeSoundSets": "Вступление перед анекдотом. Сначала играет intro, потом через JokeIntroDelaySeconds запускается JokeSoundSets.",
+            "JokeSoundSets": [],
+            "_comment_JokeSoundSets": "Основной soundset анекдота. Анекдоты разрешены только у костра ночью или когда у костра собралась группа NPC.",
+            "MeetHelloSoundSets": [
+                "SFP_NPC_Camp_MeetHello_Type02_Soundset"
+            ],
+            "_comment_MeetHelloSoundSets": "Приветствие. Играется вместе с NPC-приветствием игроку, но с памятью приветствия на 3-5 минут.",
+            "MeetHideWeaponSoundSets": [
+                "SFP_NPC_Camp_MeetHideWeapon_Type02_Soundset"
+            ],
+            "_comment_MeetHideWeaponSoundSets": "Фраза 'опусти оружие'. Играется, когда свободный NPC видит наведённое оружие.",
+            "SleepSoundSets": [],
+            "_comment_SleepSoundSets": "Loop-звук сна. Включается на каждого спящего NPC и выключается, когда он просыпается."
+        }
+    ],
+    "_comment_SoundProfiles": "Список голосовых профилей. В NPCProfiles[].SoundProfileName можно указать профиль для роли: Guard, Ecologist, Laboratory и т.д.",
+    "NPCClasses": [
+        "SFP_NPC_Camp_Mirek",
+        "SFP_NPC_Camp_Denis",
+        "SFP_NPC_Camp_Boris",
+        "SFP_NPC_Camp_Cyril",
+        "SFP_NPC_Camp_Elias",
+        "SFP_NPC_Camp_Francis",
+        "SFP_NPC_Camp_Guo",
+        "SFP_NPC_Camp_Hassan",
+        "SFP_NPC_Camp_Indar",
+        "SFP_NPC_Camp_Jose",
+        "SFP_NPC_Camp_Kaito",
+        "SFP_NPC_Camp_Lewis",
+        "SFP_NPC_Camp_Manua",
+        "SFP_NPC_Camp_Niki",
+        "SFP_NPC_Camp_Oliver",
+        "SFP_NPC_Camp_Peter",
+        "SFP_NPC_Camp_Quinn",
+        "SFP_NPC_Camp_Rolf",
+        "SFP_NPC_Camp_Seth",
+        "SFP_NPC_Camp_Taiki"
+    ],
+    "_comment_NPCClasses": "Список классов мужских NPC. Мод выбирает случайный класс отсюда.",
+    "RandomLoadout": {
+        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+        "Body": [
+            "HikingJacket_Black",
+            "HikingJacket_Red",
+            "BomberJacket_Blue",
+            "QuiltedJacket_Green",
+            "PoliceJacket",
+            "TTsKOJacket_Camo"
+        ],
+        "Legs": [
+            "Jeans_Blue",
+            "CargoPants_Green",
+            "PolicePants",
+            "TTSKOPants",
+            "HunterPants_Brown"
+        ],
+        "Feet": [
+            "HikingBootsLow_Black",
+            "WorkingBoots_Brown",
+            "MilitaryBoots_Black",
+            "JungleBoots_Beige"
+        ],
+        "Gloves": [
+            "WorkingGloves_Black",
+            "WorkingGloves_Brown",
+            "TacticalGloves_Black"
+        ],
+        "Headgear": [
+            "BeanieHat_Black",
+            "BaseballCap_Blue",
+            "Ushanka_Black",
+            "BoonieHat_Olive"
+        ],
+        "Vest": [
+            "HighCapacityVest_Olive",
+            "PressVest_Blue",
+            "UKAssVest_Black"
+        ],
+        "Backpack": [
+            "HuntingBag",
+            "TaloonBag_Blue",
+            "MountainBag_Green"
+        ],
+        "ShoulderWeapons": [
+            "Mosin9130",
+            "SKS",
+            "Izh18",
+            "Winchester70",
+            "CZ527",
+            "B95",
+            "AK74",
+            "AKM",
+            "M4A1",
+            "MP5K"
+        ],
+        "FoodItems": [
+            "TunaCan_Opened",
+            "BakedBeansCan_Opened",
+            "PeachesCan_Opened",
+            "SpaghettiCan_Opened",
+            "TacticalBaconCan_Opened",
+            "SardinesCan_Opened",
+            "Pajka",
+            "Apple",
+            "Pear",
+            "Plum"
+        ],
+        "DrinkItems": [
+            "WaterBottle",
+            "Canteen",
+            "SodaCan_Cola",
+            "SodaCan_Kvass",
+            "SodaCan_Spite",
+            "SodaCan_Pipsi"
+        ],
+        "MapItems": [
+            "ChernarusMap",
+            "Compass",
+            "OrienteeringCompass"
+        ],
+        "RadioItems": [
+            "PersonalRadio",
+            "RemoteDetonatorTrigger"
+        ],
+        "MedicalItems": [
+            "BandageDressing",
+            "Heatpack",
+            "Rag",
+            "Thermometer"
+        ],
+        "FireTools": [
+            "Matchbox",
+            "Roadflare",
+            "HandDrillKit",
+            "KitchenKnife",
+            "HuntingKnife",
+            "StoneKnife",
+            "Hatchet",
+            "WoodAxe",
+            "FirefighterAxe"
+        ],
+        "WoodItems": [
+            "WoodenStick",
+            "LongWoodenStick",
+            "Firewood",
+            "Bark_Oak",
+            "Bark_Birch"
+        ],
+        "FishingItems": [
+            "ImprovisedFishingRod",
+            "FishingRod",
+            "Hook",
+            "BoneHook",
+            "Worm"
+        ],
+        "RepairItems": [
+            "WeaponCleaningKit",
+            "Hammer",
+            "Wrench",
+            "PipeWrench",
+            "Screwdriver",
+            "Pliers",
+            "Shovel",
+            "FieldShovel",
+            "Pickaxe",
+            "KitchenKnife",
+            "HuntingKnife",
+            "StoneKnife",
+            "Hatchet",
+            "WoodAxe",
+            "Sickle"
+        ],
+        "SewingItems": [
+            "SewingKit",
+            "LeatherSewingKit",
+            "DuctTape"
+        ],
+        "PillItems": [
+            "CharcoalTablets",
+            "TetracyclineAntibiotics",
+            "PainkillerTablets",
+            "VitaminBottle"
+        ],
+        "WringItems": [
+            "Rag",
+            "BandageDressing"
+        ]
+    },
+    "_comment_RandomLoadout": "Глобальный случайный комплект, используется как fallback.",
+    "CustomLoadout": {
+        "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+        "Body": [
+            "HikingJacket_Black"
+        ],
+        "Legs": [
+            "Jeans_Blue"
+        ],
+        "Feet": [
+            "HikingBootsLow_Black"
+        ],
+        "Gloves": [
+            "WorkingGloves_Black"
+        ],
+        "Headgear": [
+            "BeanieHat_Black"
+        ],
+        "Vest": [
+            "HighCapacityVest_Olive"
+        ],
+        "Backpack": [
+            "HuntingBag"
+        ],
+        "ShoulderWeapons": [
+            "Mosin9130"
+        ],
+        "FoodItems": [
+            "TunaCan_Opened",
+            "BakedBeansCan_Opened",
+            "PeachesCan_Opened",
+            "SpaghettiCan_Opened",
+            "TacticalBaconCan_Opened",
+            "SardinesCan_Opened",
+            "Pajka",
+            "Apple",
+            "Pear",
+            "Plum"
+        ],
+        "DrinkItems": [
+            "WaterBottle",
+            "Canteen",
+            "SodaCan_Cola",
+            "SodaCan_Kvass",
+            "SodaCan_Spite",
+            "SodaCan_Pipsi"
+        ],
+        "MapItems": [
+            "ChernarusMap",
+            "Compass",
+            "OrienteeringCompass"
+        ],
+        "RadioItems": [
+            "PersonalRadio",
+            "RemoteDetonatorTrigger"
+        ],
+        "MedicalItems": [
+            "BandageDressing",
+            "Heatpack",
+            "Rag",
+            "Thermometer"
+        ],
+        "FireTools": [
+            "Matchbox",
+            "Roadflare",
+            "HandDrillKit",
+            "KitchenKnife",
+            "HuntingKnife",
+            "StoneKnife",
+            "Hatchet",
+            "WoodAxe",
+            "FirefighterAxe"
+        ],
+        "WoodItems": [
+            "WoodenStick",
+            "LongWoodenStick",
+            "Firewood",
+            "Bark_Oak",
+            "Bark_Birch"
+        ],
+        "FishingItems": [
+            "ImprovisedFishingRod",
+            "FishingRod",
+            "Hook",
+            "BoneHook",
+            "Worm"
+        ],
+        "RepairItems": [
+            "WeaponCleaningKit",
+            "Hammer",
+            "Wrench",
+            "PipeWrench",
+            "Screwdriver",
+            "Pliers",
+            "Shovel",
+            "FieldShovel",
+            "Pickaxe",
+            "KitchenKnife",
+            "HuntingKnife",
+            "StoneKnife",
+            "Hatchet",
+            "WoodAxe",
+            "Sickle"
+        ],
+        "SewingItems": [
+            "SewingKit",
+            "LeatherSewingKit",
+            "DuctTape"
+        ],
+        "PillItems": [
+            "CharcoalTablets",
+            "TetracyclineAntibiotics",
+            "PainkillerTablets",
+            "VitaminBottle"
+        ],
+        "WringItems": [
+            "Rag",
+            "BandageDressing"
+        ]
+    },
+    "_comment_CustomLoadout": "Глобальный кастомный комплект, используется если RandomClothes=false.",
+    "NPCProfiles": [
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Civilian",
+            "Role": "Civilian",
+            "Chance": 38,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 25,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "HikingJacket_Black",
+                    "BomberJacket_Blue",
+                    "QuiltedJacket_Green"
+                ],
+                "Legs": [
+                    "Jeans_Blue",
+                    "CanvasPants_Beige",
+                    "CargoPants_Green"
+                ],
+                "Feet": [
+                    "HikingBootsLow_Black",
+                    "WorkingBoots_Brown",
+                    "AthleticShoes_Black"
+                ],
+                "Gloves": [
+                    "WorkingGloves_Brown"
+                ],
+                "Headgear": [
+                    "BeanieHat_Black",
+                    "BaseballCap_Blue"
+                ],
+                "Vest": [],
+                "Backpack": [
+                    "TaloonBag_Blue",
+                    "HuntingBag"
+                ],
+                "ShoulderWeapons": [
+                    "Izh18",
+                    "Mosin9130"
+                ],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 36,
+            "SitWeight": 14,
+            "EatWeight": 11,
+            "DrinkWeight": 11,
+            "CleanWeaponWeight": 4,
+            "LookAroundWeight": 10,
+            "RestWeight": 4,
+            "GuardWeight": 0,
+            "ScavengeWeight": 10,
+            "FireWorkWeight": 4,
+            "FishWeight": 0,
+            "WellWeight": 5,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Hunter",
+            "Role": "Hunter",
+            "Chance": 18,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 95,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "HuntingJacket_Brown",
+                    "HuntingJacket_Autumn",
+                    "HuntingJacket_Winter"
+                ],
+                "Legs": [
+                    "HunterPants_Brown",
+                    "HunterPants_Autumn"
+                ],
+                "Feet": [
+                    "HikingBootsLow_Beige",
+                    "HikingBootsLow_Black"
+                ],
+                "Gloves": [
+                    "WorkingGloves_Brown"
+                ],
+                "Headgear": [
+                    "Ushanka_Black",
+                    "BoonieHat_Olive"
+                ],
+                "Vest": [
+                    "HuntingVest"
+                ],
+                "Backpack": [
+                    "HuntingBag"
+                ],
+                "ShoulderWeapons": [
+                    "Izh18",
+                    "Mosin9130",
+                    "Winchester70",
+                    "CZ527"
+                ],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 28,
+            "SitWeight": 8,
+            "EatWeight": 8,
+            "DrinkWeight": 8,
+            "CleanWeaponWeight": 16,
+            "LookAroundWeight": 8,
+            "RestWeight": 4,
+            "GuardWeight": 0,
+            "ScavengeWeight": 8,
+            "FireWorkWeight": 8,
+            "FishWeight": 14,
+            "WellWeight": 3,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Guard",
+            "Role": "Guard",
+            "Chance": 16,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 100,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "TTsKOJacket_Camo",
+                    "BDUJacket",
+                    "USMCJacket_Woodland"
+                ],
+                "Legs": [
+                    "TTSKOPants",
+                    "BDUPants",
+                    "USMCPants_Woodland"
+                ],
+                "Feet": [
+                    "MilitaryBoots_Black",
+                    "JungleBoots_Beige"
+                ],
+                "Gloves": [
+                    "TacticalGloves_Black"
+                ],
+                "Headgear": [
+                    "BoonieHat_Olive"
+                ],
+                "Vest": [
+                    "HighCapacityVest_Olive",
+                    "UKAssVest_Black"
+                ],
+                "Backpack": [
+                    "MountainBag_Green"
+                ],
+                "ShoulderWeapons": [
+                    "SKS",
+                    "AK74",
+                    "AKM",
+                    "M4A1"
+                ],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 28,
+            "SitWeight": 4,
+            "EatWeight": 5,
+            "DrinkWeight": 6,
+            "CleanWeaponWeight": 18,
+            "LookAroundWeight": 13,
+            "RestWeight": 4,
+            "GuardWeight": 20,
+            "ScavengeWeight": 4,
+            "FireWorkWeight": 3,
+            "FishWeight": 0,
+            "WellWeight": 3,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Camper",
+            "Role": "Camper",
+            "Chance": 12,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 30,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "WoolCoat_Black",
+                    "HikingJacket_Black"
+                ],
+                "Legs": [
+                    "Jeans_Grey",
+                    "CargoPants_Beige"
+                ],
+                "Feet": [
+                    "WorkingBoots_Brown"
+                ],
+                "Gloves": [],
+                "Headgear": [
+                    "Ushanka_Black"
+                ],
+                "Vest": [],
+                "Backpack": [
+                    "HuntingBag"
+                ],
+                "ShoulderWeapons": [
+                    "Izh18",
+                    "Mosin9130"
+                ],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 14,
+            "SitWeight": 30,
+            "EatWeight": 13,
+            "DrinkWeight": 13,
+            "CleanWeaponWeight": 4,
+            "LookAroundWeight": 4,
+            "RestWeight": 10,
+            "GuardWeight": 0,
+            "ScavengeWeight": 4,
+            "FireWorkWeight": 22,
+            "FishWeight": 0,
+            "WellWeight": 3,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Scavenger",
+            "Role": "Scavenger",
+            "Chance": 10,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 35,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "RidersJacket_Black",
+                    "BomberJacket_Brown"
+                ],
+                "Legs": [
+                    "Jeans_Black",
+                    "CargoPants_Black"
+                ],
+                "Feet": [
+                    "WorkingBoots_Black"
+                ],
+                "Gloves": [
+                    "WorkingGloves_Black"
+                ],
+                "Headgear": [],
+                "Vest": [],
+                "Backpack": [
+                    "TaloonBag_Orange"
+                ],
+                "ShoulderWeapons": [
+                    "SKS",
+                    "Izh18"
+                ],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 32,
+            "SitWeight": 6,
+            "EatWeight": 10,
+            "DrinkWeight": 10,
+            "CleanWeaponWeight": 4,
+            "LookAroundWeight": 12,
+            "RestWeight": 4,
+            "GuardWeight": 0,
+            "ScavengeWeight": 24,
+            "FireWorkWeight": 2,
+            "FishWeight": 0,
+            "WellWeight": 4,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Fisherman",
+            "Role": "Fisherman",
+            "Chance": 4,
+            "RandomClothes": 1,
+            "RandomWeapon": 1,
+            "WeaponSpawnChance": 10,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "Raincoat_Yellow",
+                    "HikingJacket_Blue"
+                ],
+                "Legs": [
+                    "CanvasPants_Grey"
+                ],
+                "Feet": [
+                    "Wellies_Green"
+                ],
+                "Gloves": [],
+                "Headgear": [
+                    "BoonieHat_Blue"
+                ],
+                "Vest": [],
+                "Backpack": [
+                    "CourierBag"
+                ],
+                "ShoulderWeapons": [],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 18,
+            "SitWeight": 8,
+            "EatWeight": 8,
+            "DrinkWeight": 8,
+            "CleanWeaponWeight": 4,
+            "LookAroundWeight": 6,
+            "RestWeight": 4,
+            "GuardWeight": 0,
+            "ScavengeWeight": 4,
+            "FireWorkWeight": 2,
+            "FishWeight": 48,
+            "WellWeight": 5,
+            "WeatherWeight": 2,
+            "MedicalWeight": 1
+        },
+        {
+            "_comment": "Профиль NPC: Role задаёт стиль поведения, Chance - вес выбора профиля.",
+            "Name": "Medic",
+            "Role": "Medic",
+            "Chance": 2,
+            "RandomClothes": 1,
+            "RandomWeapon": 0,
+            "WeaponSpawnChance": 0,
+            "SoundProfileName": "",
+            "_comment_SoundProfileName": "Имя голосового профиля из блока SoundProfiles. Например: Type01, Type02, GuardPlaceholder, EcologistPlaceholder. Пусто = случайный голос.",
+            "Loadout": {
+                "_comment": "Списки классов предметов. При RandomClothes=true выбирается случайный предмет из каждого массива; при false берётся первый.",
+                "Body": [
+                    "ParamedicJacket_Blue"
+                ],
+                "Legs": [
+                    "ParamedicPants_Blue"
+                ],
+                "Feet": [
+                    "AthleticShoes_Grey"
+                ],
+                "Gloves": [
+                    "SurgicalGloves_Blue"
+                ],
+                "Headgear": [],
+                "Vest": [],
+                "Backpack": [
+                    "DryBag_Orange"
+                ],
+                "ShoulderWeapons": [],
+                "FoodItems": [
+                    "TunaCan_Opened",
+                    "BakedBeansCan_Opened",
+                    "PeachesCan_Opened",
+                    "SpaghettiCan_Opened",
+                    "TacticalBaconCan_Opened",
+                    "SardinesCan_Opened",
+                    "Pajka",
+                    "Apple",
+                    "Pear",
+                    "Plum"
+                ],
+                "DrinkItems": [
+                    "WaterBottle",
+                    "Canteen",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Spite",
+                    "SodaCan_Pipsi"
+                ],
+                "MapItems": [
+                    "ChernarusMap",
+                    "Compass",
+                    "OrienteeringCompass"
+                ],
+                "RadioItems": [
+                    "PersonalRadio",
+                    "RemoteDetonatorTrigger"
+                ],
+                "MedicalItems": [
+                    "BandageDressing",
+                    "Heatpack",
+                    "Rag",
+                    "Thermometer"
+                ],
+                "FireTools": [
+                    "Matchbox",
+                    "Roadflare",
+                    "HandDrillKit",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "FirefighterAxe"
+                ],
+                "WoodItems": [
+                    "WoodenStick",
+                    "LongWoodenStick",
+                    "Firewood",
+                    "Bark_Oak",
+                    "Bark_Birch"
+                ],
+                "FishingItems": [
+                    "ImprovisedFishingRod",
+                    "FishingRod",
+                    "Hook",
+                    "BoneHook",
+                    "Worm"
+                ],
+                "RepairItems": [
+                    "WeaponCleaningKit",
+                    "Hammer",
+                    "Wrench",
+                    "PipeWrench",
+                    "Screwdriver",
+                    "Pliers",
+                    "Shovel",
+                    "FieldShovel",
+                    "Pickaxe",
+                    "KitchenKnife",
+                    "HuntingKnife",
+                    "StoneKnife",
+                    "Hatchet",
+                    "WoodAxe",
+                    "Sickle"
+                ],
+                "SewingItems": [
+                    "SewingKit",
+                    "LeatherSewingKit",
+                    "DuctTape"
+                ],
+                "PillItems": [
+                    "CharcoalTablets",
+                    "TetracyclineAntibiotics",
+                    "PainkillerTablets",
+                    "VitaminBottle"
+                ],
+                "WringItems": [
+                    "Rag",
+                    "BandageDressing"
+                ]
+            },
+            "WalkWeight": 30,
+            "SitWeight": 8,
+            "EatWeight": 8,
+            "DrinkWeight": 8,
+            "CleanWeaponWeight": 4,
+            "LookAroundWeight": 12,
+            "RestWeight": 4,
+            "GuardWeight": 0,
+            "ScavengeWeight": 6,
+            "FireWorkWeight": 2,
+            "FishWeight": 0,
+            "WellWeight": 3,
+            "WeatherWeight": 2,
+            "MedicalWeight": 24
+        }
+    ],
+    "_comment_NPCProfiles": "СТАРЫЙ БЛОК СОВМЕСТИМОСТИ: используется как fallback, если Factions пустой.",
+    "FoodItems": [
+        "TunaCan_Opened",
+        "BakedBeansCan_Opened",
+        "PeachesCan_Opened",
+        "SpaghettiCan_Opened",
+        "TacticalBaconCan_Opened",
+        "SardinesCan_Opened",
+        "Pajka",
+        "Apple",
+        "Pear",
+        "Plum"
+    ],
+    "_comment_FoodItems": "Предметы еды, которые NPC может получить в руки для действия еды.",
+    "DrinkItems": [
+        "WaterBottle",
+        "Canteen",
+        "SodaCan_Cola",
+        "SodaCan_Kvass",
+        "SodaCan_Spite",
+        "SodaCan_Pipsi"
+    ],
+    "_comment_DrinkItems": "Предметы питья для действия питья.",
+    "MapItems": [
+        "ChernarusMap",
+        "Compass",
+        "OrienteeringCompass"
+    ],
+    "_comment_MapItems": "Карта/компас для действий осмотра.",
+    "RadioItems": [
+        "PersonalRadio",
+        "RemoteDetonatorTrigger"
+    ],
+    "_comment_RadioItems": "Предметы радио/связи для бытовых сцен.",
+    "MedicalItems": [
+        "BandageDressing",
+        "Heatpack",
+        "Rag",
+        "Thermometer"
+    ],
+    "_comment_MedicalItems": "Медицинские предметы для роли Medic и бытовых действий.",
+    "FireTools": [
+        "Matchbox",
+        "Roadflare",
+        "HandDrillKit",
+        "KitchenKnife",
+        "HuntingKnife",
+        "StoneKnife",
+        "Hatchet",
+        "WoodAxe",
+        "FirefighterAxe"
+    ],
+    "_comment_FireTools": "Предметы для сцен у костра.",
+    "WoodItems": [
+        "WoodenStick",
+        "LongWoodenStick",
+        "Firewood",
+        "Bark_Oak",
+        "Bark_Birch"
+    ],
+    "_comment_WoodItems": "Палки/дрова для сцен у костра.",
+    "FishingItems": [
+        "ImprovisedFishingRod",
+        "FishingRod",
+        "Hook",
+        "BoneHook",
+        "Worm"
+    ],
+    "_comment_FishingItems": "Удочки и предметы для рыбалки.",
+    "RepairItems": [
+        "WeaponCleaningKit",
+        "Hammer",
+        "Wrench",
+        "PipeWrench",
+        "Screwdriver",
+        "Pliers",
+        "Shovel",
+        "FieldShovel",
+        "Pickaxe",
+        "KitchenKnife",
+        "HuntingKnife",
+        "StoneKnife",
+        "Hatchet",
+        "WoodAxe",
+        "Sickle"
+    ],
+    "_comment_RepairItems": "Предметы ремонта/чистки оружия, ремонта дома/машины и бытовой работы.",
+    "SewingItems": [
+        "SewingKit",
+        "LeatherSewingKit",
+        "DuctTape"
+    ],
+    "_comment_SewingItems": "Предметы для сцены у костра, где NPC зашивает/чинит одежду: SewingKit, LeatherSewingKit, DuctTape.",
+    "PillItems": [
+        "CharcoalTablets",
+        "TetracyclineAntibiotics",
+        "PainkillerTablets",
+        "VitaminBottle"
+    ],
+    "_comment_PillItems": "Таблетки/медицина для короткой сцены у костра: CharcoalTablets, TetracyclineAntibiotics, MultivitaminPills и т.д.",
+    "WringItems": [
+        "Rag",
+        "BandageDressing"
+    ],
+    "_comment_WringItems": "Предметы для сцены выжимания одежды. Обычно Rag или Wet clothing-заглушки; предмет временный и удаляется после действия.",
+    "AutoAttachWeaponParts": 1,
+    "_comment_AutoAttachWeaponParts": "true = если у NPC появилось оружие за спиной, мод попробует автоматически поставить совместимые обвесы: магазин, приклад, цевьё, прицел. Глушители, штыки/наконечники и маскировка не используются.",
+    "WeaponAttachmentChance": 95,
+    "_comment_WeaponAttachmentChance": "Шанс авто-обвеса оружия, 0-100. Если сработало, мод по очереди пытается поставить совместимый магазин/приклад/цевьё/прицел из whitelist-массивов ниже.",
+    "WeaponAttachmentMagazines": [
+        "Mag_AK74_30Rnd",
+        "Mag_AKM_30Rnd",
+        "Mag_AKM_Drum75Rnd",
+        "Mag_STANAG_30Rnd",
+        "Mag_STANAGCoupled_30Rnd",
+        "Mag_CMAG_30Rnd",
+        "Mag_MP5_30Rnd",
+        "Mag_CZ527_5rnd",
+        "Mag_FAL_20Rnd",
+        "Mag_SVD_10Rnd",
+        "Mag_VSS_10Rnd",
+        "Mag_VAL_20Rnd"
+    ],
+    "_comment_WeaponAttachmentMagazines": "Whitelist магазинов для авто-установки на оружие. Мод ставит только если магазин совместим с конкретным оружием.",
+    "WeaponAttachmentStocks": [
+        "AK_WoodBttstck",
+        "AK_FoldingBttstck",
+        "AK_PlasticBttstck",
+        "AK74_WoodBttstck",
+        "AK74_PlasticBttstck",
+        "AKS74U_Bttstck",
+        "M4_OEBttstck",
+        "M4_CQBBttstck",
+        "M4_MPBttstck",
+        "Fal_OeBttstck",
+        "Fal_FoldingBttstck"
+    ],
+    "_comment_WeaponAttachmentStocks": "Whitelist прикладов. Только приклады, без маскировки и без глушителей.",
+    "WeaponAttachmentHandguards": [
+        "AK_WoodHndgrd",
+        "AK_PlasticHndgrd",
+        "AK_RailHndgrd",
+        "AK74_Hndgrd",
+        "AKS74U_Hndgrd",
+        "M4_PlasticHndgrd",
+        "M4_RISHndgrd",
+        "M4_MPHndgrd"
+    ],
+    "_comment_WeaponAttachmentHandguards": "Whitelist цевья/handguard. Только совместимые с оружием варианты будут установлены.",
+    "WeaponAttachmentOptics": [
+        "BUISOptic",
+        "M68Optic",
+        "M4_T3NRDSOptic",
+        "ACOGOptic",
+        "ReflexOptic",
+        "KobraOptic",
+        "KashtanOptic",
+        "PSO1Optic",
+        "PSO11Optic",
+        "PUScopeOptic",
+        "HuntingOptic"
+    ],
+    "_comment_WeaponAttachmentOptics": "Whitelist прицелов/оптики. Глушители, штыки и маскировочные элементы сюда не добавлять."
+}

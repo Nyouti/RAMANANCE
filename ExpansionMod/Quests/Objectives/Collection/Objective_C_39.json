@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 39,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Cinq queues de chien ou deux queues de pseudo-chien",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "Mutant_XZ_Dog_Tail",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 2,
+            "ClassName": "Mutant_XZ_Pdog_Tail",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 1
+}

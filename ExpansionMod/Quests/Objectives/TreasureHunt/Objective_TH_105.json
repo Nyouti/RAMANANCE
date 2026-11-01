@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 28,
+    "ID": 105,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille le sac du Lieutenant près de l'hélicoptère abattu",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Blue",
+    "DigInStash": 0,
+    "MarkerName": "Sac du Lieutenant",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            
+            5048.8,
+            114.3,
+            4122.9
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPaper",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

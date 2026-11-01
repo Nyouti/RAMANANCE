@@ -1,0 +1,87 @@
+{
+    "ConfigVersion": 22,
+    "ID": 170,
+    "Type": 1,
+    "Title": "Brouillage",
+    "Descriptions": [
+        "Garde-à-vous, soldat. Repos. Lieutenant Kozlov, section de sécurité de la base. Tu connais Radio Liberté ? Chaque soir, à vingt-deux heures, Svoboda lit à l'antenne où passent nos patrouilles. Eux, ils appellent ça des nouvelles. Moi, j'appelle ça du renseignement livré à l'ennemi. La semaine dernière, une de nos patrouilles est tombée dans une embuscade sur la route de Rostok : son itinéraire avait été lu la veille, sur leur fréquence. Leur relais est en hauteur, au nord-ouest de leurs Entrepôts. Voilà une charge de plastic et un détonateur. Fixe le détonateur sur la charge, pose-la au pied du relais, éloigne-toi, et appuie. Arrive par l'ouest : la route directe depuis leur portail traverse une tanière de sangsues. Et tiens-toi loin de leur base : on fait sauter une antenne, pas une guerre.",
+        "Le relais de Radio Liberté, en hauteur, au nord-ouest des Entrepôts. Pose la charge, éloigne-toi, fais-la sauter. Arrive par l'ouest.",
+        "Silence sur leur fréquence depuis hier soir. Bien. Ils le répareront, ils réparent toujours. Mais pendant une semaine, nos patrouilles rouleront sans qu'on lise leur itinéraire à toute la Zone. Tiens, soldat. Et le détonateur reste à la base : le matériel se compte, ici."
+    ],
+    "ObjectiveText": "Rejoins le relais de Radio Liberté, au nord-ouest des Entrepôts de l'armée, pose la charge de plastic, fais-la sauter à distance, puis reviens voir le lieutenant Kozlov. Arrive par l'ouest, loin de la tanière des sangsues.",
+    "FollowUpQuest": 171,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "Plastic_Explosive",
+            "Amount": 1
+        },
+        {
+            "ClassName": "RemoteDetonator",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 170,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 170,
+            "ObjectiveType": 10
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 85,
+    "Type": 1,
+    "Title": "Contre poison",
+    "Descriptions": [
+        "%1, les poisons ne sont pas qu'une histoire de meurtre au coin d'une ruelle. Ici on voit des intoxications accidentelles, des mélanges stupides, parfois des actes volontaires. Pour former l'équipe et préparer des contremesures, il me faut des échantillons d'arsenic sous deux formes, comprimés et ampoule, afin de documenter les risques et les remèdes possibles quand il reste encore une chance. Deux plaquettes et une ampoule, scellées si possible, et vous me les remettez directement au poste.",
+        "Il manque encore des comprimés ou l'ampoule. Revenez quand vous aurez deux plaquettes et une ampoule d'arsenic.",
+        "Merci, ces échantillons resteront sous clé et ne serviront qu'à l'enseignement et à la préparation des antidotes, lorsqu'ils existent. Voici un ouvrage de la série médecine sur les intoxications."
+    ],
+    "ObjectiveText": "Deux plaquettes d'arsenic et une ampoule d'arsenic au Doc",
+    "FollowUpQuest": 86,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine4",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 726,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        84
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

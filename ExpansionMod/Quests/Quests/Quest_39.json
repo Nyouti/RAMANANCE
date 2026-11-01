@@ -1,0 +1,69 @@
+{
+    "ConfigVersion": 22,
+    "ID": 39,
+    "Type": 1,
+    "Title": "Le second tome",
+    "Descriptions": [
+        "Tu marches trop fort, %1. Ici, le moindre pas s'entend à trois cents mètres. Arkadi. Les gars du Bar m'appellent le Loup, et ça les fait rire quand ils apprennent mon nom de famille : Zaïtsev, le lièvre. Je chasse dans les Terres sauvages depuis six ans. Tu as lu le manuel de chasse, le premier tome, celui qu'on trouve dans les Marais ? Alors voilà la suite. Le second tome, je ne le donne qu'à ceux qui ont prouvé qu'ils savent chasser. Deux meutes tiennent mes terres. La première est à trois cent cinquante mètres à l'est-nord-est, au bord de la route, et des pseudo-chiens la rejoignent parfois. La seconde est à quatre cent trente mètres au nord-nord-est, dans la terre qui crépite : là-bas, sans filtre GP-21, tu ne tiendras pas. Bricole-le à partir d'un filtre ordinaire : c'est ce que je fais. Abats cinq bêtes et rapporte-moi leurs queues : cinq queues de chien, ou deux de pseudo-chien. Un pseudo-chien, ça ne se chasse pas comme un chien : il te sautera dessus avant que tu l'aies vu, et sa morsure peut t'envoyer au tapis. N'approche pas du hameau au sud-sud-est, les sangsues y chassent mieux que toi. Et ne monte pas plus haut que la seconde meute : au-delà, une chimère garde le bois.",
+        "Les deux meutes : l'une à l'est-nord-est, au bord de la route, l'autre au nord-nord-est, dans la terre qui crépite, avec un GP-21 vissé. Cinq bêtes abattues, puis cinq queues de chien ou deux de pseudo-chien. Pas le hameau du sud, et pas plus haut que la seconde meute.",
+        "Propres, les coupes. Tu as la main. Tiens, le second tome : les pistes, les affûts, et comment dépecer sans rien gâcher. Repasse la semaine prochaine, la meute se reforme toujours. Et si un jour tu croises un gamin des Veilleurs dans les Marais, un grand maigre qui campe au milieu des Jarkas... ne lui dis pas que tu m'as vu."
+    ],
+    "ObjectiveText": "Abats cinq chiens ou pseudo-chiens des deux meutes des Terres sauvages de Rostok, à l'est-nord-est et au nord-nord-est du camp d'Arkadi, puis rapporte-lui cinq queues de chien ou deux queues de pseudo-chien. Filtre GP-21 obligatoire pour la meute du nord. Contrat hebdomadaire.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookHunting2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        13
+    ],
+    "QuestTurnInIDs": [
+        13
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 39,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 39,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

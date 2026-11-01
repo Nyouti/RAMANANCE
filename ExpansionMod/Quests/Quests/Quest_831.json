@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 831,
+    "Type": 1,
+    "Title": "Échange équitable",
+    "Descriptions": [
+        "%1, entre nous, ce sera un simple échange de bons procédés. J'ai besoin d'un gros lot d'épinéphrine pour le stock, disons vingt unités. En retour je vous laisse repartir avec un défibrillateur que nous n'utilisons plus ici, il est encore en état. Pas de discours long, on se rend service mutuellement.",
+        "Tant que les vingt épinéphrine ne sont pas là, l'échange attend.",
+        "Voilà qui est carré. Merci pour le lot, et tenez ce défibrillateur comme convenu."
+    ],
+    "ObjectiveText": "Vingt épinéphrine au Doc",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "Defibrillator",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 723,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        81
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

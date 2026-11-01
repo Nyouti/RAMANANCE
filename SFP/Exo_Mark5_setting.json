@@ -1,0 +1,19 @@
+{
+    "_comment_01": "Настройки экзоскелета SFP. Меняйте только значения справа от двоеточия.",
+    "_comment_02": "JumpCost - расход батареи за один буст-прыжок. Рекомендуемо 25..50.",
+    "_comment_03": "MeleeHitCost - расход батареи за один успешный силовой удар. Рекомендуемо 10..30.",
+    "_comment_04": "SprintDrainPerSecond - расход батареи в секунду во время бесконечного спринта. Рекомендуемо 1..5.",
+    "_comment_05": "EnergyExplosionCooldownSeconds - откат выброса энергии в секундах. Рекомендуемо 120..300.",
+    "_comment_06": "LandingDamagePlayers - true/false. Наносить ли игрокам урон от силового приземления. Обычно false.",
+    "_comment_07": "EnergyExplosionDamagePlayers - true/false. Наносить ли игрокам урон от выброса энергии. Обычно false.",
+    "_comment_08": "PoweredHitDamageMultiplier - дополнительный прямой урон силового удара. 5.0 уже очень сильное значение, 10.0 почти гарантированно убивает зараженных и животных. Рекомендуемо 3.0..8.0.",
+    "_comment_09": "PoweredHitExtraDamagePlayers - true/false. Применять ли дополнительный урон силового удара к игрокам. По умолчанию false, тогда игроки получают только обычный удар без усиленного бонуса.",
+    "JumpCost": 40.0,
+    "MeleeHitCost": 20.0,
+    "SprintDrainPerSecond": 2.0,
+    "EnergyExplosionCooldownSeconds": 180.0,
+    "LandingDamagePlayers": 0,
+    "EnergyExplosionDamagePlayers": 0,
+    "PoweredHitDamageMultiplier": 5.0,
+    "PoweredHitExtraDamagePlayers": 0
+}

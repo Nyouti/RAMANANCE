@@ -1,0 +1,42 @@
+{
+    "ConfigVersion": 28,
+    "ID": 37,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Trouve le poste radio de Clear Sky dans l'ancienne base",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Poste radio de Clear Sky",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            1489.000000,
+            80.170000,
+            1388.700000
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItem_NamalskRadio",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "BandageDressing",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

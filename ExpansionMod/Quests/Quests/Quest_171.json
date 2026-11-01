@@ -1,0 +1,98 @@
+{
+    "ConfigVersion": 22,
+    "ID": 171,
+    "Type": 1,
+    "Title": "Le hangar des sacs",
+    "Descriptions": [
+        "Tu sais ce qu'il y avait dans les Entrepôts, soldat, avant Svoboda ? Le dépôt de l'armée : de quoi équiper un régiment. Aujourd'hui, leurs coureurs le vident caisse après caisse, et ils descendent tout vers le sud avec ce qu'ils ramassent dans la Zone. Leur réserve, c'est un hangar à trois cents mètres au nord de leur portail : le hangar des sacs. Les sacs des coureurs y attendent le départ, et nos caisses de munitions avec. Nouvelle charge, même méthode. Attention à la Studen, au milieu du hangar, et aux rongeurs qui y nichent. Leur base est à trois cents mètres : s'ils entendent l'explosion, ils viendront. Fais vite, et ne tire que si on te tire dessus.",
+        "Le hangar des sacs, à trois cents mètres au nord du portail de Svoboda. Pose la charge, éloigne-toi, fais-la sauter. Attention à la Studen.",
+        "Nos guetteurs de Rostok n'ont vu passer aucun coureur depuis deux jours. Pendant quelque temps, rien ne descendra vers le sud. Bon travail, soldat. Tiens. Et pas un mot à l'intendant : officiellement, ces munitions-là n'ont jamais été perdues."
+    ],
+    "ObjectiveText": "Rejoins le hangar des sacs, à trois cents mètres au nord du portail de Svoboda, aux Entrepôts de l'armée, pose la charge de plastic, fais-la sauter à distance, puis reviens voir le lieutenant Kozlov.",
+    "FollowUpQuest": 172,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "Plastic_Explosive",
+            "Amount": 1
+        },
+        {
+            "ClassName": "RemoteDetonator",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 171,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 171,
+            "ObjectiveType": 10
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        170
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,3589 @@
+{
+    "m_CraftClasses": {
+        "m_CustomizationSetting": {
+            "PathToMainBackgroundImg": "my path to main img",
+            "PathTorepairpicImg": "my path to repairpicImg",
+            "PathTopaintpicImg": "my path to paintpicImg",
+            "PathToammopicImg": "my path to ammopicImg",
+            "PathToweaponpicImg": "my path to weaponpicImg",
+            "PathTotoolspicImg": "my path to toolspicImg",
+            "PathTocraftpicImg": "my path to craftpicImg",
+            "PathTosewingkitpicImg": "my path to sewingkitpicImg",
+            "PathTobuildingpicImg": "my path to buildingpicImg",
+            "PathTocarpicImg": "my path to carpicImg",
+            "PathTofurniturepicImg": "my path to furniturepicImg",
+            "PathTomedicpicImg": "my path to medicpicImg",
+            "PathTobookpicImg": "my path to bookpicImg",
+            "PathTohousepicImg": "my path to housepicImg",
+            "PathTodonatepicImg": "my path to donatepicImg",
+            "PathTovoltagepicImg": "my path to voltagepicImg"
+        },
+        "WorkbenchesClassnames": [
+            "HP_Crafter"
+        ],
+        "CraftCategories": [
+            {
+                "CategoryName": "Arme",
+                "CraftItems": [
+                    {
+                        "Result": "FOX_AK74N",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AK74N",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderingIron",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CapacitorPack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_AKS74UN",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AKS74UN",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_AK101",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AK101",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderingIron",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BluingKit",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper05",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_RadioTube",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SKS",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "SKS",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseLitol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP80",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Vikhr",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "Vikhr",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BluingKit",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "UMP45",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "UMP45",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_DrillSetMetal",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "MP5K",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "MP5K",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_Caliper",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ZipperTape",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "PP19",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "PP19",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_TinIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "PM73Rak",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "PM73Rak",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_Multimeter",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mp133Shotgun",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "Mp133Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SFP_ShotgunMP153",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "SFP_ShotgunMP153",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_DrillSetMetal",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BallValve",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GrindingDisc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SFP_SPAS12_Shotgun",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "SFP_SPAS12_Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderingIron",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseLitol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_HoseClamps",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FS_m590_Shotgun",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FS_m590_Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseLitol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Izh43Shotgun",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "Izh43Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_CutoffDisc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Glock19",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "Glock19",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_Caliper",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "MakarovIJ70",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "MakarovIJ70",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SandpaperP80",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Magnum",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "Magnum",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_BluingKit",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GrindingDisc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "CZ75",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "CZ75",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_BluingKit",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GrindingDisc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "CZ61",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "CZ61",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ToolRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GunOil",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "WeaponCleaningKit",
+                        "ResultCount": 100,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "toolspic",
+                        "RecipeName": "WeaponCleaningKit",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_WaterFilter",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPlaWhite",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Optique",
+                "CraftItems": [
+                    {
+                        "Result": "FNP45_MRDSoptic",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FNP45_MRDSoptic",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "ReflexOptic",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "ReflexOptic",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "KobraOptic",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "KobraOptic",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "PSO1Optic",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "PSO1Optic",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Silencieux",
+                "CraftItems": [
+                    {
+                        "Result": "FOX_AK74_Suppressor_1",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AK74_Suppressor_1",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_AK74_Suppressor_2",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AK74_Suppressor_2",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_M4_2000_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_M4_2000_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_NT4_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_NT4_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_ROTEX_V_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_ROTEX_V_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_TT_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_TT_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_SVD_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_SVD_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_AKM_Suppressor",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "weaponpic",
+                        "RecipeName": "FOX_AKM_Suppressor",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingSteel",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Filtre",
+                "CraftItems": [
+                    {
+                        "Result": "STO_Gasmask_Filter_AVC",
+                        "ResultCount": 550,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "toolspic",
+                        "RecipeName": "T3",
+                        "CraftComponents": [
+                            {
+                                "Classname": "STO_Gasmask_Filter_GP21",
+                                "Amount": 300,
+                                "Destroy": 300,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_OilSeals",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_HoseClamps",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "STO_Gasmask_Filter_GP21",
+                        "ResultCount": 300,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "toolspic",
+                        "RecipeName": "T2",
+                        "CraftComponents": [
+                            {
+                                "Classname": "GasMask_Filter",
+                                "Amount": 150,
+                                "Destroy": 150,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_RosinTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_OilSeals",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BallValve",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_PluckFoam",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "GasMask_Filter",
+                        "ResultCount": 150,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "toolspic",
+                        "RecipeName": "T1",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_OilSeals",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ZipperTape",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Pantalon",
+                "CraftItems": [
+                    {
+                        "Result": "SGE_Stalker_Sunrise_Pants",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "SGE_Stalker_Sunrise_Pants",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CorduraRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Sunrise_Wind_Pants",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "SGE_Sunrise_Wind_Pants",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Neutrals_Sunrise_Pants",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "SGE_Neutrals_Sunrise_Pants",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_PluckFoam",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Haut",
+                "CraftItems": [
+                    {
+                        "Result": "Zorya_Sunrise_AoD_Loner_Body2",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "Zorya_Sunrise_AoD_Loner_Body2",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ArmorPlate",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Sunrise_Wind_Jacket_Dw",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "SGE_Sunrise_Wind_Jacket_Dw",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Neutrals_Sunrise_Jacket",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "sewingkitpic",
+                        "RecipeName": "SGE_Neutrals_Sunrise_Jacket",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_PluckFoam",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Gilet Par Balle",
+                "CraftItems": [
+                    {
+                        "Result": "PlatecarrierVest",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "PlatecarrierVest",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ArmorPlate",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ClothOlive",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_DrillSetMetal",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Stalker_Sunrise_Vest",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "SGE_Stalker_Sunrise_Vest",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_CorduraRoll",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_PluckFoam",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "SGE_Neutrals_Sunrise_Vest",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "SGE_Neutrals_Sunrise_Vest",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothCharcoal",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ClothKhaki",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_DrillSetMetal",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Chargeur",
+                "CraftItems": [
+                    {
+                        "Result": "FOX_Mag_AK74_30rnd_polimer",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK74_30rnd_polimer (AK-74 / AKS-74UN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CapacitorPack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AK74_60rnd",
+                        "ResultCount": 60,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK74_60rnd (AK-74 / AKS-74UN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AK74_75rnd",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK74_75rnd (AK-74 / AKS-74UN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_AK74_45Rnd",
+                        "ResultCount": 45,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_AK74_45Rnd (AK-74 / AKS-74UN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AK74_30rnd",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK74_30rnd (AK-74 / AKS-74UN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CapacitorPack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AK101_30rnd",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK101_30rnd (AK-101)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CapacitorPack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AK101_60rnd",
+                        "ResultCount": 60,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AK101_60rnd (AK-101)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "FOX_Mag_AKM_30rnd",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "FOX_Mag_AKM_30rnd (AKMN)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CapacitorPack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_AK101_30Rnd_Black",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_AK101_30Rnd_Black (AK101)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_AKM_Drum75Rnd",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_AKM_Drum75Rnd (MK47)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_CLIP762x39_10Rnd",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_CLIP762x39_10Rnd (SKS)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP80",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_Vikhr_30Rnd",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_Vikhr_30Rnd (Vikhr)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SolderSpool",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_UMP_25Rnd",
+                        "ResultCount": 25,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_UMP_25Rnd (UMP45)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ZipperTape",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_MP5_30Rnd",
+                        "ResultCount": 30,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_MP5_30Rnd (MP5K)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_PP19_64Rnd",
+                        "ResultCount": 64,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_PP19_64Rnd (PP19)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_TinIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_PM73_25Rnd",
+                        "ResultCount": 25,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_PM73_25Rnd (PM73Rak)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_CZ61_20Rnd",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_CZ61_20Rnd (CZ61)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_Glock_15Rnd",
+                        "ResultCount": 15,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_Glock_15Rnd (Glock19)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP800",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_IJ70_8Rnd",
+                        "ResultCount": 8,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_IJ70_8Rnd (Makarov)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_OreTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GreaseSolidol",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_CZ75_15Rnd",
+                        "ResultCount": 15,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_CZ75_15Rnd (CZ75)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_GrindingDisc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Mag_12gaSnaploader_2Rnd",
+                        "ResultCount": 2,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Mag_12gaSnaploader_2Rnd (Shotguns)",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "munition",
+                "CraftItems": [
+                    {
+                        "Result": "Ammo_545x39Tracer",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_545x39Tracer x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 8,
+                                "Destroy": 8,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_762x39Tracer",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_762x39Tracer x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 8,
+                                "Destroy": 8,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_9x19",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_9x19 x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 6,
+                                "Destroy": 6,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_556x45Tracer",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_556x45Tracer x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 8,
+                                "Destroy": 8,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_9x39",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_9x39 x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 8,
+                                "Destroy": 8,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_12gaPellets",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_12gaPellets x10",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 10,
+                                "Destroy": 10,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_762x54Tracer",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_762x54Tracer x10",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 10,
+                                "Destroy": 10,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 5,
+                                "Destroy": 5,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Ammo_45ACP",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "ammopic",
+                        "RecipeName": "Ammo_45ACP x20",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_collection_LeadIngot",
+                                "Amount": 8,
+                                "Destroy": 8,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper10",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CircuitBoard",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Belt & Container Artefact",
+                "CraftItems": [
+                    {
+                        "Result": "BeltSGEContainer_Sunrise_Belt",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "BeltSGEContainer_Sunrise_Belt",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_CopperWire",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ZipperTape",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BeltSGEContainer_AContainer1",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "BeltSGEContainer_AContainer1",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BeltSGEContainer_AContainer2",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "BeltSGEContainer_AContainer2",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_RosinTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_WireCopper05",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BeltSGEContainer_AContainer3",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "BeltSGEContainer_AContainer3",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Rivets",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_NutsWashers",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ORingSet",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BeltSGEContainer_AContainer4",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "BeltSGEContainer_AContainer4",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 4,
+                                "Destroy": 4,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ScrewsM5",
+                                "Amount": 3,
+                                "Destroy": 3,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FusePack250",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_BoltsM6",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_SandpaperP240",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Médicaments",
+                "CraftItems": [
+                    {
+                        "Result": "TerjeAntiradInjector",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjeAntiradInjector",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Syringe",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsMexamine",
+                                "Amount": 20,
+                                "Destroy": 20,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsB190",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjeBandageHemostatic",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjeBandageHemostatic",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_ClothNavy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_ZipperTape",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjePillsParacetamol",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjePillsParacetamol",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjePillsIbuprofen",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjePillsIbuprofen",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_RosinTin",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjePillsCharcoalTablets",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjePillsCharcoalTablets",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_FilamentPetgBlack",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjeInjectorNeirox",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjeInjectorNeirox",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Syringe",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsMexamine",
+                                "Amount": 10,
+                                "Destroy": 10,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsB190",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjePillsPotassiumIodide",
+                        "ResultCount": 10,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjePillsPotassiumIodide",
+                        "CraftComponents": [
+                            {
+                                "Classname": "BMM_Items_FittingPvc",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "BMM_Items_Epoxy",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsMexamine",
+                                "Amount": 5,
+                                "Destroy": 5,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjeInjectorAmoxiclav",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjeInjectorAmoxiclav",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Syringe",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsAmoxiclav",
+                                "Amount": 5,
+                                "Destroy": 5,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "TerjeInjectorTopoizomeraza",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "TerjeInjectorTopoizomeraza",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Syringe",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsAmibaktam",
+                                "Amount": 5,
+                                "Destroy": 5,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "Epinephrine",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "medicpic",
+                        "RecipeName": "Epinephrine",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Syringe",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            },
+                            {
+                                "Classname": "TerjePillsB190",
+                                "Amount": 2,
+                                "Destroy": 2,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            },
+            {
+                "CategoryName": "Recyclage",
+                "CraftItems": [
+                    {
+                        "Result": "BMM_Items_WireCopper10",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - FOX_AK74N",
+                        "CraftComponents": [
+                            {
+                                "Classname": "FOX_AK74N",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_SolderSpool",
+                        "ResultCount": 150,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - FOX_M4A1",
+                        "CraftComponents": [
+                            {
+                                "Classname": "FOX_M4A1",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - FOX_AKS74UN",
+                        "CraftComponents": [
+                            {
+                                "Classname": "FOX_AKS74UN",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_WireCopper10",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - FOX_AK101",
+                        "CraftComponents": [
+                            {
+                                "Classname": "FOX_AK101",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - SKS",
+                        "CraftComponents": [
+                            {
+                                "Classname": "SKS",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_SolderSpool",
+                        "ResultCount": 150,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - Vikhr",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Vikhr",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_WireCopper10",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - UMP45",
+                        "CraftComponents": [
+                            {
+                                "Classname": "UMP45",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - MP5K",
+                        "CraftComponents": [
+                            {
+                                "Classname": "MP5K",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_GunOil",
+                        "ResultCount": 80,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - PP19",
+                        "CraftComponents": [
+                            {
+                                "Classname": "PP19",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - PM73Rak",
+                        "CraftComponents": [
+                            {
+                                "Classname": "PM73Rak",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - Mp133Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Mp133Shotgun",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_GunOil",
+                        "ResultCount": 80,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - SFP_ShotgunMP153",
+                        "CraftComponents": [
+                            {
+                                "Classname": "SFP_ShotgunMP153",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - SFP_SPAS12_Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "SFP_SPAS12_Shotgun",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - FS_m590_Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "FS_m590_Shotgun",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - Izh43Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Izh43Shotgun",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - Sawedofflzh43Shotgun",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Sawedofflzh43Shotgun",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - Glock19",
+                        "CraftComponents": [
+                            {
+                                "Classname": "Glock19",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - MakarovIJ70",
+                        "CraftComponents": [
+                            {
+                                "Classname": "MakarovIJ70",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_BoltsM6",
+                        "ResultCount": 20,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - CZ11",
+                        "CraftComponents": [
+                            {
+                                "Classname": "CZ11",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_CopperWire",
+                        "ResultCount": 200,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - CZ75",
+                        "CraftComponents": [
+                            {
+                                "Classname": "CZ75",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_ToolRoll",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - CZ61",
+                        "CraftComponents": [
+                            {
+                                "Classname": "CZ61",
+                                "Amount": 1,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_FilamentPetgBlack",
+                        "ResultCount": 5,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - STO_Gasmask_Filter_AVC",
+                        "CraftComponents": [
+                            {
+                                "Classname": "STO_Gasmask_Filter_AVC",
+                                "Amount": 150,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_OilSeals",
+                        "ResultCount": 1,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - STO_Gasmask_Filter_GP21",
+                        "CraftComponents": [
+                            {
+                                "Classname": "STO_Gasmask_Filter_GP21",
+                                "Amount": 150,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    },
+                    {
+                        "Result": "BMM_Items_FittingPvc",
+                        "ResultCount": 25,
+                        "ComponentsDontAffectHealth": 1,
+                        "CraftType": "craftpic",
+                        "RecipeName": "Recyclage - GasMask_Filter",
+                        "CraftComponents": [
+                            {
+                                "Classname": "GasMask_Filter",
+                                "Amount": 150,
+                                "Destroy": 1,
+                                "Changehealth": 0
+                            }
+                        ],
+                        "AttachmentsNeed": []
+                    }
+                ]
+            }
+        ]
+    }
+}

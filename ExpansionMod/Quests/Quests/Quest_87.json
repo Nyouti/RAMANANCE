@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 87,
+    "Type": 1,
+    "Title": "Gestes sur patient vivant",
+    "Descriptions": [
+        "%1, le matériel ne suffit pas si personne ne sait poser les mains au bon moment. Quand un autre survivant tombe, la réanimation passe par le massage cardiaque, parfois par une injection ou un choc si on a l'outil et la présence d'esprit. Je veux que vous le fassiez une fois pour de vrai sur quelqu'un d'autre, pas sur un mannequin, puis que vous reveniez me dire comment ça s'est passé. Méfiez-vous du bruit et des infectés pendant l'intervention.",
+        "Tant que vous n'avez pas réussi à réanimer un autre survivant, la mission reste ouverte.",
+        "Merci d'avoir tenu bon sur un cas réel. Voici un dernier livre de la série médecine ; gardez-le pour les prochaines urgences."
+    ],
+    "ObjectiveText": "Réanimer une fois un autre survivant, puis revenir voir le Doc",
+    "FollowUpQuest": 88,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine4",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 728,
+            "ObjectiveType": 10
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        86
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

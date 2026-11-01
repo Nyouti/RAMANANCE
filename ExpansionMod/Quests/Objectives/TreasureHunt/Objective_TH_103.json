@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 103,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Trouve la caisse de recel sur le bord nord de la fosse radioactive",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse de recel",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5113.5,
+            123.3,
+            5014.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

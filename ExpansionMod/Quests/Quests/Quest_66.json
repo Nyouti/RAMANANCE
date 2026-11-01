@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 66,
+    "Type": 1,
+    "Title": "Gants stériles",
+    "Descriptions": [
+        "%1, au poste, on insiste sur la stérilité. Une main sale sur une plaie, et l'infection arrive vite. Il me faudrait une paire de gants chirurgicaux bleus clairs, le modèle qu'on utilisait encore dans les vieux blocs. Si vous en trouvez une paire en bon état, pourriez-vous me la rapporter ?",
+        "Quand vous aurez la paire de gants, revenez me voir.",
+        "Merci. Avec ça, on limite les erreurs. Voici un livre de médecine pour la suite ; c'est une juste récompense pour votre prudence."
+    ],
+    "ObjectiveText": "Une paire de gants chirurgicaux bleus au Doc",
+    "FollowUpQuest": 67,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine1",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 704,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        65
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

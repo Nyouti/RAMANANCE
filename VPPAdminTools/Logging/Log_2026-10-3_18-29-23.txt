@@ -1,0 +1,1759 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-10-3_18-29-23
+====================================================================================
+18:29:23 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+18:29:23 | [PermissionManager] Perm (FreeCamera) has been registered!
+18:29:23 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuServerManager) has been registered!
+18:29:23 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+18:29:23 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+18:29:23 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+18:29:23 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+18:29:23 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+18:29:23 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+18:29:23 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+18:29:23 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+18:29:23 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuBansManager) has been registered!
+18:29:23 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+18:29:23 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+18:29:23 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+18:29:23 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+18:29:23 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+18:29:23 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+18:29:25 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+18:29:25 | [PermissionManager] Adding Super Admin (76561198317293678)
+18:29:25 | [PermissionManager] Adding Super Admin (76561198207165013)
+18:29:25 | [PermissionManager] Adding Super Admin (76561199417217773)
+18:29:25 | [PermissionManager] Adding Super Admin (76561198097580497)
+18:29:25 | [PermissionManager] Loaded UserGroups.json
+18:29:25 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+18:29:25 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+18:29:25 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+18:29:25 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+18:29:25 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+18:29:25 | Building Sets Loaded: 15
+18:29:25 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+18:29:25 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+18:33:36 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+18:34:10 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+18:34:22 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+18:34:23 | "L'asticot" (steamid=76561198207165013) toggled godmode
+18:34:48 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+18:34:48 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+18:35:56 | Player "Technicien Alexander" (steamId=76561199417217773) connected to server!
+18:36:16 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:36:22 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4959.549805, 123.140182, 6559.440918>)
+18:36:23 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:36:24 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:36:33 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.375488, 130.844116, 5607.955078>)
+18:36:34 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:36:39 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.038574, 130.946411, 5587.959473>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.620605, 131.002716, 5584.097168>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.562500, 131.006729, 5583.867676>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.501953, 131.010605, 5583.647461>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.490723, 131.012512, 5583.533203>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.475098, 131.014511, 5583.414551>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.455078, 131.016571, 5583.293945>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.644043, 131.042969, 5581.572754>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.687012, 131.058380, 5580.788574>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.704102, 131.065964, 5580.435059>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.672852, 131.077042, 5579.938965>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.627930, 131.081299, 5579.731445>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.611816, 131.083008, 5579.646973>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.607422, 131.083710, 5579.610352>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.618164, 131.084488, 5579.560547>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.624512, 131.085327, 5579.510254>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.630859, 131.086166, 5579.459961>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.777344, 131.126907, 5577.097656>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.803711, 131.138809, 5576.419922>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.812012, 131.142029, 5576.232910>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.777344, 131.148758, 5575.886230>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.759766, 131.150452, 5575.801758>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.757324, 131.151001, 5575.771973>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.759766, 131.151199, 5575.760742>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.763184, 131.151947, 5575.716797>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.767090, 131.152664, 5575.673340>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.770508, 131.153412, 5575.630371>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.794922, 131.161133, 5575.185547>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.813965, 131.166229, 5574.873535>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.833496, 131.171066, 5574.557129>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.854004, 131.175751, 5574.247070>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.875000, 131.180252, 5573.953125>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.894531, 131.184418, 5573.676270>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.908691, 131.190002, 5573.317383>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.905273, 131.194977, 5573.008789>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.901855, 131.199112, 5572.752930>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.899902, 131.202454, 5572.544434>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.906250, 131.205643, 5572.339355>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.903320, 131.208191, 5572.184570>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.900879, 131.210083, 5572.068848>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.928223, 131.218353, 5571.530273>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.942871, 131.224289, 5571.150391>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.952148, 131.228043, 5570.885742>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.979004, 131.236923, 5570.233398>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.992676, 131.242386, 5569.805664>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.000977, 131.245575, 5569.533691>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.005371, 131.251846, 5569.007812>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.005859, 131.255661, 5568.688477>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.004883, 131.257965, 5568.499512>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.002930, 131.259277, 5568.390137>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.001953, 131.260284, 5568.308105>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.001465, 131.261108, 5568.239258>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.000977, 131.261856, 5568.176758>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.023926, 131.269882, 5567.490723>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.033691, 131.273636, 5567.167969>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.037109, 131.275391, 5567.019043>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.069824, 131.289215, 5565.822266>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.082031, 131.294052, 5565.329102>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.085938, 131.295975, 5565.134277>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.087402, 131.296692, 5565.059082>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.084961, 131.300781, 5564.564453>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.083008, 131.302155, 5564.399414>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.081543, 131.302567, 5564.348145>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.104004, 131.309082, 5563.509277>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.109863, 131.310928, 5563.274414>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.110840, 131.311386, 5563.216797>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.150879, 131.323715, 5561.632324>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.160645, 131.326553, 5561.269531>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.162109, 131.327118, 5561.197266>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.162598, 131.327209, 5561.186523>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.163574, 131.327393, 5561.160645>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.165039, 131.327637, 5561.129883>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.166992, 131.327866, 5561.098633>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.171387, 131.329437, 5560.899902>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.170898, 131.329819, 5560.852539>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.171387, 131.330154, 5560.804688>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.182617, 131.332840, 5560.343262>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.193359, 131.335388, 5559.907227>)
+18:36:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.203613, 131.337753, 5559.506348>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.212891, 131.339844, 5559.148438>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.225098, 131.342270, 5558.729004>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.234863, 131.344330, 5558.375977>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.244141, 131.346008, 5558.085938>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.253906, 131.347855, 5557.767090>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.262695, 131.349319, 5557.517578>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.269531, 131.350433, 5557.326660>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.286621, 131.353775, 5556.752930>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.298828, 131.356171, 5556.339844>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.308594, 131.357864, 5556.048340>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.316406, 131.359024, 5555.847656>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.321777, 131.359863, 5555.702148>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.327148, 131.360168, 5555.588867>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.331055, 131.360352, 5555.498535>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.351074, 131.361038, 5554.864746>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.362793, 131.360260, 5554.492676>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.371094, 131.359833, 5554.280273>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.376465, 131.359589, 5554.162598>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.401367, 131.358047, 5553.422363>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.414062, 131.357254, 5553.045898>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.421387, 131.356888, 5552.859863>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.444824, 131.355484, 5552.186523>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.455566, 131.354858, 5551.884766>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.459961, 131.354614, 5551.755859>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.487305, 131.352982, 5550.974609>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.497559, 131.352341, 5550.664062>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.500977, 131.352127, 5550.551758>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.502441, 131.352020, 5550.515625>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.536133, 131.349091, 5549.536621>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.546875, 131.347092, 5549.210938>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.548828, 131.346497, 5549.113281>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.581543, 131.340591, 5548.148926>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.588867, 131.338913, 5547.875000>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.588867, 131.338470, 5547.803223>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.587402, 131.338348, 5547.780273>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.585449, 131.338058, 5547.733398>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.584473, 131.337784, 5547.686035>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.582520, 131.337509, 5547.638672>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.587891, 131.335953, 5547.380859>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.588867, 131.335266, 5547.267578>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.590332, 131.334579, 5547.153320>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.603516, 131.331680, 5546.682129>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.615723, 131.328979, 5546.239746>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.627441, 131.326492, 5545.830566>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.638184, 131.323746, 5545.381348>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.646973, 131.321350, 5544.993164>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.654785, 131.318039, 5544.665039>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.660645, 131.315292, 5544.394043>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.666016, 131.311859, 5544.053711>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.670410, 131.309219, 5543.790039>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.673340, 131.307220, 5543.590820>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.675293, 131.305725, 5543.440918>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.676270, 131.304535, 5543.324219>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.677734, 131.303589, 5543.229492>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.691895, 131.297836, 5542.660645>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.701172, 131.294144, 5542.294434>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.707031, 131.291809, 5542.062500>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.709961, 131.290405, 5541.922852>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.726074, 131.283173, 5541.207520>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.734863, 131.279037, 5540.797363>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.739746, 131.276749, 5540.570801>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.749512, 131.271317, 5539.983887>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.754395, 131.267624, 5539.679199>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.757324, 131.265808, 5539.528809>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.772461, 131.257385, 5538.833984>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.780762, 131.253448, 5538.511230>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.784668, 131.251709, 5538.367676>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.786133, 131.251007, 5538.309570>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.809082, 131.239502, 5537.362305>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.819336, 131.234924, 5536.985352>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.823730, 131.233170, 5536.841797>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.827148, 131.232330, 5536.773438>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.830566, 131.231613, 5536.716309>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.834473, 131.230988, 5536.665039>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.868652, 131.210846, 5535.036133>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.880371, 131.203033, 5534.549316>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.885742, 131.200729, 5534.405273>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.888672, 131.200058, 5534.363281>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.923828, 131.180344, 5533.135254>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.932617, 131.175797, 5532.854004>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.936523, 131.174744, 5532.786133>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.939941, 131.174103, 5532.751953>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.942383, 131.173370, 5532.702148>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.946289, 131.172516, 5532.647461>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.949219, 131.171661, 5532.597168>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.951660, 131.170944, 5532.553711>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.954590, 131.170181, 5532.504395>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.957031, 131.169434, 5532.460449>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.971680, 131.161179, 5531.949707>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.982910, 131.155075, 5531.569824>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.994141, 131.148956, 5531.186035>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.004883, 131.142944, 5530.809082>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.014648, 131.137192, 5530.447754>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.023438, 131.131775, 5530.108398>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.036621, 131.126175, 5529.750488>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.046387, 131.121353, 5529.447266>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.054688, 131.117325, 5529.193848>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.062012, 131.114090, 5528.989258>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.078125, 131.104950, 5528.413574>)
+18:36:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.090820, 131.097931, 5527.973145>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.099609, 131.092697, 5527.643555>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.105469, 131.088654, 5527.389160>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.109375, 131.085541, 5527.193848>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.111328, 131.083160, 5527.044922>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.114258, 131.064346, 5525.867676>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.940918, 131.048981, 5524.954590>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.762695, 131.035965, 5524.322266>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.564453, 131.026291, 5523.858887>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.323242, 131.016891, 5523.412598>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.085938, 131.009460, 5523.064941>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.787109, 131.001877, 5522.716309>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.728516, 130.987671, 5522.010742>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.521484, 130.979904, 5521.642578>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.346680, 130.974579, 5521.395020>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.261230, 130.971344, 5521.241699>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.270020, 130.969803, 5521.164062>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.264648, 130.968521, 5521.099609>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.003418, 130.927811, 5519.172852>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.752441, 130.910858, 5518.424805>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.652832, 130.904099, 5518.126953>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.614258, 130.901505, 5518.011719>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.093262, 130.869339, 5516.707031>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.840820, 130.858337, 5516.290039>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.759766, 130.854843, 5516.157715>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.435059, 130.837601, 5515.494629>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.293945, 130.833054, 5515.327148>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.257812, 130.831970, 5515.289551>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.249023, 130.831848, 5515.284668>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.151367, 130.820175, 5514.869629>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.089844, 130.809631, 5514.566406>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.027832, 130.799011, 5514.260742>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.979980, 130.788422, 5513.951172>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.942383, 130.778915, 5513.656250>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.903320, 130.769974, 5513.379883>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.732422, 130.748810, 5512.729492>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.505859, 130.731308, 5512.195312>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.316895, 130.716599, 5511.747559>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.162598, 130.704575, 5511.381836>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.930176, 130.686615, 5510.827148>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.713867, 130.673904, 5510.416504>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.551270, 130.664993, 5510.106445>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.360352, 130.639404, 5509.420410>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.197266, 130.620560, 5508.933594>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.083984, 130.607422, 5508.594238>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.842773, 130.572067, 5507.686035>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.682129, 130.549408, 5507.103516>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.585449, 130.534958, 5506.732422>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.260254, 130.500107, 5505.828125>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.305176, 130.486938, 5505.503906>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.473145, 130.484650, 5505.463379>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.640625, 130.486389, 5505.523438>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.496094, 130.452881, 5504.747559>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.566406, 130.434982, 5504.408691>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.691406, 130.430710, 5504.335938>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.735352, 130.427826, 5504.283691>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.763184, 130.425720, 5504.245605>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.810059, 130.425034, 5504.236328>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.312012, 130.341431, 5502.589844>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.189453, 130.307755, 5501.933105>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.145996, 130.295364, 5501.690918>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.248535, 130.253204, 5500.888672>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.340820, 130.238434, 5500.611816>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.371094, 130.233963, 5500.527832>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.551758, 130.213455, 5500.147461>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.645020, 130.207916, 5500.047852>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.669922, 130.206757, 5500.027832>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.677246, 130.206726, 5500.027344>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.672852, 130.205124, 5499.997070>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.668457, 130.202957, 5499.962891>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.664062, 130.201004, 5499.932129>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.599121, 130.177139, 5499.555176>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.538086, 130.161880, 5499.312988>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.476562, 130.146332, 5499.065918>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.428223, 130.115051, 5498.574219>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.438965, 130.085327, 5498.110840>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.449219, 130.057968, 5497.683594>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.449707, 130.031265, 5497.266602>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.488281, 130.007767, 5496.901855>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.520020, 129.988129, 5496.596680>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.491211, 129.960709, 5496.166992>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.506836, 129.938751, 5495.824707>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.522949, 129.921600, 5495.558105>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.540039, 129.908524, 5495.354004>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.636230, 129.897690, 5495.191406>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.728516, 129.889175, 5495.063965>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.823730, 129.881653, 5494.962402>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.855469, 129.824570, 5494.268066>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.970703, 129.787415, 5493.820312>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.083008, 129.763489, 5493.534668>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.117188, 129.689331, 5492.631348>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.218750, 129.644318, 5492.087402>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.289551, 129.617828, 5491.768066>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.363770, 129.557709, 5491.038574>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.483887, 129.525513, 5490.651855>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.563965, 129.506271, 5490.419434>)
+18:36:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.750000, 129.427185, 5489.511719>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.887695, 129.389420, 5489.127441>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.948242, 129.372833, 5488.959961>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.972656, 129.366104, 5488.891602>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.973633, 129.361450, 5488.842285>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.978027, 129.357849, 5488.804199>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.983398, 129.354645, 5488.770996>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.199219, 129.224579, 5487.431641>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.308105, 129.180283, 5486.982910>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.343262, 129.166336, 5486.842285>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.687500, 128.998459, 5485.130371>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.814453, 128.940170, 5484.617676>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.851074, 128.923096, 5484.474609>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.038086, 128.852936, 5483.890625>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.099609, 128.835358, 5483.746094>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.120117, 128.829834, 5483.700684>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.124512, 128.828842, 5483.692383>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.195312, 128.789612, 5483.356445>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.236328, 128.765839, 5483.152344>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.278809, 128.741577, 5482.943848>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.315430, 128.716690, 5482.728516>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.351562, 128.692245, 5482.518066>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.388184, 128.669022, 5482.317383>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.523926, 128.587814, 5481.619141>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.660645, 128.518478, 5481.026855>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.775391, 128.460403, 5480.530762>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.933105, 128.386581, 5479.912109>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.070801, 128.322495, 5479.419922>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.176270, 128.273407, 5479.042969>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.329590, 128.177689, 5478.297852>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.459473, 128.077682, 5477.514160>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.562012, 127.989662, 5476.812988>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.783203, 127.836449, 5475.600586>)
+18:36:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.905762, 127.720932, 5474.706543>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.356445, 128.370056, 5479.854004>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191895, 129.250290, 5487.916016>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.192871, 129.254608, 5487.962402>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191406, 129.258850, 5488.007324>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191895, 129.262161, 5488.042480>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191895, 129.265244, 5488.075195>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191406, 129.268204, 5488.106445>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.190430, 129.270950, 5488.135742>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.188965, 129.273392, 5488.161621>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.187012, 129.275818, 5488.186523>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.185059, 129.278168, 5488.211426>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.458008, 129.689331, 5492.742188>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.167969, 129.843765, 5494.583008>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.057129, 129.897980, 5495.288086>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.013672, 129.915756, 5495.560547>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.994629, 129.923035, 5495.671875>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.985840, 129.926559, 5495.726562>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.003906, 129.927490, 5495.743164>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.012207, 129.928116, 5495.753906>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.012207, 129.927841, 5495.749023>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.011719, 129.927536, 5495.743652>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.856934, 129.989655, 5496.704102>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.721191, 130.044113, 5497.546875>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.583496, 130.099167, 5498.398438>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.442871, 130.156204, 5499.280762>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.312500, 130.208664, 5500.113281>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.187012, 130.250854, 5500.915527>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.008789, 130.309418, 5502.027832>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.856445, 130.359955, 5502.988281>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.727539, 130.402588, 5503.798340>)
+18:36:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.619629, 130.438156, 5504.473633>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.528809, 130.467331, 5505.035645>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.451660, 130.486786, 5505.514648>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.391113, 130.501999, 5505.889160>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.160645, 130.560745, 5507.334961>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.998047, 130.602280, 5508.356445>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.883301, 130.631546, 5509.077148>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.803223, 130.651627, 5509.571289>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.746582, 130.665939, 5509.923340>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.263184, 130.764938, 5513.107910>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.153809, 130.820709, 5514.843750>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.157227, 130.842361, 5515.833984>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.208496, 130.852509, 5516.346680>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.300293, 130.856781, 5516.568848>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.471680, 130.856140, 5516.553711>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.626465, 130.854050, 5516.464355>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.772461, 130.851685, 5516.361328>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.957031, 130.847839, 5516.187988>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.144531, 130.843536, 5515.991211>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.361816, 130.838242, 5515.749023>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.555176, 130.833710, 5515.540527>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.178711, 130.959656, 5521.059570>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.351562, 131.001450, 5523.072266>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.524414, 131.014099, 5523.704590>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.956055, 131.013489, 5523.674805>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.259766, 131.012894, 5523.644531>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.411621, 131.012115, 5523.605469>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.487793, 131.012039, 5523.601562>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.496582, 131.013275, 5523.663086>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.505859, 131.014496, 5523.724121>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.514648, 131.015701, 5523.785156>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.562988, 131.028564, 5524.428223>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.596191, 131.039139, 5524.956543>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.626953, 131.051834, 5525.479492>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.613281, 131.071030, 5526.436035>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.837891, 131.086853, 5527.294922>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.041016, 131.101547, 5528.073242>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.119141, 131.116409, 5528.808594>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.354980, 131.128815, 5529.405762>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.556641, 131.137650, 5529.922363>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.724121, 131.144226, 5530.354004>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.785156, 131.156891, 5531.153809>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.947266, 131.166107, 5531.750977>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.070801, 131.173096, 5532.202637>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.147461, 131.178345, 5532.540039>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.196289, 131.182251, 5532.788086>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.233887, 131.185074, 5532.970703>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.411133, 131.207092, 5534.368652>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.590820, 131.220993, 5535.260254>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.704102, 131.229752, 5535.822754>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.772949, 131.235077, 5536.164062>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.250000, 131.263336, 5538.068848>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.562012, 131.274796, 5539.179688>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.735840, 131.281158, 5539.797363>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.827637, 131.284149, 5540.141602>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.875488, 131.285431, 5540.333984>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.901855, 131.286163, 5540.444824>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.197266, 131.299377, 5542.217773>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.350586, 131.307037, 5543.044434>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.418945, 131.310532, 5543.420410>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.447754, 131.312027, 5543.582520>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.463379, 131.312958, 5543.680176>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.475586, 131.313629, 5543.751953>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.485352, 131.314133, 5543.808594>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.165039, 131.332001, 5546.441406>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.414062, 131.336700, 5547.389648>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.499023, 131.338348, 5547.720215>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.527832, 131.338928, 5547.840332>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.875488, 131.348465, 5549.662109>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.979980, 131.350433, 5550.202148>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.009766, 131.350662, 5550.359375>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.234863, 131.351761, 5551.591797>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.291504, 131.352051, 5551.897949>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.307129, 131.352127, 5551.983887>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5191.110352, 131.354675, 5555.144531>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5191.254395, 131.350494, 5555.750977>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5191.272461, 131.349747, 5555.861816>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5191.271484, 131.349564, 5555.890625>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.997070, 131.350433, 5555.929199>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.562012, 131.353745, 5555.669434>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.269531, 131.355591, 5555.558105>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.988770, 131.357422, 5555.444824>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.805664, 131.358551, 5555.439453>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.629395, 131.359650, 5555.431152>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.769043, 131.356659, 5555.787109>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.606445, 131.355713, 5556.107422>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.457031, 131.355179, 5556.346191>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.319824, 131.355026, 5556.508789>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.768555, 131.344406, 5557.828613>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.869141, 131.337967, 5558.803223>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.945312, 131.333160, 5559.529297>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.786621, 131.331497, 5559.965332>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.465332, 131.331757, 5560.241211>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.243164, 131.331985, 5560.428711>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5189.098145, 131.330353, 5560.842285>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.835938, 131.330505, 5561.081055>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.669434, 131.330582, 5561.234375>)
+18:36:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.567871, 131.330612, 5561.329590>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.719238, 131.319214, 5562.628906>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.686523, 131.313675, 5563.354492>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.666992, 131.310516, 5563.769531>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.667969, 131.308517, 5564.015625>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.673340, 131.307205, 5564.176270>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.669434, 131.306335, 5564.287109>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.354004, 131.301208, 5565.194336>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.130859, 131.298874, 5565.607910>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5188.028320, 131.297729, 5565.804199>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.983887, 131.297165, 5565.896484>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.572754, 131.294403, 5566.501465>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.374512, 131.293625, 5566.735352>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.298828, 131.293304, 5566.829102>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.347656, 131.272491, 5568.668945>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.343262, 131.265060, 5569.292969>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5187.342773, 131.262634, 5569.494141>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.962891, 131.250458, 5570.706543>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.841309, 131.246918, 5571.046875>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.810547, 131.246002, 5571.132812>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.802734, 131.245758, 5571.155273>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.699707, 131.243698, 5571.378418>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.626465, 131.243134, 5571.470215>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.553223, 131.242599, 5571.562012>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.492676, 131.235962, 5572.078125>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.415527, 131.230087, 5572.551758>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.345215, 131.224731, 5572.984375>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.185547, 131.216171, 5573.709961>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5186.032715, 131.208237, 5574.333984>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.903809, 131.201401, 5574.857910>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.798340, 131.195282, 5575.285645>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.710938, 131.189850, 5575.645508>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.639648, 131.185501, 5575.936523>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.582031, 131.181992, 5576.168945>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.450195, 131.175720, 5576.605957>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.347168, 131.171234, 5576.921387>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.274414, 131.168167, 5577.143555>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5185.053223, 131.152786, 5578.140625>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.902832, 131.142578, 5578.800293>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.801758, 131.135803, 5579.232422>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.738281, 131.131561, 5579.502930>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.529297, 131.113800, 5580.388672>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.407715, 131.102219, 5580.917480>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.339844, 131.095749, 5581.222168>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.321777, 131.091690, 5581.409668>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.372559, 131.088303, 5581.554199>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.432617, 131.085602, 5581.666504>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.499023, 131.083282, 5581.760742>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.312988, 131.069824, 5582.406250>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.266113, 131.063217, 5582.715332>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.259277, 131.060028, 5582.860840>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.906250, 131.028137, 5584.374023>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.779297, 131.014725, 5585.006836>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.728027, 131.009354, 5585.261230>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.710449, 131.007095, 5585.367188>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.725586, 131.005890, 5585.418457>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.750488, 131.004868, 5585.459961>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.775391, 131.003998, 5585.495605>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.153809, 130.938889, 5589.212891>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.015137, 130.923889, 5590.268555>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.998047, 130.921661, 5590.541992>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.007324, 130.921143, 5590.606934>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.004883, 130.920792, 5590.652344>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.008301, 130.920456, 5590.693848>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.015137, 130.920090, 5590.744141>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.999023, 130.918701, 5590.911133>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.002441, 130.918533, 5590.934082>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.005859, 130.918365, 5590.956543>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5183.004883, 130.918106, 5590.985840>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.992676, 130.917786, 5591.026855>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.982910, 130.917404, 5591.071289>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.974609, 130.916992, 5591.120117>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.801758, 130.907669, 5592.239746>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.693359, 130.899902, 5593.185547>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.739258, 131.242889, 5592.913574>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.755859, 131.482422, 5592.812500>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.744141, 131.615524, 5592.905273>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.718750, 131.677139, 5593.112305>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.682129, 131.702286, 5593.418945>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.667480, 131.720795, 5593.637695>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.650879, 131.718613, 5593.840332>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.518066, 131.389969, 5594.970215>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.496582, 131.540070, 5594.941406>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.488770, 131.634430, 5594.931152>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.483887, 131.694580, 5594.923828>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.995605, 130.866058, 5598.989746>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.896484, 130.860474, 5599.921387>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.841309, 130.859116, 5600.449219>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.811523, 130.858536, 5600.740723>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.616211, 130.856094, 5601.958008>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.522461, 130.854828, 5602.584961>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.476074, 130.854218, 5602.896973>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.453613, 130.853882, 5603.052246>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.437988, 130.853699, 5603.154785>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.426758, 130.853531, 5603.237305>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.417480, 130.853394, 5603.310059>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.281738, 130.852386, 5603.812500>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.231934, 130.852020, 5604.001953>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.214355, 130.851868, 5604.063965>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.203613, 130.851791, 5604.105469>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.198242, 130.851746, 5604.130371>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.193359, 130.851685, 5604.155273>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.188477, 130.851639, 5604.181152>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.167480, 130.847504, 5606.255371>)
+18:36:46 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.158203, 130.847382, 5606.309570>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.149902, 130.847290, 5606.357910>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.796387, 130.842758, 5608.622559>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.797363, 130.842682, 5608.662598>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.799316, 130.842606, 5608.695312>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.641602, 130.841232, 5609.373047>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.648438, 130.841278, 5609.359375>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.655762, 130.841309, 5609.343262>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.663574, 130.841354, 5609.326172>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.596680, 130.840973, 5609.516602>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.602539, 130.841019, 5609.491699>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.607910, 130.841064, 5609.466309>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.583496, 130.836884, 5611.556152>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.589844, 130.836929, 5611.532715>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.594238, 130.836975, 5611.513184>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.598145, 130.837006, 5611.495605>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.596680, 130.837006, 5611.492676>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.595703, 130.837021, 5611.489746>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.594727, 130.837036, 5611.486328>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.242676, 130.832199, 5613.903809>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.225098, 130.832047, 5613.980469>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.207031, 130.831879, 5614.057129>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.175293, 130.831024, 5614.484375>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.145020, 130.830231, 5614.887695>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.116211, 130.829498, 5615.259766>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.092285, 130.828842, 5615.587891>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.069824, 130.828262, 5615.875488>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.049805, 130.827774, 5616.120605>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5180.032227, 130.827332, 5616.322754>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.916016, 130.825821, 5617.166992>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.823730, 130.824722, 5617.821777>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.753906, 130.823853, 5618.314453>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.663574, 130.822479, 5619.099609>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.597168, 130.821487, 5619.658203>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.548340, 130.820786, 5620.054199>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.512207, 130.820328, 5620.326172>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.486328, 130.820007, 5620.509277>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.466309, 130.819794, 5620.634766>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.449219, 130.819656, 5620.723145>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.403809, 130.818771, 5621.218750>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.377930, 130.818253, 5621.499512>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.362793, 130.817978, 5621.652832>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.173828, 130.815475, 5623.083496>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.076172, 130.814163, 5623.844238>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.026855, 130.813477, 5624.235840>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.003418, 130.813156, 5624.420410>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.895508, 130.811600, 5625.298340>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.847168, 130.810898, 5625.704590>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.827148, 130.810577, 5625.888184>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.752441, 130.808685, 5626.575684>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.723145, 130.807648, 5626.863770>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.712891, 130.807190, 5626.985352>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.477539, 130.800705, 5628.846680>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.394531, 130.798340, 5629.517090>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.367676, 130.797516, 5629.750000>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.359375, 130.797195, 5629.838867>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.354004, 130.796967, 5629.902832>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.348633, 130.796738, 5629.962891>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.344238, 130.796631, 5630.020996>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.200684, 130.797195, 5631.225098>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.167969, 130.797318, 5631.506836>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.161133, 130.797348, 5631.572754>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.772461, 130.798904, 5634.882812>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.707031, 130.800079, 5635.450684>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.697754, 130.800262, 5635.538574>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.697266, 130.800293, 5635.550781>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.694824, 130.800385, 5635.579102>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.692383, 130.800461, 5635.610352>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.688965, 130.800507, 5635.641113>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.657715, 130.801193, 5635.914062>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.643555, 130.801498, 5636.039551>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.629395, 130.801804, 5636.166504>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.544922, 130.803604, 5636.896973>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.466309, 130.805374, 5637.579590>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.393555, 130.808014, 5638.201172>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.330078, 130.810364, 5638.753418>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.272461, 130.812408, 5639.243652>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.223633, 130.814194, 5639.661133>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.182129, 130.815674, 5640.012695>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.150391, 130.816879, 5640.291992>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.124512, 130.817795, 5640.509277>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.104492, 130.818481, 5640.672852>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.043457, 130.820709, 5641.197754>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.998047, 130.822327, 5641.577637>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.965820, 130.823441, 5641.843750>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.841309, 130.827911, 5642.901855>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.758301, 130.830887, 5643.601074>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.704102, 130.832779, 5644.049805>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.668945, 130.834000, 5644.334473>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.518066, 130.838181, 5645.601562>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.427246, 130.839859, 5646.351562>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.375488, 130.840790, 5646.770508>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.344727, 130.841339, 5647.013672>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.325195, 130.841675, 5647.166016>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.311523, 130.841919, 5647.269531>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.299805, 130.842102, 5647.351562>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.136230, 130.845154, 5648.710938>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.060547, 130.846558, 5649.336914>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.025879, 130.847183, 5649.619629>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.009277, 130.847458, 5649.746094>)
+18:36:47 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.999023, 130.847626, 5649.819336>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.991211, 130.847763, 5649.871094>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.984863, 130.847870, 5649.916992>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.634766, 130.848740, 5652.787109>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.516113, 130.848969, 5653.754395>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.479004, 130.849045, 5654.060059>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.467285, 130.849075, 5654.152832>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.462402, 130.849075, 5654.194824>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.459473, 130.849091, 5654.223145>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.456055, 130.849091, 5654.248535>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.981934, 130.850006, 5658.108887>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.880371, 130.850006, 5658.934570>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.861816, 130.850006, 5659.088379>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.857910, 130.849991, 5659.136230>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.855957, 130.849991, 5659.166504>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.854980, 130.849991, 5659.196777>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.852539, 130.850021, 5659.235352>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.849609, 130.850006, 5659.274902>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.846680, 130.850006, 5659.319824>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.843750, 130.850006, 5659.363770>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.766602, 130.850006, 5660.014160>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.704102, 130.850494, 5660.544434>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.640137, 130.851440, 5661.080078>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.575684, 130.852432, 5661.629395>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.515625, 130.853333, 5662.144043>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.459961, 130.854172, 5662.619629>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.410645, 130.854904, 5663.047852>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.366211, 130.855591, 5663.430176>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.327637, 130.856186, 5663.764648>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.294922, 130.856689, 5664.051270>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.181152, 130.858368, 5665.034668>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.092285, 130.858185, 5665.798340>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.025879, 130.858047, 5666.375977>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.915039, 130.857819, 5667.329590>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.838379, 130.857681, 5667.999023>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.786133, 130.857574, 5668.460938>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.749023, 130.857498, 5668.779785>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.724609, 130.857437, 5668.996582>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.706543, 130.857407, 5669.147949>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.694336, 130.857376, 5669.253906>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.685547, 130.857361, 5669.328613>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.679199, 130.857361, 5669.384277>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.535156, 130.857071, 5670.628418>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.459473, 130.856918, 5671.283203>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.421387, 130.856781, 5671.611816>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.251953, 130.853836, 5673.076172>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.172363, 130.852493, 5673.759277>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.136230, 130.851868, 5674.063477>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.120605, 130.851624, 5674.190430>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.073730, 130.850845, 5674.579102>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.053711, 130.850540, 5674.732910>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.045898, 130.850418, 5674.789551>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.039062, 130.850342, 5674.831055>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.031738, 130.850250, 5674.878906>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.023926, 130.850143, 5674.930176>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.015625, 130.850037, 5674.981934>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.006836, 130.850006, 5675.036621>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.997559, 130.850006, 5675.095215>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.391602, 130.850006, 5680.231445>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.259766, 130.850006, 5681.131348>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.251465, 130.850006, 5681.202148>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.250000, 130.850006, 5681.215820>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.249023, 130.850006, 5681.229004>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.248047, 130.850006, 5681.242676>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.246582, 130.850006, 5681.258789>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.244629, 130.849991, 5681.279297>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.180176, 130.850006, 5681.840820>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.129395, 130.850006, 5682.284180>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.078125, 130.849991, 5682.733887>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.025879, 130.850006, 5683.192383>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.975586, 130.850006, 5683.633301>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.928711, 130.850006, 5684.049316>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.859375, 130.850006, 5684.608398>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.799805, 130.849808, 5685.097656>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.749512, 130.848984, 5685.510742>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.676270, 130.847748, 5686.130859>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.618652, 130.846756, 5686.623047>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.574707, 130.845993, 5687.003906>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.541504, 130.845398, 5687.298828>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.515625, 130.844940, 5687.527832>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.495605, 130.844589, 5687.710938>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.318359, 130.842636, 5689.233398>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.202148, 130.842407, 5690.225098>)
+18:36:48 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.127930, 130.842255, 5690.867676>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.081543, 130.842148, 5691.271484>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.052734, 130.842102, 5691.524902>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.034668, 130.842072, 5691.688965>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5171.022949, 130.842056, 5691.801758>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5170.803711, 130.841599, 5692.491211>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5170.553223, 130.841110, 5692.840332>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5170.309570, 130.840637, 5693.003418>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.960449, 130.839920, 5694.884766>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.634766, 130.838608, 5695.684570>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.393555, 130.838028, 5695.987793>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.256836, 130.837784, 5696.112793>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.184082, 130.837616, 5696.190918>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.105469, 130.837540, 5696.229492>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5169.031738, 130.836395, 5696.801270>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.939941, 130.836090, 5696.960449>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.912109, 130.835999, 5697.005859>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.902832, 130.835953, 5697.017090>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.753418, 130.835114, 5697.441895>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.642578, 130.834503, 5697.749023>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.530273, 130.833878, 5698.062012>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.422363, 130.832733, 5698.634277>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5168.176758, 130.831802, 5699.109863>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.949707, 130.830887, 5699.546387>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.780762, 130.829712, 5700.148926>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.529297, 130.828751, 5700.626953>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.314941, 130.827957, 5701.031250>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.148438, 130.827255, 5701.375488>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5167.019043, 130.826675, 5701.670410>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5166.909180, 130.826187, 5701.909668>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5166.736816, 130.825180, 5702.410645>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5166.552734, 130.824524, 5702.747559>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5166.420410, 130.824036, 5702.988281>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5166.072266, 130.822067, 5703.960449>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5165.812988, 130.820831, 5704.576172>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5165.646484, 130.820053, 5704.967773>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5165.283691, 130.817001, 5705.752930>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5165.050293, 130.815201, 5706.200684>)
+18:36:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5164.728027, 130.811615, 5706.959473>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5170.233398, 130.843597, 5688.205566>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.265137, 130.850021, 5680.976562>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.281738, 130.850021, 5680.908203>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.301270, 130.850006, 5680.828125>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.321777, 130.850021, 5680.747559>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.369629, 130.850006, 5680.572754>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.479492, 130.850006, 5680.187988>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.600098, 130.850006, 5679.767090>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5172.732910, 130.849991, 5679.303711>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.014648, 130.850006, 5678.192871>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.382324, 130.850006, 5676.742188>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5173.884766, 130.850494, 5674.755371>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.567871, 130.856384, 5671.819824>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.341797, 130.859985, 5668.094238>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.361816, 130.856201, 5663.094238>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5178.217773, 130.850021, 5655.018066>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5181.729004, 130.800507, 5637.621094>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5190.963867, 130.900696, 5590.577148>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5206.500488, 132.721695, 5515.566406>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5205.083984, 133.955338, 5517.616211>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5204.319824, 135.061966, 5517.179199>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.428223, 137.491333, 5465.023438>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5215.526855, 137.987671, 5463.898926>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5214.433105, 137.888489, 5464.980469>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.759766, 137.831116, 5465.069336>)
+18:36:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.486816, 137.790573, 5465.040527>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.581543, 137.760086, 5465.098633>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.622070, 137.738098, 5465.095703>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.658691, 137.720688, 5465.092773>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5204.328125, 134.397552, 5517.186035>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5204.328613, 134.392670, 5517.186523>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5204.329102, 134.388672, 5517.187012>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.538086, 139.064255, 5464.383301>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.538574, 139.063080, 5464.384766>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.546875, 139.064346, 5464.357910>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.558594, 139.066254, 5464.322266>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.568359, 139.067871, 5464.289062>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.577637, 139.068954, 5464.260254>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.589355, 139.067429, 5464.222656>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.600098, 139.065994, 5464.189453>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.611328, 139.064285, 5464.151855>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.849609, 137.184479, 5465.121582>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.853027, 137.191589, 5465.120117>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.855957, 137.197266, 5465.119141>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.661133, 140.582870, 5463.747559>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.663574, 140.586075, 5463.747070>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.665527, 140.588837, 5463.746582>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5218.677734, 141.299591, 5436.243164>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.668945, 140.520599, 5463.745605>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.670410, 140.525055, 5463.744629>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.672363, 140.529343, 5463.744141>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.673828, 140.533401, 5463.743164>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.675293, 140.537155, 5463.742188>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.729004, 140.229172, 5463.861816>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.778320, 139.949265, 5463.970215>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.821289, 139.701294, 5464.065430>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5213.859375, 139.484421, 5464.148438>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5218.895996, 142.707031, 5435.252930>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5218.894531, 142.704498, 5435.254883>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5218.893555, 142.701981, 5435.256836>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.503906, 143.037766, 5431.853027>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.503418, 143.036407, 5431.852539>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.502930, 143.035019, 5431.852539>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.502441, 143.033936, 5431.852539>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.498047, 143.034683, 5431.856934>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.495605, 143.035202, 5431.858887>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.492676, 143.035828, 5431.859375>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.490723, 143.036301, 5431.859375>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.051758, 144.374817, 5434.388184>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.048828, 144.375580, 5434.392578>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.044922, 144.376022, 5434.398438>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.044434, 144.385162, 5434.388672>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.057129, 144.408768, 5434.312500>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.117676, 144.438705, 5433.970703>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.176270, 144.467270, 5433.642090>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.230469, 144.489426, 5433.330078>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.280762, 144.509491, 5433.041016>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5219.327148, 144.528320, 5432.774902>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5268.799316, 149.072021, 5161.277832>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5266.817383, 141.286041, 5164.752930>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5265.042480, 127.110558, 5153.921875>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5255.530762, 122.643417, 5199.842773>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5252.750488, 115.862411, 5205.420410>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5247.933594, 114.085419, 5231.767578>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5242.043945, 115.441284, 5268.716309>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5240.829590, 113.129417, 5273.737793>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.299805, 112.603714, 5294.618652>)
+18:36:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5236.394531, 112.499649, 5304.929688>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5236.953613, 112.518532, 5302.624512>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.159180, 112.533821, 5300.969238>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.158691, 112.533844, 5300.966309>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.158691, 112.533875, 5300.961426>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.160645, 112.533981, 5300.953125>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.162109, 112.534058, 5300.944336>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.156250, 112.534035, 5300.939941>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.162109, 112.534241, 5300.921875>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.168457, 112.534470, 5300.902344>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.176270, 112.534691, 5300.883301>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.251953, 112.537315, 5300.647461>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.364258, 112.540703, 5300.368164>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.482910, 112.544167, 5300.081543>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.594727, 112.547195, 5299.791016>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.752441, 112.550255, 5299.544922>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5237.924316, 112.553391, 5299.308105>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.077148, 112.556099, 5299.110352>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.234375, 112.558685, 5298.942871>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.393066, 112.561089, 5298.804199>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.501465, 112.563400, 5298.601074>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.724609, 112.566040, 5298.537109>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5238.959961, 112.568672, 5298.489258>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5239.210938, 112.574142, 5297.996094>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5239.572754, 112.579140, 5297.763672>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5239.895996, 112.583328, 5297.607910>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5240.223633, 112.586304, 5297.506836>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5240.607910, 112.591942, 5296.948730>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5241.029297, 112.595604, 5296.760742>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5241.381348, 112.598389, 5296.650391>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5241.828125, 112.603645, 5296.221191>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5242.159180, 112.606071, 5296.146484>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5242.356445, 112.607506, 5296.105469>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.035156, 112.615448, 5295.459473>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.491211, 112.619461, 5295.252930>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.734863, 112.621574, 5295.143066>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.863770, 112.622696, 5295.084473>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.931152, 112.623405, 5295.030273>)
+18:36:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5243.975098, 112.623917, 5294.995605>)
+18:36:54 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5244.013672, 112.624359, 5294.979492>)
+18:36:54 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5244.084473, 112.624390, 5295.019531>)
+18:36:54 | "Technicien Alexander" (steamid=76561199417217773) healed player "Technicien Alexander" @ crosshair
+18:36:56 | "Technicien Alexander" (steamid=76561199417217773) healed player "Technicien Alexander" @ crosshair
+18:37:0 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5242.484863, 112.597549, 5298.655762>)
+18:37:1 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5240.668457, 112.570389, 5301.581055>)
+18:37:4 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:37:8 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5272.968750, 112.815674, 5288.275391>)
+18:37:9 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:37:29 | "L'asticot" (steamid=76561198207165013) toggled godmode
+18:37:29 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:37:34 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198207165013)
+18:37:36 | "L'asticot" (steamid=76561198207165013) toggled godmode
+18:37:40 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:38:1 | [WeatherManager] Send Data Count is 0
+18:38:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5054.361328, 93.053131, 1359.931641>)
+18:38:33 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5093.021484, 88.714844, 1416.165771>)
+18:38:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5084.810547, 88.682022, 1417.398071>)
+18:38:48 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5084.888672, 90.089043, 1383.585205>)
+18:38:49 | "L'asticot" (steamid=76561198207165013) toggled freecam
+18:39:9 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4904.245605, 116.124687, 4731.774414>)
+18:39:32 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<2402.139893, 33.598801, 6123.669922>)
+18:39:32 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=2402.14,33.5988,6123.67)
+18:39:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Green)
+18:39:39 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:39:40 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:40:10 | Player "Schneider Rurik" (steamId=76561199655483869) connected to server!
+18:41:10 | Player "Serguei Smirnov" (steamId=76561197963132131) connected to server!
+18:41:40 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<5033.299805, 118.769997, 4549.859863>)
+18:41:40 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=5033.3,118.77,4549.86)
+18:41:41 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:41:44 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:43:34 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5052.576172, 119.446503, 4655.512695>)
+18:43:49 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5271.446289, 112.765076, 5295.903320>)
+18:44:8 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+18:44:52 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+18:44:56 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected early from server (EXIT NOW).
+18:45:7 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected from server.
+18:45:34 | Player "Nikolai Petrov" (steamId=76561198002556074) connected to server!
+18:47:11 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) connected to server!
+18:47:14 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+18:47:27 | Player "Andryi Marchenko" (steamId=76561197995802462) connected to server!
+18:47:35 | Player "Zoya Chernenkova" (steamId=76561198377165540) connected to server!
+18:47:53 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+18:48:26 | Player "Tamara Belova " (steamId=76561198319349517) connected to server!
+18:52:41 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+18:54:21 | Player "Phillister Fleck" (steamId=76561199849406208) connected to server!
+18:54:38 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+18:55:21 | Player "Miguel Alvaro" (steamId=76561199850843836) connected to server!
+18:58:20 | Player "Daniil Krestov" (steamId=76561198128998118) connected to server!
+19:0:37 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<5285.790039, 112.806000, 5294.930176>)
+19:0:37 | "Mikhail": (steamid=76561198097580497) teleported to (pos=5285.79,112.806,5294.93)
+19:1:52 | Player "Guidere Boulerd" (steamId=76561198119629901) connected to server!
+19:3:8 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:3:13 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:3:40 | Player "Nikolai Arkavitch" (steamId=76561198996087044) connected to server!
+19:4:28 | Player "Husik Gvasalia" (steamId=76561198092307102) connected to server!
+19:4:45 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4877.599121, 92.242920, 2337.248535>)
+19:4:46 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:5:36 | Player "Red Zongouale" (steamId=76561198084841434) connected to server!
+19:9:53 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:9:53 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:9:57 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:9:57 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:10:3 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:10:3 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:10:7 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:10:7 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:10:11 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:10:11 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:10:24 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:10:24 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:4 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:4 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:12 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:12 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:20 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:20 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:20 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:20 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:20 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:20 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:21 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:21 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:21 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:21 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:21 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:21 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:21 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:21 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:22 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:22 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:11:22 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:11:22 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:13:31 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:32 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:33 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:34 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:35 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:13:36 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:1 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:1 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:14:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:8 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:8 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:9 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:10 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:11 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:14:11 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:16:7 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198319349517)
+19:16:45 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:45 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:45 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:45 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Homemade_knife)
+19:16:47 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:16:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:18:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:18:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4878.951660, 110.519997, 2864.464844>)
+19:18:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:21:0 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+19:21:46 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:22:15 | Player "Franck Schmit" (steamId=76561198047137116) connected to server!
+19:23:8 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561197963132131)
+19:23:33 | Player "Loki" (steamId=76561199045300430) connected to server!
+19:23:40 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4671.956055, 66.033920, 1601.332886>)
+19:23:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:23:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:23:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5063.082520, 94.750877, 1500.076294>)
+19:24:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5085.223633, 90.064705, 1383.951904>)
+19:24:3 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:24:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:24:26 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:24:26 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:24:40 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:24:40 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:24:48 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4645.081543, 61.830063, 1601.295166>)
+19:24:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:24:51 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: renegat has no parrent!
+19:24:51 | "L'asticot" (steamid=76561198207165013) spawned preset: (renegat)
+19:25:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Barrel_Blue)
+19:26:24 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4612.560059, 76.139999, 1786.689941>)
+19:26:24 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=4612.56,76.14,1786.69)
+19:26:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:26:28 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:26:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:26:37 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:26:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4610.125000, 76.139999, 1801.991943>)
+19:26:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4610.733398, 76.143188, 1806.592407>)
+19:27:7 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:27:7 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:27:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4626.166992, 76.079849, 1815.217529>)
+19:27:19 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4876.140625, 92.242920, 2338.281006>)
+19:27:20 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:27:23 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:26 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4655.782715, 54.660000, 1657.058960>)
+19:27:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4870.413086, 114.032867, 2869.437256>)
+19:27:31 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Boris" (pos=<4656.004395, 54.960629, 1660.611206>)
+19:27:32 | "Technicien Alexander" (steamid=76561199417217773) deleted object "FS_ProJacketST_Monolit" (pos=<4880.933594, 92.296158, 2339.077637>)
+19:27:33 | "Mikhail" (steamid=76561198097580497) deleted object "Izh43Shotgun" (pos=<4656.534180, 54.858299, 1659.439697>)
+19:27:34 | "Technicien Alexander" (steamid=76561199417217773) deleted object "FS_ProPantsST_MONOLIT" (pos=<4880.933594, 92.016167, 2338.613037>)
+19:27:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4880.870605, 110.519997, 2867.783447>)
+19:27:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:35 | "Technicien Alexander" (steamid=76561199417217773) deleted object "JungleBoots_Black" (pos=<4880.933594, 92.037247, 2338.435547>)
+19:27:35 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:27:37 | "Technicien Alexander" (steamid=76561199417217773) deleted object "WoolGlovesFingerless_Black" (pos=<4880.933594, 92.084282, 2338.376465>)
+19:27:38 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4645.614746, 61.830063, 1602.111938>)
+19:27:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:51 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (FS_Protez_Noga)
+19:28:0 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble200)
+19:28:58 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:6 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_CM7)
+19:29:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:9 | "L'asticot" (steamid=76561198207165013) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:29:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:29:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4976.266602, 123.606110, 2843.102295>)
+19:29:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4993.931641, 115.709450, 2849.262695>)
+19:29:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:39 | Player "Technicien Alexander" (steamId=76561199417217773) initiated disconnect process...
+19:29:40 | Player "Sasha Jager" (steamId=76561198329170585) connected to server!
+19:31:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4868.751465, 116.909996, 2944.660156>)
+19:32:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4892.664062, 101.089828, 2014.640015>)
+19:32:36 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4683.360352, 78.128044, 1838.662109>)
+19:32:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4939.097168, 108.841080, 2272.171631>)
+19:33:1 | Player "Technicien Alexander" (steamId=76561199417217773) connected to server!
+19:33:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4873.165527, 115.084419, 2878.265381>)
+19:34:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_TacticalHelmet_Green)
+19:34:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:34:44 | Player "Phillister Fleck" (steamId=76561199849406208) initiated disconnect process...
+19:34:46 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:36:1 | Player "Phillister Fleck" (steamId=76561199849406208) connected to server!
+19:38:0 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:38:12 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<2477.879883, 37.759998, 6234.439941>)
+19:38:12 | "Mikhail": (steamid=76561198097580497) teleported to (pos=2477.88,37.76,6234.44)
+19:38:13 | Player "Daniil Krestov" (steamId=76561198128998118) initiated disconnect process...
+19:38:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:38:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BandageDressing)
+19:39:21 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjePillsPotassiumIodide)
+19:39:21 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjePillsPotassiumIodide)
+19:39:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SewingKit)
+19:39:48 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SewingKit)
+19:39:59 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SewingKit)
+19:40:25 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_ingalator_Morphine)
+19:42:13 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4851.279785, 110.515999, 2857.580078>)
+19:42:13 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4851.28,110.516,2857.58)
+19:42:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1697.677856, 42.553314, 4099.716797>)
+19:42:15 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:42:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:42:38 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:42:59 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:43:7 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4880.729492, 110.519997, 2868.970215>)
+19:43:11 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:43:18 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:43:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:43:53 | "L'asticot" (steamid=76561198207165013) healed player "Serguei Smirnov" @ crosshair
+19:43:57 | "L'asticot" (steamid=76561198207165013) healed player "Serguei Smirnov" @ crosshair
+19:44:8 | "L'asticot" (steamid=76561198207165013) healed player "Miguel Alvaro" @ crosshair
+19:44:15 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5084.154297, 103.667290, 965.454651>)
+19:44:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:44:17 | "L'asticot" (steamid=76561198207165013) healed player "L'asticot" @ crosshair
+19:44:20 | "L'asticot" (steamid=76561198207165013) healed player "Schneider Rurik" @ crosshair
+19:44:21 | "L'asticot" (steamid=76561198207165013) healed player "Schneider Rurik" @ crosshair
+19:44:24 | "L'asticot" (steamid=76561198207165013) healed player "Phillister Fleck" @ crosshair
+19:44:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:44:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4874.072266, 110.520004, 2862.055420>)
+19:44:54 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5084.018066, 89.429169, 1393.945801>)
+19:44:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:46:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4870.815430, 110.519997, 2854.018066>)
+19:46:26 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:46:30 | "L'asticot" (steamid=76561198207165013) healed player "Schneider Rurik" @ crosshair
+19:46:31 | "L'asticot" (steamid=76561198207165013) healed player "Schneider Rurik" @ crosshair
+19:46:31 | "L'asticot" (steamid=76561198207165013) healed player "Schneider Rurik" @ crosshair
+19:46:54 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Rolf" (pos=<4872.297363, 110.544998, 2852.317627>)
+19:47:10 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:47:21 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Rolf" (pos=<4865.410645, 110.544998, 2850.956055>)
+19:47:25 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Boris" (pos=<4863.771973, 110.544983, 2851.054443>)
+19:47:30 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:47:31 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198119629901)
+19:47:32 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198119629901)
+19:47:36 | "L'asticot" (steamid=76561198207165013) deleted object "Ammo_12gaPellets" (pos=<4864.512695, 110.532829, 2855.482422>)
+19:47:42 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199045300430)
+19:47:45 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199045300430)
+19:47:46 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Quinn" (pos=<4877.614258, 110.544991, 2859.226562>)
+19:47:50 | "L'asticot" (steamid=76561198207165013) deleted object "TerjeSurgicalKit" (pos=<4877.520996, 110.559387, 2858.649414>)
+19:47:51 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4856.979980, 92.040001, 2338.770020>)
+19:47:51 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=4856.98,92.04,2338.77)
+19:47:54 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:47:56 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4877.285645, 92.242920, 2338.726318>)
+19:47:57 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:48:6 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199655483869)
+19:48:7 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199655483869)
+19:48:27 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199849406208)
+19:48:29 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561199849406208)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:49:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+19:50:11 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (SewingKit)
+19:50:13 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (TerjeSurgicalKit)
+19:50:15 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (WeaponCleaningKit)
+19:50:17 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (LeatherSewingKit)
+19:50:20 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (ElectronicRepairKit)
+19:50:22 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (RIP_CleaningKitPlastic)
+19:50:22 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (RIP_SharpeningKit)
+19:50:23 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (RIP_MetalworkingKit)
+19:50:24 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (KitchenTimer)
+19:50:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:50:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:50:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:50:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:50:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4875.739746, 106.378311, 2829.105957>)
+19:50:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4876.011719, 105.881676, 2825.962402>)
+19:50:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4876.603516, 105.056549, 2820.653564>)
+19:50:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4877.388184, 104.427231, 2816.046631>)
+19:51:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4878.214844, 103.812195, 2811.480225>)
+19:51:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4878.746582, 103.387093, 2808.409912>)
+19:51:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4879.513184, 102.805374, 2804.326172>)
+19:51:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4880.312012, 102.147980, 2799.667480>)
+19:51:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4881.112793, 101.522209, 2795.384277>)
+19:51:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4881.738281, 100.926613, 2790.553955>)
+19:51:3 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (TerjeSurgicalKit)
+19:51:4 | "L'asticot" (steamid=76561198207165013) healed player "L'asticot" @ crosshair
+19:51:5 | "L'asticot" (steamid=76561198207165013) healed player "L'asticot" @ crosshair
+19:51:9 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (TerjeFirstAidKitAdvance_Black)
+19:51:16 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561199086364433)
+19:51:22 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:23 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:23 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:23 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:23 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:23 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:51:56 | "L'asticot" (steamid=76561198207165013) deleted object "SurvivorM_Taiki" (pos=<4863.146973, 110.423866, 2846.839844>)
+19:52:12 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:52:16 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:52:25 | "Mikhail" (steamid=76561198097580497) Spawned Item: (MilitaryBelt)
+19:52:25 | "Mikhail" (steamid=76561198097580497) Spawned Item: (MilitaryBelt)
+19:52:25 | "Mikhail" (steamid=76561198097580497) Spawned Item: (MilitaryBelt)
+19:52:26 | "Mikhail" (steamid=76561198097580497) Spawned Item: (MilitaryBelt)
+19:52:26 | "Mikhail" (steamid=76561198097580497) Spawned Item: (MilitaryBelt)
+19:52:26 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (CivilianBelt)
+19:52:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4878.491211, 115.977921, 2875.039062>)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_GP7GasMask)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:53:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (STO_Gasmask_Filter_AVC)
+19:54:41 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (Battery9V)
+19:54:47 | "Technicien Alexander" (steamid=76561199417217773) healed player "Technicien Alexander" @ crosshair
+19:54:51 | "Technicien Alexander" (steamid=76561199417217773) healed player (steamid=76561199417217773)
+19:55:0 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:55:18 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4948.852539, 145.847900, 3216.127197>)
+19:55:19 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:55:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:55:42 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4653.392090, 79.316757, 1820.113647>)
+19:56:13 | "Technicien Alexander" (steamid=76561199417217773) deleted object "TraderPlus_Money_Ruble100" (pos=<4881.037598, 92.103889, 2337.815430>)
+19:56:14 | "Technicien Alexander" (steamid=76561199417217773) deleted object "TraderPlus_Money_Ruble5" (pos=<4881.037598, 92.103889, 2337.815430>)
+19:57:3 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<5024.029785, 118.769997, 4616.629883>)
+19:57:3 | "Mikhail": (steamid=76561198097580497) teleported to (pos=5024.03,118.77,4616.63)
+19:57:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:58:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4844.129395, 112.920998, 2910.026123>)
+19:59:1 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:29 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4961.098633, 118.770004, 4620.860352>)
+19:59:30 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:7 | Player "Daniil Krestov" (steamId=76561198128998118) connected to server!
+20:1:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4872.018066, 118.393402, 2874.588867>)
+20:1:7 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeDosimetrDpg05)
+20:1:8 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeDosimetrCdv700)
+20:1:8 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeDosimetrCdv700)
+20:1:18 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:1:25 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5045.230957, 118.770058, 4582.411621>)
+20:1:26 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:1:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:1:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:1:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:1:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:2:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeSurgicalKit)
+20:2:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeSurgicalKit)
+20:2:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeSurgicalKit)
+20:3:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5056.613281, 115.474144, 2341.170166>)
+20:3:12 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4860.897461, 96.402985, 2367.716064>)
+20:4:0 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:4:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4872.924805, 115.084419, 2877.670410>)
+20:4:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:4:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:4:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:5:4 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4863.643555, 92.242920, 2335.125977>)
+20:6:6 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5283.972656, 138.565765, 4083.764648>)
+20:6:13 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5016.672363, 119.752632, 4599.884277>)
+20:6:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:6:34 | "Technicien Alexander" (steamid=76561199417217773) toggled godmode
+20:9:20 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:9:39 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:9:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5065.045898, 143.628326, 3321.140137>)
+20:9:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4903.982910, 88.076843, 2377.573730>)
+20:10:9 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4669.046875, 76.737106, 1796.358521>)
+20:10:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4667.382324, 76.507484, 1797.628784>)
+20:10:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4661.258789, 76.169922, 1810.254761>)
+20:12:36 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4863.312988, 110.309608, 2846.480957>)
+20:12:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:13:6 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4880.837891, 99.376923, 2374.038330>)
+20:13:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4885.964844, 95.218315, 2353.173828>)
+20:13:54 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:14:21 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4933.899902, 126.819984, 6755.521484>)
+20:14:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:14:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:15:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2474.095703, 37.759987, 6224.871094>)
+20:15:2 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:15:6 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:15:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:16:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4319.540527, 99.851524, 2152.751709>)
+20:17:24 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:18:53 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<3759.860107, 166.223007, 1956.729980>)
+20:18:53 | "Mikhail": (steamid=76561198097580497) teleported to (pos=3759.86,166.223,1956.73)
+20:19:3 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:26 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4033.687988, 111.759201, 2312.209229>)
+20:19:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:36 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:44 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:19:47 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:20:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:20:9 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4314.182617, 114.110489, 1993.424072>)
+20:20:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:20:10 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:20:12 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:20:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:20:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4177.859375, 100.163712, 2210.445801>)
+20:20:26 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Fresh1)
+20:20:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Fresh1)
+20:20:27 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:20:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Fresh1)
+20:20:28 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Fresh1)
+20:20:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:20:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:21:1 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:21:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:21:49 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Pse_Dog2)
+20:21:52 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Pse_Dog2)
+20:22:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4062.093018, 104.241852, 2250.754883>)
+20:23:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4104.427246, 99.224701, 2267.864746>)
+20:24:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4109.936523, 101.113640, 2254.798828>)
+20:24:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4040.182617, 108.928291, 2332.541260>)
+20:25:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4100.900879, 116.196083, 2186.757568>)
+20:25:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Pse_Dog2)
+20:26:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4418.022949, 109.976433, 2293.035400>)
+20:26:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4406.104980, 108.740295, 2296.531250>)
+20:26:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4092.764404, 100.890320, 2224.901123>)
+20:26:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4691.779785, 54.430569, 1068.776978>)
+20:26:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:26:50 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Taiki" (pos=<4690.581055, 54.490364, 1067.946411>)
+20:26:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:26:59 | Player "Red Zongouale" (steamId=76561198084841434) initiated disconnect process...
+20:27:2 | Player "Red Zongouale" (steamId=76561198084841434) disconnected early from server (EXIT NOW).
+20:27:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4099.804199, 112.323433, 2184.776367>)
+20:27:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:27:13 | Player "Daniil Krestov" (steamId=76561198128998118) initiated disconnect process...
+20:27:14 | Player "Red Zongouale" (steamId=76561198084841434) disconnected from server.
+20:27:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:27:32 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+20:27:38 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected early from server (EXIT NOW).
+20:27:47 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected from server.
+20:27:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4101.241699, 116.575348, 2184.139404>)
+20:28:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:28:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:28:42 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4097.625977, 100.100288, 2199.087891>)
+20:28:43 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+20:28:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:28:47 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:28:49 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4096.667480, 98.605171, 2202.964111>)
+20:28:50 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:28:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4983.230469, 89.578606, 2403.694336>)
+20:28:59 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:29:4 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:29:9 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:29:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4101.415527, 116.757149, 2185.580811>)
+20:29:30 | [WeatherManager] Send Data Count is 0
+20:30:3 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4097.763184, 115.977264, 2186.558838>)
+20:30:36 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4856.718262, 116.466499, 2949.482422>)
+20:30:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:30:52 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Boris" (pos=<4856.139648, 116.431725, 2948.732178>)
+20:30:54 | "Mikhail" (steamid=76561198097580497) deleted object "Mp133Shotgun" (pos=<4856.077637, 116.395561, 2948.298584>)
+20:30:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4100.530762, 117.041801, 2184.097900>)
+20:30:59 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:31:47 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4102.015137, 99.911469, 2204.685303>)
+20:31:48 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:32:20 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:32:38 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4101.208984, 116.892853, 2184.818848>)
+20:33:48 | "L'asticot" (steamid=76561198207165013) healed player (steamid=76561198119629901)
+20:33:54 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4935.874512, 98.823105, 2184.530518>)
+20:34:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4109.056641, 98.916153, 2200.197754>)
+20:34:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4100.139160, 116.441833, 2186.871338>)
+20:35:48 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4101.658203, 116.212753, 2186.249268>)
+20:35:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:36:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4100.656738, 117.023010, 2184.252197>)
+20:37:3 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:37:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4765.186523, 85.802711, 1917.915649>)
+20:37:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:37:35 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Megaphone)
+20:37:43 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+20:37:56 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:38:6 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4101.350098, 116.723083, 2184.649414>)
+20:38:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:33 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:33 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:53 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:38:55 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Civ_Trup5)
+20:39:3 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3982.974854, 101.936142, 2224.166260>)
+20:39:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3949.316162, 100.278381, 2300.406738>)
+20:40:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3920.529297, 98.361839, 2388.962158>)
+20:40:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:40:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4769.332520, 85.753342, 1924.699341>)
+20:40:57 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:41:4 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4757.937012, 88.287415, 1908.432983>)
+20:41:5 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:41:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:42:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3805.213623, 104.936081, 2481.830566>)
+20:42:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3580.129639, 102.594025, 2567.653809>)
+20:43:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_AoD_Controller1)
+20:43:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3452.639893, 98.272644, 2552.525879>)
+20:43:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3452.168213, 96.012558, 2541.922363>)
+20:44:50 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano2)
+20:44:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:44:57 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:44:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:45:3 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:45:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3382.918701, 98.485931, 2578.000732>)
+20:45:33 | Player "Andryi Marchenko" (steamId=76561197995802462) initiated disconnect process...
+20:45:48 | Player "Andryi Marchenko" (steamId=76561197995802462) disconnected from server.
+20:46:6 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:46:20 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:46:24 | Player "Lev Mirski" (steamId=76561198262803634) connected to server!
+20:46:33 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:46:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:46:38 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4757.397949, 86.155495, 1915.624634>)
+20:46:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:46:46 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3252.134033, 98.862190, 2640.190918>)
+20:47:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:47:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3123.682373, 112.437996, 2664.730957>)
+20:48:14 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Himera1)
+20:48:20 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2222.297607, 82.577202, 2089.376221>)
+20:48:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:48:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:48:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:49:14 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2983.010742, 115.290710, 2529.460693>)
+20:49:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2999.868652, 115.735245, 2520.587158>)
+20:50:25 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Fireplace)
+20:50:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2994.162354, 115.787018, 2535.959961>)
+20:50:54 | Player "Zoya Chernenkova" (steamId=76561198377165540) initiated disconnect process...
+20:50:58 | Player "Zoya Chernenkova" (steamId=76561198377165540) disconnected early from server (EXIT NOW).
+20:51:2 | "Mikhail" (steamid=76561198097580497) Spawned Item: (WoodenStick)
+20:51:9 | Player "Zoya Chernenkova" (steamId=76561198377165540) disconnected from server.
+20:51:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2995.780273, 115.999985, 2532.867188>)
+20:51:30 | "Mikhail" (steamid=76561198097580497) Spawned Item: (WoodenStick)
+20:53:13 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_Molotov)
+20:53:46 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Poltergeist)
+20:53:54 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Poltergeist)
+20:53:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:53:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:53:58 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:54:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+20:54:14 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Firewood)
+20:54:15 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Firewood)
+20:54:36 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2641.946533, 108.229187, 2365.311523>)
+20:54:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2641.497070, 109.664047, 2382.703125>)
+20:54:44 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:54:46 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:54:51 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:55:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2439.678711, 82.209999, 2326.131836>)
+20:55:56 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:56:5 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_AoD_Burer1)
+20:56:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:56:21 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_AoD_Burer1)
+20:56:42 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2500.341553, 88.750496, 2347.654053>)
+20:57:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2224.073975, 82.577202, 2103.900391>)
+20:57:47 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:57:54 | "L'asticot" (steamid=76561198207165013) deleted object "Fireplace" (pos=<2221.942871, 82.580070, 2104.482910>)
+20:58:7 | Player "Technicien Alexander" (steamId=76561199417217773) initiated disconnect process...
+20:58:8 | Player "Technicien Alexander" (steamId=76561199417217773) disconnected early from server (EXIT NOW).
+20:59:40 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:59:42 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2331.035889, 81.033775, 2206.450195>)
+20:59:46 | Player "Oleksandr Rybak" (steamId=76561197972045425) connected to server!
+21:0:22 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2220.270996, 90.078621, 2107.316895>)
+21:0:23 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:0:39 | "L'asticot" (steamid=76561198207165013) toggled godmode
+21:7:5 | Player "Alenko Dmitrov" (steamId=76561198141547884) connected to server!
+21:7:22 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+21:7:25 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+21:7:27 | Player "Miguel Alvaro" (steamId=76561199850843836) initiated disconnect process...
+21:7:29 | Player "Karl Heim" (steamId=76561199086364433) disconnected early from server (EXIT NOW).
+21:8:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:9:34 | Player "Lev Mirski" (steamId=76561198262803634) initiated disconnect process...
+21:10:19 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+21:10:26 | Player "Miguel Alvaro" (steamId=76561199850843836) connected to server!
+21:12:34 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2228.232422, 82.577202, 2113.928711>)
+21:12:34 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:13:13 | Player "Maksym Hovanenko" (steamId=76561198262803634) connected to server!
+21:13:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:4 | Player "Sacha Volkov" (steamId=76561198333790753) initiated disconnect process...
+21:22:16 | Player "Antony Souvorov" (steamId=76561199008333617) connected to server!
+21:22:19 | Player "Sacha Volkov" (steamId=76561198333790753) disconnected from server.
+21:22:55 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2218.356445, 82.577202, 2089.374756>)
+21:22:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:23:8 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:9 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:13 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:13 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:14 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:14 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_PP19_64Rnd)
+21:23:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:23:25 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+21:23:31 | "L'asticot" (steamid=76561198207165013) toggled godmode
+21:23:34 | "L'asticot" (steamid=76561198207165013) toggled godmode
+21:24:8 | "L'asticot" (steamid=76561198207165013) gave unlimited ammo to (steamid=76561198207165013)
+21:24:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5030.944824, 94.782005, 1292.386475>)
+21:24:33 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:24:48 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:24:53 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5082.304199, 89.930069, 1385.936035>)
+21:24:54 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:25:26 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198119629901)
+21:25:27 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+21:25:28 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198119629901)
+21:26:23 | "L'asticot" (steamid=76561198207165013) healed player "L'asticot" @ crosshair
+21:26:56 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:27:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5058.043945, 92.013870, 1370.193726>)
+21:27:4 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5083.836914, 89.987854, 1385.033447>)
+21:27:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:27:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:27:21 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4649.001953, 76.446083, 1824.952393>)
+21:27:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:27:45 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+21:27:45 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:27:48 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4106.557129, 135.435959, 1986.294312>)
+21:27:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3558.204590, 145.086304, 2271.717773>)
+21:27:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2746.901367, 104.149506, 2127.739990>)
+21:27:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2433.107178, 88.786301, 2298.318359>)
+21:28:0 | Player "Viktor Mikhailov" (steamId=76561199056886146) disconnected from server.
+21:28:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:28:37 | Player "Nikolai Petrov" (steamId=76561198002556074) initiated disconnect process...
+21:28:39 | Player "Nikolai Petrov" (steamId=76561198002556074) disconnected early from server (EXIT NOW).
+21:28:44 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2438.239990, 85.511459, 2298.140381>)
+21:28:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:29:12 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+21:29:44 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:29:57 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:4 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:30:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5076.925781, 90.526627, 1379.426270>)
+21:30:33 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5082.099609, 89.997772, 1384.888672>)
+21:30:35 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:36 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:39 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:31:14 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:31:40 | Player "Schneider Rurik" (steamId=76561199655483869) disconnected from server.
+21:31:40 | Player "Schneider Rurik" (steamId=76561199655483869) initiated disconnect process...
+21:31:43 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+21:31:49 | Player "Aaron Ananenko" (steamId=76561198014580945) initiated disconnect process...
+21:31:54 | Player "Nikolai Arkavitch" (steamId=76561198996087044) initiated disconnect process...
+21:31:56 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+21:32:2 | Player "Guidere Boulerd" (steamId=76561198119629901) initiated disconnect process...
+21:32:4 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:32:4 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) initiated disconnect process...
+21:32:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:32:11 | Player "Viktor Mikhailov" (steamId=76561199056886146) disconnected from server.
+21:32:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:32:15 | Player "Miguel Alvaro" (steamId=76561199850843836) initiated disconnect process...
+21:32:19 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) disconnected from server.
+21:32:29 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:32:30 | Player "Miguel Alvaro" (steamId=76561199850843836) disconnected from server.
+21:32:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2432.650391, 85.511459, 2299.888428>)
+21:32:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:32:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:33:3 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+21:33:7 | "L'asticot" (steamid=76561198207165013) toggled godmode
+21:33:10 | Player "Andryi Marchenko" (steamId=76561197995802462) connected to server!
+21:33:11 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+21:33:21 | Player "Nikolai Arkavitch" (steamId=76561198996087044) connected to server!
+21:34:20 | Player "Maksym Hovanenko" (steamId=76561198262803634) initiated disconnect process...
+21:34:21 | Player "Maksym Hovanenko" (steamId=76561198262803634) disconnected early from server (EXIT NOW).
+21:35:13 | Player "Maksym Hovanenko (2)" (steamId=76561198262803634) connected to server!
+21:36:20 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+21:37:5 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+21:37:16 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+21:37:20 | Player "Viktor Mikhailov" (steamId=76561199056886146) disconnected from server.
+21:37:24 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+21:37:28 | Player "Karl Heim" (steamId=76561199086364433) disconnected early from server (EXIT NOW).
+21:37:32 | Player "Aaron Ananenko" (steamId=76561198014580945) initiated disconnect process...
+21:37:33 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+21:37:34 | Player "Husik Gvasalia" (steamId=76561198092307102) initiated disconnect process...
+21:37:35 | Player "Oleksandr Rybak" (steamId=76561197972045425) initiated disconnect process...
+21:37:37 | Player "Tamara Belova " (steamId=76561198319349517) initiated disconnect process...
+21:37:40 | Player "Nikolai Arkavitch" (steamId=76561198996087044) initiated disconnect process...
+21:37:45 | Player "Sasha Jager" (steamId=76561198329170585) initiated disconnect process...
+21:38:2 | Player "Sacha Volkov" (steamId=76561198333790753) initiated disconnect process...
+21:38:9 | Player "Alenko Dmitrov" (steamId=76561198141547884) initiated disconnect process...
+21:38:24 | Player "Phillister Fleck" (steamId=76561199849406208) initiated disconnect process...
+21:38:32 | Player "Franck Schmit" (steamId=76561198047137116) initiated disconnect process...
+21:38:50 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+21:38:50 | Player "Serguei Smirnov" (steamId=76561197963132131) initiated disconnect process...
+21:39:46 | Player "Andryi Marchenko" (steamId=76561197995802462) initiated disconnect process...
+21:39:48 | Player "Andryi Marchenko" (steamId=76561197995802462) disconnected early from server (EXIT NOW).
+21:39:52 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+21:39:57 | Player "Tamara Belova " (steamId=76561198319349517) connected to server!
+21:40:2 | Player "Maksym Hovanenko (2)" (steamId=76561198262803634) initiated disconnect process...
+21:40:8 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:40:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:41:17 | Player "Sasha Jager" (steamId=76561198329170585) connected to server!
+21:41:20 | Player "Serguei Smirnov" (steamId=76561197963132131) connected to server!
+21:41:23 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:41:24 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+21:41:28 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:41:29 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:41:30 | "L'asticot" (steamid=76561198207165013) toggled godmode
+21:41:34 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:41:46 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:41:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4859.234375, 92.242920, 2338.272705>)
+21:41:57 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:42:38 | Player "Oleksandr Rybak" (steamId=76561197972045425) connected to server!
+21:42:45 | Player "Daniil Krestov" (steamId=76561198128998118) connected to server!
+21:42:55 | Player "Oleksandr Rybak" (steamId=76561197972045425) initiated disconnect process...
+21:43:4 | Player "Loki" (steamId=76561199045300430) initiated disconnect process...
+21:43:6 | Player "Loki" (steamId=76561199045300430) disconnected early from server (EXIT NOW).
+21:43:10 | Player "Oleksandr Rybak" (steamId=76561197972045425) disconnected from server.
+21:43:11 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+21:43:23 | Player "Sasha Jager" (steamId=76561198329170585) initiated disconnect process...
+21:43:38 | Player "Sasha Jager" (steamId=76561198329170585) disconnected from server.
+21:43:46 | Player "Daniil Krestov" (steamId=76561198128998118) initiated disconnect process...
+21:44:37 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+21:45:20 | Player "Alenko Dmitrov" (steamId=76561198141547884) connected to server!
+21:46:0 | Player "Phillister Fleck" (steamId=76561199849406208) connected to server!
+21:46:42 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:46:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5036.865723, 119.752632, 4603.932617>)
+21:46:54 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:47:5 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:47:21 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4864.219238, 92.039993, 2354.363281>)
+21:47:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3737.660645, 104.640709, 2498.092773>)
+21:47:36 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3054.689697, 104.017220, 2340.266846>)
+21:47:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2416.992920, 87.181297, 2306.531982>)
+21:47:44 | Player "Phillister Fleck" (steamId=76561199849406208) initiated disconnect process...
+21:47:59 | Player "Phillister Fleck" (steamId=76561199849406208) disconnected from server.
+21:48:3 | Player "Serguei Smirnov" (steamId=76561197963132131) initiated disconnect process...
+21:48:4 | Player "Serguei Smirnov" (steamId=76561197963132131) disconnected early from server (EXIT NOW).
+21:48:49 | Player "Tamara Belova " (steamId=76561198319349517) initiated disconnect process...
+21:48:51 | Player "Alenko Dmitrov" (steamId=76561198141547884) initiated disconnect process...
+21:48:51 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+21:48:51 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+21:48:51 | Player "Tamara Belova " (steamId=76561198319349517) disconnected early from server (EXIT NOW).
+21:48:51 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+21:48:51 | Player "Sacha Volkov" (steamId=76561198333790753) initiated disconnect process...
+21:48:51 | Player "Antony Souvorov" (steamId=76561199008333617) initiated disconnect process...

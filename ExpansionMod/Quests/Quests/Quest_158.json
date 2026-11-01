@@ -1,0 +1,80 @@
+{
+    "ConfigVersion": 22,
+    "ID": 158,
+    "Type": 1,
+    "Title": "Les Izlom de la Voronka",
+    "Descriptions": [
+        "Gekko t'a remercié ? Moi, il ne me remerciera jamais, et c'est très bien comme ça. Bon, %1, j'ai un problème plus près de chez nous. Depuis la semaine dernière, des Izlom tournent autour de la Voronka, à deux cents mètres à l'ouest du portail. Tu sais ce que c'est ? Personne ne le sait vraiment. Un bras trop long, une démarche de pantin, et la force d'un bœuf. Ils ont eu Pacha, un de mes coureurs, au retour de Rostok. Ici, personne ne donne d'ordre : quand il faut tuer quelque chose, on demande qui veut, et on paie celui qui y va. Alors je te le demande. Trois Izlom au moins, et rapporte-moi deux de leurs mains : sans preuve, les gars ne reprendront pas ce chemin. Ne les poursuis pas dans la Voronka, et ne va pas plus loin que l'Électra, à l'ouest : derrière, il y a une tache brûlante.",
+        "Les Izlom, autour de la Voronka, à deux cents mètres à l'ouest du portail. Trois au moins, puis deux de leurs mains, à rapporter à Makarov. Pas plus loin que l'Électra.",
+        "Deux mains. Les gars vont les accrocher au portail, à côté de la photo de Pacha. Ce soir, au feu, on chantera sa chanson. Chez nous, %1, on ne grave pas les noms sur un mur : on chante. Chacun a sa chanson, celle qu'il fredonnait en marchant. Quand il ne revient pas, on la chante pour lui, avec ses affaires posées à côté. Tiens. Ta place au feu, tu l'as gagnée pour de bon."
+    ],
+    "ObjectiveText": "Abats au moins trois Izlom autour de la Voronka, à l'ouest de la base de Svoboda, puis rapporte deux de leurs mains à Makarov.",
+    "FollowUpQuest": 159,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Morphine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 158,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 158,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        157
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

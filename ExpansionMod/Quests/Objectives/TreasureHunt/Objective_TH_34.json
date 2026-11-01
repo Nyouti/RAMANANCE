@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 28,
+    "ID": 34,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le carnet de patrouille de Clear Sky au poste de guet",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Blue",
+    "DigInStash": 0,
+    "MarkerName": "Carnet de patrouille",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            2437.500000,
+            82.235001,
+            2317.942627
+        ]
+    ],
+    "LootItemsAmount": 3,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "BandageDressing",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "SFP_Can_Meat_closed",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

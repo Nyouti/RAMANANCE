@@ -1,0 +1,98 @@
+{
+    "ConfigVersion": 22,
+    "ID": 129,
+    "Type": 1,
+    "Title": "Le cœur noir",
+    "Descriptions": [
+        "Dernière mesure, %1, et la plus importante. Au nord de Yantar, à huit cents mètres, il y a la tache la plus forte que nous connaissions : plus de quatre au compteur. Un GP-21 n'y tient pas ; il vous faut un filtre AVC. J'ai une hypothèse que je n'ose pas encore écrire : les taches, les anomalies et les artefacts ne sont pas trois choses, mais une seule, comme les racines, la tige et le fruit d'une même plante. Ce relevé peut me donner raison, ou m'enterrer. Quatre sangsues gardent le bois, juste à l'est de la tache : tuez-en deux, ou elles vous suivront jusqu'au cœur. Et contournez l'usine par l'ouest, très largement. J'irais bien moi-même, mais mes analyses de sang disent non.",
+        "La tache du nord de Yantar, à huit cents mètres. Deux sangsues d'abord, puis le relevé au cœur, avec un filtre AVC. L'usine, par l'ouest, très largement.",
+        "Donnez. Les chiffres du cœur noir, ceux du jardin, ceux de la Batterie... Ils suivent la même courbe, %1. La même. Je ne sais pas encore ce que ça veut dire, mais je sais que j'ai eu raison de vous faire confiance plutôt qu'à l'Institut. Tenez : une trousse de l'Institut, de l'adrénaline, et tout ce que la ligne sept peut encore payer. Revenez me voir quand vous voulez, pour un pansement ou pour un caillou."
+    ],
+    "ObjectiveText": "Tue deux sangsues dans le bois au nord de Yantar, puis fais un relevé au cœur de la tache la plus forte de la région (filtre AVC obligatoire) et reviens voir le Doc. Contourne l'usine par l'ouest.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_AI2_medkit_Green",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 129,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 129,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        128
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

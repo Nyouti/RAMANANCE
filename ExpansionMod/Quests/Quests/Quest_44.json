@@ -1,0 +1,54 @@
+{
+    "ConfigVersion": 22,
+    "ID": 44,
+    "Type": 1,
+    "Title": "Colis pour les veilleurs",
+    "Descriptions": [
+        "%1 ! J'ai du travail pour toi. Tu connais les veilleurs ? C'est le genre de mec qui ont sauvé des milliers de vies. C'est grâce à eux qu'on a réussi à avoir une vie pas trop dégueulasse ici. Bref, faut pas jouer avec leurs couilles si tu veux mon avis, tiens amène-leur ça et dis-leur que c'est de ta part et de la mienne bien sûr.",
+        "Tu ne sais pas où sont les veilleurs ? C'est une ferme un peu plus au nord sur la route principale.",
+        "Merci %1, tu nous as rendu service. Nous les veilleurs sommes des stalkers expérimentés qui accompagnent les gens dans le besoin, et le plus souvent ce sont nous qui expliquons la Zone et son fonctionnement aux débutants. Je retiens ce que tu as fait. Si tu veux encore filer un coup de main, tu sais où nous trouver."
+    ],
+    "ObjectiveText": "Livre l'objet aux veilleurs.",
+    "FollowUpQuest": 45,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        40
+    ],
+    "QuestTurnInIDs": [
+        44
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 44,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [43],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,27 @@
+{
+    "ConfigVersion": 28,
+    "ID": 101,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Tue les chiens mutants derrière l'usine",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        5280.0,
+        114.5,
+        5165.0
+    ],
+    "MaxDistance": 150.0,
+    "MinDistance": -1.0,
+    "Amount": 3,
+    "ClassNames": [
+        "Mutant_XZ_Dog_Fur",
+        "Mutant_XZ_Dog_White",
+        "Mutant_XZ_Dog_Brown"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

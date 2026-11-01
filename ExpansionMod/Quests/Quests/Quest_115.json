@@ -1,0 +1,103 @@
+{
+    "ConfigVersion": 22,
+    "ID": 115,
+    "Type": 1,
+    "Title": "Le ravin du ravitaillement",
+    "Descriptions": [
+        "La base d'Agroprom ne reçoit plus rien, %1. Le dernier convoi date de l'hiver. L'état-major nous a oubliés, ou il fait semblant. Alors la base vit sur ses dernières réserves, et sur ce qu'on retrouve. Le mois dernier, une équipe de ravitaillement a caché une caisse de munitions dans le ravin, à quatre cent cinquante mètres au nord-nord-est, avant de décrocher. Ils n'ont jamais pu revenir la chercher : un pseudo-géant s'est installé là. Tue-le, et ramène la caisse. Tu sais où finissent les munitions qu'on perd ? Chez les déserteurs, qui les revendent aux bandits de Garbage. Chaque caisse qu'on récupère, c'est une caisse de moins dans leurs fusils. Le coin crépite un peu : garde ton masque. Et ne reste jamais à portée de ses poings.",
+        "Le ravin, à quatre cent cinquante mètres au nord-nord-est. Le pseudo-géant d'abord, puis la caisse de munitions.",
+        "Tu l'as eu ? Alors l'intendant te doit une fière chandelle, et moi aussi. La caisse ira à la base ce soir, et personne ne saura qu'elle a failli finir à Garbage. Tiens, %1 : un casque de la réserve et de quoi le justifier. Tu en auras plus besoin que lui."
+    ],
+    "ObjectiveText": "Tue le pseudo-géant installé dans le ravin au nord-nord-est de Grechko, puis récupère la caisse de munitions cachée là et rapporte-la à Grechko.",
+    "FollowUpQuest": 116,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "aod_helmet_military_Mich2001",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_545x39Tracer_20Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        54
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 115,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 115,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 115,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        114
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

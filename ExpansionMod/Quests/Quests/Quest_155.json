@@ -1,0 +1,85 @@
+{
+    "ConfigVersion": 22,
+    "ID": 155,
+    "Type": 1,
+    "Title": "Le Comptable",
+    "Descriptions": [
+        "Je vais te dire une chose que je ne dis pas à tout le monde, %1. Il y a, à la Duty, un homme qui nous vend ce que la Duty confisque. On l'appelle le Comptable. Je sais qui c'est, et je ne te le dirai pas : chez nous, on ne livre personne, même ceux qu'on n'aime pas. Et lui, je ne l'aime pas. Un homme qui vend les siens vendra n'importe qui. Mais ce qu'il vend appartient à tout le monde, alors je l'achète, et ça part vers le sud au lieu de finir dans un tiroir. Il dépose ses caisses dans une planque, à sept cents mètres au nord-ouest. Ce mois-ci, il a peur : quelqu'un a vidé la cache de mes coureurs, près des garages de Borov, et a pris notre registre. Son nom est dedans. Depuis, il ne vient plus chercher son argent. Va prendre sa caisse. Trois chiens rôdent à deux cents mètres au-delà de la planque, et une tache brûlante est posée entre les deux : contourne-la. La route directe passe par la tanière : fais un large détour, d'abord vers le sud-ouest, puis remonte vers le nord en longeant les Entrepôts par l'ouest.",
+        "La planque du Comptable, à sept cents mètres au nord-ouest. Large détour par le sud-ouest, puis par l'ouest, loin de la tanière. Les trois chiens, plus au nord, puis la caisse. Contourne la tache brûlante entre les deux.",
+        "Fais voir. Le sceau de plomb de la Duty. Ces caisses-là partent normalement pour Yantar, chez les écologistes, et celle-ci n'y est jamais arrivée. Tu vois comment ça marche, %1 ? La Duty confisque au nom de tout le monde, le Comptable revend pour lui-même, et nous, on rachète pour que ça serve à quelqu'un. Personne n'est propre dans cette histoire. Moi non plus. Tiens. Et si un jour un homme de la Duty te pose la question, dis-lui la vérité : je n'ai rien à cacher, à part un nom."
+    ],
+    "ObjectiveText": "Abats les chiens qui rôdent au nord de la planque du Comptable, au nord-ouest des Entrepôts, fouille la planque et rapporte la caisse scellée de la Duty à Makarov.",
+    "FollowUpQuest": 156,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 155,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 155,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 155,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        154
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,19 @@
+{
+    "ConfigVersion": 28,
+    "ID": 50,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Récupère 3 bobines de cuivre",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 3,
+            "ClassName": "RIP_CopperCoil",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

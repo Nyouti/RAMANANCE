@@ -1,0 +1,42 @@
+{
+    "ConfigVersion": 28,
+    "ID": 35,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de la dernière patrouille de Clear Sky, au sud-ouest, au milieu des anomalies",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Green",
+    "DigInStash": 0,
+    "MarkerName": "Sac de la patrouille",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            2300.550000,
+            82.100000,
+            1532.950000
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPaper",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "BandageDressing",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

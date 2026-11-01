@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 145,
+    "Type": 1,
+    "Title": "La lettre d'un déserteur",
+    "Descriptions": [
+        "J'ai une faveur à te demander, %1, et ce n'est pas un ordre. Avant la Duty, j'étais conscrit, à la base d'Agroprom. Il y a quatre ans, on nous a envoyés à trois en patrouille vers Garbage. Je suis le seul à être revenu, et je ne suis pas revenu à la base. Pour l'armée, je suis un déserteur. Pour ma mère aussi : c'est ce qu'on lui a écrit. La Duty m'a ramassé, et je n'ai jamais osé lui écrire. Cette lettre, c'est la première. Près de la base d'Agroprom vit un ancien adjudant, Grechko. Il fait sortir le courrier des soldats sans que personne ne l'ouvre. Porte-la-lui. Ne lui dis pas que je suis à la Duty : il le comprendra tout seul.",
+        "La lettre de Gekko pour sa mère, à remettre à Grechko, près de la base militaire d'Agroprom.",
+        "Une lettre pour une mère... Lazarev. Iouri Lazarev. Je me souviens de la fiche : une patrouille de trois, partie vers Garbage, jamais rentrée. Déclarée en désertion, comme les autres. Il est vivant ? Alors la Duty l'a trouvé. Ne fais pas cette tête, %1 : ça se voit à ta façon de parler. Écoute. Le matin où la Zone a grandi, mon camion est passé à l'est d'Agroprom. Sur la route, des soldats montaient une barricade dans l'autre sens, face au nord. Je les ai regardés par la bâche. Ils ne sont pas montés. Moi, si. La lettre partira jeudi, avec les autres. Et dis-lui une chose : si les deux autres sont morts, qu'il me trouve leurs plaques. Avec les plaques, je fais signer, et leurs familles touchent la pension. Tiens, pour ta peine."
+    ],
+    "ObjectiveText": "Porte la lettre de Gekko pour sa mère à Grechko, près de la base militaire d'Agroprom.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        65
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 145,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        144
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

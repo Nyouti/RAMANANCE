@@ -1,0 +1,42 @@
+{
+    "ConfigVersion": 28,
+    "ID": 104,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la caisse du fournisseur au point de dépôt",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse du fournisseur",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5855.0,
+            107.7,
+            4609.0
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "ExpansionQuestItemPaper",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

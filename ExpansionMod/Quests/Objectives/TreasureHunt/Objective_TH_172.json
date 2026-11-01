@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 172,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la caisse de Svoboda au poste de l'entrée ouest",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Poste de l'entrée ouest",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5090.5,
+            132.5,
+            8054.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

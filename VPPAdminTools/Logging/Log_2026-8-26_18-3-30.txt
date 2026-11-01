@@ -1,0 +1,1734 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-8-26_18-3-30
+====================================================================================
+18:3:30 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+18:3:30 | [PermissionManager] Perm (FreeCamera) has been registered!
+18:3:30 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuServerManager) has been registered!
+18:3:30 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+18:3:30 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+18:3:30 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+18:3:30 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+18:3:30 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+18:3:30 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+18:3:30 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+18:3:30 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+18:3:30 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuBansManager) has been registered!
+18:3:30 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+18:3:30 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+18:3:30 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+18:3:30 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+18:3:30 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+18:3:30 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+18:3:32 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+18:3:32 | [PermissionManager] Adding Super Admin (76561198317293678)
+18:3:32 | [PermissionManager] Adding Super Admin (76561198207165013)
+18:3:32 | [PermissionManager] Adding Super Admin (76561199417217773)
+18:3:32 | [PermissionManager] Adding Super Admin (76561198097580497)
+18:3:32 | [PermissionManager] Loaded UserGroups.json
+18:3:32 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+18:3:32 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+18:3:32 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+18:3:32 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+18:3:32 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+18:3:32 | Building Sets Loaded: 10
+18:3:32 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+18:3:32 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+18:9:1 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+18:9:3 | Player "Melnik Volkov" (steamId=76561198106827892) connected to server!
+18:15:15 | Player "Reggie Novoselki" (steamId=76561198106085580) initiated disconnect process...
+18:15:16 | Player "Reggie Novoselki" (steamId=76561198106085580) disconnected early from server (EXIT NOW).
+18:16:2 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+18:16:52 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+18:18:4 | "Mikhail" (steamid=76561198097580497) Spawned Item: (AK74_WoodBttstck)
+18:18:41 | Player "Bogdan Borowski" (steamId=76561198047139597) connected to server!
+18:18:43 | "Mikhail" (steamid=76561198097580497) Spawned Item: (AK74_WoodBttstck_Black)
+18:18:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (AK74_WoodBttstck_Camo)
+18:19:2 | Player "Reznov miniyet" (steamId=76561199067803346) connected to server!
+18:22:50 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+18:24:48 | "Mikhail" (steamid=76561198097580497) Spawned Item: (AK74_Hndgrd)
+18:28:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:28:48 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+18:29:2 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:29:6 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+18:29:10 | Player "Mikhail" (steamId=76561198097580497) disconnected early from server (EXIT NOW).
+18:29:21 | Player "Mikhail" (steamId=76561198097580497) disconnected from server.
+18:33:45 | Player "igor kuznetsov" (steamId=76561199619732873) connected to server!
+18:34:54 | Player "Husik Gvasalia" (steamId=76561198092307102) connected to server!
+18:35:53 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+18:38:13 | Player "Kazimir Zakharov" (steamId=76561199567998509) connected to server!
+18:39:49 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TF_AKS74U_WoodHndgrd)
+18:40:20 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TF_AKS74U_CAAHndgrd_RIS)
+18:41:7 | "Mikhail" (steamid=76561198097580497) Spawned Item: (AK74_Hndgrd_Black)
+18:41:59 | Player "Arkady Oroumov" (steamId=76561198169293177) connected to server!
+18:46:59 | Player "Nikola* Kozlov" (steamId=76561198799662309) connected to server!
+18:50:17 | Player "Shalashaska Barakov" (steamId=76561198070570810) connected to server!
+18:51:57 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) connected to server!
+18:54:15 | Player "Brasidas Viken" (steamId=76561199347052343) connected to server!
+18:55:9 | "Mikhail" (steamid=76561198097580497) Spawned Item: (VitaminBottle)
+18:55:53 | Player "Col.Dragomir" (steamId=76561198207165013) connected to server!
+18:56:12 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+18:56:13 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:56:36 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4960.925293, 126.819992, 6678.177734>)
+18:56:37 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:56:52 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:56:56 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4936.200195, 126.851631, 6767.869629>)
+18:56:56 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:56:58 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:57:2 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4958.014160, 121.371780, 6776.726074>)
+18:57:2 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:57:23 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4955.950195, 123.655998, 6767.529785>)
+18:57:23 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4955.95,123.656,6767.53)
+18:57:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:57:36 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4956.174316, 121.371780, 6777.252930>)
+18:57:36 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:57:39 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (TraderPlus_Money_Ruble1000)
+18:57:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:57:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:57:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:58:3 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4972.498047, 134.614685, 6768.421875>)
+18:58:3 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:58:13 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:58:16 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4966.243652, 121.373497, 6782.379883>)
+18:58:16 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+18:58:31 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:58:34 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4969.582520, 122.188316, 6777.055176>)
+18:58:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:58:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:58:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4960.288574, 121.373497, 6778.151367>)
+18:58:59 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:59:19 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TraderPlus_Money_Ruble100)
+19:1:40 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+19:2:42 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (FangeKnife)
+19:2:44 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_knife_handmade)
+19:3:16 | Player "Nazar Voronov" (steamId=76561198033476882) connected to server!
+19:3:24 | Player "Reggie Novoselki" (steamId=76561198106085580) initiated disconnect process...
+19:3:25 | Player "Reggie Novoselki" (steamId=76561198106085580) disconnected early from server (EXIT NOW).
+19:5:34 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_SpecialKnife)
+19:6:52 | Player "nyouti" (steamId=76561198317293678) connected to server!
+19:7:15 | "nyouti" (steamid=76561198317293678) healed player "nyouti" @ crosshair
+19:7:35 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:7:44 | Player "Pavel Karlov" (steamId=76561198052722146) connected to server!
+19:7:57 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:9:28 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Ammo_9x19)
+19:10:2 | Player "Franck Schmit" (steamId=76561198047137116) connected to server!
+19:10:26 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:10:40 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Ammo_9x19)
+19:11:46 | "76561198317293678" (steamid=76561198317293678) teleported to (pos=<1637.199951, 42.549999, 4072.590088>)
+19:11:46 | "nyouti": (steamid=76561198317293678) teleported to (pos=1637.2,42.55,4072.59)
+19:11:56 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:16:56 | Player "Mboy" (steamId=76561199417217773) connected to server!
+19:17:30 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:17:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4184.807617, 126.819962, 9127.179688>)
+19:17:52 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:17:54 | Player "Yurey Maldzis" (steamId=76561198045078745) connected to server!
+19:19:2 | Player "Tsehla" (steamId=76561198250009630) connected to server!
+19:19:55 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:20:5 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:20:8 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:21:33 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:21:58 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4992.020508, 113.578529, 767.349243>)
+19:22:11 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5028.913574, 117.385025, 782.238953>)
+19:22:11 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:22:43 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:22:47 | "nyouti" (steamid=76561198317293678) healed player "nyouti" @ crosshair
+19:23:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:23:18 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:23:21 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:23:42 | "nyouti" (steamid=76561198317293678) healed player "nyouti" @ crosshair
+19:23:50 | Player "Alexei Popovitch" (steamId=76561199233929779) connected to server!
+19:24:4 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:24:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4963.329102, 121.371780, 6773.018066>)
+19:24:20 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:24:26 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:25:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+19:25:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+19:25:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+19:26:41 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:26:54 | "nyouti" (steamid=76561198317293678) teleported to crosshair (pos=<4955.614746, 118.769997, 4664.377441>)
+19:27:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:28:8 | "76561198317293678" (steamid=76561198317293678) teleported to (pos=<4656.799805, 57.180000, 1570.550049>)
+19:28:8 | "nyouti": (steamid=76561198317293678) teleported to (pos=4656.8,57.18,1570.55)
+19:28:13 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:28:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:28:36 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4935.815430, 126.868401, 6771.351562>)
+19:28:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:28:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:28:52 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:31 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4937.452637, 126.820007, 6754.575195>)
+19:29:34 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:41 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:30:8 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:30:12 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:30:16 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4964.699219, 120.559998, 6788.527344>)
+19:30:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:30:24 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:30:32 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:30:34 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4961.690430, 121.564850, 6780.104004>)
+19:30:35 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:30:40 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:32:0 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4969.923828, 122.190414, 6791.303223>)
+19:32:3 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:22 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.010742, 124.448479, 6778.850586>)
+19:32:25 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4967.253906, 123.883514, 6792.655273>)
+19:32:39 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:48 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:32:51 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4963.002930, 123.495827, 6779.231445>)
+19:32:51 | "nyouti" (steamid=76561198317293678) healed player "nyouti" @ crosshair
+19:32:52 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:33:14 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble1000)
+19:33:15 | "nyouti" (steamid=76561198317293678) healed player "nyouti" @ crosshair
+19:33:18 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:33:23 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:33:34 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:33:50 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:33:57 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:33:58 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4966.437012, 122.923920, 6791.889160>)
+19:33:59 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:34:12 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:34:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.450195, 121.373497, 6779.414062>)
+19:34:15 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:34:32 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+19:34:34 | Player "Karl Heim" (steamId=76561199086364433) disconnected early from server (EXIT NOW).
+19:35:23 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (UniversalLight)
+19:35:29 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:35:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4964.008301, 124.561554, 6793.196289>)
+19:35:31 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:35:40 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:35:42 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (CarBattery)
+19:35:43 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.463379, 121.564850, 6779.564941>)
+19:35:43 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:35:43 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:36:1 | "Col.Dragomir" (steamid=76561198207165013) deleted object "CarBattery" (pos=<4878.044922, 126.879562, 6694.874512>)
+19:36:12 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:36:16 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4925.263184, 126.819977, 6752.797852>)
+19:36:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:36:19 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:36:34 | "nyouti" (steamid=76561198317293678) toggled freecam
+19:37:32 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:37:40 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4936.490234, 126.868401, 6770.331055>)
+19:37:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:37:41 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:42 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4932.314453, 126.851830, 6771.201172>)
+19:37:42 | "Mboy" (steamid=76561199417217773) healed player "Mboy" @ crosshair
+19:37:42 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.884766, 121.564850, 6782.611328>)
+19:37:50 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:37:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:37:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4927.631348, 126.820015, 6753.454590>)
+19:37:59 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:38:17 | "nyouti" (steamid=76561198317293678) teleported to crosshair (pos=<4660.528320, 55.755653, 1632.548462>)
+19:38:24 | Player "nyouti" (steamId=76561198317293678) initiated disconnect process...
+19:38:39 | Player "nyouti" (steamId=76561198317293678) disconnected from server.
+19:38:48 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:39:6 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:39:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:39:54 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4887.508301, 127.200691, 6719.606445>)
+19:39:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:40:30 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+19:40:31 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:40:33 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:42:35 | Player "Pavel Karlov" (steamId=76561198052722146) initiated disconnect process...
+19:42:36 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:42:37 | Player "Pavel Karlov" (steamId=76561198052722146) disconnected early from server (EXIT NOW).
+19:42:53 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+19:42:58 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:43:3 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:43:7 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4968.014160, 134.614685, 6782.009277>)
+19:43:8 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:43:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4890.935059, 126.951004, 6719.641113>)
+19:43:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4894.568359, 126.820000, 6719.267090>)
+19:43:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4897.951172, 126.819969, 6716.074707>)
+19:43:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4897.923828, 127.160583, 6708.812500>)
+19:43:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4898.500977, 128.300735, 6708.812500>)
+19:43:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4900.624512, 126.824898, 6704.654297>)
+19:43:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:43:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4951.113281, 122.794601, 6773.636719>)
+19:43:20 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:43:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:43:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4951.416504, 122.676338, 6779.538574>)
+19:43:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4951.944336, 121.772812, 6783.786621>)
+19:43:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4952.884766, 122.830208, 6783.915527>)
+19:43:25 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4955.020996, 121.772812, 6782.799316>)
+19:43:25 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4956.196289, 121.371780, 6778.757812>)
+19:43:26 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: tenue mili event has no parrent!
+19:43:26 | "Col.Dragomir" (steamid=76561198207165013) spawned preset: (tenue mili event)
+19:43:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4925.069336, 126.825951, 6725.859863>)
+19:43:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4966.485352, 121.373497, 6780.694824>)
+19:43:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:44:1 | Player "Karel Mechenyi " (steamId=76561199045300430) connected to server!
+19:44:2 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: tenue mili event has no parrent!
+19:44:2 | "Mboy" (steamid=76561199417217773) spawned preset: (tenue mili event)
+19:44:23 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SportGlasses_Green)
+19:44:46 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<1684.689941, 42.549999, 4079.219971>)
+19:44:46 | "Mboy": (steamid=76561199417217773) teleported to (pos=1684.69,42.55,4079.22)
+19:44:46 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: tenue mili event has no parrent!
+19:44:46 | "Mikhail" (steamid=76561198097580497) spawned preset: (tenue mili event)
+19:45:4 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (aod_headgear_military_tan_beret_officer)
+19:45:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:45:41 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1698.828979, 47.552269, 4060.020508>)
+19:45:42 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:46:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1723.898560, 42.921329, 4098.327148>)
+19:46:47 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1723.452271, 43.495529, 4098.327148>)
+19:47:17 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<1700.760010, 42.549999, 4077.820068>)
+19:47:17 | "Mikhail": (steamid=76561198097580497) teleported to (pos=1700.76,42.55,4077.82)
+19:47:24 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (CombatKnife)
+19:47:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:47:30 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<1698.033447, 42.553314, 4090.018066>)
+19:47:31 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:47:57 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TraderPlus_Money_Ruble100)
+19:48:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:48:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<1698.151123, 47.552269, 4060.437744>)
+19:48:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:48:22 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SGE_Loner_Mask)
+19:49:28 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (TraderPlus_Money_Ruble100)
+19:51:22 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:51:31 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:54:1 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+19:54:9 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+19:54:10 | Player "Karl Heim" (steamId=76561199086364433) disconnected early from server (EXIT NOW).
+19:54:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:54:16 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1727.739014, 47.210922, 4081.979980>)
+19:54:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:54:49 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:54:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+19:55:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:55:39 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<1685.930298, 42.609989, 4026.955811>)
+19:55:40 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:56:2 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_SigaPack_Magna)
+19:56:34 | "Mikhail" (steamid=76561198097580497) gave unlimited ammo to (steamid=76561198097580497)
+19:56:41 | "Mikhail" (steamid=76561198097580497) gave unlimited ammo to (steamid=76561198097580497)
+19:56:58 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:57:25 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:57:39 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Binoculars)
+19:57:39 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Binoculars)
+19:59:37 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+20:0:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:0:27 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4401.485840, 108.438499, 2288.895020>)
+20:0:30 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4655.444824, 100.842232, 2116.032471>)
+20:0:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:0:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:1:7 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4944.323242, 128.162231, 3068.940430>)
+20:1:11 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5314.347168, 139.816177, 3929.724121>)
+20:1:21 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+20:1:23 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:1:24 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:1:24 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+20:1:26 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2442.485107, 37.760014, 6190.764648>)
+20:1:26 | "Mikhail" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+20:1:32 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<2443.239990, 37.759998, 6192.120117>)
+20:1:32 | "Mboy": (steamid=76561199417217773) teleported to (pos=2443.24,37.76,6192.12)
+20:1:46 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:1:50 | "Mikhail" (steamid=76561198097580497) Spawned Item: (PersonalRadio)
+20:2:5 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:2:5 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+20:2:48 | "Mikhail" (steamid=76561198097580497) deleted object "TraderPlus_Money_Ruble100" (pos=<4650.680664, 56.822151, 1620.789062>)
+20:3:52 | Player "Nikola* Kozlov" (steamId=76561198799662309) initiated disconnect process...
+20:3:53 | Player "Nikola* Kozlov" (steamId=76561198799662309) disconnected early from server (EXIT NOW).
+20:3:57 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:3:58 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:4:14 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2488.301025, 57.419998, 6491.238281>)
+20:4:16 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2479.865723, 57.419998, 6498.706543>)
+20:4:46 | Player "Reznov miniyet" (steamId=76561199067803346) initiated disconnect process...
+20:4:47 | Player "Reznov miniyet" (steamId=76561199067803346) disconnected early from server (EXIT NOW).
+20:8:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:8:20 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:8:51 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:9:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:10:5 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_Alarm_Stolb)
+20:10:34 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:10:47 | Player "Kazimir Zakharov" (steamId=76561199567998509) initiated disconnect process...
+20:10:57 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4850.390137, 91.987701, 2319.320068>)
+20:10:57 | "Mboy": (steamid=76561199417217773) teleported to (pos=4850.39,91.9877,2319.32)
+20:11:2 | Player "Kazimir Zakharov" (steamId=76561199567998509) disconnected from server.
+20:11:5 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:11:16 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:11:24 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:11:32 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+20:11:47 | Player "Kazimir Zakharov" (steamId=76561199567998509) connected to server!
+20:12:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4875.969727, 92.242920, 2336.874023>)
+20:12:3 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:12:16 | Player "Balder" (steamId=76561198064336758) connected to server!
+20:21:28 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2478.355713, 37.759987, 6213.390625>)
+20:23:56 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:23:59 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:24:2 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:24:6 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:25:28 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:26:9 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4677.449707, 75.091568, 1654.377930>)
+20:26:35 | Player "Alane Duvek" (steamId=76561199189278181) connected to server!
+20:26:35 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4875.918945, 82.854752, 1220.094604>)
+20:26:36 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:26:40 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+20:26:54 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4659.350098, 57.189999, 1592.329956>)
+20:26:54 | "Mboy": (steamid=76561199417217773) teleported to (pos=4659.35,57.19,1592.33)
+20:26:56 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:27:15 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:27:35 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:27:41 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:27:51 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4874.583984, 82.632668, 1218.135742>)
+20:27:51 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:28:36 | "Mboy" (steamid=76561199417217773) Spawned Item: (Flaregun)
+20:30:46 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:30:51 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:30:52 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4874.711914, 82.714165, 1215.672119>)
+20:30:54 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:31:19 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:31:21 | Player "Ivano Galaman" (steamId=76561199505158634) connected to server!
+20:31:27 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:31:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:31:32 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4655.663574, 57.183552, 1576.779907>)
+20:31:33 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:31:47 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:31:56 | Player "Karel Mechenyi " (steamId=76561199045300430) initiated disconnect process...
+20:31:57 | Player "Karel Mechenyi " (steamId=76561199045300430) disconnected early from server (EXIT NOW).
+20:33:16 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:33:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4645.964844, 77.458160, 1567.509888>)
+20:33:27 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:33:55 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:34:6 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:34:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:35:4 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<520.070984, 115.669998, 135.399994>)
+20:35:4 | "Mikhail": (steamid=76561198097580497) teleported to (pos=520.071,115.67,135.4)
+20:35:29 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4632.129883, 126.383003, 2804.909912>)
+20:35:29 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4632.13,126.383,2804.91)
+20:35:34 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4657.069824, 57.189999, 1597.390015>)
+20:35:34 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4657.07,57.19,1597.39)
+20:36:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:36:22 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:39:11 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<1664.699951, 42.550598, 4052.229980>)
+20:39:11 | "Mikhail": (steamid=76561198097580497) teleported to (pos=1664.7,42.5506,4052.23)
+20:39:32 | Player "Zlatko Lutsenko" (steamId=76561199107800387) connected to server!
+20:39:36 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Ammo_12gaRubberSlug)
+20:39:37 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Ammo_12gaRubberSlug)
+20:39:37 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Ammo_12gaRubberSlug)
+20:39:59 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4655.160156, 57.189999, 1600.410034>)
+20:39:59 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4655.16,57.19,1600.41)
+20:40:14 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SurvivorM_Rolf" (pos=<1627.072632, 42.575005, 4092.177002>)
+20:40:16 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SurvivorM_Peter" (pos=<1627.113892, 42.575005, 4094.771973>)
+20:40:20 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SurvivorM_Quinn" (pos=<1625.878540, 42.575005, 4089.836426>)
+20:42:3 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_ShotgunMP153Mod)
+20:43:27 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:44:21 | Player "Zey" (steamId=76561199115125814) connected to server!
+20:44:45 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<3191.639893, 140.587006, 3521.260010>)
+20:44:45 | "Mboy": (steamid=76561199417217773) teleported to (pos=3191.64,140.587,3521.26)
+20:44:46 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:44:50 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:44:54 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:44:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:45:0 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4935.040039, 118.025002, 4458.790039>)
+20:45:0 | "Mboy": (steamid=76561199417217773) teleported to (pos=4935.04,118.025,4458.79)
+20:45:6 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:45:11 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:45:32 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4979.944336, 118.770004, 4569.948242>)
+20:45:33 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4979.958984, 118.769989, 4569.958496>)
+20:45:33 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4979.958496, 118.769974, 4569.958984>)
+20:45:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5211.572754, 143.957092, 4361.312988>)
+20:46:47 | Player "Zlatko Lutsenko" (steamId=76561199107800387) initiated disconnect process...
+20:46:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5436.852539, 117.359070, 4437.402344>)
+20:47:0 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:47:2 | Player "Zlatko Lutsenko" (steamId=76561199107800387) disconnected from server.
+20:47:3 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:47:38 | Player "Nazar Voronov" (steamId=76561198033476882) initiated disconnect process...
+20:47:39 | Player "Zlatko Lutsenko" (steamId=76561199107800387) connected to server!
+20:47:39 | Player "Nazar Voronov" (steamId=76561198033476882) disconnected early from server (EXIT NOW).
+20:48:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5170.053223, 118.235710, 4583.327148>)
+20:48:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5114.991211, 118.047714, 4599.299805>)
+20:48:15 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:48:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:48:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5004.823730, 118.770004, 4593.588867>)
+20:48:30 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:48:31 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:48:34 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:48:37 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:50:22 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<1593.209961, 128.850006, 5634.859863>)
+20:50:22 | "Mboy": (steamid=76561199417217773) teleported to (pos=1593.21,128.85,5634.86)
+20:50:23 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:50:24 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:51:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1504.444580, 133.748901, 5604.734863>)
+20:51:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1794.291870, 42.411480, 4972.157715>)
+20:51:30 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:52:2 | "Mboy" (steamid=76561199417217773) Spawned Item: (Mutant_AoD_Controller1)
+20:52:11 | "Mboy" (steamid=76561199417217773) Spawned Item: (XZ_Controller_brain)
+20:52:13 | "Mboy" (steamid=76561199417217773) Spawned Item: (Mutant_AoD_Controller1)
+20:52:17 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1792.402222, 42.866413, 4985.124512>)
+20:52:17 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.897217, 42.878792, 4985.275391>)
+20:52:17 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.868530, 42.981537, 4987.712891>)
+20:52:17 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1792.041382, 43.065334, 4990.496094>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.869263, 43.496681, 4996.548828>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.221191, 43.872913, 5000.758301>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.822388, 44.343014, 5005.511719>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.600098, 44.708393, 5008.825195>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.250977, 45.236504, 5013.169434>)
+20:52:18 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.994019, 45.913704, 5018.154297>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.337036, 46.535355, 5021.936523>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.918457, 47.439873, 5026.516113>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.758789, 48.560081, 5031.235352>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1792.824585, 49.564205, 5034.871582>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1793.289917, 50.580750, 5038.560059>)
+20:52:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1793.636353, 52.302296, 5038.814453>)
+20:52:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1793.833252, 53.593670, 5039.410156>)
+20:52:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1795.798218, 53.815929, 5048.612305>)
+20:52:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.065552, 55.408688, 5052.981445>)
+20:52:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1798.204102, 56.988205, 5056.970703>)
+20:52:21 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1801.146240, 59.604588, 5062.324219>)
+20:52:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1802.771729, 61.758144, 5066.369141>)
+20:52:25 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:52:29 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:52:33 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1805.625732, 55.080551, 5048.728027>)
+20:52:33 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1805.546143, 55.598583, 5045.505371>)
+20:52:35 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1800.710327, 51.004082, 5036.802246>)
+20:52:36 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1798.958862, 51.322857, 5032.775391>)
+20:52:37 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.303345, 47.005833, 5021.852539>)
+20:52:37 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.201538, 45.826157, 5015.716797>)
+20:52:37 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.270630, 45.190681, 5011.712402>)
+20:52:37 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.304199, 44.833344, 5009.130859>)
+20:52:37 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1797.055298, 44.192242, 5003.899414>)
+20:52:38 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1796.371338, 43.489586, 4997.167480>)
+20:52:43 | "Mboy" (steamid=76561199417217773) deleted object "Mutant_AoD_Controller1" (pos=<1795.279541, 42.918873, 4987.136230>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.074097, 43.783382, 4999.750488>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.862061, 44.504093, 5006.969238>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.845215, 44.506447, 5006.993164>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.947388, 44.589638, 5007.732422>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.020142, 44.650574, 5008.278809>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.656494, 44.390076, 5005.965820>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.516968, 44.280315, 5004.852539>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.089111, 44.704559, 5008.917969>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.110352, 44.979084, 5011.451660>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.312744, 45.216301, 5013.289551>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.338379, 45.269085, 5013.705566>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.382935, 45.318867, 5014.090332>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.083252, 45.815704, 5017.448242>)
+20:52:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1791.689697, 46.989925, 5023.962402>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1790.834839, 46.962978, 5024.223145>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.155518, 45.808392, 5017.841309>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.796753, 45.935692, 5018.904785>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.706055, 45.909603, 5018.769043>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.620728, 45.844482, 5018.359863>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.774292, 45.980602, 5019.228027>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.982300, 46.120697, 5020.094238>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.240845, 46.308811, 5021.172363>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1789.566895, 46.579411, 5022.563965>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.916992, 47.547424, 5028.043457>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.464600, 48.650452, 5033.318848>)
+20:52:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.264160, 50.536324, 5040.973145>)
+20:52:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1787.793457, 51.925976, 5041.301758>)
+20:52:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1787.613159, 52.274628, 5041.631836>)
+20:52:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1787.666748, 53.295307, 5041.774414>)
+20:52:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1787.565796, 54.593273, 5041.916992>)
+20:52:47 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1787.465942, 55.706802, 5042.014160>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1786.678467, 51.628258, 5042.295898>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1783.458984, 51.611378, 5047.321289>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1781.498169, 52.284729, 5050.576172>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.318970, 53.129635, 5054.362793>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.290894, 53.142044, 5054.417480>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.266968, 53.152779, 5054.463379>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.251709, 53.159737, 5054.493164>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.243530, 53.163090, 5054.507812>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1779.235352, 53.166374, 5054.522949>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1778.985229, 53.253464, 5054.929688>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1778.750366, 53.337612, 5055.306641>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1778.500610, 53.423904, 5055.695312>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1778.250366, 53.498596, 5056.049316>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1778.008911, 53.567822, 5056.381348>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1777.784790, 53.644222, 5056.727051>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1777.562012, 53.705105, 5057.024414>)
+20:52:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1777.373047, 53.754948, 5057.271484>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1777.118896, 53.860359, 5057.721191>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1776.895630, 53.938988, 5058.073242>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1776.510376, 54.079090, 5058.683594>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1776.208374, 54.175980, 5059.123047>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1775.996460, 54.242641, 5059.428223>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1775.622803, 54.366089, 5059.982422>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1775.363647, 54.443745, 5060.337891>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1774.834351, 54.640686, 5061.183105>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1774.496704, 54.752869, 5061.698242>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1774.298706, 54.819141, 5062.001953>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1774.175293, 54.862148, 5062.195801>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1774.088623, 54.891735, 5062.330566>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1773.576172, 55.051102, 5063.082031>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1773.332153, 55.122860, 5063.427734>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1772.546631, 55.381653, 5064.620117>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1772.214600, 55.487198, 5065.118652>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1772.082397, 55.528198, 5065.320312>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1772.016968, 55.550293, 5065.425293>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1771.969238, 55.566525, 5065.501953>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1771.696411, 55.655346, 5065.930664>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1771.613281, 55.681599, 5066.058594>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1771.593994, 55.689316, 5066.093262>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.363037, 56.056423, 5067.926270>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.082764, 56.140034, 5068.343750>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.030029, 56.156864, 5068.425293>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.567017, 56.288074, 5069.132324>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.500610, 56.306396, 5069.232910>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.125488, 56.416851, 5069.820801>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.083130, 56.429058, 5069.886719>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.092041, 56.427082, 5069.874023>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.814941, 56.492611, 5070.282227>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.645996, 56.531101, 5070.533203>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.378418, 56.594337, 5070.937012>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.106812, 56.656097, 5071.339844>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.851440, 56.714275, 5071.718262>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.525269, 56.791008, 5072.209961>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.238525, 56.857082, 5072.637695>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.989990, 56.913921, 5073.007324>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.780029, 56.964935, 5073.317383>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.598755, 57.008228, 5073.583008>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.268311, 57.088760, 5074.072266>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.026855, 57.146553, 5074.426270>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1765.543579, 57.259972, 5075.142090>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1765.205078, 57.325226, 5075.641602>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.985718, 57.366692, 5075.964844>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.480225, 57.450615, 5076.712891>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.185059, 57.498951, 5077.147461>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.018921, 57.525333, 5077.390137>)
+20:52:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.553223, 58.010105, 5082.598145>)
+20:52:50 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.093628, 58.236729, 5086.307129>)
+20:52:50 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1754.031128, 58.479179, 5092.340820>)
+20:52:53 | "Mboy" (steamid=76561199417217773) Spawned Item: (Mutant_AoD_Controller1)
+20:53:2 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:53:4 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1713.759399, 47.077454, 5017.736328>)
+20:53:11 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1699.208374, 55.949348, 5102.134277>)
+20:53:12 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:53:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1694.878052, 56.340580, 5102.857422>)
+20:53:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1691.055786, 57.090233, 5107.375977>)
+20:53:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1687.594238, 57.794949, 5110.643555>)
+20:53:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1684.065063, 58.593315, 5113.684570>)
+20:53:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1681.544678, 59.263012, 5115.923828>)
+20:53:58 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1682.364502, 59.557278, 5121.049316>)
+20:53:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1687.337402, 58.906548, 5122.690430>)
+20:54:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1682.815918, 59.534336, 5121.732422>)
+20:54:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1679.756836, 60.042477, 5121.005859>)
+20:54:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1676.389771, 60.748211, 5120.044922>)
+20:54:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1673.616333, 61.279583, 5117.499023>)
+20:54:4 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1671.404663, 61.783844, 5115.250000>)
+20:54:4 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1669.252563, 62.310333, 5113.050781>)
+20:54:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Mutant_AoD_Controller1)
+20:54:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1671.548340, 62.466164, 5114.063965>)
+20:54:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1693.551025, 59.355087, 5117.194336>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1728.527588, 66.154678, 5110.324707>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1750.155518, 61.631660, 5114.606934>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1749.124146, 61.341049, 5114.828125>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1747.442261, 60.871132, 5115.203613>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1746.523682, 60.606506, 5115.375000>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1747.448853, 60.857182, 5115.068848>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.776489, 62.365955, 5115.458984>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.334961, 62.217022, 5115.580566>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.088867, 62.132805, 5115.639160>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.546997, 62.287270, 5115.512695>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.904175, 62.405819, 5115.400391>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1752.113770, 62.474102, 5115.324219>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1752.272339, 62.524929, 5115.261719>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1752.374878, 62.557388, 5115.218262>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1750.699585, 61.976311, 5115.557617>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1750.440308, 61.890659, 5115.642090>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.717163, 63.191631, 5116.203613>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.700806, 63.185204, 5116.202148>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.654175, 63.168983, 5116.211914>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1754.604858, 63.495346, 5115.909668>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1754.566772, 63.481773, 5115.919434>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.148560, 62.972931, 5116.159668>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.140137, 62.969780, 5116.160156>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.132935, 62.967377, 5116.161133>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.128540, 62.965816, 5116.162109>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1753.124756, 62.964500, 5116.163086>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.994141, 64.210381, 5116.774902>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.992188, 64.209740, 5116.775391>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.990601, 64.209114, 5116.775879>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.989136, 64.208580, 5116.776367>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.988037, 64.208153, 5116.776855>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.987061, 64.207664, 5116.777344>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.480835, 63.986305, 5116.739746>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1755.480225, 63.986034, 5116.739746>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.203491, 65.250900, 5117.322754>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.203247, 65.250633, 5117.322754>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.202637, 65.250473, 5117.322754>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.202637, 65.250282, 5117.321289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.203613, 65.250107, 5117.317871>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.204956, 65.249840, 5117.313477>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.200195, 65.247063, 5117.309570>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.201172, 65.246925, 5117.306641>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.202637, 65.246658, 5117.302734>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1758.203735, 65.246490, 5117.298828>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1757.750732, 65.035515, 5117.264160>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1757.751587, 65.035370, 5117.261719>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1757.751953, 65.035301, 5117.259766>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.350342, 66.311836, 5117.820801>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349976, 66.311859, 5117.820801>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349976, 66.311806, 5117.821289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349976, 66.311745, 5117.821289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349976, 66.311737, 5117.821289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349976, 66.311684, 5117.821289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.349854, 66.311676, 5117.821289>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.370361, 66.318474, 5117.807129>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.406128, 66.332588, 5117.796387>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.437744, 66.345261, 5117.787109>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1760.475586, 66.360390, 5117.776855>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1761.015747, 66.620461, 5117.864258>)
+20:54:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1761.558472, 66.880447, 5117.944824>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1762.102783, 67.142929, 5118.016602>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1762.565430, 67.379173, 5118.083984>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1763.001709, 67.602638, 5118.150391>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1763.443237, 67.827148, 5118.210938>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1763.766724, 67.990471, 5118.249512>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1763.937256, 68.077560, 5118.274414>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.082886, 68.151649, 5118.294434>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.519165, 68.373062, 5118.351562>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.802856, 68.517418, 5118.389648>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1764.994751, 68.614738, 5118.415527>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1765.118042, 68.673546, 5118.432129>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1765.183350, 68.704460, 5118.440430>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1765.216675, 68.720123, 5118.445312>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1766.433228, 69.299194, 5118.613770>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.077026, 69.622833, 5118.702637>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.423340, 69.796677, 5118.750977>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.600464, 69.885628, 5118.774902>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.680908, 69.926147, 5118.786133>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.709229, 69.940170, 5118.790039>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.303345, 70.237999, 5118.869141>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.562134, 70.367676, 5118.903809>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.663330, 70.418396, 5118.916992>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.872192, 71.025520, 5119.083496>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.381226, 71.259033, 5119.153809>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1769.316284, 71.301132, 5119.001465>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.526733, 71.463577, 5118.744629>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1767.682617, 71.541580, 5118.766602>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.365845, 71.883934, 5118.857910>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.561768, 71.982132, 5118.884277>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1768.614502, 72.008667, 5118.890625>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.050293, 72.710564, 5119.086426>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.380859, 72.865479, 5119.125977>)
+20:54:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1770.455933, 72.895172, 5119.129883>)
+20:54:11 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:54:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1751.190186, 60.725513, 5107.163574>)
+20:54:15 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:54:18 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Niki" (pos=<4656.476074, 56.687565, 1621.929932>)
+20:54:58 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:4 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<2022.959595, 37.839989, 4775.722168>)
+20:55:4 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:27 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:27 | "Mboy" (steamid=76561199417217773) healed player "Mboy" @ crosshair
+20:55:28 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:30 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:35 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1863.445068, 47.591137, 4977.670410>)
+20:55:35 | "Mikhail" (steamid=76561198097580497) kicked player: "Zey"
+20:55:36 | Player "Zey" (steamId=76561199115125814) initiated disconnect process...
+20:55:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:55:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1856.215088, 48.212902, 4990.358398>)
+20:55:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1853.153198, 48.704624, 4996.685547>)
+20:55:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1850.082764, 49.412609, 5003.528809>)
+20:55:43 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1846.726929, 50.588673, 5012.038574>)
+20:55:43 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1844.947632, 51.447308, 5017.108887>)
+20:55:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1844.729248, 52.457417, 5021.424805>)
+20:55:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1844.411255, 53.404774, 5025.471191>)
+20:55:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1844.226929, 54.304386, 5029.314941>)
+20:55:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1844.076416, 55.121254, 5032.719238>)
+20:55:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1843.896851, 56.153320, 5036.713379>)
+20:55:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1843.876343, 56.276836, 5037.155273>)
+20:55:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1843.081909, 57.216362, 5040.674316>)
+20:55:49 | "Mboy" (steamid=76561199417217773) Spawned Item: (Mutant_XZ_Pse_Dog1)
+20:55:56 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:56:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1788.353638, 45.150368, 5013.113281>)
+20:56:1 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:56:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1783.812988, 44.837852, 5011.335449>)
+20:56:16 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:56:51 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:57:0 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4662.000000, 57.180000, 1572.199951>)
+20:57:0 | "Mboy": (steamid=76561199417217773) teleported to (pos=4662,57.18,1572.2)
+20:57:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4651.162598, 57.180004, 1558.745239>)
+20:57:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4648.110840, 57.976097, 1555.060547>)
+20:57:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4650.807617, 57.180004, 1555.582275>)
+20:57:5 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4644.830566, 57.192802, 1560.535278>)
+20:57:32 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: testeur has no parrent!
+20:57:32 | "Mboy" (steamid=76561199417217773) spawned preset: (testeur)
+20:57:51 | "Mboy" (steamid=76561199417217773) Spawned Item: (HikingBoots_Black)
+20:57:56 | "Mboy" (steamid=76561199417217773) Spawned Item: (HikingBootsLow_Blue)
+20:57:56 | "Mboy" (steamid=76561199417217773) Spawned Item: (HikingBootsLow_Blue)
+20:57:57 | "Mboy" (steamid=76561199417217773) Spawned Item: (HikingBootsLow_Blue)
+20:58:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (WorkingBoots_Beige)
+20:58:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (WorkingBoots_Beige)
+20:58:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (WorkingBoots_Beige)
+20:58:9 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:58:15 | "Mikhail" (steamid=76561198097580497) gave unlimited ammo to (steamid=76561198097580497)
+20:58:17 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4679.430664, 54.478317, 1147.633789>)
+20:58:17 | "Mboy" (steamid=76561199417217773) toggled freecam
+20:58:23 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:58:28 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4684.218750, 70.217865, 1358.008911>)
+20:58:29 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:58:34 | "Mboy" (steamid=76561199417217773) Spawned Item: (BalaclavaMask_Black)
+20:58:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Ammo_Flare)
+20:58:45 | Player "Tsehla" (steamId=76561198250009630) initiated disconnect process...
+20:59:0 | Player "Tsehla" (steamId=76561198250009630) disconnected from server.
+20:59:1 | Player "Zey" (steamId=76561199115125814) connected to server!
+21:0:14 | "Mboy" (steamid=76561199417217773) Spawned Item: (FS_TAG_Odin)
+21:0:25 | "Mboy" (steamid=76561199417217773) Spawned Item: (FS_TAG_Odin)
+21:0:30 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:0:33 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1692.524780, 47.552269, 4063.585449>)
+21:0:34 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:0:38 | "Mboy" (steamid=76561199417217773) healed player "Mboy" @ crosshair
+21:0:45 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:0:53 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4762.366211, 55.772518, 1305.352905>)
+21:0:54 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:0:58 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4776.471191, 54.475586, 1288.359741>)
+21:0:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4781.832031, 55.019890, 1281.558716>)
+21:0:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4784.198730, 55.914314, 1280.480957>)
+21:0:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4786.804199, 56.961300, 1279.767456>)
+21:0:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4788.100586, 57.508987, 1279.327026>)
+21:0:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4790.764160, 58.464462, 1278.559082>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4793.261719, 59.035988, 1277.369995>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612221, 1275.718506>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612175, 1275.718506>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.018555, 59.612217, 1275.718628>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612167, 1275.718750>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612175, 1275.718750>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612194, 1275.718994>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612167, 1275.718994>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612209, 1275.719116>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.019043, 59.612198, 1275.719116>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.480469, 59.648430, 1275.516968>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4797.983398, 59.687824, 1275.296631>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4798.509277, 59.729008, 1275.066162>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4799.031738, 59.768318, 1274.837280>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4799.539551, 59.805923, 1274.614624>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4800.005859, 59.840324, 1274.410645>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4800.701172, 59.879269, 1274.106079>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4801.269043, 59.910831, 1273.857666>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4802.229980, 59.963547, 1273.436890>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4802.941406, 60.002609, 1273.125244>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4803.449707, 60.030495, 1272.902832>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4804.476562, 60.086838, 1272.453735>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4805.132812, 60.125004, 1272.166138>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4805.533691, 60.153442, 1271.990601>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4805.771484, 60.170258, 1271.886719>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4805.907227, 60.179882, 1271.827515>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4805.981445, 60.185135, 1271.794922>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4806.020020, 60.187885, 1271.778076>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4808.275879, 60.347744, 1270.790161>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4809.343750, 60.423466, 1270.322388>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4809.821289, 60.457302, 1270.113525>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4810.024902, 60.471901, 1270.024292>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4810.102051, 60.479103, 1269.990479>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4810.409668, 60.507263, 1269.855835>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4810.518555, 60.517170, 1269.808228>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4810.554688, 60.520546, 1269.792725>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4812.865234, 60.732231, 1268.747681>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4813.509277, 60.791363, 1268.433228>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4814.230469, 60.858131, 1268.017212>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4814.396973, 60.874641, 1267.793579>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4814.435059, 60.879444, 1267.609253>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4814.727539, 60.909081, 1267.118408>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4815.091797, 60.950504, 1266.491821>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4815.404785, 60.997837, 1265.901001>)
+21:1:0 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4815.586426, 61.025299, 1265.556274>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4815.788574, 61.056068, 1265.153931>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4816.491211, 61.166470, 1264.780029>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4817.063477, 61.261448, 1264.502441>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4817.628418, 61.364510, 1264.079712>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4818.085449, 61.445385, 1263.778931>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4818.443848, 61.508675, 1263.543091>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4818.911621, 61.610222, 1262.932495>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4819.250000, 61.683559, 1262.490967>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4820.001953, 61.827652, 1261.819702>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4820.389160, 61.948036, 1261.475220>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4820.636719, 62.024994, 1261.255371>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4821.253418, 62.209610, 1260.826050>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4821.616211, 62.318123, 1260.573364>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4821.822266, 62.379757, 1260.429810>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4821.933594, 62.413082, 1260.352173>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4821.991211, 62.430424, 1260.312134>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4822.623047, 62.665367, 1259.572510>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4822.899902, 62.777435, 1259.244507>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4823.699219, 63.067394, 1258.568237>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4824.036133, 63.189629, 1258.282715>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4824.171875, 63.238785, 1258.168091>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4824.639160, 63.399525, 1257.841797>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4824.801270, 63.455311, 1257.728638>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.441895, 63.754379, 1256.993164>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.621582, 63.843884, 1256.784424>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.670410, 63.868156, 1256.727661>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.685547, 63.875740, 1256.709961>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.685059, 63.875717, 1256.710083>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.795898, 63.926292, 1256.617432>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4825.914551, 63.980534, 1256.518433>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4826.207520, 64.116425, 1256.257812>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4826.490723, 64.247879, 1256.006104>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4826.755859, 64.371017, 1255.770142>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4827.097656, 64.531090, 1255.454956>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4827.395508, 64.670433, 1255.180420>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4827.655273, 64.791962, 1254.941040>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4827.865723, 64.890106, 1254.747437>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4828.030273, 64.966751, 1254.595825>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4828.435059, 65.154251, 1254.232300>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4828.725586, 65.289062, 1253.970947>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4828.930176, 65.380478, 1253.813232>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4829.066406, 65.438614, 1253.733276>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4829.567871, 65.632111, 1253.594482>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4829.866699, 65.709412, 1253.820679>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.423340, 65.940163, 1253.681885>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.620605, 66.095749, 1253.640747>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.655762, 66.184586, 1253.780151>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.595215, 66.492638, 1253.572021>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.567871, 66.632805, 1253.477905>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.556152, 66.693710, 1253.437012>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.550293, 66.718987, 1253.417480>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.548340, 66.728851, 1253.409912>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.526855, 67.626450, 1253.388794>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.519531, 67.934242, 1253.381836>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.517090, 68.034683, 1253.379150>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.481934, 68.244698, 1253.260254>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.474121, 68.291672, 1253.233521>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.472168, 68.303726, 1253.226562>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4830.472168, 68.303711, 1253.226562>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4834.057129, 67.542503, 1252.478271>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4834.243652, 67.622963, 1252.441040>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4834.438965, 67.706749, 1252.402100>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4834.708496, 67.823570, 1252.341187>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4834.960449, 67.932526, 1252.284424>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4835.193848, 68.033203, 1252.231689>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.131348, 68.437241, 1252.020020>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.131836, 68.437271, 1252.020142>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.549316, 68.619308, 1251.906860>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.548340, 68.619164, 1251.904541>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.547363, 68.618965, 1251.902344>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.546875, 68.618866, 1251.901123>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.546875, 68.618927, 1251.901367>)
+21:1:1 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4836.546875, 68.618927, 1251.901367>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4837.123047, 68.875397, 1251.696655>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4837.088379, 68.870491, 1251.613647>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.714355, 69.580444, 1251.161255>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.682617, 69.574921, 1251.091919>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.658203, 69.570877, 1251.040283>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.654785, 69.570641, 1251.028198>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.650391, 69.570526, 1251.015503>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.628418, 69.560860, 1251.021484>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4838.627930, 69.560791, 1251.020752>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.519936, 1250.275391>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.519974, 1250.275879>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.519989, 1250.276123>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.519989, 1250.276367>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.519997, 1250.276367>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4840.806152, 70.520042, 1250.276489>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.027344, 70.621407, 1250.118652>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.018066, 70.617546, 1250.121582>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.008789, 70.613556, 1250.124390>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.361816, 70.763527, 1250.002808>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.693848, 70.902985, 1249.888062>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4841.997559, 71.030304, 1249.783081>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4842.265137, 71.142838, 1249.688232>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4842.489746, 71.237183, 1249.607788>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4842.729004, 71.339676, 1249.500610>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4842.922852, 71.422241, 1249.416382>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4843.070801, 71.485397, 1249.351807>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4843.518066, 71.674019, 1249.187622>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4843.836914, 71.808311, 1249.070557>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4844.050293, 71.898285, 1248.991943>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4844.188965, 71.956734, 1248.941284>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4844.594238, 72.128082, 1248.786255>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4844.836426, 72.230110, 1248.693848>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4844.973633, 72.288246, 1248.641479>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4845.465820, 72.486328, 1248.438232>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4845.715820, 72.587341, 1248.327148>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4845.830078, 72.638702, 1248.209351>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4845.870117, 72.666153, 1248.049561>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4846.795898, 73.044243, 1247.582031>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.173340, 73.197075, 1247.408813>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.316406, 73.256340, 1247.327148>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.368164, 73.277870, 1247.295410>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.394043, 73.288139, 1247.285400>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.394043, 73.288170, 1247.285522>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.481445, 73.323914, 1247.241333>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.574707, 73.361961, 1247.194336>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4847.863770, 73.481293, 1247.031250>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4848.141602, 73.596336, 1246.874268>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4848.403809, 73.705757, 1246.725952>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4848.690918, 73.825378, 1246.563843>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4848.940918, 73.929375, 1246.423218>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.152832, 74.017593, 1246.303467>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.374023, 74.109711, 1246.181763>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.548828, 74.182381, 1246.085571>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.683105, 74.238075, 1246.011841>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.782715, 74.279572, 1245.956787>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.853516, 74.309059, 1245.917725>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4849.902832, 74.329445, 1245.890869>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4850.265625, 74.475052, 1245.686401>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4850.500000, 74.567963, 1245.554565>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4851.214844, 74.851372, 1245.154663>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4851.641602, 75.019615, 1244.916138>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4851.887207, 75.115517, 1244.778809>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4852.022461, 75.168388, 1244.703125>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4852.094238, 75.196342, 1244.663208>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4852.129883, 75.210388, 1244.643066>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4852.274902, 75.267044, 1244.563477>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4852.341309, 75.292755, 1244.526733>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4853.164551, 75.614372, 1244.065186>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4853.504883, 75.747475, 1243.874268>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4853.639648, 75.800156, 1243.798828>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4854.224609, 76.028809, 1243.471680>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4854.429199, 76.108795, 1243.357178>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4854.497070, 76.135155, 1243.319824>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4854.700195, 76.214485, 1243.207031>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4854.758301, 76.237076, 1243.175049>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4855.743652, 76.602875, 1242.622925>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4855.983398, 76.690132, 1242.489014>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4856.036133, 76.709549, 1242.459351>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.127441, 77.107391, 1241.850952>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.318848, 77.177139, 1241.744019>)
+21:1:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.354004, 77.189827, 1241.724487>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.354004, 77.189873, 1241.724609>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.353516, 77.189835, 1241.724609>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.354004, 77.189842, 1241.724609>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.484375, 77.237457, 1241.651611>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.625000, 77.288795, 1241.572754>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4857.959473, 77.410789, 1241.385986>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4858.284668, 77.529358, 1241.204346>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4858.591309, 77.641068, 1241.033081>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4858.869629, 77.742714, 1240.877197>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4859.114258, 77.831833, 1240.740845>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4859.319824, 77.906868, 1240.625732>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4859.648438, 78.027466, 1240.442139>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4859.906250, 78.122528, 1240.297974>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4860.109375, 78.194298, 1240.184326>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4860.581055, 78.353271, 1239.920532>)
+21:1:3 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4863.330078, 79.263908, 1238.384277>)
+21:1:14 | Player "Ivano Galaman" (steamId=76561199505158634) initiated disconnect process...
+21:1:16 | Player "Ivano Galaman" (steamId=76561199505158634) disconnected early from server (EXIT NOW).
+21:1:19 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:2:11 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:2:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:2:37 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_Alarm_Stolb)
+21:2:37 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_Alarm_Stolb)
+21:2:38 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4596.873047, 74.253441, 1303.227295>)
+21:2:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:2:53 | "Mboy" (steamid=76561199417217773) healed player "Mboy" @ crosshair
+21:2:58 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:3:2 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:3:22 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:3:32 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:19 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:20 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4671.902344, 60.288567, 1334.698730>)
+21:5:27 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:31 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:33 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:47 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:50 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4686.632812, 60.430000, 1350.789673>)
+21:5:51 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:5:59 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1684.006836, 47.552269, 4065.006592>)
+21:6:2 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:6:11 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4673.277832, 59.949966, 1307.439697>)
+21:6:12 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:6:20 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4988.569824, 126.820000, 6723.330078>)
+21:6:20 | "Mboy": (steamid=76561199417217773) teleported to (pos=4988.57,126.82,6723.33)
+21:6:20 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4988.569824, 126.820000, 6723.330078>)
+21:6:20 | "Mboy": (steamid=76561199417217773) teleported to (pos=4988.57,126.82,6723.33)
+21:6:21 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:22 | Player "Melnik Volkov" (steamId=76561198106827892) initiated disconnect process...
+21:6:23 | Player "Melnik Volkov" (steamId=76561198106827892) disconnected early from server (EXIT NOW).
+21:6:32 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+21:6:34 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4940.787109, 120.559998, 6775.695312>)
+21:6:37 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:37 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.029785, 121.440727, 6778.109375>)
+21:6:41 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:44 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4969.567871, 120.560005, 6773.182617>)
+21:6:46 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:56 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4964.898926, 122.117241, 6775.701172>)
+21:6:57 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4961.323730, 121.373497, 6777.493164>)
+21:6:58 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:6:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:7:5 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:7:8 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:7:34 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+21:7:34 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+21:7:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:7:40 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4645.157715, 61.830063, 1601.968018>)
+21:7:42 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4645.158203, 61.830063, 1601.968140>)
+21:7:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:7:51 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:7:52 | "Mboy" (steamid=76561199417217773) Spawned Item: (TraderPlus_Money_Ruble500)
+21:7:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:7:56 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:7:58 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:6 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:15 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:17 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:20 | Player "Franck Schmit" (steamId=76561198047137116) initiated disconnect process...
+21:8:21 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4685.546387, 70.217865, 1357.425537>)
+21:8:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:8:35 | Player "Franck Schmit" (steamId=76561198047137116) disconnected from server.
+21:9:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:9:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:9:55 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:0 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:6 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:7 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:9 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:9 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:17 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:17 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:17 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:17 | "Mboy" (steamid=76561199417217773) Spawned Item: (Battery9V)
+21:10:24 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:10:32 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:10:43 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4681.189941, 60.475601, 1365.469971>)
+21:10:43 | "Mboy": (steamid=76561199417217773) teleported to (pos=4681.19,60.4756,1365.47)
+21:10:48 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:10 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<1702.099976, 42.610001, 4024.020020>)
+21:11:10 | "Mboy": (steamid=76561199417217773) teleported to (pos=1702.1,42.61,4024.02)
+21:11:11 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:16 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:18 | "Mikhail" (steamid=76561198097580497) healed player "Mikhail" @ crosshair
+21:11:35 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1690.099976, 42.549999, 4078.732422>)
+21:11:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:37 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:38 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:11:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1671.727661, 43.675964, 4086.188965>)
+21:11:46 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1697.064819, 43.756977, 4083.763184>)
+21:11:46 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:11:48 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<1696.470947, 42.553314, 4086.607910>)
+21:11:50 | "Mboy" (steamid=76561199417217773) healed player "Mboy" @ crosshair
+21:11:50 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:12:4 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:12:8 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:12:16 | "Mikhail" (steamid=76561198097580497) healed player (steamid=76561198972390772)
+21:12:16 | "Mikhail" (steamid=76561198097580497) healed player (steamid=76561198097580497)
+21:12:22 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:12:24 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:13:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:14:23 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4519.910156, 66.318199, 1454.040039>)
+21:14:23 | "Mboy": (steamid=76561199417217773) teleported to (pos=4519.91,66.3182,1454.04)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4520.949219, 66.740829, 1446.285400>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.960938, 66.937141, 1439.441040>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.962891, 66.941246, 1439.395386>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.965820, 66.945168, 1439.349487>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.968750, 66.949020, 1439.302979>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.972168, 66.953239, 1439.247192>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.976562, 66.957581, 1439.189697>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.981445, 66.961472, 1439.130859>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.985840, 66.965569, 1439.074951>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4521.990723, 66.969391, 1439.014648>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.564453, 67.077065, 1435.000122>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.751465, 67.073715, 1433.673218>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.803223, 67.073723, 1433.295654>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.825684, 67.079208, 1433.059082>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.830078, 67.081375, 1433.003296>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.831055, 67.082138, 1432.982544>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.848633, 67.084473, 1432.826904>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.846680, 67.085190, 1432.828613>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.844727, 67.086433, 1432.832153>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.973145, 67.088676, 1431.916748>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.082520, 67.111000, 1431.138184>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.179688, 67.131561, 1430.438965>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.288086, 67.143517, 1429.648438>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.384766, 67.141953, 1428.936890>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.464355, 67.140358, 1428.354614>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.532227, 67.139839, 1427.843140>)
+21:14:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.583984, 67.139839, 1427.456665>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.623047, 67.138733, 1427.167236>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.738281, 67.134468, 1426.346558>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.819336, 67.127686, 1425.774414>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4523.995117, 67.116219, 1424.506104>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.112305, 67.111252, 1423.670288>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.187012, 67.107849, 1423.143555>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.331543, 67.092552, 1422.222534>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.471680, 67.044182, 1421.753662>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.569336, 67.002136, 1421.529297>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.882812, 66.855858, 1420.953369>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.271484, 66.639297, 1420.945923>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.511719, 66.491570, 1421.190674>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.570801, 66.463814, 1421.139038>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.642090, 66.427177, 1421.120605>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.832520, 66.425156, 1419.628662>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4526.065430, 66.322128, 1418.848389>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4526.158203, 66.284256, 1418.548584>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.016113, 65.872993, 1417.131470>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.401367, 65.684242, 1416.596191>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.530762, 65.620377, 1416.415283>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.553711, 65.611664, 1416.326660>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.591309, 65.593788, 1416.267212>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.835449, 65.509621, 1415.111450>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.933105, 65.474945, 1414.846436>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.948242, 65.470528, 1414.802856>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.854004, 65.138908, 1412.928589>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.464355, 64.886108, 1411.994263>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.531738, 64.857254, 1411.902344>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.530273, 64.857674, 1411.907715>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.595215, 64.842628, 1411.677368>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.620605, 64.839622, 1411.550903>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.647461, 64.837311, 1411.414307>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.666992, 64.839195, 1411.274048>)
+21:14:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4531.226074, 64.566254, 1406.523193>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.047363, 63.955776, 1400.392456>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.058594, 63.951443, 1400.349365>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.066895, 63.948467, 1400.313477>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.076172, 63.944889, 1400.276489>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.085449, 63.941643, 1400.236328>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.093262, 63.938953, 1400.195312>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.101562, 63.935837, 1400.153564>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.110840, 63.932575, 1400.104370>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.120117, 63.929153, 1400.057617>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.371094, 63.744831, 1399.170410>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.584473, 63.583050, 1398.421265>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.804199, 63.416962, 1397.654541>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.028809, 63.247131, 1396.872192>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.237305, 63.088692, 1396.136475>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.432129, 62.937290, 1395.448364>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.619141, 62.785912, 1394.785889>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.765625, 62.673050, 1394.257812>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.887695, 62.579456, 1393.818237>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4535.430176, 62.417973, 1393.166016>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4535.963379, 62.322544, 1392.835693>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.309570, 62.257206, 1392.593018>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.449219, 62.210320, 1392.321045>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.575684, 62.176353, 1392.146606>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.712402, 62.063850, 1391.316528>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.928223, 61.983833, 1390.832153>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4537.066406, 61.934887, 1390.541626>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4537.155273, 61.860252, 1389.788086>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4537.266113, 61.846592, 1389.465088>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4537.892090, 61.776253, 1388.814819>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4538.281250, 61.733181, 1388.504272>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4538.469727, 61.712357, 1388.356689>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4538.667969, 61.687489, 1387.714600>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4538.794922, 61.672459, 1387.450806>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4539.033203, 61.641533, 1386.516113>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4539.153320, 61.626724, 1386.162231>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4539.949707, 61.536304, 1385.163696>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4540.204590, 61.540886, 1384.892456>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4540.281738, 61.546844, 1384.813110>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4540.323242, 61.550976, 1384.751587>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4540.356445, 61.554417, 1384.698975>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4541.328125, 61.695667, 1382.719971>)
+21:14:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4543.360352, 61.929836, 1379.250854>)
+21:14:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4545.512207, 62.139366, 1374.891479>)
+21:14:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4547.858887, 62.058437, 1370.133057>)
+21:14:31 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:14:49 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:15:24 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1708.038330, 42.553314, 4083.792236>)
+21:16:0 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1700.973511, 47.552269, 4065.746094>)
+21:16:4 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1700.868652, 42.553997, 4064.726807>)
+21:16:5 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:16:32 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:16:40 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:16:47 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4645.889648, 61.830063, 1602.312988>)
+21:16:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:16:55 | Player "Kazimir Zakharov" (steamId=76561199567998509) initiated disconnect process...
+21:16:58 | Player "Kazimir Zakharov" (steamId=76561199567998509) aborted logout process [canceledLogout]
+21:16:59 | Player "igor kuznetsov" (steamId=76561199619732873) initiated disconnect process...
+21:17:1 | Player "Kazimir Zakharov" (steamId=76561199567998509) initiated disconnect process...
+21:17:2 | Player "igor kuznetsov" (steamId=76561199619732873) aborted logout process [canceledLogout]
+21:17:12 | Player "igor kuznetsov" (steamId=76561199619732873) initiated disconnect process...
+21:17:16 | Player "Kazimir Zakharov" (steamId=76561199567998509) disconnected from server.
+21:17:27 | Player "igor kuznetsov" (steamId=76561199619732873) disconnected from server.
+21:17:30 | Player "Bogdan Borowski" (steamId=76561198047139597) initiated disconnect process...
+21:17:31 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<5186.120117, 135.973999, 5950.370117>)
+21:17:31 | "Mboy": (steamid=76561199417217773) teleported to (pos=5186.12,135.974,5950.37)
+21:17:34 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:17:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:17:45 | Player "Bogdan Borowski" (steamId=76561198047139597) disconnected from server.
+21:17:49 | "Mboy" (steamid=76561199417217773) toggled godmode
+21:18:9 | Player "Zey" (steamId=76561199115125814) disconnected from server.
+21:18:9 | Player "Zey" (steamId=76561199115125814) initiated disconnect process...
+21:18:20 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.536133, 135.466324, 5959.263672>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969727, 135.485031, 5964.430176>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969727, 135.485031, 5964.429688>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969727, 135.485016, 5964.429688>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969238, 135.485001, 5964.430176>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969238, 135.484955, 5964.429688>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.969238, 135.484985, 5964.429688>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.968750, 135.484970, 5964.429688>)
+21:18:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.968750, 135.484970, 5964.429688>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.968750, 135.485001, 5964.429688>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.917480, 135.493515, 5964.916504>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.854980, 135.481750, 5965.506348>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.790039, 135.465546, 5966.117188>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.726074, 135.449661, 5966.718262>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.666016, 135.434753, 5967.283203>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.612305, 135.423721, 5967.792480>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.564453, 135.414322, 5968.238770>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.523926, 135.406281, 5968.619141>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.490234, 135.399551, 5968.937012>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.463379, 135.394287, 5969.187988>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.442383, 135.390137, 5969.382812>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.328613, 135.366730, 5970.452148>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.246094, 135.348816, 5971.226074>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.188477, 135.336288, 5971.769531>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.148926, 135.327774, 5972.141602>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.123047, 135.322189, 5972.382324>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.045898, 135.305191, 5973.107910>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5181.999512, 135.294250, 5973.547852>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5181.972168, 135.287888, 5973.805176>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5181.950195, 135.272888, 5975.500488>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.171387, 135.302567, 5976.382812>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.404297, 135.329865, 5976.831055>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.473633, 135.338715, 5977.047852>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.557129, 135.348038, 5977.152832>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.524902, 135.350250, 5977.956543>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.522949, 135.352066, 5978.291504>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.545410, 135.355133, 5978.426270>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.484375, 135.358368, 5979.979004>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.456543, 135.363724, 5980.504395>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.447754, 135.365585, 5980.677246>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.818848, 135.421021, 5981.818848>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.926270, 135.437347, 5982.145996>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.954590, 135.442276, 5982.232422>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.995605, 135.467377, 5983.175293>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.005371, 135.473129, 5983.390625>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.007324, 135.474335, 5983.435059>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.944336, 135.510422, 5985.208984>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.932617, 135.520462, 5985.490723>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.931152, 135.522232, 5985.538086>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5182.977539, 135.533264, 5985.691406>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.026855, 135.544983, 5985.854004>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.087891, 135.564758, 5986.187988>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.147461, 135.584045, 5986.512695>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.203613, 135.602478, 5986.817871>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.238281, 135.637238, 5987.490234>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.269043, 135.667633, 5988.076172>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.294434, 135.693451, 5988.574219>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.315918, 135.714859, 5988.989258>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.333008, 135.732025, 5989.320312>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.345703, 135.745255, 5989.576172>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.437500, 135.792496, 5990.147949>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.500000, 135.842545, 5990.512695>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.543457, 135.877762, 5990.770020>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.573730, 135.902130, 5990.947266>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.593750, 135.918030, 5991.062500>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.605957, 135.928040, 5991.136230>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.666504, 136.025116, 5992.264648>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.704102, 136.077545, 5992.959473>)
+21:18:24 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5183.725586, 136.107681, 5993.357910>)
+21:18:25 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5184.145020, 136.437531, 5997.820312>)
+21:18:25 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5185.311035, 136.732742, 6000.859863>)
+21:18:25 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5186.191895, 137.020157, 6003.244141>)
+21:18:26 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<5185.830566, 137.171310, 6008.426270>)
+21:18:34 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:18:42 | Player "Brasidas Viken" (steamId=76561199347052343) initiated disconnect process...
+21:18:43 | Player "Brasidas Viken" (steamId=76561199347052343) aborted logout process [canceledLogout]
+21:18:46 | Player "Brasidas Viken" (steamId=76561199347052343) initiated disconnect process...
+21:19:1 | Player "Brasidas Viken" (steamId=76561199347052343) disconnected from server.
+21:19:4 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:19:18 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1689.786987, 52.552601, 4063.628174>)
+21:19:56 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:20:3 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:20:7 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1711.681274, 42.553314, 4092.441650>)
+21:20:8 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:21:38 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+21:21:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:22:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:22:29 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:33 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4946.537109, 129.373764, 6636.312988>)
+21:22:34 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4695.995117, 60.240578, 1343.448120>)
+21:22:35 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4957.738770, 131.616669, 6533.420898>)
+21:22:36 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:41 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4969.107910, 134.614685, 6780.936523>)
+21:22:45 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:22:51 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:23:3 | Player "Marek Vasiliev" (steamId=76561198168265274) connected to server!
+21:23:6 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:23:8 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Niki" (pos=<4673.055664, 60.208618, 1334.683105>)
+21:23:16 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4958.498047, 121.371780, 6776.980957>)
+21:23:17 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:23:19 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Taiki" (pos=<4687.317871, 60.456497, 1350.189087>)
+21:23:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (TraderPlus_Money_Ruble1000)
+21:23:42 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Niki" (pos=<4702.470215, 60.134144, 1340.779175>)
+21:24:0 | "Mboy" (steamid=76561199417217773) deleted object "eAI_SurvivorF_Keiko" (pos=<4944.735840, 129.413773, 6637.860352>)
+21:24:29 | "Mboy" (steamid=76561199417217773) deleted object "eAI_SurvivorM_Kaito" (pos=<4945.876465, 129.413773, 6641.061523>)
+21:25:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:25:13 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4651.434082, 56.643532, 1621.689331>)
+21:25:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:25:31 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:25:36 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4954.929688, 126.820000, 6671.717285>)
+21:25:37 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:25:38 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4956.459961, 126.943253, 6674.525391>)
+21:25:38 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4958.291016, 126.819984, 6677.981445>)
+21:25:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4958.328125, 126.819992, 6681.541992>)
+21:25:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4958.363770, 126.820000, 6685.101562>)
+21:25:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4958.396484, 126.820000, 6688.630371>)
+21:25:40 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4958.428223, 126.820000, 6692.068359>)
+21:25:42 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4954.128418, 126.819992, 6693.141602>)
+21:25:42 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4949.832031, 126.820000, 6694.213379>)
+21:25:43 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4945.537109, 126.820000, 6695.285645>)
+21:25:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4940.122070, 127.349075, 6697.013672>)
+21:25:46 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:25:52 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4919.677246, 126.824898, 6707.186523>)
+21:25:54 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:25:55 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:25:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4900.377930, 126.824898, 6703.646484>)
+21:26:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4864.202148, 121.957932, 6675.237305>)
+21:26:9 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:26:11 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4860.284180, 121.957932, 6674.645996>)
+21:26:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:26:16 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4860.484863, 121.957932, 6672.255859>)
+21:26:18 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:26:19 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4863.281250, 122.035431, 6671.311035>)
+21:26:20 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4866.343262, 121.957932, 6670.275879>)
+21:26:22 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:29:21 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+21:29:22 | Player "Mikhail" (steamId=76561198097580497) disconnected early from server (EXIT NOW).
+21:29:43 | Player "Alane Duvek" (steamId=76561199189278181) initiated disconnect process...
+21:29:44 | Player "Alane Duvek" (steamId=76561199189278181) disconnected early from server (EXIT NOW).
+21:29:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.969727, 126.823425, 6769.517578>)
+21:29:59 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:30:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.642578, 126.823425, 6775.389648>)
+21:30:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4538.895508, 126.823425, 6780.476562>)
+21:30:10 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4541.569336, 126.823425, 6785.381348>)
+21:30:12 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4547.791992, 126.820007, 6787.148926>)
+21:30:13 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4549.218750, 128.332642, 6784.666992>)
+21:30:13 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4551.030273, 126.820023, 6778.086426>)
+21:30:13 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4553.027832, 126.820007, 6773.812012>)
+21:30:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4555.812012, 126.819984, 6770.475586>)
+21:30:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4559.360840, 126.820038, 6766.426758>)
+21:30:14 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4562.822266, 126.916519, 6762.980957>)
+21:30:21 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4559.914062, 126.845535, 6748.669434>)
+21:30:21 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4557.180664, 126.845535, 6745.337891>)
+21:30:22 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4555.019043, 126.845535, 6741.614258>)
+21:30:22 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4552.577148, 126.845535, 6736.665039>)
+21:30:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4551.176758, 126.845535, 6732.584473>)
+21:30:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4549.816895, 126.845535, 6728.584473>)
+21:30:23 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4545.256348, 126.845535, 6728.258301>)
+21:30:28 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4533.452637, 126.820007, 6726.740234>)
+21:30:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.004883, 126.820000, 6724.453125>)
+21:30:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.790527, 126.819954, 6721.810547>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.631348, 126.819984, 6718.388672>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4520.042969, 126.820015, 6715.292969>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4520.019531, 126.820053, 6715.268066>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.995605, 126.820061, 6715.243164>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.969727, 126.820320, 6715.215332>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.942383, 126.820587, 6715.186523>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.914062, 126.820869, 6715.155762>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.885742, 126.821121, 6715.125000>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.856934, 126.820915, 6715.093750>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.823242, 126.820587, 6715.057617>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.790527, 126.820206, 6715.021973>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.758789, 126.820007, 6714.988281>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4518.412598, 126.819984, 6713.389160>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.959961, 126.819977, 6712.854004>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.812012, 126.820000, 6712.682617>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.754883, 126.819992, 6712.618164>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.722168, 126.819992, 6712.582520>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.693359, 126.819992, 6712.551758>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.666016, 126.820023, 6712.522461>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.625000, 126.820007, 6712.488281>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.612305, 126.819984, 6712.479004>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.610352, 126.820007, 6712.479492>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.392578, 126.819984, 6712.224609>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.232910, 126.820000, 6712.041992>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.077637, 126.820000, 6711.861816>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.838867, 126.819969, 6711.545898>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.669434, 126.820000, 6711.216797>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.520508, 126.820000, 6710.924805>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.343750, 126.820030, 6710.661621>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.218750, 126.819977, 6710.430176>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.137207, 126.820030, 6710.228027>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4516.067871, 126.820030, 6710.067871>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.871094, 126.820007, 6709.848145>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.769531, 126.819992, 6709.653809>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.699219, 126.820000, 6709.507812>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.654785, 126.820000, 6709.399902>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.322754, 126.820000, 6708.975586>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.378418, 127.082848, 6709.070312>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.384766, 127.228203, 6709.087402>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.366699, 127.309105, 6709.069824>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4515.344238, 127.363556, 6709.050293>)
+21:30:30 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4513.084961, 126.863556, 6705.464844>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4511.326660, 126.892723, 6702.424805>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.300293, 126.820000, 6698.823242>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.281250, 126.819992, 6698.781738>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.258301, 126.820007, 6698.732910>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.237305, 126.820007, 6698.684570>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.217285, 126.819992, 6698.640625>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.196777, 126.820015, 6698.594727>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.177246, 126.819992, 6698.551270>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.157715, 126.820015, 6698.508789>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.139648, 126.820000, 6698.469238>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.124512, 126.820000, 6698.435547>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4509.106934, 126.820000, 6698.398926>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.903809, 126.820007, 6698.033203>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.750977, 126.820007, 6697.760254>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.594727, 126.820015, 6697.481445>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.429688, 126.820007, 6697.183594>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.276855, 126.820000, 6696.908691>)
+21:30:31 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.125000, 126.819969, 6696.631348>)
+21:30:33 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:30:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4508.194824, 126.820007, 6695.826660>)
+21:30:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4510.624512, 126.831581, 6700.386230>)
+21:30:39 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4512.918945, 126.882370, 6704.558594>)
+21:30:40 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4514.617676, 127.409920, 6707.677246>)
+21:30:40 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4517.652344, 126.820000, 6712.521973>)
+21:30:40 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4519.991211, 126.820129, 6716.742676>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4522.320801, 126.820007, 6721.109375>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.852539, 126.819962, 6725.754883>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.872559, 126.819946, 6725.786621>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.891113, 126.820015, 6725.815918>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.906250, 126.819962, 6725.841797>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.922363, 126.820038, 6725.867188>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.939941, 126.820007, 6725.893555>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.954102, 126.819939, 6725.916992>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.967773, 126.820015, 6725.938965>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.980957, 126.819939, 6725.959473>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4524.993164, 126.819977, 6725.980957>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.004883, 126.820000, 6725.999512>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.015625, 126.819992, 6726.019043>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4525.025879, 126.820000, 6726.038086>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4526.586426, 126.820015, 6728.876953>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4526.945801, 126.820030, 6729.531250>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.020020, 126.820015, 6729.666992>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.033691, 126.820023, 6729.693848>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.090820, 126.819984, 6729.782715>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.085938, 126.820030, 6729.776367>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.081543, 126.820030, 6729.770508>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.076660, 126.819992, 6729.763184>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.131348, 126.820030, 6729.867188>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.130371, 126.820007, 6729.867188>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.129395, 126.819984, 6729.867676>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.128418, 126.820030, 6729.867676>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.451172, 126.820000, 6730.458008>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4527.746094, 126.820007, 6730.998047>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.011719, 126.820000, 6731.484863>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.257812, 126.820007, 6731.934570>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.469238, 126.820007, 6732.323730>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.645996, 126.820007, 6732.648926>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.791016, 126.820007, 6732.917969>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4528.919922, 126.820007, 6733.160156>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.019531, 126.820000, 6733.348633>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.094727, 126.820000, 6733.495605>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.151367, 126.819969, 6733.605957>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.195801, 126.819992, 6733.695312>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.232422, 126.820023, 6733.767578>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.263184, 126.819977, 6733.830566>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4529.901367, 126.820000, 6735.006348>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4530.307617, 126.819992, 6735.757324>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4530.561523, 126.819992, 6736.227051>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4530.715820, 126.820000, 6736.514648>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4530.965332, 126.820015, 6736.988281>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4531.106934, 126.820007, 6737.256836>)
+21:30:41 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4531.183594, 126.819992, 6737.402832>)
+21:30:42 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4534.355469, 126.820000, 6734.943359>)
+21:30:42 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4536.128418, 126.819962, 6731.288574>)
+21:30:43 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4539.570312, 126.845535, 6727.680176>)
+21:30:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4540.425781, 126.845535, 6726.915039>)
+21:30:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4552.574707, 126.845535, 6738.172852>)
+21:30:49 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4825.547363, 126.819992, 6786.949707>)
+21:30:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4555.340820, 126.845535, 6742.145996>)
+21:30:49 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:30:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4557.962402, 126.845535, 6745.982422>)
+21:30:49 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4560.460938, 126.845535, 6749.702148>)
+21:30:52 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4566.490723, 126.819992, 6761.710449>)
+21:30:53 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4570.862793, 126.820023, 6767.197754>)
+21:30:54 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4578.958984, 128.276154, 6771.618164>)
+21:30:55 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4600.887207, 126.819992, 6782.829102>)
+21:30:57 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4604.918945, 126.819954, 6787.694336>)
+21:31:5 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4606.919434, 126.819992, 6784.968750>)
+21:31:5 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4606.921875, 126.820000, 6779.896484>)
+21:31:6 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4612.438477, 127.269691, 6775.122070>)
+21:31:8 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4615.224609, 126.820000, 6769.066406>)
+21:31:9 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4613.290039, 126.820000, 6763.187988>)
+21:31:36 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:31:44 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.100586, 121.373497, 6779.280762>)
+21:31:45 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.100586, 121.373497, 6779.282227>)
+21:31:45 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:31:54 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:31:57 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:32:15 | Player "Melnik Volkov" (steamId=76561198106827892) connected to server!
+21:32:20 | Player "igor kuznetsov" (steamId=76561199619732873) connected to server!
+21:32:26 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:32:40 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4638.186523, 130.740067, 6776.353516>)
+21:32:40 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:32:42 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:33:16 | Player "Kazimir Zakharov" (steamId=76561199567998509) connected to server!
+21:34:2 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4864.967285, 121.957932, 6674.335938>)
+21:34:2 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:34:5 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4862.561035, 121.957932, 6674.961426>)
+21:34:6 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4860.014160, 121.957932, 6671.699219>)
+21:34:6 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4859.575684, 121.956451, 6668.454102>)
+21:34:7 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4855.044434, 121.476532, 6665.153320>)
+21:35:6 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:35:13 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4933.562500, 126.820015, 6771.615234>)
+21:35:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:36:49 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:36:56 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4937.207520, 126.819992, 6749.207520>)
+21:36:57 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:37:44 | "Mboy" (steamid=76561199417217773) Spawned Item: (FS_TAG_DOLG_KANON)
+21:37:58 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4971.475098, 140.541443, 6698.621094>)
+21:38:3 | "Mboy" (steamid=76561199417217773) toggled godmode
+21:38:5 | "Mboy" (steamid=76561199417217773) toggled godmode
+21:38:6 | "Mboy" (steamid=76561199417217773) toggled godmode
+21:38:7 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:38:12 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4942.483887, 126.819992, 6727.188477>)
+21:38:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:41:46 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:56 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4668.501953, 90.624840, 1822.953125>)
+21:41:58 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4659.027832, 62.405537, 1570.260010>)
+21:42:13 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4715.958984, 87.073189, 1775.924072>)
+21:42:34 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5250.730469, 149.800323, 3910.183350>)
+21:42:48 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4981.752930, 118.770004, 4627.521484>)
+21:43:9 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4975.519043, 118.769966, 4625.832031>)
+21:43:50 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:43:54 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:43:56 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2461.231689, 46.316448, 6209.809082>)
+21:43:57 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:43:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:45:43 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:45:46 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:46:1 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4976.043945, 134.614685, 6773.426270>)
+21:46:2 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:46:29 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+21:46:33 | "Col.Dragomir" (steamid=76561198207165013) healed player (steamid=76561198207165013)
+21:46:53 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:47:6 | Player "Aaron Ananenko" (steamId=76561198014580945) initiated disconnect process...
+21:47:7 | Player "Aaron Ananenko" (steamId=76561198014580945) disconnected early from server (EXIT NOW).
+21:47:9 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1673.610474, 48.569744, 4079.970215>)
+21:47:59 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4656.215820, 57.190002, 1594.678711>)
+21:48:0 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:48:40 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:49:9 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4138.325195, 127.862946, 6162.386230>)
+21:49:14 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4966.395996, 134.614685, 6779.287598>)
+21:49:15 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:49:53 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:49:59 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4939.482910, 126.820007, 6751.727539>)
+21:49:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:50:9 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:51:35 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4972.202637, 134.614685, 6784.955566>)
+21:51:36 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:52:10 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:52:17 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4961.341309, 121.373497, 6777.058105>)
+21:52:18 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+21:53:24 | Player "Pavel Karlov" (steamId=76561198052722146) connected to server!
+21:53:26 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:53:41 | Player "Melnik Volkov" (steamId=76561198106827892) initiated disconnect process...
+21:53:45 | Player "Melnik Volkov" (steamId=76561198106827892) disconnected early from server (EXIT NOW).
+21:53:56 | Player "Melnik Volkov" (steamId=76561198106827892) disconnected from server.
+21:54:27 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4944.767090, 126.820000, 6737.691406>)
+21:54:28 | "Col.Dragomir" (steamid=76561198207165013) gave unlimited ammo to (steamid=76561198207165013)
+21:54:28 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:56:25 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:56:29 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.256348, 121.373497, 6779.272949>)
+21:56:30 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:56:56 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:56:59 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4930.779785, 126.820000, 6753.906250>)
+21:57:1 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:59:2 | Player "Husik Gvasalia" (steamId=76561198092307102) initiated disconnect process...
+21:59:17 | Player "Husik Gvasalia" (steamId=76561198092307102) disconnected from server.
+21:59:34 | "Mboy" (steamid=76561199417217773) toggled freecam
+21:59:35 | "Mboy" (steamid=76561199417217773) toggled freecam
+22:1:7 | "Mboy" (steamid=76561199417217773) toggled freecam
+22:1:12 | "Mboy" (steamid=76561199417217773) teleported to crosshair (pos=<4960.466309, 121.564850, 6779.724609>)
+22:1:13 | "Mboy" (steamid=76561199417217773) toggled freecam
+22:3:15 | Player "Mboy" (steamId=76561199417217773) initiated disconnect process...
+22:3:15 | Player "Yurey Maldzis" (steamId=76561198045078745) initiated disconnect process...
+22:3:15 | Player "Alexei Popovitch" (steamId=76561199233929779) initiated disconnect process...
+22:3:15 | Player "Arkady Oroumov" (steamId=76561198169293177) initiated disconnect process...
+22:3:15 | Player "Col.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+22:3:15 | Player "Sacha Volkov" (steamId=76561198333790753) initiated disconnect process...
+22:3:15 | Player "Shalashaska Barakov" (steamId=76561198070570810) initiated disconnect process...
+22:3:15 | Player "Balder" (steamId=76561198064336758) initiated disconnect process...
+22:3:15 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) initiated disconnect process...
+22:3:15 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+22:3:15 | Player "Kazimir Zakharov" (steamId=76561199567998509) initiated disconnect process...
+22:3:15 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+22:3:15 | Player "Pavel Karlov" (steamId=76561198052722146) initiated disconnect process...
+22:3:15 | Player "Marek Vasiliev" (steamId=76561198168265274) initiated disconnect process...
+22:3:15 | Player "Reggie Novoselki" (steamId=76561198106085580) initiated disconnect process...
+22:3:15 | Player "igor kuznetsov" (steamId=76561199619732873) initiated disconnect process...
+22:3:15 | Player "Zlatko Lutsenko" (steamId=76561199107800387) initiated disconnect process...

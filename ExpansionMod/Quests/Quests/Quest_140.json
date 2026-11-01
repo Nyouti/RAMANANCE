@@ -1,0 +1,82 @@
+{
+    "ConfigVersion": 22,
+    "ID": 140,
+    "Type": 1,
+    "Title": "La ligne",
+    "Descriptions": [
+        "Halte. Pas plus loin sans te présenter, %1. Bon. Sergent Iouri Lazarev, de la Duty. Ici, tout le monde dit Gekko. Tu sais ce que veut dire Duty ? Le Devoir. Pas un métier, pas un drapeau : un devoir. Regarde au nord. Là-bas, c'est la Zone. Derrière toi, au sud, il y a Garbage, puis le Cordon, puis le monde. Entre les deux, il y a Rostok, et il y a nous. C'est ce qu'on appelle la ligne. La ligne n'est pas un mur : elle a des trous, et ce qui passe par les trous finit toujours par descendre vers ceux qui n'ont rien demandé. Les officiers ne confient rien aux gens sans brassard. Moi, si : on manque de bras, et la Zone ne nous attend pas. Alors voilà ton premier ordre, volontaire. Sur le chemin de Yantar, à un kilomètre et demi à l'ouest-sud-ouest, une meute de chiens attaque tout ce qui monte vers le Bar. Trois bêtes. Abats-les et reviens. Les zombifiés qui traînent là-bas, laisse-les si tu veux. Les chiens, non.",
+        "Le chemin de Yantar, à un kilomètre et demi à l'ouest-sud-ouest. Trois chiens. Les zombifiés, comme tu veux.",
+        "Trois chiens. Propre. Tu vois, %1, personne ne te dira merci pour ça : les stalkers qui passeront demain sur ce chemin ne sauront jamais qu'il y avait une meute. C'est ça, le Devoir. Ça ne se voit pas. Tiens, ta solde de volontaire. Ce n'est pas grand-chose : on n'est pas riches."
+    ],
+    "ObjectiveText": "Abats les trois chiens mutants du chemin de Yantar, à l'ouest-sud-ouest de Rostok, puis reviens voir Gekko.",
+    "FollowUpQuest": 141,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "BandageDressing",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        65
+    ],
+    "QuestTurnInIDs": [
+        65
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 140,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

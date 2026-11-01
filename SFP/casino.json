@@ -1,0 +1,41 @@
+{
+    "AcceptItemClass": "SFP_Kazino_fishka100",
+    "PayoutItemClass": "SFP_Kazino_fishka100",
+    "ChanceMode": "percent",
+    "WinChanceMultiplier": 1.2000000476837159,
+    "OverallWinChancePercent": 7.0,
+    "_comment_OverallWinChancePercent": "CETTE LIGNE définit la chance GLOBALE de gagner en un seul tour. Exemple : 7 = 7 % de chance de gagner n'importe quoi. 0 = désactivé (la somme Chances * WinChanceMultiplier est utilisée).",
+    "Wins": [
+        {
+            "Icon": "rifle",
+            "Payout": 30,
+            "Chance": 1.0
+        },
+        {
+            "Icon": "vodka",
+            "Payout": 25,
+            "Chance": 2.0
+        },
+        {
+            "Icon": "axe",
+            "Payout": 20,
+            "Chance": 3.0
+        },
+        {
+            "Icon": "bullet",
+            "Payout": 15,
+            "Chance": 4.0
+        },
+        {
+            "Icon": "can",
+            "Payout": 10,
+            "Chance": 5.0
+        },
+        {
+            "Icon": "rad",
+            "Payout": 5,
+            "Chance": 6.0
+        }
+    ],
+    "Combos": []
+}

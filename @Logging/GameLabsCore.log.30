@@ -1,0 +1,27 @@
+************************** 2026-07-01T19:59:10+00:00 **************************
+2026-07-01T19:59:10+00:00 | [INFO	] GameLabs v1.963 start for server c7a4057d-8d00-48e6-a686-825cd4272e06
+2026-07-01T19:59:10+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-07-01T19:59:10+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-07-01T19:59:10+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-07-01T19:59:18+00:00 | [DEBUG	] Loaded MissionServer
+2026-07-01T19:59:18+00:00 | [DEBUG	] API-Register status=1, error=invalid
+2026-07-01T19:59:18+00:00 | [ERROR	] The configured serverId does not exist or your configuration is outdated.
+2026-07-01T19:59:18+00:00 | [WARN	] CONNECTION VERIFICATION DISABLED - SERVER WILL NOT EXIT
+2026-07-01T19:59:19+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-07-01T19:59:19+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-07-01T19:59:19+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-07-01T19:59:19+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002B8D0A079C0><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002B8D0A1AEC0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002B8E8AE83E0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEvent(_Event<0x000002B8E98FB030><Land_ContainerLocked_Blue_DE>) - success
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000002B8E98FF170><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-01T19:59:21+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002B8EFF662D0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-01T19:59:22+00:00 | [DEBUG	] RegisterEvent(_Event<0x000002B8F6312D40><ScientificBriefcase>) - success
+2026-07-01T19:59:22+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x000002B8F631D240><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-01T19:59:22+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x000002B8F68AE870><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-07-01T19:59:22+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-07-01T19:59:59+00:00 | [INFO	] Mission fully loaded in 81.979s. Server ready for connections.
+2026-07-02T19:52:39+00:00 | [INFO	] (Core) Attempting graceful exit
+2026-07-02T19:52:39+00:00 | [DEBUG	] (Core) All ref holding buffers cleared
+2026-07-02T19:52:39+00:00 | [DEBUG	] Gracefully closing core logger

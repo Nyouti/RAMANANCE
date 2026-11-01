@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 37,
+    "Type": 1,
+    "Title": "L'ancienne base",
+    "Descriptions": [
+        "C'est le moment, %1. Leur ancienne base est à l'ouest, au bout des roseaux, à un kilomètre et demi d'ici. Je n'y suis jamais retourné. Les bâtiments tiennent encore debout, mais une tache radioactive s'est installée en plein milieu : filtre GP-21 vissé, et tu ne t'attardes pas. Des zombifiés traînent dans la cour, et d'autres choses rôdent autour, un Burer au moins. Trouve leur poste radio. Si quelqu'un a laissé un dernier message avant de partir, c'est là qu'il sera. Rapporte la radio.",
+        "Leur ancienne base, à l'ouest, au bout des roseaux. Filtre GP-21, et tu ne t'attardes pas. Le poste radio.",
+        "Leur radio. Réglée sur leur fréquence, la batterie à plat, et le registre des transmissions encore accroché à côté. Dernière ligne : « Toutes les patrouilles rentrées. Base au complet. » Après, plus rien. Ils sont tous rentrés, %1, et personne n'en est ressorti. Je ne sais pas encore ce qui s'est passé là-bas. Tiens, ta paie, et ce MP5 avec trois chargeurs : il te servira mieux qu'à moi. Si tu croises un jour quelqu'un qui a porté leurs couleurs, viens me trouver."
+    ],
+    "ObjectiveText": "Rejoins l'ancienne base de Clear Sky, à l'ouest au bout des roseaux, retrouve leur poste radio et rapporte-le au Silencieux. Filtre GP-21 obligatoire.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "FS_MP5",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "FS_Mag_MP5_30Rnd",
+            "Amount": 3,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        10
+    ],
+    "QuestTurnInIDs": [
+        10
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 37,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 37,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 37,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        36
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

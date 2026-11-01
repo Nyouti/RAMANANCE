@@ -1,0 +1,100 @@
+{
+    "ConfigVersion": 22,
+    "ID": 109,
+    "Type": 1,
+    "Title": "La skhodka",
+    "Descriptions": [
+        "Grand jour, %1. Dans trois jours, Borov réunit les chefs à l'usine : une skhodka, l'assemblée des voleurs. On y règle les comptes, on partage les routes et on juge ceux qui ont trahi les règles. Pour une skhodka, il faut de la viande sur la table et des trophées au mur. Tout à l'ouest de Garbage, à plus d'un kilomètre et demi, des sangliers mutants ont pris un vallon. Tue-les et rapporte-moi trois pattes. Fais attention : une charge de sanglier te casse une jambe comme une allumette. Rapporte-moi ces trois pattes, et tu auras gagné ce que peu de fraïers ont eu.",
+        "Les sangliers mutants, tout à l'ouest de Garbage. Trois pattes pour le mur de la skhodka. Gare aux charges.",
+        "Trois pattes. Elles iront au mur, au-dessus de la place de Borov. Écoute-moi bien, %1. Tu n'es pas des nôtres, et tu ne le seras peut-être jamais. Mais tu n'es plus un fraïer. Tu as porté l'obchtchak sans l'ouvrir, tu as vu le fournisseur sans le balancer, tu as lu le registre du camp et tu as gardé nos tombes. Maintenant, tu sais qui sont les bandits. Prends ce Bizon : c'était celui d'un garde du camp. Il a changé de mains, comme nous."
+    ],
+    "ObjectiveText": "Tue les sangliers mutants à l'extrême ouest de Garbage et rapporte trois pattes de sanglier à Stas pour la skhodka.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "PP19",
+            "Amount": 1,
+            "Attachments": [
+                "Mag_PP19_64Rnd"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Mag_PP19_64Rnd",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_380_35rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 109,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 109,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        108
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

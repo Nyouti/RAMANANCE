@@ -1,0 +1,42 @@
+{
+    "ConfigVersion": 28,
+    "ID": 36,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la réserve de Clear Sky, au sud du campement",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Réserve de Clear Sky",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            1693.200000,
+            79.940460,
+            1750.203491
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "BandageDressing",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "SFP_Can_Meat_closed",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

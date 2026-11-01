@@ -1,0 +1,82 @@
+{
+    "ConfigVersion": 22,
+    "ID": 150,
+    "Type": 1,
+    "Title": "Portes ouvertes",
+    "Descriptions": [
+        "Entre, entre, %1 ! Ici, personne ne te demande ton brassard, ni d'où tu viens, ni ce qu'il y a dans ton sac. Danila Makarov. Les gars disent le Facteur. Bienvenue chez Svoboda, la Liberté. Tu as vu le portail, en arrivant ? Il est ouvert. Il est toujours ouvert : c'est notre seule règle, ou presque. Les militaires ferment, la Duty garde, Borov fait payer. Nous, on ouvre. La Zone n'appartient à personne, donc elle appartient à tout le monde, et ces entrepôts aussi. Bon. La liberté n'a jamais empêché les rats. Dans le hangar des sacs, à trois cents mètres au nord, une famille de rongeurs dévore les sacs de mes coureurs. Quatre bestioles. Attention à la Studen, au milieu du hangar : elle colle, et elle ne lâche pas. Et ne va pas plus loin vers l'ouest : il y a là-bas une tanière que personne ne visite.",
+        "Le hangar des sacs, à trois cents mètres au nord. Quatre rongeurs. Attention à la Studen au milieu, et pas plus loin vers l'ouest.",
+        "Quatre rats de moins, des sacs en plus. Tu vois, %1, personne ne t'a donné d'ordre : je t'ai demandé, tu as dit oui. C'est comme ça que ça marche, ici. Tiens, c'est payé. Et ce soir, tu peux t'asseoir au feu avec nous : personne ne te demandera ton nom."
+    ],
+    "ObjectiveText": "Abats les quatre rongeurs du hangar des sacs, à trois cents mètres au nord de la base de Svoboda, puis reviens voir Makarov.",
+    "FollowUpQuest": 151,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "BandageDressing",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 150,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

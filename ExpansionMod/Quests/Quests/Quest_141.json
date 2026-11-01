@@ -1,0 +1,103 @@
+{
+    "ConfigVersion": 22,
+    "ID": 141,
+    "Type": 1,
+    "Title": "Le premier poste",
+    "Descriptions": [
+        "Tu veux savoir d'où on vient ? Écoute. Le jour où la Zone a grandi, l'ordre est arrivé par radio, partout en même temps : évacuation du personnel militaire uniquement. Les soldats montaient dans les camions, et les autres, les ouvriers, les ferrailleurs, les familles des villages, restaient sur la route. À l'est d'Agroprom, un lieutenant a regardé les camions partir, puis il a regardé la route. Il s'appelait Zaroubine. Il avait vingt-six hommes. Ils ont posé des sacs de sable en travers du chemin, face au nord, et ils ont tenu neuf jours, le temps que les gens passent. L'état-major les a rayés des effectifs : déserteurs. Eux, ils ont écrit un serment dans un registre, et ils ont signé dessous. C'est le premier poste de la Duty. Le registre est resté là-bas, dans une caisse, quand on est montés à Rostok. Le colonel Zaroubine ne le demandera jamais. Moi, je le veux pour lui. Le poste est sur la route de Garbage, à sept cents mètres à l'est de la base militaire d'Agroprom. Des chiens y ont fait leur tanière, quatre au moins. Et ne parle pas de nous aux militaires de la base : ils ne nous ont jamais pardonné.",
+        "Le premier poste, sur la route de Garbage, à sept cents mètres à l'est de la base militaire d'Agroprom. Les chiens, puis la caisse et le registre.",
+        "Le registre. Fais voir... « Nous restons. Tant qu'il y aura quelqu'un sur la route, la Zone ne passera pas. » Vingt-sept signatures. La dernière est celle du lieutenant. Tu sais combien sont encore vivants ? Quatre. Le colonel ne dira rien quand je le lui donnerai. Il le posera sur sa table, et il fermera la porte. Merci, %1. Tu comprends mieux, maintenant, pourquoi on porte ce brassard."
+    ],
+    "ObjectiveText": "Rejoins le premier poste de la Duty, à l'est de la base militaire d'Agroprom, abats les chiens qui s'y sont installés, récupère le registre du serment et rapporte-le à Gekko.",
+    "FollowUpQuest": 142,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        65
+    ],
+    "QuestTurnInIDs": [
+        65
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 141,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 141,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 141,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        140
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

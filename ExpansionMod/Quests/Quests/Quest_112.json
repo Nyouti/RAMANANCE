@@ -1,0 +1,85 @@
+{
+    "ConfigVersion": 22,
+    "ID": 112,
+    "Type": 1,
+    "Title": "La patrouille portée disparue",
+    "Descriptions": [
+        "Il y a dix jours, une patrouille de quatre hommes est partie vers le marais, à un kilomètre au nord-nord-ouest. Elle n'est jamais rentrée. Tu sais ce que l'état-major a écrit ? « Désertion ». Un déserteur, c'est pratique : on ne verse rien à sa famille, et on n'a pas à expliquer pourquoi on envoie quatre gamins dans un marais plein de snorks avec trente cartouches chacun. Je veux leurs plaques. Avec les plaques, je peux prouver qu'ils sont morts en service, et leurs mères toucheront la pension. Les snorks chassent en meute là-bas, six ou plus. Tue ceux qui te tombent dessus, trouve le sac de la patrouille et reviens. Ne fais pas le héros : prends de quoi te soigner, et beaucoup de cartouches.",
+        "Le marais, à un kilomètre au nord-nord-ouest. Les snorks, puis le sac de la patrouille et ses plaques.",
+        "Quatre plaques. Sémionov, Kraïko, Abdoulaïev, Liss. Dix-neuf, vingt, dix-neuf et vingt et un ans. Je les porterai moi-même à l'intendant, et il signera. Sinon, je le ferai signer. Tiens, %1. Tu l'as mérité plus que ceux qui les ont envoyés là-bas n'ont mérité leurs galons."
+    ],
+    "ObjectiveText": "Tue les snorks du marais au nord-nord-ouest de Grechko, retrouve le sac de la patrouille disparue et rapporte ses plaques d'identité à Grechko.",
+    "FollowUpQuest": 113,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "aod_vest_loner_ballisticvest",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        54
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 112,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 112,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 112,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        111
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 159,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de Ticha",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Red",
+    "DigInStash": 0,
+    "MarkerName": "Sac de Ticha",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5682.0,
+            140.3,
+            8353.3
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

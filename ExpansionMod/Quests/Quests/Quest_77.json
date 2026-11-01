@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 77,
+    "Type": 1,
+    "Title": "Fourgonnette abandonnée",
+    "Descriptions": [
+        "%1, il y a un endroit que je n'ose plus franchir moi-même, mais auquel je pense souvent. Une vieille fourgonnette, garée là où j'ai longtemps roulé quand la Zone était encore autre chose. J'aimerais que vous alliez voir si elle tient encore debout ; le point est sur votre carte. C'était la mienne. Le bon vieux temps me manque, ces routes sans tout le cinéma d'aujourd'hui.",
+        "Tant que vous n'aurez pas posé le pied près de la fourgonnette, je n'aurai pas votre retour. Faites le détour quand vous pourrez.",
+        "Merci d'avoir fait le déplacement. Si la carcasse est encore là, c'est déjà la preuve que quelque chose résiste. Reposez-vous un instant, et tenez ce cinquième tome de la série médecine, pour les longues routes."
+    ],
+    "ObjectiveText": "Aller jusqu'à la vieille fourgonnette du Doc, puis revenir lui faire un compte rendu",
+    "FollowUpQuest": 78,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 717,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        76
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

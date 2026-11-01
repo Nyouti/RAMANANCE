@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 22,
+    "ID": 9,
+    "Type": 1,
+    "Title": "Contrat facile : le garde-manger",
+    "Descriptions": [
+        "L'abri, ça se vide plus vite que ça se remplit, %1. Chaque jour, des gars passent, mangent un morceau et repartent. Si tu as un peu de temps, fais le tour de quelques caches du Cordon et ramène-moi une conserve et une bouteille de vodka. Rien de compliqué, mais ça rend service, et je paie.",
+        "Une conserve et une bouteille de vodka, pour l'abri. Les caches du Cordon se remplissent régulièrement, il suffit de chercher un peu.",
+        "Parfait, ça ira dans la réserve. Tiens, ta paie. Et repasse demain : il y aura toujours quelqu'un qui aura faim."
+    ],
+    "ObjectiveText": "Rapporte à Papa Voronine une conserve fermée et une bouteille de vodka, trouvées dans les caches du Cordon.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 4
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 3,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        1
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

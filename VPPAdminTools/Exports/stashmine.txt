@@ -1,0 +1,26 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "Land_Furniture_box_metall_case", "376.127014 120.710999 110.291000", "93.506165 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "410.929993 120.088997 137.617004", "126.134575 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "408.626007 121.419998 147.876007", "42.681515 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "384.036987 120.095001 138.181000", "-69.975082 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "360.490997 121.161003 157.057007", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "370.786987 121.474998 169.054993", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "394.355988 127.689003 208.220001", "17.521809 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "397.352997 128.438995 217.074997", "34.987553 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "401.044006 127.780998 226.966995", "18.027262 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "414.476990 127.740997 224.994995", "106.759682 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "407.971985 128.570007 216.759003", "16.567167 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "409.683990 128.697006 219.878006", "16.510958 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "434.759003 123.606003 156.492996", "-27.967619 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "444.200012 122.992996 149.537003", "-63.516556 0.000000 -0.000000" );

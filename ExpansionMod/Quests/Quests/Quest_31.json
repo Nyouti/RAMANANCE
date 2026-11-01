@@ -1,0 +1,85 @@
+{
+    "ConfigVersion": 22,
+    "ID": 31,
+    "Type": 1,
+    "Title": "La route du nord",
+    "Descriptions": [
+        "Approche, %1, et regarde ce registre. Trois caisses sont parties vers notre poste du nord ces deux dernières semaines. Trois signatures au départ, aucune à l'arrivée. La dernière, c'est Grisha qui la portait, il y a six jours. Il connaît la route par cœur : la grande route qui monte au nord, le vieux poste de contrôle, le ravin, puis le carrefour avant la décharge. Il n'est jamais arrivé, et il n'est jamais revenu. Remonte la route jusqu'au poste de contrôle, puis cherche son sac du côté du ravin, à l'est de la route : c'est là que les porteurs font halte. S'il y a des papiers dedans, rapporte-les-moi. Garde ton masque et ton filtre à portée de main : le ravin crépite un peu. Et ne traîne pas sur la route : les bêtes la connaissent aussi bien que nous.",
+        "La route du nord : le vieux poste de contrôle, puis le ravin à l'est de la route. Masque sur le nez au ravin. Trouve le sac de Grisha et rapporte-moi ses papiers.",
+        "Le sac de Grisha... déchiré, mais c'est bien le sien. Et ça, c'est une page de mon registre, avec mon tampon. Sauf que je ne l'ai jamais écrite. Regarde : « Caisse n°12, livrée au hameau, route du nord. » Il n'y a jamais eu de livraison au hameau, personne n'y vit. Quelqu'un a falsifié mes registres, %1, et Grisha portait la preuve sans le savoir. Garde ça pour toi. Tiens, ta paie, et une conserve de la réserve. Inscrite au registre, évidemment."
+    ],
+    "ObjectiveText": "Remonte la route du nord jusqu'au vieux poste de contrôle, retrouve le sac de Grisha au ravin, à l'est de la route, puis rapporte la page du registre à Dmitri.",
+    "FollowUpQuest": 32,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Can_Meat_closed",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        8
+    ],
+    "QuestTurnInIDs": [
+        8
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 31,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 31,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 31,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        5
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

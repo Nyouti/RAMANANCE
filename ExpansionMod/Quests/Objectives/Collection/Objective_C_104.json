@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 104,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Rapporte la livraison et le mot du fournisseur à Stas",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionQuestItemPackage",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionQuestItemPaper",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

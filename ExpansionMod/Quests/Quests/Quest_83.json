@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 83,
+    "Type": 1,
+    "Title": "Défibrillateur perdu",
+    "Descriptions": [
+        "%1, le poste doit pouvoir relancer un cœur sans courir aux quatre coins de la carte. Il nous manque un défibrillateur fonctionnel, le modèle qu'on branche et qu'on utilise quand plus rien d'autre ne suffit. Si vous en trouvez un en bon état, rapportez-le-moi, je m'occupe des tests et du stockage.",
+        "Je n'ai toujours pas de défibrillateur entre les mains. Revenez quand vous en aurez un.",
+        "Merci, avec ça on peut au moins prétendre qu'on ne lâche pas les gens sans un dernier recours. Voici un autre tome de la série médecine, vous l'avez mérité."
+    ],
+    "ObjectiveText": "Un défibrillateur au Doc",
+    "FollowUpQuest": 84,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine4",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 724,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        82
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

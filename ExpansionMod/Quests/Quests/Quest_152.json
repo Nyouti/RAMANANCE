@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 152,
+    "Type": 1,
+    "Title": "Dix pour cent",
+    "Descriptions": [
+        "La route du sud, %1. Mes coureurs descendent des Entrepôts jusqu'à Rostok, traversent Garbage, puis le Cordon. Après le Cordon, il y a la barrière, et à la barrière il y a toujours un officier qui a besoin d'argent. Le problème, c'est Garbage. Garbage, c'est Borov. Ses hommes tiennent la route, et sur la route, on paie : dix pour cent de tout ce qui passe. Ça me fend le cœur de payer un bandit pour avoir le droit de marcher, mais la liberté, c'est aussi choisir ses batailles. On paie Borov parce que la route passe chez lui, pas parce qu'il a raison. Cette enveloppe, c'est sa part du mois. Porte-la à Stas, son lieutenant, à l'usine du nord de Garbage. Ne l'ouvre pas, ne la compte pas, et ne discute pas avec lui : il compte mieux que toi.",
+        "La part de Borov, à remettre à Stas, à l'usine du nord de Garbage. Sans l'ouvrir.",
+        "Svoboda. Pile à l'heure, comme chaque mois. Pose ça là. Tu sais ce qui me fait rire, %1 ? Là-haut, ils parlent de liberté toute la journée, et chaque mois ils m'envoient quelqu'un avec ma part. La liberté, ça passe par chez Borov. Riko comptera ce soir. S'il manque un rouble, ton Facteur le saura avant toi. Tiens, pour la course. Et dis-lui que la route est ouverte : tant qu'il paie, personne ne touche à ses coureurs."
+    ],
+    "ObjectiveText": "Porte la part de Borov, dix pour cent de ce qui passe sur la route, à Stas, à l'usine du nord de Garbage, sans ouvrir l'enveloppe.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 152,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        151
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,83 @@
+{
+    "ConfigVersion": 22,
+    "ID": 51,
+    "Type": 1,
+    "Title": "Reco aux décharges",
+    "Descriptions": [
+        "%1, j'veux une vraie reco sur trois pics au-dessus d'immenses tas de détritus, des points hauts où tu vois tout le merdier autour. Tu grimpes sur chaque repère que je t'ai mis sur la carte, tu vérifies que t'es bien au sommet, et tu reviens me faire un rapport clair. Pas la peine de te casser la gueule pour rien, mais bouge.",
+        "T'as pas fini les trois points ? Alors continue d'grimper au lieu de traîner dans les bas-fonds.",
+        "Bon, t'as survécu aux trois miradors de merde. Ça nous donne une idée de ce qui bouge sur les dumps. Tiens, pour ta peine."
+    ],
+    "ObjectiveText": "Rejoins les 3 points de reconnaissance sur les tas de détritus, puis reviens voir Riko.",
+    "FollowUpQuest": 52,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Amount": 4,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble50",
+            "Amount": 3,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        53
+    ],
+    "QuestTurnInIDs": [
+        53
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 511,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 512,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 513,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [50],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 76,
+    "Type": 1,
+    "Title": "Soins post commotion",
+    "Descriptions": [
+        "%1, une commotion cérébrale, ce n'est pas une simple bosse. Le patient peut avoir mal à la tête, des vertiges, des troubles de la vue, des nausées, sans que ça se voie à l'extérieur. Ici on stabilise, on observe, et il nous faut du matériel sérieux pour le suivi neurologique. Il me faut trois plaquettes de noopept et deux ampoules Neirox pour le stock d'urgence. Si vous en trouvez en fouillant la Zone, rapportez-les-moi.",
+        "Il manque encore des plaquettes ou des ampoules. Revenez quand vous aurez trois noopept et deux Neirox.",
+        "Merci. Avec ça on peut mieux prendre en charge ceux qui ont pris un choc sans qu'on le sous-estime. Voici le quatrième tome de la série médecine, gardez-le pour les cas de tête."
+    ],
+    "ObjectiveText": "Trois plaquettes de noopept et deux ampoules Neirox au Doc",
+    "FollowUpQuest": 77,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 716,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        75
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 45,
+    "Type": 1,
+    "Title": "Sangsue derrière le camp",
+    "Descriptions": [
+        "Un peu de travail pour toi ? Une sangsue rode derrière chez nous, tu peux t'en charger ? Sache qu'elles ne sont pas toujours seules, elles peuvent se retrouver en groupe, et elles savent se rendre invisibles quand ça les arrange. Je te conseille d'y aller accompagné et de ne pas te fier qu'à tes yeux, c'est coriace.",
+        "Tu peux annuler si tu as peur !",
+        "Nickel, on sera tranquille pendant un petit moment. Tiens, c'est cadeau."
+    ],
+    "ObjectiveText": "Élimine la sangsue derrière le camp",
+    "FollowUpQuest": 46,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Amount": 5,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        44
+    ],
+    "QuestTurnInIDs": [
+        44
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 45,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [44],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

@@ -1,0 +1,74 @@
+{
+    "ConfigVersion": 22,
+    "ID": 25,
+    "Type": 1,
+    "Title": "Zone louche au camp",
+    "Descriptions": [
+        "Salut étranger ! J'ai besoin de quelqu'un pour explorer les environs. Il y a une zone suspecte pas loin d'ici que je veux que tu vérifies. Va jusqu'à la zone marquée et reviens me voir une fois que tu auras terminé. Je te récompenserai pour tes efforts.",
+        "Tu n'as pas encore exploré la zone ? Dépêche-toi, je n'ai pas toute la journée !",
+        "Excellent travail ! Tu as exploré la zone comme demandé. Voici ta récompense."
+    ],
+    "ObjectiveText": "Explorez la zone autour du camp.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "WaterBottle",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TunaCan",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        53
+    ],
+    "QuestTurnInIDs": [
+        53
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 8,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}
+

@@ -1,0 +1,387 @@
+<!--
+This configuration file allows you to override parameters from config.cpp of TerjeCore-based mods without modding.
+Its automatically synchronized with the clients when connecting to the server, so a large size of this file (more than 1MB except comments)
+can negatively affect the connection time of players to the server. Use this file for testing purposes,
+or if you don't have any ability or modding knowledges to override mod parameters in config.cpp from your own mod.
+
+Please read https://github.com/TerjeBruoygard/TerjeModsScripting/blob/master/Wiki/en/Modding/README.md
+To see the full list of supported parameters
+
+Below are examples of rewriting different types of parameters
+
+<CfgVehicles>
+	<PainkillerTablets>
+		<overdosedIncrement>1.5</overdosedIncrement>
+		<medPainkillerLevel>2</medPainkillerLevel>
+		<medPainkillerTimeSec>300</medPainkillerTimeSec>
+	</PainkillerTablets>
+	<BlackWolf>
+		<terjeOnKillHuntingExp>500</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>250</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>250</terjeOnButchHuntingExp>
+		<terjeHighlightWithPathfinder>0</terjeHighlightWithPathfinder>
+	</BlackWolf>
+	<HuntingKnife>
+		<terjeSkinningModifierOverride>0.1</terjeSkinningModifierOverride>
+	</HuntingKnife>
+	<PlateCarrierVest>
+		<Protection>
+			<melee>1.0</melee>
+			<firearm>0.45</firearm>
+		</Protection>
+	</PlateCarrierVest>
+	<GasMask_Filter>
+		<Protection>
+			<radiation>1.0</radiation>
+		</Protection>
+	</GasMask_Filter>
+	<AirbornMask>
+		<Protection>
+			<psionic>1.0</psionic>
+		</Protection>
+	</AirbornMask>
+</CfgVehicles>
+<CfgTerjeScriptableProtection>
+	<Radiation>
+		<Feet>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Feet>
+		<Legs>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Legs>
+		<Body>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Body>
+		<Gloves>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Gloves>
+		<Headgear>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Headgear>
+		<Armband>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Armband>
+		<Back>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Back>
+		<Mask>
+			<weight>1</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Mask>
+		<Eyewear>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Eyewear>
+	</Radiation>
+</CfgTerjeScriptableProtection>
+<CfgTerjeSkills>
+	<Athletic>
+		<enabled>1</enabled>
+		<perkPointsPerLevel>1</perkPointsPerLevel>
+		<expLoseOnDeath>-500</expLoseOnDeath>
+		<levels type="[]">
+			<i>100</i><i>200</i><i>300</i><i>400</i><i>500</i><i>700</i><i>900</i><i>1100</i><i>1300</i><i>1500</i>
+			<i>1750</i><i>2000</i><i>2250</i><i>2500</i><i>2750</i><i>3000</i><i>3500</i><i>4000</i><i>4500</i><i>5000</i>
+			<i>6000</i><i>6750</i><i>7500</i><i>8250</i><i>9000</i><i>10000</i><i>11000</i><i>12000</i><i>13000</i><i>14000</i>
+			<i>16000</i><i>18000</i><i>20000</i><i>22000</i><i>24000</i><i>26000</i><i>28000</i><i>30000</i><i>32000</i><i>34000</i>
+			<i>37000</i><i>40000</i><i>43000</i><i>46000</i><i>50000</i><i>55000</i><i>60000</i><i>70000</i><i>80000</i><i>100000</i>
+		</levels>
+		<Modifiers>
+			<MaxStaminaModifier>
+				<enabled>1</enabled>
+				<value>0.02</value>
+			</MaxStaminaModifier>
+		</Modifiers>
+		<Perks>
+			<QuickFeet>
+				<enabled>1</enabled>
+				<stagesCount>6</stagesCount>
+				<requiredSkillLevels type="[]">
+					<i>1</i><i>10</i><i>20</i><i>30</i><i>40</i><i>45</i>
+				</requiredSkillLevels>
+				<requiredPerkPoints type="[]">
+					<i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>10</i>
+				</requiredPerkPoints>
+				<values type="[]">
+					<i>-0.05</i><i>-0.1</i><i>-0.2</i><i>-0.3</i><i>-0.4</i><i>-0.8</i>
+				</values>
+			</QuickFeet>
+		</Perks>
+	</Athletic>
+</CfgTerjeSkills>
+-->
+<CfgVehicles>
+	<!-- Filtres progression craft: zone Power (README 1–5). T1=zones faibles seulement ; T2 sans T3 meurt en zone dure ; T3=tout jusqu’à 5. Mauvais filtre = % protection quasi nulle = rad au fil du temps. -->
+	<GasMask_Filter>
+		<Protection>
+			<radiation>1.0</radiation>
+			<radiationValues type="[]">
+				<i>1.0</i><i>1.0</i><i>0.25</i><i>0.05</i><i>0.0</i>
+			</radiationValues>
+			<radiationThresholds type="[]">
+				<i>1.9</i><i>2.0</i><i>2.2</i><i>2.5</i><i>5.0</i>
+			</radiationThresholds>
+		</Protection>
+	</GasMask_Filter>
+	<!-- Masques à gaz Vanilla -->
+	<GasMask>
+		<Protection>
+			<radiation>1</radiation>
+		</Protection>
+	</GasMask>
+	<GP5GasMask>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</GP5GasMask>
+	<AirborneMask>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</AirborneMask>
+	<STO_Gasmask_Filter_GP21>
+		<Protection>
+			<radiation>1.0</radiation>
+			<radiationValues type="[]">
+				<i>1.0</i><i>1.0</i><i>1.0</i><i>0.1</i><i>0.0</i>
+			</radiationValues>
+			<radiationThresholds type="[]">
+				<i>2.0</i><i>3.0</i><i>3.9</i><i>4.0</i><i>5.0</i>
+			</radiationThresholds>
+		</Protection>
+	</STO_Gasmask_Filter_GP21>
+	<STO_Gasmask_Filter_AVC>
+		<Protection>
+			<radiation>1.0</radiation>
+			<radiationValues type="[]">
+				<i>1.0</i><i>1.0</i><i>1.0</i><i>1.0</i><i>0.0</i>
+			</radiationValues>
+			<radiationThresholds type="[]">
+				<i>3.91</i><i>4.2</i><i>4.5</i><i>4.8</i><i>5.0</i>
+			</radiationThresholds>
+		</Protection>
+	</STO_Gasmask_Filter_AVC>
+	<!-- Masques à gaz modder -->
+	<STO_Gasmask_CS_1>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_CS_1>
+	<STO_Gasmask_CS_2>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_CS_2>
+	<STO_Gasmask_GP21>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_GP21>
+	<STO_Gasmask_GP7M2>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_GP7M2>
+	<STO_Gasmask_M40>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_M40>
+	<STO_GasMask_MK10>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_GasMask_MK10>
+	<STO_Gasmask_PMG>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_PMG>
+	<STO_Gasmask_RSH4>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_RSH4>
+	<STO_Gasmask_S10>
+		<Protection>
+			<radiation>0</radiation>
+		</Protection>
+	</STO_Gasmask_S10>
+	<!-- Casque anti-psi (slot Eyewear) : actif avec batterie + allumé -->
+	<TerjeHeadgearPsiHelm>
+		<Protection>
+			<psionic>1.0</psionic>
+		</Protection>
+	</TerjeHeadgearPsiHelm>
+	<!-- SEVA science (slot Mask) : immunité rad Terje 100 % -->
+	<SFP_SevaMark2_Vest_scienceGreen>
+		<Protection>
+			<radiation>1.0</radiation>
+		</Protection>
+	</SFP_SevaMark2_Vest_scienceGreen>
+	<SFP_SevaMark2_Vest_scienceOrange>
+		<Protection>
+			<radiation>1.0</radiation>
+		</Protection>
+	</SFP_SevaMark2_Vest_scienceOrange>
+	<SFP_SevaMark2_UpModule_scienceGreen>
+		<Protection>
+			<radiation>1.0</radiation>
+		</Protection>
+	</SFP_SevaMark2_UpModule_scienceGreen>
+	<SFP_SevaMark2_UpModule_scienceOrange>
+		<Protection>
+			<radiation>1.0</radiation>
+		</Protection>
+	</SFP_SevaMark2_UpModule_scienceOrange>
+</CfgVehicles>
+<CfgTerjeScriptableProtection>
+	<Radiation>
+		<Feet>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Feet>
+		<Legs>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Legs>
+		<Body>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Body>
+		<Gloves>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Gloves>
+		<Headgear>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Headgear>
+		<Armband>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Armband>
+		<Back>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Back>
+		<Mask>
+			<weight>1</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Mask>
+		<Eyewear>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Eyewear>
+	</Radiation>
+	<!-- Protection psy : le PsiHelm est en slot Eyewear -->
+	<psionic>
+		<Feet>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Feet>
+		<Legs>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Legs>
+		<Body>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Body>
+		<Gloves>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Gloves>
+		<Headgear>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Headgear>
+		<Armband>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Armband>
+		<Back>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Back>
+		<Mask>
+			<weight>0</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Mask>
+		<Eyewear>
+			<weight>1</weight>
+			<protectionBodyValues type="[]"></protectionBodyValues>
+			<protectionBodyThresholds type="[]"></protectionBodyThresholds>
+		</Eyewear>
+	</psionic>
+</CfgTerjeScriptableProtection>
+<CfgTerjeSkills>
+	<!-- Perks désactivés : non visibles / non accessibles aux joueurs -->
+	<Stealth>
+		<Perks>
+			<QuietStep>
+				<enabled>0</enabled>
+			</QuietStep>
+			<WolfInstinct>
+				<enabled>0</enabled>
+			</WolfInstinct>
+			<BearsFriend>
+				<enabled>0</enabled>
+			</BearsFriend>
+		</Perks>
+	</Stealth>
+	<Survival>
+		<Perks>
+			<SurvivalInstinct>
+				<enabled>0</enabled>
+			</SurvivalInstinct>
+		</Perks>
+	</Survival>
+	<Hunting>
+		<Perks>
+			<ExperiencedHunter>
+				<enabled>0</enabled>
+			</ExperiencedHunter>
+		</Perks>
+	</Hunting>
+	<Medicine>
+		<Perks>
+			<CleanlinessSterility>
+				<enabled>0</enabled>
+			</CleanlinessSterility>
+		</Perks>
+	</Medicine>
+</CfgTerjeSkills>

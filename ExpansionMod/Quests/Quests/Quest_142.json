@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 142,
+    "Type": 1,
+    "Title": "Ce qui ne doit pas sortir",
+    "Descriptions": [
+        "Une question, %1 : les artefacts que tu ramasses, tu en fais quoi ? Tu les vends. À Sakharov, quand tu as la patience de descendre jusqu'à Yantar, ou au premier qui paie. Et après ? Ce qui se vend passe de main en main, et ce qui passe de main en main finit toujours par sortir de la Zone. Un artefact, ce n'est pas un caillou. C'est un morceau de la Zone. On ne sait pas ce qu'il fait dans une poche, dans une maison, dans une ville. Les scientifiques eux-mêmes ne le savent pas. Pour la Duty, c'est simple : ce qui vient de la Zone reste dans la Zone. Ce qu'on trouve, on le donne aux écologistes de Yantar pour qu'ils l'étudient, ou on le détruit. Rapporte-moi une Perle et une Boussole. Tu en trouveras dans les anomalies, presque partout. Je te paierai moins que Sakharov. Beaucoup moins. Mais je te dirai où elles finissent.",
+        "Une Perle et une Boussole, ramassées dans les anomalies. À rapporter à Gekko, pas à vendre.",
+        "Une Perle, une Boussole. Tu aurais pu les vendre à Sakharov, et tu ne l'as pas fait : c'est déjà ça. Tiens, ta paie, et ne la compare pas à ses prix. Je vais les sceller. Elles ne resteront pas ici : la Duty ne garde rien de ce qu'elle trouve."
+    ],
+    "ObjectiveText": "Ramasse une Perle et une Boussole dans les anomalies et rapporte-les à Gekko, au lieu de les vendre.",
+    "FollowUpQuest": 143,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        65
+    ],
+    "QuestTurnInIDs": [
+        65
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 142,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        141
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,24 @@
+{
+    "ConfigVersion": 6,
+    "ID": 14,
+    "ClassName": "ExpansionQuestNPCSeth",
+    "Position": [
+        2185.0,
+        38.5,
+        5874.0
+    ],
+    "Orientation": [
+        20.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Fiodor « Le Veneur » Karpenko",
+    "DefaultNPCText": "Approche, %1, mais sans courir : il n'y a que le gibier qui court. Si tu as lu les deux premiers tomes, on peut parler chasse. Sinon, va d'abord voir les Zaïtsev, le petit dans les Marais et le grand à Rostok.",
+    "NPCLoadoutFile": "KarpenkoLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCType": 0,
+    "Active": 1
+}

@@ -1,0 +1,123 @@
+{
+    "ConfigVersion": 22,
+    "ID": 149,
+    "Type": 1,
+    "Title": "La queue du gecko",
+    "Descriptions": [
+        "Tu sais pourquoi on m'appelle Gekko, %1 ? Le gecko, c'est un lézard. Quand on l'attrape, il lâche sa queue, et il s'enfuit. Il y a quatre ans, ma patrouille est tombée sur une sangsue, à l'est de Garbage : Mamedov, Orlik et moi. Elle a pris Orlik en premier. Mamedov m'a crié de courir. J'ai couru, et je ne me suis pas retourné. La Duty m'a trouvé deux jours plus tard, à moitié mort, et les anciens m'ont donné ce nom. C'était une méchanceté. Je l'ai gardé pour ne pas oublier. Grechko m'a fait passer un mot : avec leurs plaques, il peut prouver que Mamedov et Orlik sont morts en service. La sangsue est toujours là-bas, ou une autre : ça ne change rien. C'est à deux kilomètres et demi au sud-sud-est, à l'est de Garbage. Le coin est plein de sangliers et de chairs, c'est ce qui la nourrit. Tue-la, et retrouve ce qui reste de la patrouille. Moi, je ne peux pas y retourner. Pas encore.",
+        "L'est de Garbage, à deux kilomètres et demi au sud-sud-est. La sangsue, puis ce qui reste de la patrouille : les plaques de Mamedov et d'Orlik.",
+        "Deux plaques. Mamedov. Orlik. ... Merci. Elles partiront chez Grechko demain, et il fera signer. Pour l'armée, je resterai un déserteur, et c'est très bien comme ça : moi, j'ai couru. Eux, non. Écoute, %1. Tu n'as pas de brassard, et tu n'en auras peut-être jamais. Mais tu as fait ce que fait la Duty : tu as tenu la ligne, tu as rapporté nos morts, et tu n'as rien vendu de ce qui devait rester ici. Tiens : un AK de la réserve, et une bouteille de vodka. Ce soir, on boit à ceux qui ne sont pas rentrés."
+    ],
+    "ObjectiveText": "Tue la sangsue qui rôde à l'est de Garbage, retrouve les plaques de Mamedov et d'Orlik, de l'ancienne patrouille de Gekko, et rapporte-les à Gekko.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "FOX_AKS74UN",
+            "Amount": 1,
+            "Attachments": [
+                "Mag_AK74_30Rnd"
+            ],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Mag_AK74_30Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_545x39Tracer_20Rnd",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Vodka_Kazak",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        65
+    ],
+    "QuestTurnInIDs": [
+        65
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 149,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 149,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 149,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        148
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

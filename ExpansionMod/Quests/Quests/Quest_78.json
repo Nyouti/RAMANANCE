@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 78,
+    "Type": 1,
+    "Title": "Nouvelles du train",
+    "Descriptions": [
+        "%1, un train est arrêté plus loin avec des produits chimiques dans les wagons. Je veux savoir si la cargaison est encore là et dans quel état, sans que personne touche à quoi que ce soit. Allez au point indiqué sur votre carte, regardez bien autour du train, puis revenez me dire ce que vous avez vu.",
+        "Vous n'êtes pas encore allé au train ou vous n'avez pas fait le tour du lieu. Revenez quand ce sera fait.",
+        "Merci ; votre compte rendu m'aide à anticiper une éventuelle intervention. Tenez, un ouvrage de plus sur la médecine de terrain."
+    ],
+    "ObjectiveText": "Aller au train marqué sur la carte, observer la cargaison chimique, revenir parler au Doc",
+    "FollowUpQuest": 79,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 718,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        77
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

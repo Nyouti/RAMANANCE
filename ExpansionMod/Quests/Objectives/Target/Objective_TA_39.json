@@ -1,0 +1,29 @@
+{
+    "ConfigVersion": 28,
+    "ID": 39,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Abats cinq bêtes des deux meutes, à l'est-nord-est et au nord-nord-est (chiens ou pseudo-chiens)",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        4510.0,
+        134.0,
+        7360.0
+    ],
+    "MaxDistance": 240.0,
+    "MinDistance": -1.0,
+    "Amount": 5,
+    "ClassNames": [
+        "Mutant_XZ_Dog_Brown",
+        "Mutant_XZ_Dog_Fur",
+        "Mutant_XZ_Dog_White",
+        "Mutant_XZ_Pse_Dog1",
+        "Mutant_XZ_Pse_Dog2"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

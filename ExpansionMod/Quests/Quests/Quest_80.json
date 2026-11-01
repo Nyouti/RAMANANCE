@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 80,
+    "Type": 1,
+    "Title": "Champignons et psychose",
+    "Descriptions": [
+        "%1, parlons franchement des états psychotiques. Ce n'est pas du cinéma, c'est quelqu'un qui perd le fil avec la réalité, qui entend ou croit des choses qui n'existent pas pour les autres, qui peut se mettre en danger ou en mettre autour. Ici on isole le patient si on peut, on calme, on hydrate, on surveille, et quand on a les moyens on l'oriente vers un traitement sérieux. La Zone mélange tout, drogues, fatigue, irradiation, stress. Pour comprendre ce que les gens ingèrent parfois sans savoir, j'ai besoin d'échantillons de champignons psilocybe, trois spécimens propres si vous en trouvez. Je les étudierai pour documenter les risques et les confusions possibles, pas pour en faire la promotion.",
+        "Il me manque encore des champignons pour compléter l'étude. Revenez quand vous en aurez trois.",
+        "Merci, ces échantillons iront dans mon registre botanique et toxicologique. Voici un ouvrage de la série médecine sur la résistance mentale quand l'esprit déraille."
+    ],
+    "ObjectiveText": "Trois champignons psilocybe au Doc pour étude",
+    "FollowUpQuest": 81,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine3",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 720,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        79
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

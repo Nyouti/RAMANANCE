@@ -1,0 +1,537 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-10-10_19-51-7
+====================================================================================
+19:51:7 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+19:51:7 | [PermissionManager] Perm (FreeCamera) has been registered!
+19:51:7 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuServerManager) has been registered!
+19:51:7 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+19:51:7 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+19:51:7 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+19:51:7 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+19:51:7 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+19:51:7 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+19:51:7 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+19:51:7 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+19:51:7 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuBansManager) has been registered!
+19:51:7 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+19:51:7 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+19:51:7 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+19:51:7 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+19:51:7 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+19:51:7 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+19:51:9 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+19:51:9 | [PermissionManager] Adding Super Admin (76561198317293678)
+19:51:9 | [PermissionManager] Adding Super Admin (76561198207165013)
+19:51:9 | [PermissionManager] Adding Super Admin (76561199417217773)
+19:51:9 | [PermissionManager] Adding Super Admin (76561198097580497)
+19:51:9 | [PermissionManager] Loaded UserGroups.json
+19:51:9 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+19:51:9 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+19:51:9 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+19:51:9 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+19:51:9 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+19:51:9 | Building Sets Loaded: 15
+19:51:9 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+19:51:9 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+19:54:1 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+19:54:2 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+19:54:9 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+19:54:12 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:54:12 | Player "Joseph_Callahan" (steamId=76561198155880677) connected to server!
+19:55:7 | Player "Grishka Sokolov" (steamId=76561198045545123) connected to server!
+19:55:26 | Player "Bekbolat Avtorxanov" (steamId=76561199382012934) connected to server!
+19:55:28 | Player "Alexander Louvisky" (steamId=76561198005527727) connected to server!
+19:55:42 | Player "Oleksandr Rybak" (steamId=76561197972045425) connected to server!
+19:55:42 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+19:56:4 | Player "Ygor Zorin" (steamId=76561198239644708) connected to server!
+19:56:6 | Player "Dimitri Sokolov" (steamId=76561199236763438) connected to server!
+19:56:21 | Player "Maksym Kovalenko" (steamId=76561198262803634) connected to server!
+19:56:37 | Player "Miguel Alvaro" (steamId=76561199850843836) connected to server!
+19:56:47 | Player "Vala Krasko" (steamId=76561198240252790) connected to server!
+19:56:59 | Player "Nikolai Petrov" (steamId=76561198002556074) connected to server!
+19:57:2 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+19:57:38 | Player "Antony Souvorov" (steamId=76561199008333617) connected to server!
+19:59:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:17 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4541.729980, 77.203697, 1788.959961>)
+19:59:17 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4541.73,77.2037,1788.96)
+19:59:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:45 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4553.446777, 71.196297, 1811.840576>)
+19:59:46 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:50 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:54 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4571.068848, 76.273788, 1814.403076>)
+19:59:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:58 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4549.921387, 71.184555, 1812.574463>)
+20:0:3 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:41 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+20:0:53 | "L'asticot" (steamid=76561198207165013) toggled godmode
+20:1:7 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:1:9 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4531.027832, 79.784248, 1817.196777>)
+20:1:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1686.123657, 57.552319, 4056.570801>)
+20:2:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1748.634399, 117.199326, 5639.135742>)
+20:2:7 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2424.265869, 44.757431, 6222.444824>)
+20:2:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3398.741699, 39.605057, 4878.516113>)
+20:2:23 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4299.315918, 118.877525, 3164.391113>)
+20:2:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4792.995117, 114.769249, 2199.687988>)
+20:2:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:2:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:3:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4864.516113, 97.763367, 2371.483643>)
+20:3:41 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<2024.310059, 78.732101, 1560.790039>)
+20:3:41 | "Mikhail": (steamid=76561198097580497) teleported to (pos=2024.31,78.7321,1560.79)
+20:3:46 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:3:51 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2032.098755, 89.615784, 1561.938965>)
+20:3:52 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:3:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4808.785645, 73.525085, 1826.812744>)
+20:3:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4686.786133, 65.228889, 1582.732422>)
+20:4:19 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:4:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4859.589355, 98.892029, 1999.864502>)
+20:5:28 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+20:5:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4860.414551, 98.274025, 2000.434570>)
+20:6:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4855.739746, 99.239304, 2372.791016>)
+20:6:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4692.393066, 82.564194, 1925.040527>)
+20:6:44 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4664.164062, 83.088203, 1920.667603>)
+20:6:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4642.879883, 82.725838, 1913.399780>)
+20:6:54 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4623.141602, 82.798248, 1917.763550>)
+20:7:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4599.265625, 82.773438, 1906.047119>)
+20:7:13 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4576.910156, 80.471779, 1875.704712>)
+20:7:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4566.422363, 78.074463, 1856.841675>)
+20:7:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4480.868652, 112.203201, 2272.575195>)
+20:7:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4148.148438, 104.795853, 2402.376221>)
+20:7:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3690.090576, 156.881271, 3033.004395>)
+20:7:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3356.455078, 127.893295, 3618.283447>)
+20:7:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2930.043213, 104.253510, 4071.910645>)
+20:8:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2271.026855, 68.610199, 4371.403320>)
+20:8:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2018.519775, 58.743740, 4404.649414>)
+20:8:52 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Poltergeist)
+20:8:57 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Poltergeist)
+20:9:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1990.694336, 63.699970, 4405.155273>)
+20:9:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3227.906738, 52.138107, 4839.203125>)
+20:9:44 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2107.673096, 134.703461, 5386.392090>)
+20:9:48 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2428.217773, 44.574631, 6203.371094>)
+20:10:15 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2461.096924, 82.412811, 6401.251953>)
+20:10:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2450.207031, 82.595139, 6417.727051>)
+20:10:35 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2457.313965, 82.734459, 6409.552246>)
+20:10:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2459.755615, 82.585472, 6402.210449>)
+20:11:35 | Player "Husik Gvasalia" (steamId=76561198092307102) connected to server!
+20:11:56 | Player "Nikolai Arkavitch" (steamId=76561198996087044) connected to server!
+20:12:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2072.415771, 104.567505, 5529.382812>)
+20:12:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2088.316650, 110.248047, 5232.991211>)
+20:12:46 | Player "Dragovitch Volkov" (steamId=76561199047779964) connected to server!
+20:12:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Snork1)
+20:13:1 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Snork1)
+20:13:14 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2350.026367, 40.675507, 4481.818359>)
+20:14:57 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:15:15 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:16:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1646.766968, 83.750816, 5148.714355>)
+20:16:22 | Player "Vladimir Soklav" (steamId=76561199827091090) connected to server!
+20:16:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1677.411621, 57.920612, 5078.262207>)
+20:17:3 | Player "Vladimir Soklav" (steamId=76561199827091090) initiated disconnect process...
+20:17:4 | Player "Vladimir Soklav" (steamId=76561199827091090) disconnected early from server (EXIT NOW).
+20:17:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:17:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1689.810181, 57.146854, 5106.125000>)
+20:17:48 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1659.416748, 88.006668, 5398.061523>)
+20:19:18 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1877.535034, 128.379471, 5737.890625>)
+20:19:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2422.606934, 44.525253, 6211.961914>)
+20:20:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:20:41 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:21:9 | Player "Bekbolat Avtorxanov" (steamId=76561199382012934) initiated disconnect process...
+20:21:14 | Player "Bekbolat Avtorxanov" (steamId=76561199382012934) disconnected early from server (EXIT NOW).
+20:21:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4581.323730, 116.477867, 4567.352539>)
+20:21:24 | Player "Bekbolat Avtorxanov" (steamId=76561199382012934) disconnected from server.
+20:21:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4095.610596, 109.608032, 4657.698730>)
+20:21:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3912.351074, 79.803131, 4812.993164>)
+20:21:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3539.192627, 30.233273, 5000.646484>)
+20:21:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2863.564209, 42.968304, 4770.527832>)
+20:21:36 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2441.429932, 92.063522, 5050.633789>)
+20:21:38 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1973.722046, 93.741058, 5593.693359>)
+20:21:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2425.457275, 45.575260, 6214.525879>)
+20:21:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2429.374023, 43.636589, 6202.449219>)
+20:22:1 | Player "Joseph_Callahan" (steamId=76561198155880677) initiated disconnect process...
+20:22:4 | Player "Joseph_Callahan" (steamId=76561198155880677) disconnected early from server (EXIT NOW).
+20:22:16 | Player "Joseph_Callahan" (steamId=76561198155880677) disconnected from server.
+20:22:42 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2413.572021, 39.766544, 6209.222168>)
+20:22:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2426.042236, 45.522495, 6217.655762>)
+20:26:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2461.296387, 46.301987, 6211.444824>)
+20:27:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2471.600586, 37.759991, 6219.823730>)
+20:27:21 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2476.277588, 37.759991, 6221.034668>)
+20:30:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2490.272217, 38.862621, 6217.784668>)
+20:31:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2452.550537, 47.764595, 6202.676758>)
+20:31:22 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2449.332031, 44.883324, 6208.463867>)
+20:31:22 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:31:35 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:31:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2425.133789, 45.185287, 6198.661621>)
+20:32:5 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2425.923828, 44.883572, 6207.634277>)
+20:32:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2487.262451, 57.972584, 6390.938965>)
+20:32:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2452.318359, 47.829704, 6208.184570>)
+20:32:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2475.214600, 37.759998, 6219.042969>)
+20:33:40 | Player "Vladimir Soklav" (steamId=76561199827091090) connected to server!
+20:36:55 | Player "Loki" (steamId=76561199045300430) connected to server!
+20:38:19 | Player "Vladimir Soklav" (steamId=76561199827091090) initiated disconnect process...
+20:38:20 | Player "Vladimir Soklav" (steamId=76561199827091090) disconnected early from server (EXIT NOW).
+20:38:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2456.597900, 47.133812, 6202.920410>)
+20:40:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2429.414551, 44.045559, 6186.123535>)
+20:40:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5265.866211, 114.785156, 5192.772461>)
+20:40:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5017.178223, 122.786125, 4633.775391>)
+20:40:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5005.491211, 119.370033, 4638.462402>)
+20:40:59 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:41:3 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:41:14 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5003.678711, 119.370033, 4636.927734>)
+20:41:15 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:41:28 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:41:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TerjeFirstAidKitIndividual_Black)
+20:41:33 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4568.795410, 131.484085, 4600.040527>)
+20:41:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4132.039551, 114.975311, 4617.562500>)
+20:41:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3907.985107, 80.355484, 4801.114258>)
+20:41:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2570.317139, 37.684189, 4873.846191>)
+20:41:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1926.962280, 63.761135, 5057.968750>)
+20:41:48 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2288.070312, 35.254005, 6000.155273>)
+20:41:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2420.135498, 42.390503, 6201.131348>)
+20:41:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2423.489502, 44.632362, 6205.721680>)
+20:42:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2484.029053, 37.759991, 6211.902832>)
+20:42:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2446.902100, 40.981930, 6179.798340>)
+20:42:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2428.858398, 43.861423, 6205.289551>)
+20:42:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2425.431396, 45.288242, 6196.895508>)
+20:42:42 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2468.407959, 37.760029, 6180.104980>)
+20:42:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2451.425781, 37.755409, 6149.541016>)
+20:43:4 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2424.631104, 37.898346, 6175.100098>)
+20:43:17 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) connected to server!
+20:43:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2570.743896, 64.154701, 6511.742188>)
+20:43:32 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:43:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2567.322998, 57.419998, 6494.992676>)
+20:43:52 | "L'asticot" (steamid=76561198207165013) toggled freecam
+20:44:3 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2566.511719, 64.075516, 6374.930176>)
+20:44:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2605.243408, 73.931999, 6352.963379>)
+20:45:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2565.631836, 64.075516, 6372.052246>)
+20:45:26 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2718.349121, 61.737114, 6329.705566>)
+20:45:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2787.271973, 83.242706, 6290.875977>)
+20:46:22 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2757.426025, 36.368111, 6440.796387>)
+20:47:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:48:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2819.541748, 36.062057, 6439.658691>)
+20:48:27 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2822.532715, 35.811886, 6444.250000>)
+20:48:43 | Player "Technicien Alexander" (steamId=76561199417217773) connected to server!
+20:49:12 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2709.029053, 44.197384, 6424.581543>)
+20:49:22 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:49:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2823.883057, 36.853844, 6433.622070>)
+20:49:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4877.646484, 92.242920, 2339.758789>)
+20:49:42 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:50:8 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:50:24 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2791.409668, 62.242741, 6645.714355>)
+20:50:24 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:50:43 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:50:56 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:53:26 | [WeatherManager] Send Data Count is 0
+20:53:45 | Player "Schneider Rurik" (steamId=76561199655483869) connected to server!
+20:53:54 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ExplosionTest)
+20:54:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ExplosionTest)
+20:54:9 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2587.931152, 51.172134, 6302.106934>)
+20:54:40 | "L'asticot" (steamid=76561198207165013) Spawned Item: (ExplosionTest)
+20:54:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2504.692627, 37.759975, 6228.744141>)
+20:55:9 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2478.771484, 37.760002, 6191.931641>)
+20:55:30 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (HP_Oiler)
+20:55:38 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (HP_Payalnik)
+20:55:41 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (HP_Plata)
+20:56:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2474.854492, 37.760002, 6215.058105>)
+20:56:17 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:56:17 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:58:7 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:58:10 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+20:59:34 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Compass)
+21:1:26 | Player "Sasha Jager" (steamId=76561198329170585) connected to server!
+21:3:41 | Player "Nikolai Arkavitch" (steamId=76561198996087044) initiated disconnect process...
+21:4:27 | Player "Aaron Ananenko" (steamId=76561198014580945) initiated disconnect process...
+21:4:27 | Player "Aaron Ananenko" (steamId=76561198014580945) disconnected early from server (EXIT NOW).
+21:5:2 | Player "Nikolai Arkavitch" (steamId=76561198996087044) connected to server!
+21:5:18 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:5:20 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:5:36 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:5:45 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<5015.310059, 148.699997, 4867.200195>)
+21:5:45 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=5015.31,148.7,4867.2)
+21:5:51 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:5:58 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:6:6 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5025.989746, 127.277168, 4604.541992>)
+21:6:7 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:6:13 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:6:50 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:6:51 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:7:38 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1759.379639, 48.411713, 4177.796875>)
+21:8:2 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:8:2 | Player "Loki" (steamId=76561199045300430) initiated disconnect process...
+21:8:4 | Player "Loki" (steamId=76561199045300430) disconnected early from server (EXIT NOW).
+21:8:4 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:8:7 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2090.572266, 47.034683, 4586.219238>)
+21:8:23 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3929.891602, 90.616112, 4911.205566>)
+21:8:25 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4127.708496, 140.267776, 4749.845215>)
+21:8:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5657.386230, 125.061935, 4630.701660>)
+21:8:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5062.978027, 126.466034, 4643.347656>)
+21:8:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5064.815918, 126.003189, 4646.382324>)
+21:8:57 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:9:9 | "Technicien Alexander" (steamid=76561199417217773) deleted object "ShronGreenBox" (pos=<5431.850098, 137.091064, 5019.110352>)
+21:9:19 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:9:21 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5437.666504, 126.784119, 5016.095703>)
+21:9:21 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5436.472168, 126.784119, 5013.300781>)
+21:9:22 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:9:24 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:9:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5400.272461, 115.970009, 5009.752441>)
+21:9:50 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5422.659180, 122.384438, 5020.351074>)
+21:10:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5419.856445, 115.649117, 5056.826172>)
+21:10:31 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5401.526855, 113.556747, 5074.104004>)
+21:10:34 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<5261.259766, 113.069000, 5259.580078>)
+21:10:34 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=5261.26,113.069,5259.58)
+21:10:35 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:10:36 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:10:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5304.892578, 112.989601, 5280.304688>)
+21:10:44 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5306.835938, 113.000771, 5279.289062>)
+21:10:51 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5384.864258, 114.019180, 5166.005859>)
+21:10:52 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:10:52 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5335.341797, 113.615868, 5227.334473>)
+21:11:14 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5337.679688, 113.710632, 5210.681641>)
+21:11:16 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5315.978516, 113.420952, 5221.710449>)
+21:11:19 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:19 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:36 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5318.670410, 113.455521, 5219.232422>)
+21:11:37 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:40 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5321.732422, 113.573532, 5216.638672>)
+21:11:41 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5322.013184, 113.590057, 5216.327148>)
+21:11:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5323.476074, 113.675339, 5214.618164>)
+21:11:42 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5325.850586, 113.797897, 5211.529297>)
+21:11:43 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5328.605957, 113.913582, 5210.163574>)
+21:11:44 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5330.747559, 113.951157, 5208.223633>)
+21:11:45 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5332.473633, 113.904541, 5205.619141>)
+21:11:46 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:52 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5339.587402, 113.689438, 5189.354004>)
+21:11:53 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:54 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:57 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:11:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5340.614746, 113.701027, 5188.452148>)
+21:11:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5341.640625, 113.715981, 5187.549316>)
+21:11:59 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:12:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5349.352051, 113.768097, 5180.801270>)
+21:12:44 | Player "Miguel Alvaro" (steamId=76561199850843836) initiated disconnect process...
+21:12:59 | Player "Miguel Alvaro" (steamId=76561199850843836) disconnected from server.
+21:13:1 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5444.292480, 125.024635, 4538.169922>)
+21:13:35 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5336.707520, 113.765213, 5178.183594>)
+21:14:5 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5350.560059, 113.819626, 5172.966797>)
+21:14:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4695.244141, 124.377892, 4511.411133>)
+21:14:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5025.475098, 175.974731, 6045.899902>)
+21:14:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4840.115234, 133.394119, 6515.390137>)
+21:14:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4579.924316, 111.100555, 6183.928711>)
+21:15:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5110.717285, 155.634293, 6293.903809>)
+21:15:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5332.783203, 113.374535, 5243.530762>)
+21:15:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5392.142090, 115.233810, 5185.051758>)
+21:16:47 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:16:51 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:18:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5268.922363, 112.693115, 5305.870117>)
+21:18:5 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5267.539062, 112.738014, 5296.805176>)
+21:18:6 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:18:17 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:18:37 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<6046.248535, 116.415543, 4639.252441>)
+21:18:38 | Player "Nikolai Petrov" (steamId=76561198002556074) initiated disconnect process...
+21:18:40 | Player "Nikolai Petrov" (steamId=76561198002556074) disconnected early from server (EXIT NOW).
+21:18:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5353.099609, 113.761452, 5182.794922>)
+21:19:4 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5354.855957, 113.812569, 5176.712891>)
+21:19:52 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:20:1 | Player "Maksym Kovalenko" (steamId=76561198262803634) initiated disconnect process...
+21:20:1 | Player "Maksym Kovalenko" (steamId=76561198262803634) aborted logout process [canceledLogout]
+21:20:4 | Player "Maksym Kovalenko" (steamId=76561198262803634) initiated disconnect process...
+21:20:6 | Player "Vala Krasko" (steamId=76561198240252790) initiated disconnect process...
+21:20:6 | Player "Maksym Kovalenko" (steamId=76561198262803634) disconnected early from server (EXIT NOW).
+21:20:7 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:20:9 | Player "Vala Krasko" (steamId=76561198240252790) disconnected early from server (EXIT NOW).
+21:20:13 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+21:20:21 | Player "Vala Krasko" (steamId=76561198240252790) disconnected from server.
+21:20:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4685.824219, 123.612816, 4662.202148>)
+21:20:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2278.788574, 65.499229, 5018.081543>)
+21:20:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2424.802246, 45.456596, 6203.414062>)
+21:20:48 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:20:54 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:21:3 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4889.509766, 116.262604, 2190.905029>)
+21:21:4 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:21:13 | "Mikhail" (steamid=76561198097580497) kicked player: "Viktor Mikhailov"
+21:21:13 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+21:21:15 | [BuildingSetManager] Saved: $profile:VPPAdminTools/ConfigurablePlugins/BuildingSetManager/miliyantar.vpp
+21:21:15 | "L'asticot" (steamid=76561198207165013) created new building set (miliyantar)
+21:21:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:21:58 | Player "Viktor Mikhailov (2)" (steamId=76561199056886146) connected to server!
+21:22:17 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:19 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:39 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4038.800781, 111.518562, 2317.557617>)
+21:22:40 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:22:54 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:22:55 | "Mikhail" (steamid=76561198097580497) toggled godmode
+21:22:58 | Player "Technicien Alexander" (steamId=76561199417217773) initiated disconnect process...
+21:24:56 | "L'asticot" (steamid=76561198207165013) deleted building set (miliyantar)
+21:25:53 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+21:30:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:30:11 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Military_NPC_pose1)
+21:30:17 | "L'asticot" (steamid=76561198207165013) deleted object "SFP_Military_NPC_pose1" (pos=<2458.796875, 43.788681, 6203.783203>)
+21:30:19 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2457.952637, 43.794930, 6202.895508>)
+21:30:20 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:29 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Military_NPC_pose1)
+21:30:40 | "L'asticot" (steamid=76561198207165013) deleted object "SFP_Military_NPC_pose1" (pos=<2459.972168, 43.794930, 6203.048340>)
+21:30:42 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:46 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2465.066162, 39.830147, 6178.864258>)
+21:30:46 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:30:50 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Military_NPC_pose1)
+21:30:56 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:31:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (SFP_Military_NPC_pose1)
+21:31:24 | "L'asticot" (steamid=76561198207165013) deleted object "SFP_Military_NPC_pose1" (pos=<2465.021484, 37.759998, 6234.749023>)
+21:32:9 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:32:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:32:28 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1645.081909, 42.609978, 4348.421875>)
+21:32:30 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1669.114136, 51.811783, 4676.350098>)
+21:32:32 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1780.334717, 72.537369, 5108.027344>)
+21:32:34 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2331.626953, 55.314922, 4983.020508>)
+21:32:36 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2574.156006, 43.559505, 4901.742676>)
+21:32:38 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2862.639893, 58.113514, 4899.617676>)
+21:32:41 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3325.154297, 28.174011, 4909.166992>)
+21:32:43 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<3693.552246, 59.562202, 4882.315430>)
+21:32:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4012.745605, 104.750977, 4735.019043>)
+21:32:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4179.501465, 150.058655, 4634.490723>)
+21:32:48 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4263.074219, 136.592773, 4602.839355>)
+21:32:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4937.808105, 124.008797, 4599.345703>)
+21:32:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4993.166992, 118.769997, 4608.228027>)
+21:33:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5275.919434, 152.720352, 5615.205566>)
+21:33:45 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+21:33:47 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+21:33:49 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+21:33:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano3)
+21:33:57 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:34:1 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:34:8 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5304.612305, 161.171875, 5787.770508>)
+21:34:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5316.165039, 162.923203, 5797.061035>)
+21:34:22 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5340.142090, 164.522079, 5819.026367>)
+21:34:24 | "L'asticot" (steamid=76561198207165013) toggled freecam
+21:34:27 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+21:34:28 | Player "L'asticot" (steamId=76561198207165013) disconnected early from server (EXIT NOW).
+21:34:40 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4895.876953, 95.798828, 2027.443848>)
+21:34:41 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:34:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:35:1 | "Mikhail" (steamid=76561198097580497) kicked player: "Viktor Mikhailov (2)"
+21:35:2 | Player "Viktor Mikhailov (2)" (steamId=76561199056886146) initiated disconnect process...
+21:35:28 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4549.670410, 95.787361, 2040.749756>)
+21:35:29 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:35:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:35:38 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4795.187500, 95.571640, 2296.803955>)
+21:35:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:35:56 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+21:36:2 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:36:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:36:18 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:36:25 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4859.169434, 98.752525, 2000.302002>)
+21:36:26 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:36:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:37:39 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4765.024902, 84.414864, 1896.451660>)
+21:37:40 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:37:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:37:58 | Player "Karl Heim" (steamId=76561199086364433) initiated disconnect process...
+21:38:1 | Player "Karl Heim" (steamId=76561199086364433) disconnected early from server (EXIT NOW).
+21:39:50 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+21:42:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:42:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:21 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4797.828125, 95.584099, 2294.940918>)
+21:43:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:51 | "Mikhail" (steamid=76561198097580497) toggled freecam
+21:43:53 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+21:44:8 | Player "Mikhail" (steamId=76561198097580497) disconnected from server.
+21:48:10 | Player "Dimitri Sokolov" (steamId=76561199236763438) initiated disconnect process...
+21:48:13 | Player "Dimitri Sokolov" (steamId=76561199236763438) disconnected early from server (EXIT NOW).
+21:48:25 | Player "Dimitri Sokolov" (steamId=76561199236763438) disconnected from server.
+21:48:33 | Player "Ygor Zorin" (steamId=76561198239644708) initiated disconnect process...
+21:50:23 | Player "Grishka Sokolov" (steamId=76561198045545123) initiated disconnect process...
+21:50:24 | Player "Grishka Sokolov" (steamId=76561198045545123) disconnected early from server (EXIT NOW).
+21:50:26 | Player "Ygor Zorin" (steamId=76561198239644708) connected to server!
+21:59:51 | Player "Vladimir Soklav" (steamId=76561199827091090) connected to server!
+22:2:49 | Player "Husik Gvasalia" (steamId=76561198092307102) initiated disconnect process...
+22:2:53 | Player "Husik Gvasalia" (steamId=76561198092307102) disconnected early from server (EXIT NOW).
+22:3:4 | Player "Husik Gvasalia" (steamId=76561198092307102) disconnected from server.
+22:3:41 | Player "Vladimir Soklav" (steamId=76561199827091090) initiated disconnect process...
+22:3:45 | Player "Vladimir Soklav" (steamId=76561199827091090) disconnected early from server (EXIT NOW).
+22:3:56 | Player "Vladimir Soklav" (steamId=76561199827091090) disconnected from server.
+22:5:30 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+22:5:34 | Player "Vladimir Soklav" (steamId=76561199827091090) connected to server!
+22:23:18 | Player "Vladimir Soklav" (steamId=76561199827091090) initiated disconnect process...
+22:23:19 | Player "Vladimir Soklav" (steamId=76561199827091090) disconnected early from server (EXIT NOW).
+22:24:10 | Player "Oleksandr Rybak" (steamId=76561197972045425) initiated disconnect process...
+22:24:12 | Player "Oleksandr Rybak" (steamId=76561197972045425) disconnected early from server (EXIT NOW).
+22:27:35 | Player "Vladimir Soklav" (steamId=76561199827091090) connected to server!

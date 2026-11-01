@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 22,
+    "ID": 124,
+    "Type": 1,
+    "Title": "Les fûts de Pavlovo",
+    "Descriptions": [
+        "La Zone n'est pas la seule à empoisonner cette terre, %1. Au sud d'Agroprom, au bord du Marais, il y a deux nappes de gaz qui ne bougent jamais. Les anciens appellent l'endroit Pavlovo. Quand la Zone a grandi d'un coup, l'armée y a enterré ses fûts chimiques, vite et mal, pour ne pas avoir à les ramener. Ce n'est pas une anomalie : c'est nous. Je veux deux relevés, un dans chaque nappe. Masque à gaz, filtre neuf, et vous ne traînez pas. Ce que vous respirez là-bas, aucun artefact ne le soigne.",
+        "Les deux nappes de gaz de Pavlovo, au sud d'Agroprom. Un relevé dans chacune. Masque à gaz et filtre neuf.",
+        "Les mêmes chiffres qu'il y a cinq ans. Le gaz ne se dissipe pas, il reste là. Je vais l'écrire dans le rapport, et l'Institut le classera avec les autres, dans un tiroir où personne ne regarde. Ce qui vient de la Zone, tout le monde veut l'étudier. Ce qui vient de nous, personne ne veut le voir. Tenez, %1."
+    ],
+    "ObjectiveText": "Fais un relevé dans chacune des deux nappes de gaz de Pavlovo, au sud d'Agroprom, puis reviens voir le Doc. Masque à gaz obligatoire.",
+    "FollowUpQuest": 125,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 124,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1241,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        123
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

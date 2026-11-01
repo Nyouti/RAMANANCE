@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 122,
+    "Type": 1,
+    "Title": "Les cristaux",
+    "Descriptions": [
+        "Mes mains, vous les avez vues ? Ces brûlures, c'est le Cristal. Il se forme dans les Jarkas et il en garde la chaleur pendant des semaines. Je l'ai porté contre la peau pour mesurer combien de temps il tient : trop longtemps. Il m'en faut deux, pour comparer. Les Jarkas du Marais en donnent le plus. Il paraît qu'un jeune Veilleur campe là-bas, au milieu d'un champ de Jarkas : demandez-lui le chemin, et ne le dérangez pas. Prenez des gants épais.",
+        "Deux Cristaux, nés dans les Jarkas : le Marais en a le plus. Des gants épais.",
+        "Deux Cristaux, et pas une brûlure sur vous ? Vous avez de meilleures mains que moi. Celui-ci est plus chaud que l'autre : même anomalie, même jour, pas la même pierre. Personne ne sait pourquoi, et c'est pour ça qu'on est là. Tenez, et prenez cette trousse : un médecin qui équipe ses stalkers en perd moins."
+    ],
+    "ObjectiveText": "Rapporte au Doc deux Cristaux, les artefacts des Jarkas ; le Marais en a le plus.",
+    "FollowUpQuest": 123,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_AI2_medkit_standart",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 122,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        121
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

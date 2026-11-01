@@ -1,0 +1,702 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-6-29_21-37-5
+====================================================================================
+21:37:5 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+21:37:5 | [PermissionManager] Perm (FreeCamera) has been registered!
+21:37:5 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuServerManager) has been registered!
+21:37:5 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+21:37:5 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+21:37:5 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+21:37:5 | [PermissionManager] Perm (ServerManager:LoadScripts) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+21:37:5 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+21:37:5 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+21:37:5 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+21:37:5 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+21:37:5 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+21:37:5 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuBansManager) has been registered!
+21:37:5 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+21:37:5 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+21:37:5 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+21:37:5 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+21:37:5 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+21:37:5 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+21:37:7 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+21:37:7 | [PermissionManager] Adding Super Admin (76561198317293678)
+21:37:7 | [PermissionManager] Adding Super Admin (76561198207165013)
+21:37:7 | [PermissionManager] Adding Super Admin (76561199417217773)
+21:37:7 | [PermissionManager] Adding Super Admin (76561198097580497)
+21:37:7 | [PermissionManager] Loaded UserGroups.json
+21:37:7 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+21:37:7 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+21:37:7 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+21:37:7 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+21:37:7 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+21:37:7 | Building Sets Loaded: 17
+21:37:7 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+21:37:7 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+21:40:4 | Player "Mirage" (steamId=76561198097580497) connected to server!
+21:40:9 | Player "Survivor" (steamId=76561198317293678) connected to server!
+21:40:18 | Player "Cpt.Dragomir" (steamId=76561198207165013) connected to server!
+21:40:32 | "Mirage" (steamid=76561198097580497) toggled godmode
+21:40:34 | "Mirage" (steamid=76561198097580497) /heal used on: "Survivor" (steamid=76561198317293678)
+21:40:52 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:4 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4689.980469, 85.658966, 2291.015381>)
+21:41:14 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4800.830078, 114.424057, 2136.381592>)
+21:41:18 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4930.599121, 106.790001, 2315.267090>)
+21:41:19 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:23 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:28 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4923.620605, 91.098648, 2325.226318>)
+21:41:29 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:29 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:30 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:41:39 | "Mirage" (steamid=76561198097580497) toggled godmode
+21:43:23 | "Survivor" (steamid=76561198317293678) Spawned Item: (Rope)
+21:43:56 | "Survivor" (steamid=76561198317293678) /heal used on: "Survivor" (steamid=76561198317293678)
+21:45:24 | "Cpt.Dragomir" (steamid=76561198207165013) Spawned Item: (TerjeSurgicalKit)
+21:48:6 | "Cpt.Dragomir" (steamid=76561198207165013) /heal used on: "Cpt.Dragomir" (steamid=76561198207165013)
+21:50:42 | Player "Survivor" (steamId=76561198317293678) initiated disconnect process...
+21:50:44 | Player "Survivor" (steamId=76561198317293678) disconnected early from server (EXIT NOW).
+21:52:4 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+21:52:10 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4614.193848, 76.120728, 1813.735962>)
+21:52:11 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:3:47 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Busi_Redux)
+22:3:48 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Battery_Redux)
+22:3:50 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_BloodStone_Redux)
+22:3:53 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Compas_Redux)
+22:3:55 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Soul_Redux)
+22:3:57 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_FireBall_Redux)
+22:3:58 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_GoldFish_Redux)
+22:3:59 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Gravi_Redux)
+22:3:59 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Gravi_Redux)
+22:4:1 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Kristal_Redux)
+22:4:1 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Meduza_Redux)
+22:4:2 | "Mirage" (steamid=76561198097580497) Spawned Item: (MH_ART_Monolith_Redux)
+22:6:35 | "Mirage" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+22:7:41 | "Mirage" (steamid=76561198097580497) Spawned Item: (Mutant_AoD_Controller1)
+22:10:25 | "Mirage" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+22:10:26 | "Mirage" (steamid=76561198097580497) just updated a health stat on (steamid=76561198097580497)
+22:11:48 | "Cpt.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_AoD_Controller1)
+22:12:55 | Player "Mirage" (steamId=76561198097580497) initiated disconnect process...
+22:14:58 | [WeatherManager] Send Data Count is 0
+22:15:2 | [Time Manager] Setting Date to 2026/9/20 5:58
+22:15:5 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:15:33 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5063.501465, 172.729660, 4345.231934>)
+22:15:34 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:15:37 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:15:40 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:15:53 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:15:55 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:15:56 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:15:58 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:15:59 | "Cpt.Dragomir" (steamid=76561198207165013) /heal used on: "Cpt.Dragomir" (steamid=76561198207165013)
+22:15:59 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:16:4 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:16:7 | Player "Mirage" (steamId=76561198097580497) connected to server!
+22:16:29 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5063.452148, 173.733185, 4327.839355>)
+22:16:30 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:16:45 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:17:14 | "Mirage" (steamid=76561198097580497) toggled freecam
+22:17:32 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:17:35 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:17:39 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4576.326660, 76.278412, 1801.561646>)
+22:17:43 | "Mirage" (steamid=76561198097580497) toggled freecam
+22:17:48 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:18:2 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:19:29 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:24:2 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:24:21 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5090.567383, 129.798035, 6525.136719>)
+22:24:36 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5741.206055, 146.065735, 8128.247559>)
+22:24:52 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<6080.969238, 149.616638, 8414.225586>)
+22:24:53 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:25:8 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:25:10 | "Cpt.Dragomir" (steamid=76561198207165013) /heal used on: "Cpt.Dragomir" (steamid=76561198207165013)
+22:25:11 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+22:26:1 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:27:17 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2145.696289, 37.244766, 4385.024414>)
+22:28:7 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2909.706543, 89.009964, 1521.636475>)
+22:28:19 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1713.214600, 79.250000, 2048.629395>)
+22:28:33 | "Mirage" (steamid=76561198097580497) toggled freecam
+22:28:34 | "Mirage" (steamid=76561198097580497) toggled freecam
+22:28:42 | "Mirage" (steamid=76561198097580497) toggled godmode
+22:28:57 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<1925.529541, 80.383438, 1967.781738>)
+22:28:58 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:31:28 | "Mirage" (steamid=76561198097580497) toggled godmode
+22:32:13 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popop)
+22:32:21 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:33:13 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,)
+22:33:14 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:33:18 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:34:2 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ff)
+22:34:30 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffdd)
+22:34:32 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffdd)
+22:34:34 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffdd)
+22:35:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4432.693848, 94.660782, 1981.032104>)
+22:35:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4443.560547, 92.162437, 1970.516357>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4459.326172, 87.635796, 1955.029541>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.632813, 86.571304, 1947.782227>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.646973, 86.569702, 1947.766724>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.660156, 86.568253, 1947.752808>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.673340, 86.566765, 1947.738770>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.684082, 86.565636, 1947.727905>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.694824, 86.564476, 1947.716797>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.704102, 86.563477, 1947.707397>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.711426, 86.562660, 1947.699463>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.718750, 86.561844, 1947.691650>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.728516, 86.560837, 1947.682251>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.739746, 86.559685, 1947.671631>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.750000, 86.558678, 1947.662109>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.761230, 86.557564, 1947.652344>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4467.411621, 86.489090, 1947.007813>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4468.005859, 86.426544, 1946.419067>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4468.612305, 86.362617, 1945.817871>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4469.220215, 86.298668, 1945.216309>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4469.785645, 86.244072, 1944.657349>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4470.296875, 86.197380, 1944.151245>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4470.766602, 86.154602, 1943.688599>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4471.175781, 86.117332, 1943.285156>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4471.523926, 86.085686, 1942.942871>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4471.825684, 86.058350, 1942.647705>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4472.079102, 86.035423, 1942.400635>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4472.810059, 85.968803, 1941.678955>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4473.344727, 85.920082, 1941.152100>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4473.721680, 85.885780, 1940.780884>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4474.754395, 85.798325, 1939.762085>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4475.377930, 85.764748, 1939.146851>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4475.770996, 85.746124, 1938.760254>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4476.420898, 85.715393, 1938.122925>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4476.822266, 85.696732, 1937.738647>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4477.059082, 85.685806, 1937.514648>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4478.934570, 85.597504, 1935.685669>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4479.942871, 85.559776, 1934.769531>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4480.409668, 85.558243, 1934.355225>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4480.712402, 85.558098, 1934.167358>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4480.932617, 85.558205, 1934.087158>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4481.084961, 85.558388, 1934.054932>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4481.807617, 85.557358, 1933.436279>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4482.151855, 85.557259, 1933.237427>)
+22:35:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4482.318848, 85.557411, 1933.192261>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4484.865723, 85.553917, 1931.045654>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4485.772461, 85.546844, 1930.368164>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4486.081055, 85.544113, 1930.152100>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4486.209961, 85.542992, 1930.054199>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4486.283203, 85.542336, 1930.008057>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.267578, 85.520432, 1929.334473>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.516602, 85.515511, 1929.192383>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.583496, 85.514297, 1929.158325>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.655273, 85.512451, 1929.099243>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.729004, 85.510803, 1929.048706>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.393555, 85.494324, 1928.528442>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.948730, 85.480659, 1928.098511>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4489.510742, 85.466850, 1927.663208>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4490.104004, 85.448906, 1927.141235>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4490.724609, 85.423050, 1926.685059>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4491.292480, 85.399391, 1926.267944>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4492.066895, 85.365494, 1925.627319>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4492.743164, 85.337448, 1925.136841>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4493.261719, 85.326447, 1924.762207>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4494.082520, 85.320274, 1924.086914>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4494.740723, 85.314178, 1923.601440>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4495.261230, 85.298920, 1923.217041>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4496.326172, 85.247658, 1922.372559>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4497.092773, 85.209908, 1921.808228>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4497.609375, 85.184448, 1921.428101>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4497.952148, 85.167656, 1921.169312>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4498.177734, 85.156761, 1920.994141>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4498.329102, 85.149422, 1920.877808>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4500.678223, 85.036751, 1919.080811>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4502.000000, 84.980217, 1918.096436>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4502.713379, 84.952026, 1917.565430>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.110840, 84.936348, 1917.265747>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.332520, 84.927582, 1917.098755>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.458984, 84.922600, 1917.004883>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.880859, 84.905907, 1916.681519>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.096191, 84.897430, 1916.532104>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.200684, 84.893326, 1916.459717>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4507.413086, 84.701973, 1913.989868>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.729492, 84.618713, 1912.949585>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4509.240723, 84.586708, 1912.488770>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4509.465332, 84.573349, 1912.169312>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4509.583496, 84.566696, 1911.936768>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4510.235352, 84.520660, 1911.208984>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4510.249512, 84.522057, 1910.744019>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4510.136230, 84.534470, 1910.456299>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4512.771973, 84.353676, 1907.991943>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4512.889648, 84.364006, 1907.323364>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4512.608398, 84.388893, 1907.071045>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.176758, 84.291946, 1905.351929>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.167480, 84.293732, 1904.947266>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.070801, 84.300926, 1904.815308>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.048828, 84.302856, 1904.756226>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.025879, 84.304749, 1904.697876>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.385254, 84.286476, 1904.103149>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.661133, 84.272850, 1903.606079>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.943848, 84.258812, 1903.097046>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.282715, 84.238304, 1902.595215>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.648438, 84.214958, 1902.129761>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.966309, 84.194855, 1901.699585>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4516.737305, 84.144325, 1900.891357>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.089355, 84.124367, 1900.129639>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.383789, 84.106590, 1899.495483>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.978516, 84.067497, 1898.682617>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4518.243164, 84.052094, 1897.984253>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4518.443848, 84.040421, 1897.454346>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.176270, 83.992188, 1896.462158>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.542969, 83.969666, 1895.692139>)
+22:35:9 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.797852, 83.953819, 1895.155884>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4522.369141, 84.629799, 1891.050659>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.104492, 86.022362, 1889.868530>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.131836, 85.992516, 1889.822632>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.158691, 85.960854, 1889.777710>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.185059, 85.928650, 1889.733521>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.209473, 85.896965, 1889.692383>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.236328, 85.861221, 1889.648438>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.262207, 85.825592, 1889.606079>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.287598, 85.788857, 1889.563965>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.312988, 85.750854, 1889.522705>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.338379, 85.712318, 1889.481323>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.478027, 86.724091, 1889.273804>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.524902, 87.063591, 1889.204102>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.540527, 87.170433, 1889.182007>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.551758, 87.190163, 1889.167236>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.557129, 87.197075, 1889.161621>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.558105, 87.196533, 1889.161255>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.644043, 87.148354, 1889.024170>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.660645, 87.258537, 1889.000366>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.677246, 87.371269, 1888.975708>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.706543, 87.553246, 1888.934082>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.733398, 87.723907, 1888.894653>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.757813, 87.878593, 1888.859131>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4532.392090, 83.580780, 1876.646973>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4533.663086, 83.033958, 1874.830933>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4533.837402, 83.022278, 1874.572021>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4532.728516, 83.647163, 1876.148438>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4532.751465, 83.667557, 1876.133301>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.061035, 83.007141, 1874.303833>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.259277, 82.993896, 1873.980835>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4532.896973, 83.779259, 1875.964600>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.444824, 83.047890, 1873.841187>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.692871, 82.964432, 1873.536865>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.370117, 83.488579, 1873.882935>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.937012, 84.974205, 1877.238281>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.810059, 85.116692, 1877.011597>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.729492, 85.213623, 1876.868530>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.678711, 85.261887, 1876.777344>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.298340, 84.380508, 1873.844482>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.452637, 82.500069, 1868.589111>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.769531, 82.451729, 1868.375977>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.900391, 82.434113, 1868.315796>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.940430, 82.432114, 1868.337524>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.944824, 82.435631, 1868.384888>)
+22:35:10 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.158691, 85.100868, 1874.163818>)
+22:35:29 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkk)
+22:35:37 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:35:41 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:35:42 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:36:38 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkk)
+22:37:36 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkkkk)
+22:38:9 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkkkkqq)
+22:38:47 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkkkkqqww)
+22:38:52 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:38:56 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:39:3 | "Mirage" (steamid=76561198097580497) toggled godmode
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.859375, 81.489021, 1900.554199>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.885742, 82.048325, 1908.634277>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.888672, 82.047783, 1908.616211>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.891602, 82.047386, 1908.600098>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.883789, 82.048508, 1908.608276>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.864258, 82.051292, 1908.640991>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.848145, 82.053566, 1908.666626>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.832520, 82.055748, 1908.693237>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4528.302734, 82.131065, 1909.372192>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4527.837402, 82.197052, 1909.922485>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4527.382813, 82.266495, 1910.475098>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4526.945801, 82.333801, 1911.012085>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4526.547363, 82.395844, 1911.555542>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4526.167480, 82.454262, 1911.998413>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4525.828125, 82.506294, 1912.377930>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4525.513184, 82.554863, 1912.767578>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4525.221191, 82.600410, 1913.168945>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4524.978027, 82.638512, 1913.495483>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4524.785156, 82.672394, 1913.753052>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4524.166504, 82.780678, 1914.563965>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.679688, 82.866859, 1915.134766>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.325684, 82.933365, 1915.550049>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4523.064941, 82.982315, 1915.853882>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4522.874023, 83.018288, 1916.086060>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4522.733398, 83.044678, 1916.252319>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4522.631836, 83.063881, 1916.370850>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4522.098633, 83.164772, 1917.031738>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4521.735840, 83.230362, 1917.343384>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4521.509766, 83.271141, 1917.530518>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4521.372559, 83.295273, 1917.619019>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4520.736816, 83.416092, 1918.428345>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4520.343750, 83.488525, 1918.828125>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4520.116699, 83.529610, 1919.021484>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.984375, 83.551659, 1919.089355>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4518.514160, 83.731339, 1920.686890>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.714355, 83.821930, 1921.426025>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.312500, 83.867073, 1921.757446>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4517.104492, 83.889771, 1921.866577>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4516.959961, 83.904907, 1921.874146>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4516.853027, 83.915627, 1921.832764>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.764648, 84.039154, 1922.872559>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.239258, 84.096581, 1923.141846>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.997559, 84.121826, 1923.159424>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4514.861816, 84.131859, 1923.084229>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4512.805176, 84.314384, 1924.878784>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4512.047363, 84.381012, 1925.301636>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4511.750488, 84.405029, 1925.319824>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4509.455566, 84.594643, 1926.577026>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.718750, 84.638390, 1926.825439>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.507813, 84.649895, 1926.831543>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.440430, 84.653984, 1926.859863>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.387207, 84.657143, 1926.878174>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.331055, 84.660225, 1926.877563>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.280762, 84.663292, 1926.903687>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.214355, 84.667625, 1926.949585>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.164551, 84.670868, 1926.984009>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4507.426270, 84.716652, 1927.463867>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4506.786621, 84.753563, 1927.858276>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4506.144043, 84.790665, 1928.254761>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4505.441406, 84.836441, 1928.850952>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.696777, 84.880150, 1929.218994>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.040527, 84.923294, 1929.541382>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.458984, 84.961449, 1929.826416>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4502.964844, 84.991768, 1930.240845>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4502.472168, 85.016403, 1930.436401>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4502.073730, 85.036331, 1930.594360>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4501.773926, 85.051315, 1930.749756>)
+22:39:11 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4501.543945, 85.062813, 1930.877563>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4501.361816, 85.071899, 1930.968018>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4500.346191, 85.122704, 1931.724365>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4499.585449, 85.158279, 1932.135742>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4499.068848, 85.181007, 1932.414917>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4497.726563, 85.240028, 1933.250488>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4496.844238, 85.278877, 1933.700317>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4496.303223, 85.302673, 1933.975830>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4495.364258, 85.344307, 1934.485107>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4494.770020, 85.367897, 1934.731689>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4494.422363, 85.378731, 1934.878784>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4494.232422, 85.384674, 1934.960449>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4492.822266, 85.436584, 1935.864258>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4492.071777, 85.463982, 1936.285645>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4491.691895, 85.477867, 1936.499878>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4491.489746, 85.485306, 1936.624146>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4491.361328, 85.490097, 1936.707764>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4491.274414, 85.493286, 1936.759521>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.854980, 85.563324, 1938.127319>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.817871, 85.584320, 1938.673218>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.414063, 85.592445, 1938.886230>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4484.581543, 85.671127, 1940.468994>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4483.658203, 85.711906, 1940.962036>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4483.349121, 85.725227, 1941.127808>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4480.618652, 85.846176, 1942.648071>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4473.386230, 86.282303, 1946.624023>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.949219, 86.800484, 1950.684814>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.899902, 86.804352, 1950.714111>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.851074, 86.808197, 1950.743408>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.797852, 86.813652, 1950.793823>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.731445, 86.820663, 1950.859497>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4465.669922, 86.827049, 1950.919434>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4464.869629, 86.895721, 1951.393311>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4464.230957, 86.976372, 1951.790405>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4463.605957, 87.054726, 1952.170654>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4462.998047, 87.130714, 1952.536987>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4462.443848, 87.198814, 1952.854614>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.932129, 87.261688, 1953.146606>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.462891, 87.316833, 1953.417236>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4460.545410, 87.422661, 1953.960693>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4459.828613, 87.517715, 1954.409546>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4459.326172, 87.607628, 1954.726929>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4458.446777, 87.767136, 1955.234497>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4457.805664, 87.891464, 1955.625000>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4457.330078, 87.983917, 1955.916992>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4456.976563, 88.051559, 1956.124878>)
+22:39:12 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4456.722656, 88.100037, 1956.272705>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4456.542480, 88.134514, 1956.378296>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4455.395996, 88.354706, 1957.059326>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4454.717773, 88.499931, 1957.478882>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4454.331055, 88.593124, 1957.718384>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4454.090820, 88.650558, 1957.862671>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4453.942383, 88.685783, 1957.949951>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4453.849609, 88.707771, 1958.004272>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4453.033203, 88.902077, 1958.488647>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4452.610352, 89.003754, 1958.748291>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4452.399414, 89.054428, 1958.876831>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4451.276367, 89.322151, 1959.547363>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4450.748535, 89.448486, 1959.866699>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4450.511230, 89.505356, 1960.009277>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4450.402832, 89.532036, 1960.072266>)
+22:39:13 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4450.321777, 89.551483, 1960.115723>)
+22:39:24 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkkkkqqwwqq)
+22:39:33 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:39:50 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4690.779785, 97.399040, 2100.299316>)
+22:40:15 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4463.248047, 101.627090, 2096.012695>)
+22:40:16 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4457.828613, 105.755417, 2139.293457>)
+22:40:17 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4431.877441, 108.139832, 2174.221191>)
+22:40:18 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4415.264160, 106.755592, 2186.991455>)
+22:40:20 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4390.727539, 105.093430, 2209.337158>)
+22:40:21 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4336.061523, 105.967468, 2132.107422>)
+22:40:23 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4352.964355, 108.317444, 2112.819824>)
+22:40:24 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4361.568848, 108.834908, 2119.048584>)
+22:40:24 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4367.374512, 116.178940, 2121.970215>)
+22:40:26 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:41:22 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=popopklkj,ffkkkkkqqwwqqaa)
+22:41:25 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:41:27 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:44:15 | "Mirage" (steamid=76561198097580497) /heal used on: "Mirage" (steamid=76561198097580497)
+22:44:37 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:44:42 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4576.329590, 76.204262, 1821.125000>)
+22:44:43 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:48:19 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3348.172607, 206.770630, 2601.247070>)
+22:48:24 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4344.707031, 104.455528, 2079.959473>)
+22:48:25 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4352.974609, 104.164032, 2071.445801>)
+22:48:25 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4360.053223, 103.858780, 2064.470215>)
+22:48:25 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4367.881836, 103.465485, 2056.859863>)
+22:48:26 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4373.851563, 103.124504, 2050.903076>)
+22:48:34 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4013.327637, 105.509003, 2419.360596>)
+22:48:38 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3006.387939, 369.443939, 2774.571045>)
+22:48:42 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3412.868408, 104.220459, 2619.115967>)
+22:48:43 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3627.949463, 98.633209, 2581.176270>)
+22:48:44 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3670.674805, 103.113205, 2559.008545>)
+22:48:44 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4057.068848, 398.542389, 1571.843994>)
+22:48:49 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4585.524414, 60.942005, 1566.934326>)
+22:48:52 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4606.343262, 53.679356, 1657.605591>)
+22:48:54 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:49:3 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4427.443359, 96.043625, 1988.038330>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4438.255371, 93.595688, 1976.604370>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.089355, 87.685806, 1957.470581>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.163086, 87.681915, 1957.495361>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.199707, 87.679283, 1957.500610>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.228516, 87.677208, 1957.504028>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4461.258789, 87.674896, 1957.506958>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.394531, 87.655365, 1953.103760>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.391113, 87.650650, 1953.107422>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.380371, 87.666557, 1953.128418>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.353516, 87.669876, 1953.168335>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.328613, 87.673637, 1953.205444>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.328125, 87.667694, 1953.204346>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.326660, 87.663391, 1953.204956>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4466.583496, 87.924484, 1952.942627>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4471.850586, 86.450394, 1948.555054>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4472.880371, 86.365173, 1947.718750>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4473.729980, 86.294670, 1947.025024>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4474.438477, 86.234772, 1946.427979>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4475.000977, 86.187286, 1945.955566>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4475.702148, 86.130432, 1945.335449>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4476.251953, 86.089996, 1944.914917>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4476.645508, 86.061310, 1944.610229>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4476.888672, 86.043259, 1944.416504>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4477.045410, 86.031548, 1944.289795>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4479.408691, 85.849892, 1942.298584>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4480.761719, 85.759666, 1941.186157>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4481.508789, 85.714943, 1940.570313>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4482.437012, 85.668190, 1939.816772>)
+22:49:4 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4482.870605, 85.658028, 1939.461548>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4483.066895, 85.653252, 1939.288452>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4483.132813, 85.651253, 1939.202637>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4483.147461, 85.650589, 1939.167969>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4486.361816, 85.577179, 1936.485474>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4487.675293, 85.548470, 1935.376831>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.172363, 85.538261, 1934.949707>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.328125, 85.536705, 1934.819092>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.377441, 85.536217, 1934.776855>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.392578, 85.536057, 1934.765015>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.399902, 85.535995, 1934.762817>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.398438, 85.536018, 1934.766479>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.440430, 85.535576, 1934.727539>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.479980, 85.535194, 1934.688599>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4488.519043, 85.534813, 1934.649170>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4489.335938, 85.526627, 1933.960693>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4496.156738, 85.310959, 1928.261353>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.720215, 84.890465, 1923.198364>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.795410, 84.885246, 1923.155640>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.872070, 84.879883, 1923.111328>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4503.945801, 84.874718, 1923.069946>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.027832, 84.869034, 1923.021851>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4504.106934, 84.863472, 1922.975586>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4508.354004, 84.622620, 1920.210327>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4509.955566, 84.514809, 1919.190918>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4510.605469, 84.445824, 1918.777832>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4510.999512, 84.402946, 1918.529907>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4511.122070, 84.389671, 1918.465820>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4511.154785, 84.386070, 1918.449829>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4515.297363, 83.958000, 1915.764648>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4516.325684, 83.837395, 1915.105957>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.064941, 83.506149, 1913.360962>)
+22:49:5 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.536133, 83.449265, 1913.065552>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4519.583008, 83.443588, 1913.036499>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4524.578613, 82.667976, 1909.823242>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4524.998047, 82.620796, 1909.554077>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4529.594238, 81.947647, 1906.621948>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4529.851563, 81.911118, 1906.455933>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4529.840332, 81.912720, 1906.460693>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4530.366699, 81.857758, 1906.118530>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4530.793945, 81.820168, 1905.839844>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.233398, 81.781494, 1905.553833>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4531.680664, 81.742142, 1905.261230>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4532.105957, 81.704826, 1904.983032>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4533.233398, 81.609955, 1904.253540>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4534.231934, 81.526024, 1903.600342>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4535.048828, 81.461884, 1903.066162>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4535.781738, 81.469124, 1902.593384>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4536.368164, 81.474915, 1902.214966>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4536.819336, 81.479370, 1901.921753>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4537.151855, 81.482697, 1901.700073>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4537.397461, 81.485176, 1901.535034>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.115234, 81.492302, 1901.061768>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.605469, 81.497375, 1900.715820>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4538.927246, 81.500648, 1900.483521>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4540.425781, 81.575005, 1899.484497>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4541.157227, 81.657425, 1898.969482>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4541.559570, 81.705856, 1898.678711>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4541.772949, 81.732170, 1898.509766>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4541.887695, 81.746727, 1898.407227>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4542.543457, 81.824783, 1897.953613>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4547.165039, 82.224327, 1893.029785>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4552.214844, 82.091156, 1887.271851>)
+22:49:6 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4552.216309, 82.090782, 1887.245483>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4552.114746, 82.099342, 1887.275635>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4551.912109, 82.116867, 1887.361206>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4551.723633, 82.133026, 1887.438721>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4551.441895, 82.156715, 1887.492676>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4551.165527, 82.179726, 1887.529663>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4550.928223, 82.199547, 1887.563232>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4554.022461, 81.762680, 1883.541504>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4554.955078, 81.505653, 1881.869995>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4554.708984, 81.497406, 1881.606812>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4554.484863, 81.505211, 1881.509033>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4556.873535, 81.001900, 1875.705933>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.782715, 81.519997, 1871.616577>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.785156, 81.522690, 1871.607910>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.788574, 81.526054, 1871.597046>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.790527, 81.528992, 1871.587036>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.793945, 81.532280, 1871.576660>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.796387, 81.534660, 1871.568848>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.798828, 81.537262, 1871.560303>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.800781, 81.539513, 1871.552856>)
+22:49:7 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4557.802734, 81.541580, 1871.546143>)
+22:49:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4560.558105, 78.956467, 1860.651855>)
+22:49:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4562.675781, 78.104858, 1854.511841>)
+22:49:8 | "Mirage" (steamid=76561198097580497) teleported to crosshair (pos=<4565.514160, 77.180870, 1847.604614>)
+22:49:40 | Player "Cpt.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+22:49:40 | Player "Cpt.Dragomir" (steamId=76561198207165013) aborted logout process [canceledLogout]
+22:49:41 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+22:49:43 | Player "Cpt.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+22:49:45 | Player "Cpt.Dragomir" (steamId=76561198207165013) disconnected early from server (EXIT NOW).
+22:49:48 | Player "Mirage" (steamId=76561198097580497) initiated disconnect process...
+22:49:51 | Player "Mirage" (steamId=76561198097580497) disconnected early from server (EXIT NOW).
+14:18:49 | Player "Cpt.Dragomir" (steamId=76561198207165013) connected to server!
+14:19:43 | "Cpt.Dragomir" (steamid=76561198207165013) toggled godmode
+14:19:46 | [WeatherManager] Send Data Count is 0
+14:19:50 | [Time Manager] Setting Date to 2026/9/30 6:15
+14:20:39 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=position)
+14:20:42 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:20:49 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:22:43 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionn)
+14:22:47 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:23:32 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnn)
+14:23:35 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:23:37 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:24:11 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:24:27 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnn)
+14:24:51 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2227.815186, 39.112804, 6498.358887>)
+14:24:54 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2228.648193, 39.112804, 6499.494629>)
+14:24:55 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2229.021240, 39.724602, 6497.174805>)
+14:24:58 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2232.434326, 40.492729, 6497.174805>)
+14:24:59 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2237.134277, 39.112804, 6502.538574>)
+14:25:3 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:25:7 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3579.597656, 178.507126, 6729.019043>)
+14:25:12 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2471.516602, 85.069199, 6435.056641>)
+14:25:56 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:26:14 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnb)
+14:26:19 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:26:41 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:27:0 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbcc)
+14:27:2 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbcc)
+14:27:3 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbcc)
+14:27:29 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbcccc)
+14:27:32 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:30:24 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:30:41 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbccccvv)
+14:30:43 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:32:0 | "Cpt.Dragomir": (steamid=76561198207165013) teleported to (pos=positionnnnnbccccvvc)
+14:32:3 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:32:5 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:33:14 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:33:16 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:33:18 | "Cpt.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4463.508789, 131.104980, 8739.041992>)
+14:33:19 | "Cpt.Dragomir" (steamid=76561198207165013) toggled freecam
+14:33:21 | Player "Cpt.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+14:33:22 | Player "Cpt.Dragomir" (steamId=76561198207165013) disconnected early from server (EXIT NOW).

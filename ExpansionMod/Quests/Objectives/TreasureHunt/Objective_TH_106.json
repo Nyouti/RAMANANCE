@@ -1,0 +1,42 @@
+{
+    "ConfigVersion": 28,
+    "ID": 106,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve la caisse du convoi près de la vieille épave d'hélicoptère",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse du convoi",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5352.0,
+            123.6,
+            3822.0
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        },
+        {
+            "Name": "SFP_Vodka_Rus",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

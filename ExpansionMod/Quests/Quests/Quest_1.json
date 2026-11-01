@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 1,
+    "Type": 1,
+    "Title": "Un mot pour Papa",
+    "Descriptions": [
+        "Hé, %1 ! Oui, c'est à toi que je parle. Approche, je ne vais pas te manger. Alors, tu veux entrer dans la Zone ? Je vais être honnête avec toi : ce n'est pas un parc d'attractions. Là-bas, personne ne viendra forcément te chercher si tu te retrouves dans les ennuis. Avant de t'aider, j'aimerais voir si tu sais écouter. Prends ce mot et porte-le à Mikhaïl Voronine, au refuge. Tout le monde l'appelle Papa. Mais entre ici et chez lui, il y a la zone militaire, et là-bas, les soldats tirent à vue : pas de sommation, pas de seconde chance. Avance d'un couvert à l'autre, ne reste jamais à découvert, couche-toi si tu entends un moteur et ne t'approche pas des miradors. Ne t'arrête pas en chemin, et ne lis pas ce qui ne te regarde pas.",
+        "Tu as encore mon mot sur toi ? Alors qu'est-ce que tu fais toujours ici ? La zone militaire ne va pas disparaître pendant que tu attends. Traverse-la à couvert, tiens-toi loin des miradors et ne te fais pas voir. Papa t'attend au refuge.",
+        "Eh bien, regarde-moi ça. Un nouveau visage. Et entier, en plus : tu as traversé la zone militaire sans te faire trouer la peau. Beaucoup ne peuvent pas en dire autant. Viktor t'envoie ? Voyons ce qu'il raconte... Il dit que tu sais suivre une consigne. C'est plus rare qu'on le croit, par ici. Assieds-toi, mon ami, le thé n'est pas fameux, mais il est chaud. Et prends ce brassard : c'est celui des solitaires. Ici, personne ne t'appartient et tu n'appartiens à personne. Porte-le, les gens du coin sauront que tu es des nôtres."
+    ],
+    "ObjectiveText": "Traverse la zone militaire sans te faire repérer (les soldats tirent à vue), puis porte le mot de Viktor à Papa Voronine, au refuge.",
+    "FollowUpQuest": 2,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "FS_TAG_Odin",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        7
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

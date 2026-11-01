@@ -1,0 +1,99 @@
+{
+    "ConfigVersion": 22,
+    "ID": 172,
+    "Type": 1,
+    "Title": "Le registre du portail",
+    "Descriptions": [
+        "Il faut que je te dise une chose, soldat. Le convoi de reprise, il y a des années, c'était moi. Mon ordre de mission tenait en deux lignes : « Récupérer le matériel du dépôt. À défaut, détruire sur place. » Ils m'ont ouvert le portail, ils nous ont servi à boire, et le lendemain matin, la moitié de mes hommes est restée. Je suis rentré avec des camions vides. L'état-major m'a laissé ici, à Agroprom, lieutenant pour toujours, et les gars m'appellent le Convoyeur quand ils croient que je n'entends pas. Svoboda tient un registre de tous ceux qui passent son portail. Mes hommes sont dedans. Ce registre est gardé au poste de l'entrée ouest des Entrepôts, à deux pas de l'endroit où j'ai laissé mon ordre, ce matin-là. Des sangliers ont pris le poste. Va me chercher ce registre. Je veux savoir qui.",
+        "Le poste de l'entrée ouest des Entrepôts. Les sangliers, puis la caisse et le registre du portail.",
+        "Donne. Ivanenko. Bortnik. Saïfoulline. Le petit Ostapenko : il avait dix-neuf ans. Dix-sept noms, avec la date, et à côté de chacun, un seul mot : « resté ». L'état-major voudra cette liste pour ses tribunaux. Il ne l'aura pas. Ce soir, je la lirai jusqu'au bout, et puis je la brûlerai. Tiens, soldat, tu l'as mérité : de quoi monter tes propres opérations, sans passer par l'intendant. Et si un jour tu croises un de ces noms là-haut, ne tire pas le premier."
+    ],
+    "ObjectiveText": "Abats les sangliers du poste de l'entrée ouest des Entrepôts de l'armée, fouille la caisse de Svoboda et rapporte le registre du portail au lieutenant Kozlov.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": null,
+            "Amount": 0
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 172,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 172,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 172,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        171
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

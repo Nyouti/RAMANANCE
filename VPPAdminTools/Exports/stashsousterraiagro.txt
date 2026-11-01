@@ -1,0 +1,43 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "Land_Furniture_box_metall_case", "403.459015 60.348598 4518.080078", "8.311651 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "402.440002 60.350601 4515.839844", "-79.859200 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "412.414001 60.357498 4503.870117", "-69.188866 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "426.701996 60.347599 4508.990234", "-2.864157 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "425.337006 60.349201 4507.120117", "-56.272060 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "445.414001 60.352501 4491.109863", "52.565536 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "435.141998 60.352501 4482.810059", "12.411315 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "439.819000 60.352501 4475.390137", "-24.485699 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "442.509003 60.352501 4474.990234", "-24.597979 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "457.009003 60.352501 4454.209961", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "443.513000 60.309101 4446.040039", "90.080269 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "456.648987 60.354401 4429.990234", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "454.309998 60.354401 4431.540039", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "444.062012 60.354401 4419.250000", "-42.400772 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "456.058014 60.354401 4405.850098", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "456.204987 60.354401 4394.649902", "50.600082 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "447.947998 60.356899 4369.500000", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "446.863007 60.358601 4371.600098", "29.203142 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "431.562012 60.363998 4368.830078", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "404.989014 60.358799 4351.810059", "-14.152294 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "406.644989 60.360100 4350.620117", "73.906319 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "396.270996 60.350399 4337.319824", "-3.201115 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "438.415985 71.896400 4453.359863", "90.136414 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "442.997009 71.873703 4535.040039", "90.585602 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "432.085999 71.873703 4530.339844", "90.753952 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "434.951996 71.865402 4552.250000", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "430.178986 73.150902 4539.589844", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "440.054993 71.865402 4562.720215", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "444.781006 73.150902 4566.080078", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "443.322998 71.865402 4551.140137", "-90.697922 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "434.951996 71.865402 4566.069824", "0.000000 0.000000 -0.000000" );

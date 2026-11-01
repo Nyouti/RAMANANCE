@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 107,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la caisse du chef de camp, dans la cour",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse du chef de camp",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            4254.0,
+            124.4,
+            4556.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

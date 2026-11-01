@@ -1,0 +1,611 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-10-15_18-58-20
+====================================================================================
+18:58:20 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+18:58:20 | [PermissionManager] Perm (FreeCamera) has been registered!
+18:58:20 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuServerManager) has been registered!
+18:58:20 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+18:58:20 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+18:58:20 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+18:58:20 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+18:58:20 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+18:58:20 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+18:58:20 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+18:58:20 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+18:58:20 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuBansManager) has been registered!
+18:58:20 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+18:58:20 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+18:58:20 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:EditTemplates) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:TestSend) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuWebHooks:ViewURL) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+18:58:20 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+18:58:20 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:EditTypes) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:AddRemoveTypes) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:DistributionMap) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:ViewBackups) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:RestoreBackup) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:DeleteBackup) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:LiveScan) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:DeleteObjects) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:EditMessages) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:EditEvents) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuXMLEditor:EditSpawnables) has been registered!
+18:58:20 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:ItemHealth) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:WeaponLoad) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:CreatureHeal) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:SpawnAttachment) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:CreatureKill) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:ItemQuantity) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:VehicleRefuel) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:WeaponRefill) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:WeaponJam) has been registered!
+18:58:20 | [PermissionManager] Perm (ContextMenu:WeaponEject) has been registered!
+18:58:21 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+18:58:21 | [PermissionManager] Adding Super Admin (76561198317293678)
+18:58:21 | [PermissionManager] Adding Super Admin (76561198207165013)
+18:58:21 | [PermissionManager] Adding Super Admin (76561199417217773)
+18:58:21 | [PermissionManager] Adding Super Admin (76561198097580497)
+18:58:21 | [PermissionManager] Loaded UserGroups.json
+18:58:21 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+18:58:21 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+18:58:21 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+18:58:21 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+18:58:21 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+18:58:21 | [BuildingSetManager] Journal: 16 set(s) loaded, 0 found by the folder scan, 0 dropped
+18:58:21 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+18:58:21 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+18:59:26 | Player "L'asticot" (steamId=76561198207165013) connected to server!
+18:59:44 | "L'asticot" (steamid=76561198207165013) toggled godmode
+18:59:50 | [WeatherManager] Send Data Count is 0
+18:59:54 | [Time Manager] Setting Date to 2026/10/15 7:9
+19:0:25 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:0:47 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4696.145508, 59.956749, 1324.104004>)
+19:0:48 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:0:53 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4698.774414, 60.382576, 1356.382568>)
+19:0:54 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4697.847168, 60.438095, 1368.796387>)
+19:0:54 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4696.317383, 60.238018, 1381.839355>)
+19:0:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4695.671875, 59.634602, 1400.869019>)
+19:0:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4695.126465, 59.153255, 1418.397705>)
+19:0:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4691.927734, 58.679054, 1428.548462>)
+19:0:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4688.162109, 58.151840, 1437.471191>)
+19:0:56 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4684.343750, 57.668983, 1446.006348>)
+19:0:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4680.105957, 57.185558, 1456.306519>)
+19:0:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4676.457520, 56.723778, 1465.432983>)
+19:0:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4673.486328, 56.273251, 1473.495117>)
+19:0:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4668.932617, 55.489529, 1487.208862>)
+19:0:57 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4665.099121, 55.122055, 1499.063354>)
+19:0:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4662.313965, 55.134987, 1507.625488>)
+19:0:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4659.672363, 55.354099, 1519.427612>)
+19:0:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4657.600098, 55.844887, 1530.873169>)
+19:0:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4656.175293, 56.592068, 1539.632324>)
+19:0:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4654.977051, 57.128941, 1549.401855>)
+19:0:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4654.623535, 57.180004, 1562.196411>)
+19:0:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4655.026367, 57.179996, 1572.683960>)
+19:1:0 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4655.857422, 57.189995, 1586.778809>)
+19:2:20 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+19:2:44 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:2:48 | Player "Technicien Alexander" (steamId=76561199417217773) connected to server!
+19:2:52 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4869.414551, 92.242920, 2338.992676>)
+19:2:52 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:3:53 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5074.088867, 124.243378, 4596.813477>)
+19:3:54 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5078.480957, 124.267654, 4597.369141>)
+19:3:55 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5089.842773, 118.769997, 4596.840332>)
+19:3:56 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5090.057129, 118.769440, 4599.685547>)
+19:3:57 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5090.376953, 118.769997, 4603.586426>)
+19:3:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5091.371582, 118.770004, 4612.471680>)
+19:3:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5092.217773, 118.769989, 4618.099609>)
+19:3:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5095.041016, 118.770004, 4621.332520>)
+19:3:59 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5098.532227, 118.769943, 4624.359375>)
+19:3:59 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5101.954590, 118.769989, 4627.182617>)
+19:3:59 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5105.394531, 118.770004, 4630.023926>)
+19:3:59 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5108.945801, 118.769997, 4632.915039>)
+19:3:59 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5112.348145, 118.769989, 4635.676270>)
+19:4:0 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5113.478027, 120.392914, 4636.626465>)
+19:4:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:4:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:4:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DigitalCodeLock)
+19:4:51 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:4:51 | "Technicien Alexander" (steamid=76561199417217773) Spawned Item: (DigitalCodeLock_Bunker)
+19:4:52 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:5:1 | "Mikhail" (steamid=76561198097580497) Spawned Item: (DigitalCodeLock_Bunker)
+19:5:12 | "L'asticot" (steamid=76561198207165013) deleted object "DigitalCodeLock" (pos=<4867.086426, 92.309204, 2339.223877>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5135.796387, 118.769989, 4642.786621>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5149.787109, 118.769997, 4644.075195>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5149.843750, 118.769997, 4644.082031>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5149.893066, 118.769997, 4644.088379>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5149.959961, 118.769989, 4644.096680>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5150.019043, 118.769989, 4644.103516>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5150.085449, 118.769989, 4644.111816>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5150.154785, 118.769989, 4644.119629>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5150.226562, 118.769989, 4644.128418>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5150.298828, 118.769997, 4644.137207>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.402344, 118.769989, 4645.357910>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.473145, 118.769989, 4645.366211>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.518066, 118.769989, 4645.370605>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.562988, 118.770004, 4645.375488>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.595215, 118.770004, 4645.379395>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.618652, 118.769997, 4645.382812>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.646484, 118.769997, 4645.385742>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.669434, 118.769989, 4645.388672>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.704102, 118.769997, 4645.393555>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.738281, 118.770004, 4645.397949>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.749512, 118.769997, 4645.399414>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.760254, 118.769989, 4645.400391>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.771484, 118.769997, 4645.401855>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5163.460449, 118.769989, 4645.339844>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5162.804199, 118.769989, 4645.230469>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5162.206543, 118.769997, 4645.131836>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5179.266602, 118.080673, 4646.614746>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5177.024414, 118.238129, 4646.319824>)
+19:5:15 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DigitalCodeLock_Bunker)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.804688, 118.306190, 4646.148438>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.614746, 118.364792, 4645.978027>)
+19:5:15 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5174.089355, 118.383720, 4645.893066>)
+19:5:16 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5182.372070, 118.013298, 4647.699219>)
+19:5:17 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5184.564941, 118.030830, 4641.287109>)
+19:5:19 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:5:19 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:5:25 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.316406, 118.260117, 4645.636719>)
+19:5:26 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5176.931152, 127.136948, 4650.641113>)
+19:5:28 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:5:40 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:5:49 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:5:51 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.257568, 71.682053, 1325.549194>
+19:5:51 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:5:54 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_planks at position: <3165.257568, 71.682053, 1325.549194>
+19:5:58 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <3165.257568, 71.682053, 1325.549194>
+19:6:4 | Admin "Mikhail" (steamId=76561198097580497) built part t2_metal_2 at position: <3165.257568, 71.682053, 1325.549194>
+19:6:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:6:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Battery9V)
+19:6:13 | "L'asticot" (steamid=76561198207165013) Spawned Item: (DigitalCodeLock)
+19:6:31 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<5175.619629, 118.291695, 4643.613770>)
+19:6:34 | "Mikhail" (steamid=76561198097580497) Spawned Item: (DigitalCodeLock)
+19:6:41 | "76561199417217773" (steamid=76561199417217773) teleported to (pos=<4860.279785, 92.040001, 2353.830078>)
+19:6:41 | "Technicien Alexander": (steamid=76561199417217773) teleported to (pos=4860.28,92.04,2353.83)
+19:7:1 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+19:7:21 | Admin "Mikhail" (steamId=76561198097580497) built part t2_door at position: <3165.257568, 71.682053, 1325.549194>
+19:7:55 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:7:58 | "Technicien Alexander" (steamid=76561199417217773) teleported to crosshair (pos=<4849.476074, 99.133949, 2340.650391>)
+19:7:59 | "Technicien Alexander" (steamid=76561199417217773) toggled freecam
+19:8:4 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:8:11 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4656.393066, 57.189999, 1595.889404>)
+19:8:11 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:8:20 | Player "Technicien Alexander" (steamId=76561199417217773) initiated disconnect process...
+19:8:21 | Player "Technicien Alexander" (steamId=76561199417217773) disconnected early from server (EXIT NOW).
+19:8:22 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:8:40 | "L'asticot" (steamid=76561198207165013) Spawned Item: (aod_backpack_neytral_alice)
+19:8:47 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:9:6 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:9:6 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:9:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:9:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:9:7 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:9:35 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.249512, 71.682022, 1325.767700>
+19:9:40 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <4662.501953, 57.504719, 1604.436646>
+19:9:40 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_planks at position: <3165.249512, 71.682022, 1325.767700>
+19:9:43 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <4662.501953, 57.504719, 1604.436646>
+19:9:44 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <4662.501953, 57.504719, 1604.436646>
+19:9:55 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <4662.501953, 57.504719, 1604.436646>
+19:10:20 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:10:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:10:31 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <4675.473633, 57.506668, 1599.323120>
+19:10:52 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:11:15 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1325.592529>
+19:11:19 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <4675.499512, 57.506668, 1599.200195>
+19:11:20 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <4675.499512, 57.506668, 1599.200195>
+19:11:26 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <3165.252197, 71.682022, 1325.592529>
+19:11:26 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <4675.499512, 57.506668, 1599.200195>
+19:11:28 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <4675.499512, 57.506668, 1599.200195>
+19:11:32 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks at position: <3165.252197, 71.682022, 1325.592529>
+19:12:3 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <4687.493164, 57.213619, 1589.100220>
+19:12:5 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <4687.493164, 57.213619, 1589.100220>
+19:12:7 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <4687.493164, 57.213619, 1589.100220>
+19:12:8 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <4687.493164, 57.213619, 1589.100220>
+19:12:20 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1319.592529>
+19:12:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:12:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:12:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:12:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:12:23 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_logs_horizontal at position: <3165.252197, 71.682022, 1319.592529>
+19:12:23 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:12:25 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:12:25 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:12:28 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:12:29 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4670.754395, 66.033920, 1600.490845>)
+19:12:29 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:12:42 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:12:43 | "L'asticot" (steamid=76561198207165013) Spawned Item: (TerritoryFlag)
+19:12:47 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <4670.754395, 66.293930, 1600.490845>
+19:12:48 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <4670.754395, 66.293930, 1600.490845>
+19:12:50 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <4670.754395, 66.293930, 1600.490845>
+19:12:57 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:12:57 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:12:57 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:12:59 | "L'asticot" (steamid=76561198207165013) Spawned Item: (flag_military)
+19:13:10 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1319.592529>
+19:13:19 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_logs_horizontal at position: <3165.252197, 71.682022, 1319.592529>
+19:13:22 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:13:39 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4846.960449, 95.631844, 2356.257812>)
+19:13:39 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:13:49 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <4846.348633, 95.657425, 2357.257812>
+19:13:50 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:13:51 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <4846.348633, 95.657425, 2357.257812>
+19:13:52 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <4846.348633, 95.657425, 2357.257812>
+19:14:0 | "L'asticot" (steamid=76561198207165013) Spawned Item: (flag_loner)
+19:14:10 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:14:12 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1319.592529>
+19:14:20 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_logs_horizontal at position: <3165.252197, 71.682022, 1319.592529>
+19:14:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:14:23 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4561.947266, 80.103813, 1809.907227>)
+19:14:23 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:14:26 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:14:33 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:14:36 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:14:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5300.397949, 144.019730, 3695.942139>)
+19:14:54 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5163.342285, 119.962166, 4439.967285>)
+19:14:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5024.744629, 127.575371, 4604.231445>)
+19:14:59 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:15:2 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <5024.187988, 127.464325, 4604.351562>
+19:15:3 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <5024.187988, 127.464325, 4604.351562>
+19:15:4 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <5024.187988, 127.464325, 4604.351562>
+19:15:25 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1319.592529>
+19:16:10 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks at position: <3165.252197, 71.682022, 1319.592529>
+19:16:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (flag_bandit)
+19:16:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:16:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:16:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:16:55 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5061.986328, 125.994843, 4640.253906>)
+19:16:55 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:16:59 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <5061.561523, 126.343666, 4643.456543>
+19:17:0 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <5061.561523, 126.343666, 4643.456543>
+19:17:1 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <5061.561523, 126.343666, 4643.456543>
+19:17:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (flag_bandit)
+19:17:39 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <5065.541016, 118.769966, 4665.928223>
+19:17:46 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <5065.541016, 118.769966, 4665.928223>
+19:17:48 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <5065.541016, 118.769966, 4665.928223>
+19:17:51 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <5065.541016, 118.769966, 4665.928223>
+19:17:52 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <5065.541016, 118.769966, 4665.928223>
+19:18:7 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:18:14 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 73.922020, 1325.592529>
+19:18:27 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:18:34 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3163.002686, 76.016312, 1328.290649>)
+19:18:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:18:39 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:18:56 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Step_Ladder_Hologram)
+19:19:10 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Step_Ladder_Hologram)
+19:19:13 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3170.001221, 73.308456, 1325.682617>)
+19:19:28 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <5065.556152, 118.769943, 4666.012695>
+19:19:30 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <5065.556152, 118.769943, 4666.012695>
+19:19:31 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <5065.556152, 118.769943, 4666.012695>
+19:19:32 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <5065.556152, 118.769943, 4666.012695>
+19:19:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:19:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3164.550293, 73.941841, 1325.076050>)
+19:19:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:19:48 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <3165.252197, 73.922020, 1325.592529>
+19:20:2 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:20:5 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3164.744385, 73.941841, 1324.982666>)
+19:20:6 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:20:16 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:20:17 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <5000.711914, 118.813248, 4644.324219>
+19:20:19 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <5000.711914, 118.813248, 4644.324219>
+19:20:28 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <5000.711914, 118.813248, 4644.324219>
+19:20:28 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <5000.711914, 118.813248, 4644.324219>
+19:20:29 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <5000.711914, 118.813248, 4644.324219>
+19:20:40 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:20:44 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3164.469238, 73.941841, 1325.098389>)
+19:20:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:20:45 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:20:49 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 74.682022, 1325.592529>
+19:21:6 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Step_Ladder_Kit)
+19:21:20 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <3165.252197, 74.682022, 1325.592529>
+19:21:26 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <5000.876465, 118.813248, 4644.294922>
+19:21:27 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <5000.876465, 118.813248, 4644.294922>
+19:21:28 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <5000.876465, 118.813248, 4644.294922>
+19:21:29 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <5000.876465, 118.813248, 4644.294922>
+19:21:29 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <5000.876465, 118.813248, 4644.294922>
+19:21:30 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:21:46 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:21:48 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:21:51 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<5012.860840, 119.370033, 4637.636230>)
+19:21:51 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:21:52 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:22:39 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <5014.123535, 119.100822, 4634.700684>
+19:22:40 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <5014.123535, 119.100822, 4634.700684>
+19:22:41 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <5014.123535, 119.100822, 4634.700684>
+19:22:43 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <5014.123535, 119.100822, 4634.700684>
+19:22:43 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <5014.123535, 119.100822, 4634.700684>
+19:22:44 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1325.592529>
+19:22:53 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <3165.252197, 71.682022, 1325.592529>
+19:22:58 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:22:59 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <3165.252197, 71.682022, 1325.592529>
+19:23:1 | Admin "Mikhail" (steamId=76561198097580497) built part t2_door at position: <3165.252197, 71.682022, 1325.592529>
+19:23:10 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<4155.208984, 130.677429, 4648.012207>)
+19:23:17 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1685.772583, 42.550011, 4075.571045>)
+19:23:17 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:23:20 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:23:46 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:23:46 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:23:46 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Wall_Kit)
+19:24:0 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 71.682022, 1319.592529>
+19:24:11 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1689.482544, 42.550014, 4066.810303>
+19:24:12 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1689.482544, 42.550014, 4066.810303>
+19:24:13 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <3165.252197, 71.682022, 1319.592529>
+19:24:13 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1689.482544, 42.550014, 4066.810303>
+19:24:14 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1689.482544, 42.550014, 4066.810303>
+19:24:14 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1689.482544, 42.550014, 4066.810303>
+19:24:37 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:38 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:24:45 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:24:46 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <3165.252197, 74.682022, 1319.592529>
+19:24:50 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1700.535156, 57.552315, 4060.543457>)
+19:24:50 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:24:52 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <3165.252197, 74.682022, 1319.592529>
+19:25:5 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1703.359985, 57.552315, 4057.839600>
+19:25:5 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1703.359985, 57.552315, 4057.839600>
+19:25:6 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1703.359985, 57.552315, 4057.839600>
+19:25:6 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1703.359985, 57.552315, 4057.839600>
+19:25:30 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1677.263306, 57.552315, 4057.802979>
+19:25:31 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1677.263306, 57.552315, 4057.802979>
+19:25:31 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1677.263306, 57.552315, 4057.802979>
+19:25:32 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1677.263306, 57.552315, 4057.802979>
+19:25:32 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1677.263306, 57.552315, 4057.802979>
+19:25:41 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<5832.899902, 146.819000, 7964.870117>)
+19:25:41 | "Mikhail": (steamid=76561198097580497) teleported to (pos=5832.9,146.819,7964.87)
+19:25:41 | Admin "L'asticot" (steamId=76561198207165013) built part base at position: <1690.338013, 57.685020, 4058.882324>
+19:25:42 | Admin "L'asticot" (steamId=76561198207165013) built part support at position: <1690.338013, 57.685020, 4058.882324>
+19:25:42 | Admin "L'asticot" (steamId=76561198207165013) built part pole at position: <1690.338013, 57.685020, 4058.882324>
+19:25:56 | "L'asticot" (steamid=76561198207165013) Spawned Item: (flag_military)
+19:26:24 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <5822.083984, 148.229553, 7968.573242>
+19:26:30 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks at position: <5822.083984, 148.229553, 7968.573242>
+19:26:36 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Wall_Kit)
+19:26:37 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Wall_Kit)
+19:26:37 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Wall_Kit)
+19:26:41 | Admin "Mikhail" (steamId=76561198097580497) built part t3_door at position: <5822.083984, 148.229553, 7968.573242>
+19:27:21 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1698.363159, 42.553314, 4083.569580>
+19:27:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:36 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5760.014648, 144.039978, 8005.000000>)
+19:27:37 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:39 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_logs_horizontal at position: <1698.363159, 42.553314, 4083.569580>
+19:27:44 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal at position: <1698.363159, 42.553314, 4083.569580>
+19:27:54 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:28:33 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1694.111450, 42.553314, 4083.468750>
+19:28:34 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1694.111450, 42.553314, 4083.468750>
+19:28:36 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <5760.170410, 144.211578, 8008.292480>
+19:28:40 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1694.111450, 42.553314, 4083.468750>
+19:28:40 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1694.111450, 42.553314, 4083.468750>
+19:28:41 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1694.111450, 42.553314, 4083.468750>
+19:28:41 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_planks at position: <5760.170410, 144.211578, 8008.292480>
+19:28:46 | Admin "Mikhail" (steamId=76561198097580497) built part t2_metal_2 at position: <5760.170410, 144.211578, 8008.292480>
+19:28:48 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <5760.170410, 144.211578, 8008.292480>
+19:28:50 | Admin "Mikhail" (steamId=76561198097580497) built part t2_door at position: <5760.170410, 144.211578, 8008.292480>
+19:29:33 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:29:46 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1647.280762, 42.633015, 4052.387695>
+19:29:47 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_logs_horizontal at position: <1647.280762, 42.633015, 4052.387695>
+19:29:47 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal at position: <1647.280762, 42.633015, 4052.387695>
+19:29:56 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4937.408203, 126.820007, 6754.842285>)
+19:29:58 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:30:0 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:30:7 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:30:7 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:30:7 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:30:13 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1647.279297, 42.633015, 4052.386963>
+19:30:13 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1647.279297, 42.633015, 4052.386963>
+19:30:19 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1647.279297, 42.633015, 4052.386963>
+19:30:20 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1647.279297, 42.633015, 4052.386963>
+19:30:20 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1647.279297, 42.633015, 4052.386963>
+19:30:51 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <4935.008301, 126.853333, 6762.734863>
+19:30:55 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_planks at position: <4935.008301, 126.853333, 6762.734863>
+19:30:57 | Admin "Mikhail" (steamId=76561198097580497) built part t2_metal_2 at position: <4935.008301, 126.853333, 6762.734863>
+19:30:59 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <4935.008301, 126.853333, 6762.734863>
+19:31:0 | Admin "Mikhail" (steamId=76561198097580497) built part t2_door at position: <4935.008301, 126.853333, 6762.734863>
+19:31:20 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1662.742676, 43.542965, 4106.523926>
+19:31:21 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1662.742676, 43.542965, 4106.523926>
+19:31:23 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1662.742676, 43.542965, 4106.523926>
+19:31:23 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1662.742676, 43.542965, 4106.523926>
+19:31:24 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1662.742676, 43.542965, 4106.523926>
+19:31:31 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:31:34 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <4939.796875, 126.898178, 6769.999023>
+19:31:38 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <4939.796875, 126.898178, 6769.999023>
+19:31:40 | Admin "Mikhail" (steamId=76561198097580497) built part t3_door at position: <4939.796875, 126.898178, 6769.999023>
+19:31:44 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<1694.611694, 42.549995, 4077.919189>)
+19:31:45 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:31:51 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:32:25 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <1694.645996, 42.553314, 4083.536133>
+19:32:26 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <1694.645996, 42.553314, 4083.536133>
+19:32:27 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <1694.645996, 42.553314, 4083.536133>
+19:32:27 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <1694.645996, 42.553314, 4083.536133>
+19:32:28 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <1694.645996, 42.553314, 4083.536133>
+19:32:31 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <4949.435547, 122.794601, 6774.619629>
+19:32:35 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:32:40 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks_2 at position: <4949.435547, 122.794601, 6774.619629>
+19:32:41 | Admin "Mikhail" (steamId=76561198097580497) built part t3_door at position: <4949.435547, 122.794601, 6774.619629>
+19:32:49 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2457.411377, 37.759991, 6192.340332>)
+19:32:55 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:32:58 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <4949.435547, 125.794601, 6774.619629>
+19:33:3 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:33:4 | Admin "Mikhail" (steamId=76561198097580497) built part t3_wall_concrete_bricks at position: <4949.435547, 125.794601, 6774.619629>
+19:33:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:33:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:33:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:33:4 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:33:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:33:16 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:33:44 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2456.527588, 38.128799, 6212.151855>
+19:33:44 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2456.527588, 38.128799, 6212.151855>
+19:33:45 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2456.527588, 38.128799, 6212.151855>
+19:33:45 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2456.527588, 38.128799, 6212.151855>
+19:33:46 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2456.527588, 38.128799, 6212.151855>
+19:33:59 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:34:2 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2455.181641, 42.721600, 6209.042969>)
+19:34:3 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:34:14 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:34:37 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5742.522461, 144.039978, 7973.561035>)
+19:34:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:34:55 | Admin "Mikhail" (steamId=76561198097580497) built part base at position: <5713.116699, 144.194977, 7946.201172>
+19:34:57 | Admin "Mikhail" (steamId=76561198097580497) built part support at position: <5713.116699, 144.194977, 7946.201172>
+19:34:58 | Admin "Mikhail" (steamId=76561198097580497) built part pole at position: <5713.116699, 144.194977, 7946.201172>
+19:34:58 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2445.996582, 41.277164, 6209.889648>
+19:34:59 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2445.996582, 41.277164, 6209.889648>
+19:35:0 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2445.996582, 41.277164, 6209.889648>
+19:35:0 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2445.996582, 41.277164, 6209.889648>
+19:35:1 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2445.996582, 41.277164, 6209.889648>
+19:35:13 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:35:16 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2445.975830, 37.759998, 6236.060059>)
+19:35:17 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:35:56 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2444.814453, 37.945911, 6240.503418>
+19:35:56 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2444.814453, 37.945911, 6240.503418>
+19:35:57 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2444.814453, 37.945911, 6240.503418>
+19:35:57 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2444.814453, 37.945911, 6240.503418>
+19:35:58 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2444.814453, 37.945911, 6240.503418>
+19:36:3 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:36:10 | "L'asticot" (steamid=76561198207165013) toggled godmode
+19:36:11 | "L'asticot" (steamid=76561198207165013) toggled godmode
+19:36:41 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:36:53 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <5736.291992, 144.020401, 7950.745117>
+19:37:0 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_logs_horizontal at position: <5736.291992, 144.020401, 7950.745117>
+19:37:2 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <5736.291992, 144.020401, 7950.745117>
+19:37:5 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2444.811279, 37.943783, 6240.579102>
+19:37:5 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2444.811279, 37.943783, 6240.579102>
+19:37:6 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2444.811279, 37.943783, 6240.579102>
+19:37:6 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2444.811279, 37.943783, 6240.579102>
+19:37:7 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2444.811279, 37.943783, 6240.579102>
+19:37:19 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:37:25 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+19:37:25 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:37:25 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:37:25 | "L'asticot" (steamid=76561198207165013) Spawned Item: (BBP_Door_Kit)
+19:37:31 | "Mikhail" (steamid=76561198097580497) Spawned Item: (BBP_Door_Kit)
+19:37:52 | Admin "Mikhail" (steamId=76561198097580497) built part frame at position: <5736.305176, 144.040039, 7950.732910>
+19:37:53 | Admin "Mikhail" (steamId=76561198097580497) built part t1_wall_planks at position: <5736.305176, 144.040039, 7950.732910>
+19:37:55 | Admin "Mikhail" (steamId=76561198097580497) built part t1_door at position: <5736.305176, 144.040039, 7950.732910>
+19:38:9 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2444.862549, 37.941452, 6240.661621>
+19:38:10 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2444.862549, 37.941452, 6240.661621>
+19:38:11 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2444.862549, 37.941452, 6240.661621>
+19:38:11 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2444.862549, 37.941452, 6240.661621>
+19:38:12 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2444.862549, 37.941452, 6240.661621>
+19:38:31 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:7 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2481.781006, 37.759987, 6213.805664>)
+19:39:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:12 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:47 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2490.611328, 37.760006, 6209.611816>
+19:39:52 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2490.611328, 37.760006, 6209.611816>
+19:39:52 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2490.611328, 37.760006, 6209.611816>
+19:40:1 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2490.611328, 37.760006, 6209.611816>
+19:40:2 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2490.611328, 37.760006, 6209.611816>
+19:40:28 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:40:40 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2480.221680, 48.200783, 6515.950195>)
+19:40:40 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:40:43 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:40:45 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2570.729248, 63.374439, 6503.960449>)
+19:40:58 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2481.267334, 48.200783, 6516.060059>)
+19:40:59 | "L'asticot" (steamid=76561198207165013) teleported to crosshair (pos=<2481.262695, 48.200783, 6516.067383>)
+19:41:1 | "L'asticot" (steamid=76561198207165013) toggled freecam
+19:41:10 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:41:17 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Flashlight)
+19:41:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Chemlight_Blue)
+19:41:18 | "L'asticot" (steamid=76561198207165013) Spawned Item: (Chemlight_Blue)
+19:41:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+19:42:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:42:39 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2475.638916, 48.295273, 6516.495117>
+19:42:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2486.622559, 54.290657, 6517.356934>)
+19:42:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:42:57 | Admin "L'asticot" (steamId=76561198207165013) built part t3_wall_concrete_bricks_2 at position: <2475.638916, 48.295273, 6516.495117>
+19:43:5 | "L'asticot" (steamid=76561198207165013) deleted objects using ESP
+19:43:32 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2497.750977, 57.370510, 6506.543457>)
+19:43:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2496.779053, 57.419998, 6495.465820>)
+19:43:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2496.267334, 57.417465, 6486.106445>)
+19:43:34 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:43:37 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2687.372559, 52.008873, 6372.871582>)
+19:43:38 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:43:42 | Admin "L'asticot" (steamId=76561198207165013) built part frame at position: <2475.255859, 48.326595, 6516.442871>
+19:43:46 | Admin "L'asticot" (steamId=76561198207165013) built part t1_wall_planks at position: <2475.255859, 48.326595, 6516.442871>
+19:43:53 | Admin "L'asticot" (steamId=76561198207165013) built part t1_door at position: <2475.255859, 48.326595, 6516.442871>
+19:43:55 | Admin "L'asticot" (steamId=76561198207165013) built part t2_door at position: <2475.255859, 48.326595, 6516.442871>
+19:43:57 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Pse_Dog1)
+19:43:57 | Admin "L'asticot" (steamId=76561198207165013) built part t2_metal_2 at position: <2475.255859, 48.326595, 6516.442871>
+19:44:0 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:44:7 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:44:10 | Player "L'asticot" (steamId=76561198207165013) initiated disconnect process...
+19:44:10 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...

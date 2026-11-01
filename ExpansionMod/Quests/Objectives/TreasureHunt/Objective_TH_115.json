@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 115,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Récupère la caisse de munitions cachée dans le ravin",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse de munitions",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            2102.6,
+            53.0,
+            4467.2
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

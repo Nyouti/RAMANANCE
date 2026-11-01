@@ -1,0 +1,89 @@
+{
+    "ConfigVersion": 22,
+    "ID": 103,
+    "Type": 1,
+    "Title": "La planque de la fosse",
+    "Descriptions": [
+        "T'es encore là, %1 ? Bien. Tu sais ce que j'étais, avant ? Un bleu du Cordon, comme toi, avec une pelle et un sac à ferraille. Un jour, je n'ai pas pu payer le péage. Au lieu de me casser les jambes, Borov m'a mis à réparer leurs flingues rouillés. Alors les cailloux, je connais. Les bleus trouvent des artefacts et ne savent pas quoi en faire. Nous, on leur achète. Pas cher, d'accord, mais on leur évite la route jusqu'au Bar, et la route, ça tue. Après, on revend dehors, par nos passeurs. La marchandise, on la planque dans la fosse radioactive, au nord, entre ici et l'usine. Personne ne va fouiller là-dedans. Va chercher la caisse sur le bord nord de la fosse et porte-la à Stas, à l'usine. Masque sur la gueule, et méfie-toi : tout ce qui vit dans la fosse a faim.",
+        "La caisse de recel, sur le bord nord de la fosse radioactive, entre les garages et l'usine. À porter à Stas. Masque sur le nez.",
+        "Riko t'a envoyé dans la fosse ? Il t'aime bien, alors. Ouvre. Trois cailloux, et des bons. Ça partira avec le prochain passeur. Les stalkers nous traitent de voleurs. Nous, on dit qu'on est des commerçants qui prennent des risques. Tiens, ta part."
+    ],
+    "ObjectiveText": "Récupère la caisse de recel cachée sur le bord nord de la fosse radioactive et porte-la à Stas, à l'usine.",
+    "FollowUpQuest": 104,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeBandageHemostatic",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        53
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 103,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 103,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        102
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

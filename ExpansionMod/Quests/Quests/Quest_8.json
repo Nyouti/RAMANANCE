@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 8,
+    "Type": 1,
+    "Title": "Du fil et une pierre",
+    "Descriptions": [
+        "Regarde-moi cette veste, %1. Trop grande, trouée, et elle ne tient plus qu'avec des prières. Et mon couteau ne couperait même plus du pain. Il me faut un kit de couture et une pierre à aiguiser. Le kit de couture, c'est le vieux technicien de la ferme des Veilleurs qui en vend. Attention, là-bas, il y a deux marchands : l'autre est réservé aux Veilleurs, il ne te vendra rien. La pierre, c'est Sidorovitch, juste ici, au refuge. Tu peux me les rapporter ? Je te rembourse, promis. Je n'ai pas de dettes ici, et je compte bien que ça dure.",
+        "Alors, ces courses ? Le kit de couture chez le vieux technicien de la ferme, pas chez l'autre marchand, il est réservé aux Veilleurs. La pierre à aiguiser chez Sidorovitch, ici, au refuge.",
+        "Parfait, tout y est. Regarde bien, ça te servira : avec le bon kit, une veste repart comme neuve, et même un truc que tu croyais fichu peut encore servir, avec un peu de patience. La pierre, c'est pour les lames : un couteau émoussé, c'est un couteau qui glisse. Pour les armes, par contre, il faut un kit d'entretien, et ça ne se trouve pas par ici. Prends plutôt ce couteau pliant : je viens de l'aiguiser avec ta pierre, il coupe comme au premier jour. Et voilà tes roubles : on est quittes."
+    ],
+    "ObjectiveText": "Achète un kit de couture chez le vieux technicien de la ferme et une pierre à aiguiser chez Sidorovitch, puis rapporte-les à Anton, au refuge.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Folding_knife",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        9
+    ],
+    "QuestTurnInIDs": [
+        9
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 6,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

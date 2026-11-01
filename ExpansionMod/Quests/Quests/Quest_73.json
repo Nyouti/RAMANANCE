@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 73,
+    "Type": 1,
+    "Title": "Filtres neufs",
+    "Descriptions": [
+        "%1, pour travailler dans l'air vicié ou près de poussières dangereuses, il faut un masque à gaz avec de bons filtres. Sans filtre, le masque ne protège personne. J'ai besoin de quatre filtres neufs pour le stock du poste. Si vous en trouvez sur la route, dans des bâtiments militaires ou des véhicules, apportez-les-moi.",
+        "Vous ne m'avez pas encore apporté les quatre filtres. Revenez quand vous les aurez tous.",
+        "Merci, avec ça on peut équiper ceux qui partent en zone sans courir de risques inutiles. Voici le deuxième tome de la série médecine, comme convenu."
+    ],
+    "ObjectiveText": "Quatre filtres à masque à gaz au Doc",
+    "FollowUpQuest": 74,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine2",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 713,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        72
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

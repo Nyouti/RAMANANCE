@@ -1,0 +1,89 @@
+{
+    "ConfigVersion": 22,
+    "ID": 125,
+    "Type": 1,
+    "Title": "La fosse qui avance",
+    "Descriptions": [
+        "Les taches radioactives ne sont pas figées, %1. Elles avancent, reculent, se déplacent de quelques mètres d'une année sur l'autre. Nous en tenons la carte depuis le début. La fosse de l'ouest de Garbage est la plus forte de la région, et nous n'avons plus de mesure depuis deux ans. Deux relevés : un au bord, puis un au cœur. Au bord, un filtre ordinaire suffit ; au cœur, il vous faut un GP-21. Les bandits enterrent leurs morts au bord de cette fosse : passez sans rien toucher, et ils vous laisseront tranquille.",
+        "La fosse de l'ouest de Garbage : un relevé au bord, puis un au cœur, avec un GP-21.",
+        "Trois mètres. Le cœur a avancé de trois mètres vers l'ouest depuis la dernière mesure. Ça n'a l'air de rien. Multipliez par toutes les taches de la Zone, et vous comprendrez pourquoi nos cartes ne sont jamais à jour. Tenez, %1."
+    ],
+    "ObjectiveText": "Fais deux relevés dans la fosse radioactive de l'ouest de Garbage, au bord puis au cœur (filtre GP-21 obligatoire), puis reviens voir le Doc.",
+    "FollowUpQuest": 126,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TerjeAntiradInjector",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 125,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1251,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        124
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

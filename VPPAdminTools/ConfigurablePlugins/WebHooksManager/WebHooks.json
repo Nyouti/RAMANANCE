@@ -1,0 +1,460 @@
+{
+    "M_DATA": [
+        {
+            "m_Name": "admin-info",
+            "m_URL": "https://discord.com/api/webhooks/1440840197452333107/8bW1ZRbEhPfxfRpkY_Ns-kCqOWxniNoBnJdOUYH7NINyg2Ixs6PqPzEDcpkuAtF1CcAp",
+            "m_deathKillLogs": 0,
+            "m_adminActivityLog": 1,
+            "m_admHitLog": 0,
+            "m_joinLeaveLog": 0,
+            "m_serverStatusLog": 0,
+            "m_serverStatsInterval": 60,
+            "m_simplifiedMessages": 0,
+            "m_Version": 2,
+            "m_Id": "wh136217711798",
+            "m_Disabled": 0,
+            "m_Preset": "discord_embed",
+            "m_ContentType": "application/json",
+            "m_RateLimit": 0,
+            "m_HideIds": 0,
+            "m_HideServerAddress": 0,
+            "m_Vars": {},
+            "m_Events": {
+                "leave.early": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.status": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "admin.action": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.cancel": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "kill": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "hit": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.boot": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "join": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "leave": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.start": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                }
+            },
+            "m_PresetHashes": {
+                "leave.early": -1190736453,
+                "server.status": -760195812,
+                "admin.action": -580743018,
+                "logout.cancel": -1190736453,
+                "kill": -290872621,
+                "hit": -760674555,
+                "server.boot": -721745580,
+                "join": -1190736453,
+                "leave": -1190736453,
+                "logout.start": -1190736453
+            }
+        },
+        {
+            "m_Name": "vpp-coming-leaving",
+            "m_URL": "https://discord.com/api/webhooks/1440852415216877750/3RjTo-iCtpgZcThOsYKT89CeMXvSxfsSuevUit7MTYOo0dWsKNFJYwppE3-vlT-H9nUe",
+            "m_deathKillLogs": 0,
+            "m_adminActivityLog": 0,
+            "m_admHitLog": 0,
+            "m_joinLeaveLog": 1,
+            "m_serverStatusLog": 0,
+            "m_serverStatsInterval": 60,
+            "m_simplifiedMessages": 0,
+            "m_Version": 2,
+            "m_Id": "wh136217728358",
+            "m_Disabled": 0,
+            "m_Preset": "discord_embed",
+            "m_ContentType": "application/json",
+            "m_RateLimit": 0,
+            "m_HideIds": 0,
+            "m_HideServerAddress": 0,
+            "m_Vars": {},
+            "m_Events": {
+                "leave.early": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.status": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "admin.action": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.cancel": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "kill": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "hit": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.boot": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "join": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "leave": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.start": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                }
+            },
+            "m_PresetHashes": {
+                "leave.early": -1190736453,
+                "server.status": -760195812,
+                "admin.action": -580743018,
+                "logout.cancel": -1190736453,
+                "kill": -290872621,
+                "hit": -760674555,
+                "server.boot": -721745580,
+                "join": -1190736453,
+                "leave": -1190736453,
+                "logout.start": -1190736453
+            }
+        },
+        {
+            "m_Name": "vpp-server-info",
+            "m_URL": "https://discord.com/api/webhooks/1439943646593024082/cW9o6eEzCfuJeT2A3s6c0KmJY8ntez78aBtrlX11i5nwKHj3vQlndQOkq9mlRbW2WozJ",
+            "m_deathKillLogs": 0,
+            "m_adminActivityLog": 0,
+            "m_admHitLog": 0,
+            "m_joinLeaveLog": 0,
+            "m_serverStatusLog": 1,
+            "m_serverStatsInterval": 60,
+            "m_simplifiedMessages": 0,
+            "m_Version": 2,
+            "m_Id": "wh136217731375",
+            "m_Disabled": 0,
+            "m_Preset": "discord_embed",
+            "m_ContentType": "application/json",
+            "m_RateLimit": 0,
+            "m_HideIds": 0,
+            "m_HideServerAddress": 0,
+            "m_Vars": {},
+            "m_Events": {
+                "leave.early": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.status": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "admin.action": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.cancel": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "kill": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "hit": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.boot": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "join": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "leave": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.start": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                }
+            },
+            "m_PresetHashes": {
+                "leave.early": -1190736453,
+                "server.status": -760195812,
+                "admin.action": -580743018,
+                "logout.cancel": -1190736453,
+                "kill": -290872621,
+                "hit": -760674555,
+                "server.boot": -721745580,
+                "join": -1190736453,
+                "leave": -1190736453,
+                "logout.start": -1190736453
+            }
+        },
+        {
+            "m_Name": "vpp-damage-info",
+            "m_URL": "https://discord.com/api/webhooks/1440852594988814489/WS4437GGKS-ihmD4_LIsvYSXppQqj3OuxQ84KvrJMiWVPa1y4pwRb6nGJJkSldsl6lgW",
+            "m_deathKillLogs": 0,
+            "m_adminActivityLog": 0,
+            "m_admHitLog": 1,
+            "m_joinLeaveLog": 0,
+            "m_serverStatusLog": 0,
+            "m_serverStatsInterval": 60,
+            "m_simplifiedMessages": 0,
+            "m_Version": 2,
+            "m_Id": "wh136217745751",
+            "m_Disabled": 0,
+            "m_Preset": "discord_embed",
+            "m_ContentType": "application/json",
+            "m_RateLimit": 0,
+            "m_HideIds": 0,
+            "m_HideServerAddress": 0,
+            "m_Vars": {},
+            "m_Events": {
+                "leave.early": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.status": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "admin.action": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.cancel": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "kill": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "hit": {
+                    "Enabled": 1,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "server.boot": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "join": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "leave": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                },
+                "logout.start": {
+                    "Enabled": 0,
+                    "PvPOnly": 0,
+                    "SkipAI": 0,
+                    "MinDistance": 0.0,
+                    "Modules": [],
+                    "ExcludedModules": []
+                }
+            },
+            "m_PresetHashes": {
+                "leave.early": -1190736453,
+                "server.status": -760195812,
+                "admin.action": -580743018,
+                "logout.cancel": -1190736453,
+                "kill": -290872621,
+                "hit": -760674555,
+                "server.boot": -721745580,
+                "join": -1190736453,
+                "leave": -1190736453,
+                "logout.start": -1190736453
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 148,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de Kouzma",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Black",
+    "DigInStash": 0,
+    "MarkerName": "Sac de Kouzma",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            4735.7,
+            118.5,
+            4590.9
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

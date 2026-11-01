@@ -1,0 +1,24 @@
+{
+    "ConfigVersion": 6,
+    "ID": 13,
+    "ClassName": "ExpansionQuestNPCFrancis",
+    "Position": [
+        4300.0,
+        130.5,
+        7100.0
+    ],
+    "Orientation": [
+        70.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Arkadi « Le Loup » Zaïtsev",
+    "DefaultNPCText": "Tu marches trop fort, %1 : ici, le moindre pas s'entend à trois cents mètres. Si tu viens chasser, parle bas et regarde où tu mets les pieds. Sinon, passe ton chemin, tu me fais fuir le gibier.",
+    "NPCLoadoutFile": "ArkadiLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCType": 0,
+    "Active": 1
+}

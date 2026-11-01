@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 100,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Retrouve le sac de Mitia près des épaves de voitures",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Blue",
+    "DigInStash": 0,
+    "MarkerName": "Sac de Mitia",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5212.0,
+            113.3,
+            5368.0
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemPackage",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

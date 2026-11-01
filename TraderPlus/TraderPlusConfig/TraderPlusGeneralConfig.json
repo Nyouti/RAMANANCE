@@ -1,0 +1,302 @@
+{
+    "Version": "2.5",
+    "ConvertTraderConfigToTraderPlus": 0,
+    "ConvertTraderConfigToTraderPlusWithStockBasedOnCE": 0,
+    "UseGarageToTradeCar": 0,
+    "DisableHeightFailSafeForReceiptDeployment": 0,
+    "HideInsuranceBtn": 0,
+    "HideGarageBtn": 0,
+    "HideLicenceBtn": 0,
+    "EnableShowAllPrices": 1,
+    "EnableShowAllCheckBox": 0,
+    "IsReceiptTraderOnly": 1,
+    "IsReceiptSaveLock": 0,
+    "IsReceiptSaveAttachment": 1,
+    "IsReceiptSaveCargo": 1,
+    "LockPickChance": 0.30000001192092898,
+    "LicenceKeyWord": "Licence",
+    "Licences": [
+        "Car Licence",
+        "Admin Licence",
+        "Licence Veilleurs",
+        "Licence Bandits",
+        "Licence Liberté",
+        "Licence Devoir",
+        "Licence Militaires",
+        "Licence Clear Sky",
+        "Licence Écologistes"
+    ],
+    "AcceptedStates": {
+        "AcceptWorn": 1,
+        "AcceptDamaged": 1,
+        "AcceptBadlyDamaged": 1,
+        "CoefficientWorn": 0.75,
+        "CoefficientDamaged": 0.5,
+        "CoefficientBadlyDamaged": 0.25
+    },
+    "StoreOnlyToPristineState": 0,
+    "Currencies": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Value": 5000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Value": 2000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Value": 1000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Value": 500
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble200",
+            "Value": 200
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Value": 100
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble50",
+            "Value": 50
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble10",
+            "Value": 10
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble5,TraderPlus_Money_Ruble5_Coin",
+            "Value": 5
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2_Coin",
+            "Value": 2
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1_Coin",
+            "Value": 1
+        }
+    ],
+    "Traders": [
+        {
+            "Id": 0,
+            "Name": "mm_npc_sidorovich",
+            "GivenName": "Sidorovich",
+            "Role": "General Trader",
+            "Position": [
+                4547.020020, 71.437103, 1810.699951
+            ],
+            "Orientation": [
+                100.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 1,
+            "Name": "mm_npc_tekhnik",
+            "GivenName": "Le vieux technicien",
+            "Role": "General Trader",
+            "Position": [
+                4854.9,
+                92.4012,
+                2375.27
+            ],
+            "Orientation": [
+                255.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 2,
+            "Name": "mm_npc_tekhnik_3",
+            "GivenName": "Le technicien un peu moins vieux, mais accroupi",
+            "Role": "Clothes Trader",
+            "Position": [
+                4871.54,
+                92.2429,
+                2333.57
+            ],
+            "Orientation": [
+                220.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 3,
+            "Name": "mm_npc_bandit_2",
+            "GivenName": "Borov - aka aristocrat",
+            "Role": "General Trader",
+            "Position": [
+                5011.38,
+                119.101,
+                4631.63
+            ],
+            "Orientation": [
+                270.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 4,
+            "Name": "mm_npc_boroda",
+            "GivenName": "Barado aka un mec chill",
+            "Role": "General Trader",
+            "Position": [
+                5815.65,
+                148.23,
+                7976.96
+            ],
+            "Orientation": [
+                45.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 6,
+            "Name": "mm_npc_barman",
+            "GivenName": "Barman",
+            "Role": "General Trader",
+            "Position": [ 4864.86, 122.035, 6672.14 ],
+            "Orientation": [
+                555.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 7,
+            "Name": "mm_npc_ecolog_v2_black",
+            "GivenName": "Le Nettoiyeur",
+            "Role": "General Trader",
+            "Position": [ 4960.19, 121.565, 6781.15 ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 8,
+            "Name": "mm_npc_stalker_2",
+            "GivenName": "Barman Svoboda",
+            "Role": "General Trader",
+            "Position": [ 5900.41, 146.846, 7966.16 ],
+            "Orientation": [
+                -165.41,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+        "Id": 9,
+        "Name": "mm_npc_stalker",
+        "GivenName": "Sous-officier logistique",
+            "Role": "General Trader",
+            "Position": [   1698.38, 42.5492,4101.66 ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 10,
+            "Name": "mm_npc_stalker",
+            "GivenName": "Intendant militaire",
+                "Role": "General Trader",
+                "Position": [   1698.2, 47.5523, 4056.16 ],
+                "Orientation": [
+                    170.0,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        },
+        {
+            "Id": 11,
+            "Name": "mm_npc_saharov",
+            "GivenName": "Professeur Sakharov",
+                "Role": "General Trader",
+                "Position": [   2453.6, 38.093, 6209.6 ],
+                "Orientation": [
+                    270.0,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        },
+        {
+            "Id": 12,
+            "Name": "mm_npc_nebo",
+            "GivenName": "Nebo",
+                "Role": "General Trader",
+                "Position": [   3184.94, 71.8014, 1323.26 ],
+                "Orientation": [
+                    120.0,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        },
+        {
+            "Id": 13,
+            "Name": "mm_npc_bandit_2",
+            "GivenName": "L'emmerdeur ",
+                "Role": "General Trader",
+                "Position": [   5024.66, 119.798, 4606.17 ],
+                "Orientation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        },
+        {
+            "Id": 14,
+            "Name": "mm_npc_saharov",
+            "GivenName": "Kurglov - Eco Faction",
+                "Role": "General Trader",
+                "Position": [   2455.43, 38.1011, 6216.46 ],
+                "Orientation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        },
+        {
+            "Id": 15,
+            "Name": "mm_npc_nebo_2",
+            "GivenName": "Le pote de Nebo",
+                "Role": "General Trader",
+                "Position": [ 3148.47, 70.9235, 1326.8 ],
+                "Orientation": [
+                    -119.323,
+                    0.0,
+                    0.0
+                ],
+                "Clothes": []
+        }
+    ],
+    "TraderObjects": [
+        
+    ]
+}

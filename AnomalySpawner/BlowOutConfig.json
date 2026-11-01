@@ -1,0 +1,105 @@
+{
+    "interval": 90,
+    "sigma": 2,
+    "warning": 3,
+    "lifetime": 3,
+    "damagetime": 10.0,
+    "damagevalue": 10.0,
+    "unconscioustime": 5.0,
+    "psistorm": {
+        "chance": 0.5,
+        "damagetime": 4.0,
+        "damagevalue": 6.0,
+        "effects": {
+            "EffectSeconds": 3,
+            "RadBlurRandomMax": 3,
+            "ChromaRandomMax": 5,
+            "HueShiftRandomMax": 80,
+            "EnableLaughter": 1,
+            "LaughterIntervalMinSeconds": 60,
+            "LaughterIntervalMaxSeconds": 120,
+            "EnableHandTremors": 1,
+            "EnableHallucinations": 1,
+            "AudioHallucinationIntervalMinSeconds": 15,
+            "AudioHallucinationIntervalMaxSeconds": 40,
+            "ParticleHallucinationIntervalMinSeconds": 20,
+            "ParticleHallucinationIntervalMaxSeconds": 60
+        }
+    },
+    "alertitems": [
+        "PersonalRadio"
+    ],
+    "monolithitems": [
+        "Monolith_Shevron_1",
+        "Monolith_Shevron_2"
+    ],
+    "protectitems": [
+        "Mich2001Helmet",
+        "WorkingGloves_Black"
+    ],
+    "enablehidezonemessage": 0,
+    "usehidezonenotification": 0,
+    "hidezones": [
+        {
+            "position": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        },
+        {
+            "position": [
+                200.0,
+                200.0,
+                200.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        },
+        {
+            "position": [
+                300.0,
+                300.0,
+                300.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        }
+    ],
+    "enablepsitowers": 1,
+    "psihelmets": [
+        "Psi_helmet_1",
+        "Psi_helmet_2"
+    ],
+    "psitowers": [
+        {
+            "position": [
+                150.0,
+                150.0,
+                150.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        },
+        {
+            "position": [
+                250.0,
+                250.0,
+                250.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        },
+        {
+            "position": [
+                350.0,
+                350.0,
+                350.0
+            ],
+            "radius": 10.0,
+            "height": 5.0
+        }
+    ]
+}

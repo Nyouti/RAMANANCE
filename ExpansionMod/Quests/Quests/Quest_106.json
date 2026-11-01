@@ -1,0 +1,103 @@
+{
+    "ConfigVersion": 22,
+    "ID": 106,
+    "Type": 1,
+    "Title": "Le convoi du sud",
+    "Descriptions": [
+        "Mauvaise nouvelle, %1. Tout ce qu'on vend ici, vodka, cigarettes, cartouches, arrive par le sud, par la route du Cordon. C'est Tolik qui menait le dernier convoi, avec cinq gars. Ils devaient arriver il y a trois jours. On a retrouvé leurs traces à l'entrée sud de Garbage, à plus d'un kilomètre d'ici, près de la vieille épave d'hélicoptère. Et des zombifiés traînent autour. Je n'ai pas besoin de te faire un dessin. Nettoie le coin et retrouve la caisse du convoi. Ce qu'il y a dedans nous appartient.",
+        "L'entrée sud de Garbage, près de la vieille épave d'hélicoptère. Les zombifiés d'abord, puis la caisse du convoi de Tolik.",
+        "La caisse... et pas de Tolik. Je m'en doutais. La Zone ne fait pas la différence entre un bandit et un stalker, %1. Elle prend tout le monde pareil. Ce soir, on boira à Tolik et à ses gars. Tiens, prends son obrez, il n'en aura plus besoin, et les cartouches qui vont avec."
+    ],
+    "ObjectiveText": "Élimine les zombifiés à l'entrée sud de Garbage, retrouve la caisse du convoi de Tolik près de la vieille épave d'hélicoptère et rapporte sa marchandise à Stas.",
+    "FollowUpQuest": 107,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SawedoffIzh43Shotgun",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Ammo_12gaPellets",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 106,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 106,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 106,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        105
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

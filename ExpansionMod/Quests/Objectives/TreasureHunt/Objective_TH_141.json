@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 141,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la caisse du premier poste",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Le premier poste",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            2384.9,
+            51.4,
+            4106.8
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

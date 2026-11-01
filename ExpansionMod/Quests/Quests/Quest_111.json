@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 111,
+    "Type": 1,
+    "Title": "Le courrier du retour",
+    "Descriptions": [
+        "Attends, %1. Puisque tu remontes vers Agroprom, prends aussi ça. Ce sont les réponses : les familles écrivent à une adresse de l'autre côté, et je les fais entrer avec le reste. Tu sais pourquoi l'avant-poste du Cordon tire à vue ? Parce que, sur le papier, il n'y a personne dans la Zone. Juste des pillards. Les gamins de la barrière ont l'ordre de tirer sur tout ce qui bouge, et ils touchent leur solde avec trois mois de retard. Certains officiers vendent le passage, d'autres revendent les rations. Ceux du dedans, à Agroprom, ont encore moins : personne ne monte les relever. Porte ces lettres à l'Adjudant. Pour eux, c'est plus important que des cartouches.",
+        "Les réponses des familles, à porter à Grechko, près de la base militaire d'Agroprom.",
+        "Les réponses... Tu ne sais pas ce que ça vaut, %1. Ce soir, il y aura trois gamins qui pleureront en cachette derrière les hangars, et ils se battront mieux demain. Merci. Tu as fait la route deux fois sans poser de questions. J'aurai d'autres choses à te demander, plus dures."
+    ],
+    "ObjectiveText": "Rapporte les réponses des familles à Grechko, près de la base militaire d'Agroprom.",
+    "FollowUpQuest": 112,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Epinephrine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        7
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 111,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        110
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

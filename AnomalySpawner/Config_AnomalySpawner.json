@@ -1,0 +1,212 @@
+{
+    "DebugLogs_enabled": 0,
+    "DetectorsConfig": [
+        {
+            "ClassName": "Anomaly_Detector_Otklik",
+            "Radius": 10.0
+        },
+        {
+            "ClassName": "Anomaly_Detector_Medved",
+            "Radius": 15.0
+        },
+        {
+            "ClassName": "Anomaly_Detector_Svarog",
+            "Radius": 20.0
+        }
+    ],
+    "AnomalyList": [
+		{
+			"m_Title" : "Kordon",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Kordon.json"
+			]
+		},
+		{
+			"m_Title" : "Kordon_Engins_Tunnel_Usine_VoieFerree",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Kordon_Engins_Tunnel_Usine_VoieFerree.json"
+			]
+		},
+		{
+			"m_Title" : "FermeWolf_Village",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\FermeWolf_Village.json"
+			]
+		},
+		{
+			"m_Title" : "EntreTunnelFerroviaire_FermeWolf",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\EntreTunnelFerroviaire_FermeWolf.json"
+			]
+		},
+		{
+			"m_Title" : "FermeWolf_AvantPosteNord",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\FermeWolf_AvantPosteNord.json"
+			]
+		},
+		{
+			"m_Title" : "Rookie_Marais",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Rookie_Marais.json"
+			]
+		},
+		{
+			"m_Title" : "Route_VoieFeree_VillageMarais",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Route_VoieFeree_VillageMarais.json"
+			]
+		},
+		{
+			"m_Title" : "Marais",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Marais.json"
+			]
+		},
+		{
+			"m_Title" : "AvantPosteNord_Garbage",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\AvantPosteNord_Garbage.json"
+			]
+		},
+		{
+			"m_Title" : "Garbage_Agroprom",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Garbage_Agroprom.json"
+			]
+		},
+		{
+			"m_Title" : "Garbage_Rostock",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Garbage_Rostock.json"
+			]
+		},
+		{
+			"m_Title" : "Yantar",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Yantar.json"
+			]
+		},
+		{
+			"m_Title" : "DeadCity",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\DeadCity.json"
+			]
+		},
+		{
+			"m_Title" : "Army",
+			"m_Handler" : 
+			{
+			
+			},
+			"m_Files" : 
+			[
+				"anomalies\\Army.json"
+			]
+		}
+    ],
+	"Teleports" : 
+	[
+		{
+			"m_Title" : "teleports_tp2_entree",
+			"m_Handler" : 
+			{
+				"shapedata" : "0|<-10.0,-5.0,-10.0>|<10.0,5.0,10.0>",
+				"position" : [5341.793457, 116.423317, 2196.132568]
+			},
+			"m_Files" : 
+			[
+				"teleports\\custom_teleport.json"
+			]
+		},
+		{
+			"m_Title" : "teleports_tp3_entree",
+			"m_Handler" : 
+			{
+				"shapedata" : "0|<-10.0,-5.0,-10.0>|<10.0,5.0,10.0>",
+				"position" : [4584.277832, 92.682816, 4163.133789]
+			},
+			"m_Files" : 
+			[
+				"teleports\\custom_teleport.json"
+			]
+		},
+		{
+			"m_Title" : "teleports_tp4_entree",
+			"m_Handler" : 
+			{
+				"shapedata" : "0|<-10.0,-5.0,-10.0>|<10.0,5.0,10.0>",
+				"position" : [4919.994141, 126.844994, 6888.990723]
+			},
+			"m_Files" : 
+			[
+				"teleports\\custom_teleport.json"
+			]
+		}
+	]
+}

@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 154,
+    "Type": 1,
+    "Title": "Ceux qui sont restés",
+    "Descriptions": [
+        "Cet ordre de mission m'a fait penser à une chose, %1. Les soldats qui sont restés avec nous, l'armée les a déclarés déserteurs. Leurs familles ne savent rien : ni qu'ils sont vivants, ni où ils sont. Ici, personne n'est obligé de rentrer, mais personne ne devrait être obligé de se taire non plus. Voilà la liste de ceux qui veulent qu'on écrive chez eux. Juste un mot : « vivant ». Près de la base militaire d'Agroprom vit un ancien adjudant, Grechko. Il fait sortir le courrier des soldats sans que personne ne l'ouvre. Porte-lui cette liste. Agroprom, c'est loin et c'est dur : prends ton temps. Et ne va pas frapper à la porte de la base : Grechko vit à l'écart, à l'est.",
+        "La liste des soldats restés à Svoboda, à remettre à Grechko, à l'écart de la base militaire d'Agroprom, à l'est.",
+        "Chut. Une liste de noms... Des soldats. Le convoi de reprise des Entrepôts. Je m'en souviens : l'ordre de mission est passé par l'intendance d'Agroprom, et c'est moi qui ai signé les bons d'essence. Le lieutenant est revenu avec ses camions vides et la moitié de ses hommes. Il a écrit « disparus ». L'état-major a corrigé : « déserteurs ». Leurs mères n'ont jamais rien reçu d'autre. Je ne peux pas écrire Svoboda sur une enveloppe. Mais je peux écrire « vivant ». Ça partira jeudi, avec les autres, par Sokolov. Tiens, %1. Et tu ne m'as pas vu."
+    ],
+    "ObjectiveText": "Porte la liste des soldats restés à Svoboda à Grechko, à l'écart de la base militaire d'Agroprom, pour que leurs familles sachent qu'ils sont vivants.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Morphine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 154,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        153
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

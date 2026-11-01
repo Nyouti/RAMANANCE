@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 67,
+    "Type": 1,
+    "Title": "Morphine pour Duty",
+    "Descriptions": [
+        "%1, notre contact Duty attend un inhalateur de morphine précis, celui qu'on emballe sous scellé pour les utilisateurs sérieux. C'est sensible, ça part droit aux soins lourds, pas au marché noir. Vous le récupérez, vous le déposez à la liaison Duty sur le point indiqué, sans l'ouvrir ni le tripoter. Merci de jouer le jeu proprement.",
+        "Tant que la liaison Duty n'a pas l'inhalateur entre les mains, la course n'est pas bouclée.",
+        "C'est bon côté Duty ; le Doc sera prévenu. Tenez, le dernier volume de la série, vous l'avez mérité."
+    ],
+    "ObjectiveText": "Livrer l'inhalateur de morphine scellé à la liaison Duty",
+    "FollowUpQuest": 68,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine1",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        64
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 705,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        66
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

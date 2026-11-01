@@ -1,0 +1,94 @@
+{
+    "ConfigVersion": 22,
+    "ID": 105,
+    "Type": 1,
+    "Title": "Les déserteurs",
+    "Descriptions": [
+        "Assieds-toi. Tu crois qu'on est tous d'anciens taulards ? Pas tous. Certains des nôtres portaient l'uniforme, à l'avant-poste du Cordon. Un jour, ils en ont eu marre de risquer leur peau pour une solde qui n'arrivait jamais, et ils sont venus chez Borov avec leurs armes. Le plus gradé, on l'appelle le Lieutenant. La semaine dernière, des snorks l'ont coincé près de l'hélicoptère abattu, à un kilomètre au sud. Il s'en est sorti, mais il a laissé son sac là-bas, avec son livret militaire dedans. Si les militaires tombent dessus, ils sauront qui chercher. Tue les snorks et rapporte-moi le livret. L'épave est irradiée : garde ton masque, et ne va pas fouiller la carcasse. Le sac a roulé plus loin, au bord de la tache, côté nord-est.",
+        "L'hélicoptère abattu, à un kilomètre au sud. Les snorks d'abord, puis le sac du Lieutenant, au bord de la tache, côté nord-est. Pas besoin d'approcher l'épave.",
+        "Donne. Tu vois ce que je fais ? Je le brûle. Ici, personne n'a de passé, %1. Ni le Lieutenant, ni moi, ni toi. On a juste une parole et des dettes. Tiens, ta paie."
+    ],
+    "ObjectiveText": "Tue les snorks autour de l'hélicoptère abattu, au sud de Garbage, puis récupère le livret militaire du Lieutenant, au bord de la tache, et rapporte-le à Stas. Un filtre ordinaire suffit si tu n'approches pas de l'épave.",
+    "FollowUpQuest": 106,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "AmmoBox_545x39Tracer_20Rnd",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 105,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 105,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 105,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        104
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

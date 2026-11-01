@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 92,
+    "Type": 1,
+    "Title": "Nettoyage sangsues CS",
+    "Descriptions": [
+        "%1, on a des rapports de Krovosos trop près de nos lignes. Il me faut cinq éliminations, types 1 à 3, puis tu reviens ici. Pas de héros inutile, tu termines et tu rentres.",
+        "Cinq sangsues à descendre. Reviens quand c'est fait.",
+        "Secteur un peu plus propre. Bien joué. Tiens."
+    ],
+    "ObjectiveText": "Éliminer 5 Krovosos (types 1, 2 ou 3), puis revenir voir l'officier Clear Sky.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        67
+    ],
+    "QuestTurnInIDs": [
+        67
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 92,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

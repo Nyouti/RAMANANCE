@@ -1,0 +1,93 @@
+{
+    "ConfigVersion": 22,
+    "ID": 118,
+    "Type": 1,
+    "Title": "La photo",
+    "Descriptions": [
+        "Encore là ? Tu veux savoir ce qu'il y a sur la photo, hein. Tout le monde veut savoir. Regarde, je ne suis plus à ça près. Un sergent des troupes de l'intérieur, plus jeune, plus gros, devant les barbelés du camp de l'ouest. Derrière lui, les détenus alignés pour l'appel. C'est ton Adjudant, %1. Il gardait le camp. Il est monté dans les camions avec les autres, le matin où ils ont laissé les zeks se débrouiller seuls. Si Stas voyait ça, Grechko serait mort avant la nuit. Moi, je m'en fiche, je ne suis pas du camp : je suis armurier. Ramène-lui sa photo, et dis-lui que je n'en ai pas fait de copie. Peut-être.",
+        "La photo, à rapporter à Grechko, près de la base d'Agroprom.",
+        "Tu l'as regardée. Je le vois. Oui, c'est moi. Sergent Grechko, escorte du camp de travail. Ce matin-là, l'ordre est arrivé par radio : évacuation du personnel militaire uniquement. Les détenus restaient sous la garde du chef de camp, qui est parti dans le premier camion. J'ai obéi, %1. Je suis monté. J'avais trente-quatre ans, deux enfants, et j'avais peur. Le journal de garde que tu m'as rapporté, la dernière page, c'est mon écriture. Depuis, je vis à côté de la base, sans galons et sans nom. Merci de me l'avoir rendue. Tiens, mon pistolet de service : je ne veux plus le porter."
+    ],
+    "ObjectiveText": "Rapporte la photo à Grechko, près de la base militaire d'Agroprom.",
+    "FollowUpQuest": 119,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "MakarovIJ70",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Mag_IJ70_8Rnd",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        53
+    ],
+    "QuestTurnInIDs": [
+        54
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 118,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        117
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

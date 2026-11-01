@@ -1,0 +1,399 @@
+************************** 2026-07-04T13:56:11+00:00 **************************
+2026-07-04T13:56:11+00:00 | [INFO	] GameLabs v1.963 start for server 2e5af3a9-fe3e-4c68-8f4d-76f314aae20e
+2026-07-04T13:56:11+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-07-04T13:56:11+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-07-04T13:56:11+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-07-04T13:56:19+00:00 | [INFO	] Server locked on start
+2026-07-04T13:56:19+00:00 | [DEBUG	] Loaded MissionServer
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionBuildOven" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionBuildPart" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionBuildShelter" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDestroyCodeLockOnTent" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDigGardenPlot" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDismantlePart" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionFoldBaseBuildingObject" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionPackTent" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionRaiseFlag" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionLowerFlag" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDestroyPart" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDigOutStash" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionFoldItem" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDismantleItem" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "HDSN_ActionDeployBreachingCharge" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "HDSN_ActionDefuseBreachingCharge" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionAttachCodeLockToTent" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionAttachCodeLockToFence" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionDestroyCodeLockOnFence" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] "ActionHackCodeLock" has been added as monitored action
+2026-07-04T13:56:19+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-07-04T13:56:19+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-07-04T13:56:19+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6IjJlNWFmM2E5LWZlM2UtNGM2OC04ZjRkLTc2ZjMxNGFhZTIwZSIsInNlcnZlcl9pZCI6IjZhNDgxYjljMjdiNjU0NzNkN2VmZmY4YiIsImlwdjQiOiIxNTIuMjI4LjIyNC4xNjgiLCJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wNFQxMzo1NjoxOS41NzgxNDIiLCJwb2xsdmVyIjoyLCJpbnZtIjo2MCwiaW52ciI6MTIwLCJrdiI6ZmFsc2V9.y9RKDrYILVJW8nNVMzBoD-GMhL3hiNlqpN4yskpDuKg
+2026-07-04T13:56:19+00:00 | [DEBUG	] API-Register status=2, error=
+2026-07-04T13:56:19+00:00 | [INFO	] Server up (GameLabs v1.963; terrain=exclusionzone;)
+2026-07-04T13:56:19+00:00 | [INFO	] RPC interface initiated and handler registered
+2026-07-04T13:56:19+00:00 | [DEBUG	] (ItemDiscovery) Discovered 8852 items
+2026-07-04T13:56:19+00:00 | [DEBUG	] (Reporter) Metrics Dump enabled
+2026-07-04T13:56:20+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-07-04T13:56:20+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-07-04T13:56:21+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-07-04T13:56:21+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-07-04T13:56:22+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000208D5290990><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-07-04T13:56:22+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000208D52A22D0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000208E6639AF0><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEvent(_Event<0x00000208ED9078D0><Land_ContainerLocked_Blue_DE>) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x00000208ED90A330><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000208EE2D6F90><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEvent(_Event<0x00000208F4817430><ScientificBriefcase>) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x00000208F4821ED0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-04T13:56:23+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x00000208F9D00030><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-07-04T13:56:24+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000208F92E1220> established for B8E03249-2E87-424C-9D38-8A11E780DB3C @ $profile:@GameLabsStorage/B8E03249-2E87-424C-9D38-8A11E780DB3C.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x0000020B85245AA0> BBP_BDoor:14603 uuid=B8E03249-2E87-424C-9D38-8A11E780DB3C;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000208F92E1220> established for B8E03249-2E87-424C-9D38-8A11E780DB3C @ $profile:@GameLabsStorage/B8E03249-2E87-424C-9D38-8A11E780DB3C.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x0000020B85245AA0> BBP_BDoor:14603 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA0210> established for 3A6CBC68-E295-4AE6-B3A3-608BA3FFE54F @ $profile:@GameLabsStorage/3A6CBC68-E295-4AE6-B3A3-608BA3FFE54F.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B85241BD0> BBP_SDoor:12399 uuid=3A6CBC68-E295-4AE6-B3A3-608BA3FFE54F;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA0210> established for 3A6CBC68-E295-4AE6-B3A3-608BA3FFE54F @ $profile:@GameLabsStorage/3A6CBC68-E295-4AE6-B3A3-608BA3FFE54F.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B85241BD0> BBP_SDoor:12399 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA4A10> established for 22E60718-E166-43AD-B949-72B36D8EFA8E @ $profile:@GameLabsStorage/22E60718-E166-43AD-B949-72B36D8EFA8E.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B852402B0> BBP_SDoor:12567 uuid=22E60718-E166-43AD-B949-72B36D8EFA8E;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA4A10> established for 22E60718-E166-43AD-B949-72B36D8EFA8E @ $profile:@GameLabsStorage/22E60718-E166-43AD-B949-72B36D8EFA8E.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B852402B0> BBP_SDoor:12567 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8F8C4030> established for 2D5CCB8F-D1C5-4C9F-AC59-BA8C2BD0E582 @ $profile:@GameLabsStorage/2D5CCB8F-D1C5-4C9F-AC59-BA8C2BD0E582.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B8524B290> BBP_SDoor:15026 uuid=2D5CCB8F-D1C5-4C9F-AC59-BA8C2BD0E582;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8F8C4030> established for 2D5CCB8F-D1C5-4C9F-AC59-BA8C2BD0E582 @ $profile:@GameLabsStorage/2D5CCB8F-D1C5-4C9F-AC59-BA8C2BD0E582.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B8524B290> BBP_SDoor:15026 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B932404E0> established for 5DE66515-F0E0-4863-B398-F44989AFB253 @ $profile:@GameLabsStorage/5DE66515-F0E0-4863-B398-F44989AFB253.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B8524F160> BBP_SDoor:16886 uuid=5DE66515-F0E0-4863-B398-F44989AFB253;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B932404E0> established for 5DE66515-F0E0-4863-B398-F44989AFB253 @ $profile:@GameLabsStorage/5DE66515-F0E0-4863-B398-F44989AFB253.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B8524F160> BBP_SDoor:16886 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B914858B0> established for B98A2503-157F-4082-80AF-C1D4665876CA @ $profile:@GameLabsStorage/B98A2503-157F-4082-80AF-C1D4665876CA.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B8524A600> BBP_SDoor:15853 uuid=B98A2503-157F-4082-80AF-C1D4665876CA;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B914858B0> established for B98A2503-157F-4082-80AF-C1D4665876CA @ $profile:@GameLabsStorage/B98A2503-157F-4082-80AF-C1D4665876CA.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B8524A600> BBP_SDoor:15853 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B950B21F0> established for DE6821F9-9032-434A-9F43-DC58DE63F443 @ $profile:@GameLabsStorage/DE6821F9-9032-434A-9F43-DC58DE63F443.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B85253030> BBP_SDoor:19377 uuid=DE6821F9-9032-434A-9F43-DC58DE63F443;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B950B21F0> established for DE6821F9-9032-434A-9F43-DC58DE63F443 @ $profile:@GameLabsStorage/DE6821F9-9032-434A-9F43-DC58DE63F443.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B85253030> BBP_SDoor:19377 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000208F92CD540> established for 3AF1C877-910A-4F6B-B2C3-4E7381426989 @ $profile:@GameLabsStorage/3AF1C877-910A-4F6B-B2C3-4E7381426989.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x0000020B85244180> BBP_BDoor:14244 uuid=3AF1C877-910A-4F6B-B2C3-4E7381426989;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x00000208F92CD540> established for 3AF1C877-910A-4F6B-B2C3-4E7381426989 @ $profile:@GameLabsStorage/3AF1C877-910A-4F6B-B2C3-4E7381426989.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x0000020B85244180> BBP_BDoor:14244 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA4B30> established for 4D94D11F-8B1A-45C4-86B1-D8DA90AC09E5 @ $profile:@GameLabsStorage/4D94D11F-8B1A-45C4-86B1-D8DA90AC09E5.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x0000020B85242860> BBP_Bwall:12568 uuid=4D94D11F-8B1A-45C4-86B1-D8DA90AC09E5;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEA4B30> established for 4D94D11F-8B1A-45C4-86B1-D8DA90AC09E5 @ $profile:@GameLabsStorage/4D94D11F-8B1A-45C4-86B1-D8DA90AC09E5.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x0000020B85242860> BBP_Bwall:12568 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8A38F5B0> established for 717DD315-42E0-4523-A18A-8B4FD9B15FF3 @ $profile:@GameLabsStorage/717DD315-42E0-4523-A18A-8B4FD9B15FF3.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x0000020B8523DD00> BBP_Bwall:11386 uuid=717DD315-42E0-4523-A18A-8B4FD9B15FF3;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8A38F5B0> established for 717DD315-42E0-4523-A18A-8B4FD9B15FF3 @ $profile:@GameLabsStorage/717DD315-42E0-4523-A18A-8B4FD9B15FF3.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x0000020B8523DD00> BBP_Bwall:11386 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B9401CB00> established for 2F03A14E-E202-43B9-A3C5-580F39D3716D @ $profile:@GameLabsStorage/2F03A14E-E202-43B9-A3C5-580F39D3716D.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x0000020B8524FDF0> BBP_BDoor:18422 uuid=2F03A14E-E202-43B9-A3C5-580F39D3716D;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B9401CB00> established for 2F03A14E-E202-43B9-A3C5-580F39D3716D @ $profile:@GameLabsStorage/2F03A14E-E202-43B9-A3C5-580F39D3716D.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x0000020B8524FDF0> BBP_BDoor:18422 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8F8BEC90> established for 3A54B823-7FEF-4CD9-8B68-6B48D2FEA4A1 @ $profile:@GameLabsStorage/3A54B823-7FEF-4CD9-8B68-6B48D2FEA4A1.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020B8524BF20> BBP_SDoor:14862 uuid=3A54B823-7FEF-4CD9-8B68-6B48D2FEA4A1;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8F8BEC90> established for 3A54B823-7FEF-4CD9-8B68-6B48D2FEA4A1 @ $profile:@GameLabsStorage/3A54B823-7FEF-4CD9-8B68-6B48D2FEA4A1.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020B8524BF20> BBP_SDoor:14862 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B3C432F10> established for 07A6B143-A757-4BF2-A4B7-CC15B73C2344 @ $profile:@GameLabsStorage/07A6B143-A757-4BF2-A4B7-CC15B73C2344.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_SDoor<0x0000020AAD5D1DC0> BBP_SDoor:10265 uuid=07A6B143-A757-4BF2-A4B7-CC15B73C2344;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B3C432F10> established for 07A6B143-A757-4BF2-A4B7-CC15B73C2344 @ $profile:@GameLabsStorage/07A6B143-A757-4BF2-A4B7-CC15B73C2344.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_SDoor<0x0000020AAD5D1DC0> BBP_SDoor:10265 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEAF0F0> established for BACA638E-8A18-43F5-9760-A95B84557636 @ $profile:@GameLabsStorage/BACA638E-8A18-43F5-9760-A95B84557636.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_Bwall<0x0000020B852473C0> BBP_Bwall:12842 uuid=BACA638E-8A18-43F5-9760-A95B84557636;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B8CEAF0F0> established for BACA638E-8A18-43F5-9760-A95B84557636 @ $profile:@GameLabsStorage/BACA638E-8A18-43F5-9760-A95B84557636.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_Bwall<0x0000020B852473C0> BBP_Bwall:12842 has no disk presence
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B9146E5D0> established for 969F78DB-E862-4799-8ABB-8CA6AC45F89B @ $profile:@GameLabsStorage/969F78DB-E862-4799-8ABB-8CA6AC45F89B.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x0000020B85249970> BBP_BDoor:15781 uuid=969F78DB-E862-4799-8ABB-8CA6AC45F89B;
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x0000020B9146E5D0> established for 969F78DB-E862-4799-8ABB-8CA6AC45F89B @ $profile:@GameLabsStorage/969F78DB-E862-4799-8ABB-8CA6AC45F89B.json
+2026-07-04T13:56:42+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x0000020B85249970> BBP_BDoor:15781 has no disk presence
+2026-07-04T13:57:00+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020C42323F80><Mutant_XZ_Snork1>) - success
+2026-07-04T13:57:00+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020C42324020><Mutant_XZ_Snork1>) - success
+2026-07-04T13:57:00+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020C42324070><Mutant_XZ_Snork1>) - success
+2026-07-04T13:57:00+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020C423240C0><Mutant_XZ_Snork1>) - success
+2026-07-04T13:57:00+00:00 | [INFO	] Mission fully loaded in 75.538s. Server ready for connections.
+2026-07-04T13:58:13+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020C42323F80>) - success
+2026-07-04T13:59:33+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020C423240C0>) - success
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 
+2026-07-04T13:59:56+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014, steam64=76561198207165013, name=Col.Dragomir)
+2026-07-04T13:59:56+00:00 | [DEBUG	] Player<SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014> no cached CFTools Id for steam64=76561198207165013, contacting api
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.SetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014, 5bc71d48c221d53cdeb306ba)
+2026-07-04T13:59:56+00:00 | [DEBUG	] PlayerBase.SetGamesessionId(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014, 6a4911b9c82865a1a095e673)
+2026-07-04T13:59:56+00:00 | [DEBUG	] Player<SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014> received CFTools Id from API cftools_id=5bc71d48c221d53cdeb306ba, gamesession_id=6a4911b9c82865a1a095e673
+2026-07-04T14:00:54+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020C42324070>) - success
+2026-07-04T14:02:42+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020C42324020>) - success
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 
+2026-07-04T14:03:32+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053, steam64=76561199417217773, name=Yabra)
+2026-07-04T14:03:32+00:00 | [DEBUG	] Player<SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053> no cached CFTools Id for steam64=76561199417217773, contacting api
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.SetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053, 67e07a6e7a463028961dcf05)
+2026-07-04T14:03:32+00:00 | [DEBUG	] PlayerBase.SetGamesessionId(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053, 6a491290c82865a1a095edaa)
+2026-07-04T14:03:32+00:00 | [DEBUG	] Player<SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053> received CFTools Id from API cftools_id=67e07a6e7a463028961dcf05, gamesession_id=6a491290c82865a1a095edaa
+2026-07-04T14:03:51+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:03:56+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:03:56+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:06:54+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:07:03+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:07:08+00:00 | [DEBUG	] action=ActionDeployObject flagged as forbidden by API, not logging
+2026-07-04T14:07:09+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:07:09+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:07:28+00:00 | [DEBUG	] Processing action=ActionPackTent
+2026-07-04T14:12:30+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:30+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:32+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:32+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:32+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:40+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:40+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:40+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:40+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:48+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:12:51+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:51+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:12:57+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:02+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:07+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:12+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:17+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:22+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:25+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:25+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:26+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:26+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:26+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:26+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:29+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:29+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:29+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:29+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:35+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:13:35+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205839C1CB0><Mutant_XZ_Krovosos3>) - success
+2026-07-04T14:13:43+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:44+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:13:51+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205839C1CB0>) - success
+2026-07-04T14:14:54+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:14:59+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:15:33+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 67e07a6e7a463028961dcf05
+2026-07-04T14:15:35+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 67e07a6e7a463028961dcf05
+2026-07-04T14:15:45+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:15:45+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:16:37+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:16:41+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338B5B0><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338BAB0><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338C1E0><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338C4B0><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338C320><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:17:08+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338D450><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:22:21+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF3391460><Zombi_XZ_Novice6>) - success
+2026-07-04T14:22:21+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF3392A90><Zombi_XZ_Novice6>) - success
+2026-07-04T14:22:21+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF3392590><Zombi_XZ_Novice6>) - success
+2026-07-04T14:22:21+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CF338D2C0><Zombi_XZ_Novice6>) - success
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:22+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x0000020CF32F61E0> eAI_SurvivorM_Manua:30634) => 
+2026-07-04T14:22:28+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA21F0><Mutant_XZ_Poltergeist>) - success
+2026-07-04T14:23:45+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:23:59+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:24:24+00:00 | [DEBUG	] action=ActionTeleportPlayer flagged as forbidden by API, not logging
+2026-07-04T14:24:25+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA5990><Mutant_XZ_Krovosos3>) - success
+2026-07-04T14:24:36+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020717958390><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:24:36+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020717952DA0><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:24:36+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205A70D81E0><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338B5B0>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338C1E0>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338C320>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338BAB0>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338C4B0>) - success
+2026-07-04T14:24:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338D450>) - success
+2026-07-04T14:24:52+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:24:52+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA3E60><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA3FA0><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA41D0><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA3730><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA4C20><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:24:58+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFBCA5A30><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:01+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205381B9FC0><Mutant_XZ_Burer2>) - success
+2026-07-04T14:25:01+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205381BC3B0><Mutant_XZ_Burer2>) - success
+2026-07-04T14:25:07+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020877E63A40><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:07+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020877E672D0><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:25:07+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020877E67190><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205381C0CD0><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x00000205381CD340><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x000002053833A020><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x000002053833DB30><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x000002053833FB10><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:08+00:00 | [DEBUG	] RegisterAI(_AI<0x000002053833FD40><Zombi_XZ_Civ_Trup3>) - success
+2026-07-04T14:25:10+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020B456D63E0><Zombi_XZ_Civ_Trup2>) - success
+2026-07-04T14:25:10+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020B456D5BC0><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:10+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020B456D6840><Zombi_XZ_Civ_Trup1>) - success
+2026-07-04T14:25:40+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:25:41+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA5A30>) - success
+2026-07-04T14:25:42+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:25:44+00:00 | [DEBUG	] EEHitBy.EVAL (deathSync=0, suicide=0)
+2026-07-04T14:25:46+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA3E60>) - success
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:26:28+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:26:31+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA4C20>) - success
+2026-07-04T14:27:33+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA21F0>) - success
+2026-07-04T14:28:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF3391460>) - success
+2026-07-04T14:28:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF3392A90>) - success
+2026-07-04T14:28:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF3392590>) - success
+2026-07-04T14:28:48+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CF338D2C0>) - success
+2026-07-04T14:29:32+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA5990>) - success
+2026-07-04T14:29:40+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020717958390>) - success
+2026-07-04T14:29:40+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020717952DA0>) - success
+2026-07-04T14:29:40+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205A70D81E0>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205381C0CD0>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x000002053833A020>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x000002053833FB10>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205381CD340>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x000002053833DB30>) - success
+2026-07-04T14:29:45+00:00 | [DEBUG	] RemoveAI(_AI<0x000002053833FD40>) - success
+2026-07-04T14:30:01+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA3FA0>) - success
+2026-07-04T14:30:01+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020CFBCA41D0>) - success
+2026-07-04T14:30:11+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020877E672D0>) - success
+2026-07-04T14:30:11+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020877E63A40>) - success
+2026-07-04T14:30:11+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020877E67190>) - success
+2026-07-04T14:30:21+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020B456D63E0>) - success
+2026-07-04T14:30:21+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020B456D5BC0>) - success
+2026-07-04T14:30:21+00:00 | [DEBUG	] RemoveAI(_AI<0x0000020B456D6840>) - success
+2026-07-04T14:30:59+00:00 | [DEBUG	] RegisterAI(_AI<0x0000020CFDCC2D40><Mutant_XZ_Krovosos3>) - success
+2026-07-04T14:31:31+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) [67e07a6e7a463028961dcf05] 
+2026-07-04T14:31:31+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053) => 67e07a6e7a463028961dcf05
+2026-07-04T14:31:31+00:00 | [DEBUG	] Player<SurvivorBase<0x00000208F4399020> SurvivorM_Taiki:30053> disconnected at <437.431,72.1742,4564.66>
+2026-07-04T14:34:58+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) [5bc71d48c221d53cdeb306ba] 
+2026-07-04T14:34:58+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014) => 5bc71d48c221d53cdeb306ba
+2026-07-04T14:34:58+00:00 | [DEBUG	] Player<SurvivorBase<0x0000020CF3784030> SurvivorM_Oliver:30014> disconnected at <394.613,60.0399,4343.57>
+2026-07-04T14:35:19+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205381B9FC0>) - success
+2026-07-04T14:35:19+00:00 | [DEBUG	] RemoveAI(_AI<0x00000205381BC3B0>) - success
+2026-07-04T14:35:45+00:00 | [INFO	] (Reporter) Disabled
+2026-07-04T14:35:45+00:00 | [DEBUG	] (Reporter) Timers gracefully closed
+2026-07-04T14:35:45+00:00 | [INFO	] (Core) Attempting graceful exit
+2026-07-04T14:35:45+00:00 | [DEBUG	] (Core) All ref holding buffers cleared
+2026-07-04T14:35:45+00:00 | [DEBUG	] Gracefully closing core logger

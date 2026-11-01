@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 156,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Récupère le boîtier du relais",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Relais de Radio Liberté",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5464.5,
+            144.2,
+            8421.2
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItem_NamalskRadio",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

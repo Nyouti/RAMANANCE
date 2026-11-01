@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 22,
+    "ID": 86,
+    "Type": 1,
+    "Title": "Hémostase d'urgence",
+    "Descriptions": [
+        "%1, quand une blessure saigne trop fort, il faut des hémostatiques qui aident le corps à colmater le flux, et parfois des produits qui soutiennent la régénération du sang pour que le patient ne parte pas en hypovolémie. J'ai besoin de deux injecteurs Erytromixelin, ceux qu'on réserve aux cas où la perfusion et la compression ne suffisent plus. Trouvez-les en Zone et rapportez-les-moi, nous les enregistrerons au stock critique.",
+        "Il me manque encore des injecteurs. Revenez quand vous en aurez deux.",
+        "Merci, avec ça on peut encore croire au rattrapage quand le sang file trop vite. Voici un volume complémentaire de la série médecine."
+    ],
+    "ObjectiveText": "Deux injecteurs Erytromixelin au Doc",
+    "FollowUpQuest": 87,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TerjeBookMedicine4",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 727,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        85
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

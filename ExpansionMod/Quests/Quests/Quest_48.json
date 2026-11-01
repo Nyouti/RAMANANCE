@@ -1,0 +1,74 @@
+{
+    "ConfigVersion": 22,
+    "ID": 48,
+    "Type": 1,
+    "Title": "Chiens mutants et preuves",
+    "Descriptions": [
+        "%1, on a un nid de problèmes près du point que je te marque. Il y a trois chiens mutants à fourrure à descendre sur place, et je veux trois queues en preuve, pas une de moins. Fais le ménage, ramène les queues au camp, et fais gaffe aux flancs.",
+        "Rejoins la zone, tue les trois bêtes, récupère les trois queues, puis reviens me voir.",
+        "Les preuves sont là. Bien joué, la zone respire un peu mieux. Tiens ta paye."
+    ],
+    "ObjectiveText": "Va au point indiqué, élimine 3 chiens mutants et rapporte 3 queues au Veilleur.",
+    "FollowUpQuest": 49,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble100",
+            "Amount": 4,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        44
+    ],
+    "QuestTurnInIDs": [
+        44
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 481,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 482,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 483,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [47],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

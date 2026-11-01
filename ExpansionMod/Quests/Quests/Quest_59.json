@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 59,
+    "Type": 1,
+    "Title": "Reco 1 chez Duty",
+    "Descriptions": [
+        "%1, écoute bien. Tu vas au point, c'est sur ta carte. Tu regardes, tu notes, tu ne te fais pas voir. Ensuite tu reviens ici et tu me dis ce que tu as vu. Pas d'imagination, pas d'héroïsme, tu obéis.",
+        "Tant que tu n'as pas posé le pied dans la zone du point, la reco n'est pas faite. Bouge.",
+        "C'est noté. Tu as tenu la ligne. Prends ça et retourne en place."
+    ],
+    "ObjectiveText": "Reco 1, va au point, observe, puis reviens voir l'officier Duty.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        59
+    ],
+    "QuestTurnInIDs": [
+        59
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 59,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 0
+}

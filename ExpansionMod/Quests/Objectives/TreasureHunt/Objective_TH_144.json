@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 144,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la cache des coureurs de Svoboda",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestDryBag_Green",
+    "DigInStash": 0,
+    "MarkerName": "Cache de Svoboda",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            5242.6,
+            117.9,
+            4773.5
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItemBook",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

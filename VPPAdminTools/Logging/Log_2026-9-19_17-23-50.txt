@@ -1,0 +1,586 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-9-19_17-23-50
+====================================================================================
+17:23:50 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+17:23:50 | [PermissionManager] Perm (FreeCamera) has been registered!
+17:23:50 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuServerManager) has been registered!
+17:23:50 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+17:23:50 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+17:23:50 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+17:23:50 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+17:23:50 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+17:23:50 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+17:23:50 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+17:23:50 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+17:23:50 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuBansManager) has been registered!
+17:23:50 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+17:23:50 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+17:23:50 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+17:23:50 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+17:23:50 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+17:23:50 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+17:23:52 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+17:23:52 | [PermissionManager] Adding Super Admin (76561198317293678)
+17:23:52 | [PermissionManager] Adding Super Admin (76561198207165013)
+17:23:52 | [PermissionManager] Adding Super Admin (76561199417217773)
+17:23:52 | [PermissionManager] Adding Super Admin (76561198097580497)
+17:23:52 | [PermissionManager] Loaded UserGroups.json
+17:23:52 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+17:23:52 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+17:23:52 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+17:23:52 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+17:23:52 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+17:23:52 | Building Sets Loaded: 12
+17:23:52 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+17:23:52 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+17:26:51 | Player "Goeslov Bogdan Kakyoinov" (steamId=76561198106085580) connected to server!
+17:26:51 | Player "Goeslov Bogdan Kakyoinov" (steamId=76561198106085580) initiated disconnect process...
+17:29:6 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+17:29:50 | Player "Nikolai Arkavitch" (steamId=76561198996087044) connected to server!
+17:33:43 | Player "Reggie Novoselki" (steamId=76561198106085580) connected to server!
+17:35:23 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+17:35:34 | "Mikhail" (steamid=76561198097580497) toggled godmode
+17:36:53 | "Mikhail" (steamid=76561198097580497) toggled freecam
+17:36:55 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<459.603455, 115.669998, 97.590363>)
+17:36:56 | "Mikhail" (steamid=76561198097580497) toggled freecam
+17:37:12 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4880.560059, 92.029999, 2340.530029>)
+17:37:12 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4880.56,92.03,2340.53)
+17:37:17 | "Mikhail" (steamid=76561198097580497) toggled freecam
+17:37:23 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4878.263184, 92.242920, 2338.050537>)
+17:37:23 | "Mikhail" (steamid=76561198097580497) toggled freecam
+17:40:39 | Player "Karl Heim" (steamId=76561199086364433) connected to server!
+17:42:34 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+17:42:34 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+17:44:18 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+17:44:18 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+17:45:8 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+17:45:9 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+17:47:18 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+17:47:19 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+17:48:56 | Player "Guidere Boulerd" (steamId=76561198119629901) connected to server!
+17:49:52 | Player "Minouchko Alenyev " (steamId=76561198972390772) connected to server!
+17:49:52 | Player "Minouchko Alenyev " (steamId=76561198972390772) initiated disconnect process...
+17:51:5 | Player "Reggie Novoselki" (steamId=76561198106085580) initiated disconnect process...
+17:51:6 | Player "Reggie Novoselki" (steamId=76561198106085580) disconnected early from server (EXIT NOW).
+17:51:42 | Player "Alenyev Minouchko" (steamId=76561198972390772) connected to server!
+17:51:42 | Player "Alenyev Minouchko" (steamId=76561198972390772) initiated disconnect process...
+18:8:52 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+18:16:31 | Player "Mykola Hrytsenko" (steamId=76561198038391340) connected to server!
+18:19:2 | Player "Miguel Alvaro" (steamId=76561199850843836) connected to server!
+18:27:0 | Player "Guidere Boulerd" (steamId=76561198119629901) initiated disconnect process...
+18:28:48 | Player "Nikola* Kozlov" (steamId=76561198799662309) connected to server!
+18:28:48 | Player "Nikola* Kozlov" (steamId=76561198799662309) initiated disconnect process...
+18:34:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:34:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4846.932129, 95.646561, 2359.696533>)
+18:34:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:35:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:35:43 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4671.765137, 66.033920, 1603.092529>)
+18:35:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:35:57 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:36:16 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5037.076172, 127.250023, 4601.848633>)
+18:36:20 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:36:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:36:52 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4942.350586, 131.535049, 6768.665039>)
+18:37:1 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:37:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:37:35 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5816.345703, 156.943832, 7963.536621>)
+18:37:36 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:37:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:38:6 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+18:38:6 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+18:39:7 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2485.331787, 37.759995, 6214.815430>)
+18:39:28 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2452.145508, 44.883324, 6206.738770>)
+18:39:32 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:39:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:39:54 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<1689.286743, 57.552315, 4063.566895>)
+18:39:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:41:53 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4881.209961, 92.029999, 2340.409912>)
+18:41:53 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4881.21,92.03,2340.41)
+18:41:56 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:42:5 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4878.595703, 92.242920, 2339.855957>)
+18:42:5 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:49:37 | Player "Sacha Volkov" (steamId=76561198333790753) initiated disconnect process...
+18:49:52 | Player "Sacha Volkov" (steamId=76561198333790753) disconnected from server.
+18:51:8 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+18:51:8 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+18:54:17 | Player "Franck Schmit" (steamId=76561198047137116) connected to server!
+18:57:7 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+18:58:21 | Player "Aaron Ananenko" (steamId=76561198014580945) initiated disconnect process...
+18:58:22 | Player "Aaron Ananenko" (steamId=76561198014580945) disconnected early from server (EXIT NOW).
+18:58:22 | Player "Mykola Hrytsenko" (steamId=76561198038391340) initiated disconnect process...
+18:58:24 | Player "Mykola Hrytsenko" (steamId=76561198038391340) disconnected early from server (EXIT NOW).
+19:2:4 | Player "Col.Dragomir" (steamId=76561198207165013) connected to server!
+19:2:27 | Player "Col.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+19:7:28 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:7:46 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:9:21 | Player "Alenyev Minouchko" (steamId=76561198972390772) connected to server!
+19:9:26 | Player "Nikola* Kozlov" (steamId=76561198799662309) connected to server!
+19:9:37 | Player "Nikola* Kozlov" (steamId=76561198799662309) initiated disconnect process...
+19:9:52 | Player "Aaron Ananenko" (steamId=76561198014580945) connected to server!
+19:9:53 | Player "antoneff2b" (steamId=76561199443580912) connected to server!
+19:10:34 | Player "Col.Dragomir" (steamId=76561198207165013) connected to server!
+19:10:44 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+19:11:2 | "Mikhail" (steamid=76561198097580497) kicked player: "antoneff2b"
+19:11:3 | Player "antoneff2b" (steamId=76561199443580912) initiated disconnect process...
+19:11:30 | Player "Nikola* Kozlov" (steamId=76561198799662309) connected to server!
+19:11:52 | Player "antoneff2b" (steamId=76561199443580912) connected to server!
+19:12:6 | "Mikhail" (steamid=76561198097580497) kicked player: "antoneff2b"
+19:12:6 | Player "antoneff2b" (steamId=76561199443580912) initiated disconnect process...
+19:12:20 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:12:23 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:12:27 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:12:28 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:13:8 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SFP_PKP" (pos=<1703.030396, 42.583538, 4080.967285>)
+19:13:13 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SFP_PKP_BoxMag" (pos=<1703.030396, 42.722363, 4080.967285>)
+19:13:15 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SFP_PKP_BoxMag" (pos=<1703.030396, 42.722363, 4080.967285>)
+19:13:34 | Player "Mykola Hrytsenko" (steamId=76561198038391340) connected to server!
+19:13:41 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (TF_PKP)
+19:14:14 | Player "Yurko Yatsenko " (steamId=76561199443580912) connected to server!
+19:14:15 | Player "Viktor Mikhailov" (steamId=76561199056886146) connected to server!
+19:14:18 | "Col.Dragomir" (steamid=76561198207165013) deleted object "TF_PKP" (pos=<1703.687256, 42.604733, 4079.347900>)
+19:14:41 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_PKP)
+19:14:47 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_PKP_BoxMag)
+19:14:59 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_PKP_BoxMag)
+19:14:59 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_PKP_BoxMag)
+19:15:0 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (SFP_PKP_BoxMag)
+19:15:50 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mag_SVD_10Rnd)
+19:15:51 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mag_SVD_10Rnd)
+19:16:3 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Sniper_AoD_Optic_PSO1)
+19:17:3 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (AKS74U)
+19:17:21 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mag_AK74_30Rnd)
+19:17:22 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mag_AK74_30Rnd)
+19:17:22 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mag_AK74_30Rnd)
+19:17:22 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+19:17:26 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected early from server (EXIT NOW).
+19:17:37 | Player "Vasyl Zadornov" (steamId=76561198050438630) disconnected from server.
+19:18:0 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (AKS74U_Bttstck_Black)
+19:18:43 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+19:18:43 | Player "Vasyl Zadornov" (steamId=76561198050438630) initiated disconnect process...
+19:18:48 | "Col.Dragomir": (steamid=76561198207165013) teleported to (pos=232tttttyhtrrtttt)
+19:18:52 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:19:42 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:19:43 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:19:43 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:19:44 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4647.299805, 132.401733, 8891.539062>)
+19:19:44 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:19:49 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:20:34 | Player "Daniil Krestov" (steamId=76561198128998118) connected to server!
+19:20:40 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:20:56 | Player "Miguel Alvaro" (steamId=76561199850843836) initiated disconnect process...
+19:20:58 | Player "Vasyl Zadornov" (steamId=76561198050438630) connected to server!
+19:21:11 | Player "Miguel Alvaro" (steamId=76561199850843836) disconnected from server.
+19:21:14 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:21:16 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:21:52 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5792.381348, 151.201462, 8427.287109>)
+19:21:53 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:22:22 | Player "Guidere Boulerd" (steamId=76561198119629901) connected to server!
+19:22:47 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:23:30 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5953.958984, 137.970413, 8211.867188>)
+19:23:31 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:24:17 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:24:37 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5527.928223, 135.685730, 8286.946289>)
+19:24:37 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:25:26 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:26:38 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<3153.939941, 70.683098, 1332.959961>)
+19:26:38 | "Mikhail": (steamid=76561198097580497) teleported to (pos=3153.94,70.6831,1332.96)
+19:26:41 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4968.581543, 128.913116, 7967.535156>)
+19:26:42 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:26:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:26:47 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:27:37 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:27:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:28:0 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:28:11 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4672.522949, 119.929108, 7801.664062>)
+19:28:11 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:29:34 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:29:36 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: mono has no parrent!
+19:29:36 | "Mikhail" (steamid=76561198097580497) spawned preset: (mono)
+19:29:56 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4753.153809, 123.917290, 6987.013672>)
+19:29:57 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:30:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SGE_Monolith_Wind_Jacket_Dw)
+19:30:31 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SGE_Monolith_Wind_Pants)
+19:30:55 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Exoskelet_AoD_Monolith_Belt)
+19:30:56 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:31:12 | "Mikhail" (steamid=76561198097580497) Spawned Item: (FS_SKULL_Balaclava)
+19:31:13 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<6589.185547, 124.479912, 8389.806641>)
+19:31:21 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<6758.006836, 123.281784, 8244.920898>)
+19:31:21 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:31:51 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_ExoClassic_Helmet_monolit)
+19:32:2 | "Mikhail" (steamid=76561198097580497) Spawned Item: (aod_helmet_neytral_Mich2001)
+19:32:19 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:32:29 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<6174.882812, 107.294357, 8815.331055>)
+19:32:30 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:33:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (FS_EXO_leg_Monolit)
+19:33:31 | "Mikhail" (steamid=76561198097580497) Spawned Item: (FS_EXO_Monolit)
+19:33:41 | "Mikhail" (steamid=76561198097580497) Spawned Item: (FS_EXO_leg_Monolit)
+19:33:46 | "Mikhail" (steamid=76561198097580497) Spawned Item: (FS_EXO_leg_Monolit)
+19:34:3 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SVD_Wooden)
+19:34:6 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_SVD_10Rnd)
+19:34:26 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Sniper_AoD_Optic_PSO11)
+19:34:44 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:34:46 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5906.871582, 145.870026, 8427.361328>)
+19:34:47 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Sniper_AoD_Optic_PSO11)
+19:34:55 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SVD_Wooden)
+19:35:6 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2934.281738, 106.399429, 8778.421875>)
+19:35:14 | Player "Sacha Volkov" (steamId=76561198333790753) connected to server!
+19:35:17 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mag_SVD_10Rnd)
+19:35:18 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3128.474854, 114.185349, 9055.320312>)
+19:35:18 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:35:33 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Battery9V)
+19:36:24 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:36:28 | "Mikhail" (steamid=76561198097580497) Spawned Item: (TF_AK_Tactica_Tula10000Receiver)
+19:36:43 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2885.367920, 122.664665, 8178.905273>)
+19:36:44 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:36:44 | "Mikhail" (steamid=76561198097580497) Spawned Item: (ACOGOptic)
+19:36:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<3170.990479, 71.719345, 1325.089355>)
+19:37:17 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+19:37:28 | Player "Mikhail" (steamId=76561198097580497) disconnected early from server (EXIT NOW).
+19:37:32 | Player "Mikhail" (steamId=76561198097580497) disconnected from server.
+19:37:40 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:37:47 | Player "Oleksandr Rybak" (steamId=76561197972045425) connected to server!
+19:37:55 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5109.899902, 142.174881, 6793.770020>)
+19:38:8 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5175.092285, 127.718254, 6845.696777>)
+19:38:8 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:38:10 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+19:38:33 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:38:46 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<5176.970215, 126.819000, 6825.620117>)
+19:38:46 | "Mikhail": (steamid=76561198097580497) teleported to (pos=5176.97,126.819,6825.62)
+19:39:6 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:11 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4981.588379, 148.480957, 6837.448730>)
+19:39:12 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:39 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:39:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:39:45 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5513.354980, 126.276939, 6776.703613>)
+19:39:46 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:41:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<5027.244141, 140.463058, 6597.743164>)
+19:41:3 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:41:58 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:42:12 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5893.022461, 107.580353, 4615.718262>)
+19:42:19 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<6281.163086, 116.220016, 4635.303711>)
+19:42:20 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:43:36 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:43:45 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4732.189941, 92.440002, 2300.850098>)
+19:43:45 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4732.19,92.44,2300.85)
+19:44:12 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5260.822754, 123.856972, 3902.964600>)
+19:44:22 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5873.386719, 128.888748, 3742.202393>)
+19:44:23 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:44:58 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Krovosos1)
+19:45:6 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:45:7 | "Mikhail" (steamid=76561198097580497) toggled godmode
+19:45:9 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:45:11 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4730.861328, 97.065094, 2297.788330>)
+19:45:12 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:45:18 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:45:48 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:46:3 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5377.859375, 107.496094, 1919.755127>)
+19:46:23 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5574.948242, 93.440750, 1765.704468>)
+19:46:23 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:47:31 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:47:35 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<5175.597168, 117.329475, 1906.616089>)
+19:48:2 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:48:4 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:48:8 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4865.662109, 126.387787, 6746.759766>)
+19:48:21 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4664.698242, 111.978851, 2247.478271>)
+19:48:53 | Player "Zoryn Mikhailovitch" (steamId=76561198066996459) connected to server!
+19:54:5 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4641.003906, 61.826496, 1600.987427>)
+19:54:5 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:54:20 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: tenue mili event has no parrent!
+19:54:20 | "Mikhail" (steamid=76561198097580497) spawned preset: (tenue mili event)
+19:54:21 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: tenue mili event has no parrent!
+19:54:21 | "Mikhail" (steamid=76561198097580497) spawned preset: (tenue mili event)
+19:55:52 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4670.700195, 66.033920, 1599.739502>)
+19:55:53 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:56:11 | [VPPItemManager]:: SpawnItemPreset(): WARNING! preset: octane has no parrent!
+19:56:11 | "Col.Dragomir" (steamid=76561198207165013) spawned preset: (octane)
+19:56:30 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:56:37 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4700.939453, 54.632008, 1084.117432>)
+19:56:37 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+19:56:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:56:50 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4680.663086, 70.198181, 1358.051392>)
+19:56:51 | "Mikhail" (steamid=76561198097580497) toggled freecam
+19:59:7 | Player "Melnik Alexandrovitch" (steamId=76561198114075378) connected to server!
+20:0:2 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:7 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4652.716797, 57.189999, 1591.588501>)
+20:0:7 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:0:27 | "Mikhail" (steamid=76561198097580497) Spawned Item: (SFP_Alarm_Stolb)
+20:1:18 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Mirek" (pos=<4651.372559, 57.205643, 1574.628662>)
+20:1:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:1:35 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:1:40 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:1:46 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4583.916016, 80.901909, 1800.516113>)
+20:1:48 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:1:51 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:2:14 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4362.017090, 109.192787, 2354.938232>)
+20:2:15 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:2:19 | "Col.Dragomir" (steamid=76561198207165013) deleted object "SurvivorM_Mirek" (pos=<4360.467285, 108.923042, 2356.335205>)
+20:2:24 | "Col.Dragomir" (steamid=76561198207165013) deleted object "BushSoft_b_corylusAvellana_1f" (pos=<4360.045410, 110.432877, 2354.003662>)
+20:2:40 | "Col.Dragomir" (steamid=76561198207165013) deleted object "FS_m590_Shotgun" (pos=<4360.030273, 108.777542, 2355.825928>)
+20:2:44 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:3:42 | Player "Nikola* Kozlov" (steamId=76561198799662309) initiated disconnect process...
+20:3:42 | Player "Nikola* Kozlov" (steamId=76561198799662309) disconnected early from server (EXIT NOW).
+20:4:2 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4859.918945, 92.042618, 2356.312988>)
+20:4:2 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:4:48 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (FireworksLauncher)
+20:4:59 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (PetrolLighter)
+20:5:9 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:5:10 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:6:9 | "Col.Dragomir" (steamid=76561198207165013) deleted object "FireworksLauncher" (pos=<4857.128906, 92.054749, 2356.421387>)
+20:6:38 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Ammo_9x19)
+20:6:51 | Player "Guidere Boulerd" (steamId=76561198119629901) disconnected from server.
+20:6:51 | Player "Guidere Boulerd" (steamId=76561198119629901) initiated disconnect process...
+20:7:19 | "Mikhail" (steamid=76561198097580497) deleted object "SGE_Military_Beryl_Vest" (pos=<4644.813965, 61.947132, 1602.697510>)
+20:7:20 | "Mikhail" (steamid=76561198097580497) deleted object "SGE_Military_Beryl_Vest" (pos=<4644.813965, 61.947132, 1602.697510>)
+20:7:21 | "Mikhail" (steamid=76561198097580497) deleted object "SGE_Military_Beryl_Pants" (pos=<4644.813965, 61.947132, 1602.697510>)
+20:7:22 | "Mikhail" (steamid=76561198097580497) deleted object "JungleBoots_Black" (pos=<4644.813965, 61.837315, 1602.697510>)
+20:7:23 | "Mikhail" (steamid=76561198097580497) deleted object "JungleBoots_Black" (pos=<4644.813965, 61.837315, 1602.697510>)
+20:7:25 | "Mikhail" (steamid=76561198097580497) deleted object "SGE_Military_Beryl_Pouches_2" (pos=<4644.813965, 61.953079, 1602.697510>)
+20:7:26 | "Mikhail" (steamid=76561198097580497) deleted object "SGE_Military_Beryl_Jacket" (pos=<4644.813965, 61.941906, 1602.697510>)
+20:7:32 | "Mikhail" (steamid=76561198097580497) deleted object "aod_backpack_Military_m53_assault" (pos=<4644.728027, 61.949860, 1602.404907>)
+20:7:34 | "Col.Dragomir" (steamid=76561198207165013) gave unlimited ammo to (steamid=76561198207165013)
+20:7:34 | "Mikhail" (steamid=76561198097580497) deleted object "FS_TAG_ARMY" (pos=<4644.839355, 61.831589, 1602.404907>)
+20:7:47 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:7:52 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:7:55 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:0 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:3 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:7 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:10 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:14 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:16 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:19 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:22 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:25 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:27 | "Mikhail" (steamid=76561198097580497) deleted objects using ESP
+20:8:52 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:8:54 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4649.509277, 57.180008, 1568.316650>)
+20:8:55 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:9:46 | Player "Col.Dragomir" (steamId=76561198207165013) initiated disconnect process...
+20:9:47 | Player "Col.Dragomir" (steamId=76561198207165013) disconnected early from server (EXIT NOW).
+20:11:12 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:11:28 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4652.905273, 57.180000, 1562.659302>)
+20:11:29 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:12:28 | Player "Col.Dragomir" (steamId=76561198207165013) connected to server!
+20:12:37 | "Col.Dragomir" (steamid=76561198207165013) toggled godmode
+20:12:41 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:12:57 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4670.531738, 57.347252, 1428.391846>)
+20:12:58 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:13:48 | "Col.Dragomir" (steamid=76561198207165013) gave unlimited ammo to (steamid=76561198207165013)
+20:14:14 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4672.266602, 57.296635, 1461.838257>)
+20:14:15 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4674.504395, 56.723419, 1465.573120>)
+20:14:15 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4660.468262, 56.814342, 1448.216919>)
+20:14:16 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4666.511230, 56.265766, 1452.695312>)
+20:14:16 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4672.008301, 56.636963, 1466.441528>)
+20:14:17 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4665.418457, 56.779705, 1473.447510>)
+20:14:18 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4669.293945, 55.877079, 1480.466797>)
+20:14:19 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4663.185059, 55.245285, 1495.307983>)
+20:14:19 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4661.120117, 55.642673, 1485.979980>)
+20:14:20 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4667.889160, 55.887489, 1479.834717>)
+20:14:29 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4663.149414, 55.092251, 1505.789551>)
+20:14:29 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4661.546387, 55.216480, 1513.949341>)
+20:14:29 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4659.746094, 55.399811, 1523.011108>)
+20:15:47 | "Mikhail" (steamid=76561198097580497) gave unlimited ammo to (steamid=76561198097580497)
+20:17:36 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:17:39 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:18:59 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:19:6 | "Mikhail" (steamid=76561198097580497) deleted object "Izh43Shotgun" (pos=<4650.604492, 57.213284, 1575.759155>)
+20:19:8 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4823.912109, 115.917709, 2181.530029>)
+20:19:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:29 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4860.583984, 92.046814, 2358.402100>)
+20:19:29 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:19:30 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:19:32 | "Col.Dragomir" (steamid=76561198207165013) toggled freecam
+20:19:39 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4526.493164, 133.822128, 6769.258789>)
+20:19:47 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4951.186035, 163.934769, 6833.436523>)
+20:20:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:20:13 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4578.702637, 126.820030, 6761.591309>)
+20:20:35 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4527.026367, 128.411682, 6741.679688>)
+20:21:11 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4593.245605, 81.331375, 1869.275879>)
+20:21:12 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:21:34 | Player "Viktor Mikhailov" (steamId=76561199056886146) initiated disconnect process...
+20:21:35 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Dog_Brown)
+20:21:36 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Dog_Brown)
+20:21:36 | "Mikhail" (steamid=76561198097580497) Spawned Item: (Mutant_XZ_Dog_Brown)
+20:21:49 | Player "Viktor Mikhailov" (steamId=76561199056886146) disconnected from server.
+20:21:53 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Poltergeist)
+20:21:57 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:22:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4572.666992, 79.253151, 1840.026001>)
+20:22:1 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:22:8 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:22:44 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:23:0 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:23:52 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4623.698242, 76.141762, 1829.558472>)
+20:23:53 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:23:57 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Krovosos3)
+20:24:34 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:25:37 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4455.855957, 127.624451, 6809.095703>)
+20:27:1 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4489.892578, 126.819992, 6790.219727>)
+20:27:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4692.497559, 59.004005, 1422.685181>)
+20:27:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:27:22 | "Mikhail" (steamid=76561198097580497) deleted object "SurvivorM_Boris" (pos=<4692.618164, 59.074730, 1421.772095>)
+20:27:27 | Player "Alenyev Minouchko" (steamId=76561198972390772) initiated disconnect process...
+20:27:28 | Player "Alenyev Minouchko" (steamId=76561198972390772) disconnected early from server (EXIT NOW).
+20:27:49 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4529.540527, 133.926682, 7885.189453>)
+20:28:9 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<4486.149902, 129.014999, 7861.629883>)
+20:28:9 | "Mikhail": (steamid=76561198097580497) teleported to (pos=4486.15,129.015,7861.63)
+20:28:10 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4492.481934, 129.839859, 6784.066406>)
+20:28:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:29:20 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4474.165039, 148.866730, 6864.182129>)
+20:29:21 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:29:33 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:29:57 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4469.721680, 129.853027, 6687.600098>)
+20:32:8 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4487.361816, 126.820007, 6590.598633>)
+20:33:28 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4489.872559, 126.820023, 6588.932129>)
+20:33:41 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4495.627441, 129.404434, 6584.769531>)
+20:33:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:33:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:33:49 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4490.024902, 135.273865, 6611.721191>)
+20:34:38 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4477.700684, 126.820000, 6592.452637>)
+20:34:40 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4475.871094, 126.820000, 6578.858887>)
+20:34:56 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Izlom3)
+20:34:58 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Izlom1)
+20:35:4 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Duty_Zorya)
+20:35:4 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Duty_Zorya)
+20:35:4 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Duty_Zorya)
+20:35:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano1)
+20:35:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano1)
+20:35:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Mutant_XZ_Tushkano1)
+20:35:55 | "Col.Dragomir" (steamid=76561198207165013) deleted object "Mutant_XZ_Tushkano1" (pos=<4477.535645, 126.860001, 6622.011230>)
+20:36:39 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2569.051270, 127.314865, 7756.371582>)
+20:36:47 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2569.031006, 73.967224, 6447.349121>)
+20:36:55 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2470.756592, 70.056030, 6441.275879>)
+20:37:10 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4458.185059, 127.984360, 6657.022461>)
+20:37:11 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:37:17 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4617.042480, 124.694283, 6498.389648>)
+20:37:21 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4549.985352, 126.801178, 6558.568848>)
+20:37:31 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:37:38 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice1)
+20:37:53 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice4)
+20:37:54 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice3)
+20:37:55 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4638.379883, 129.766602, 6792.066406>)
+20:38:1 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice2)
+20:38:2 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice1)
+20:38:14 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice1)
+20:38:15 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice3)
+20:38:15 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice5)
+20:38:15 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice5)
+20:38:22 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:40:3 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:40:33 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4963.088867, 126.819992, 6652.134277>)
+20:40:45 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4541.426270, 120.800697, 6561.983887>)
+20:41:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice5)
+20:41:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice5)
+20:41:29 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Novice5)
+20:42:5 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4791.416016, 134.291000, 6793.230469>)
+20:42:28 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4787.791504, 126.820000, 6674.916992>)
+20:42:42 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Freedom_Zorya)
+20:42:43 | "Col.Dragomir" (steamid=76561198207165013) Spawned Item: (Zombi_XZ_Duty_Zorya)
+20:43:40 | "Col.Dragomir" (steamid=76561198207165013) deleted object "Zombi_XZ_Novice5" (pos=<4539.435547, 121.083984, 6559.462402>)
+20:43:50 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4908.166504, 126.819984, 6629.183594>)
+20:45:45 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:45:51 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4939.190430, 96.043274, 2554.453613>)
+20:45:53 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4539.964355, 120.800697, 6564.078125>)
+20:45:55 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<4539.964355, 120.800697, 6564.078125>)
+20:45:56 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:45:56 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:45:58 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+20:46:0 | Player "Mikhail" (steamId=76561198097580497) aborted logout process [canceledLogout]
+20:46:9 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:46:10 | "Mikhail" (steamid=76561198097580497) toggled godmode
+20:46:16 | "76561198097580497" (steamid=76561198097580497) teleported to (pos=<2288.649902, 43.365799, 6788.319824>)
+20:46:16 | "Mikhail": (steamid=76561198097580497) teleported to (pos=2288.65,43.3658,6788.32)
+20:46:17 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:46:18 | "Mikhail" (steamid=76561198097580497) toggled freecam
+20:46:23 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...
+20:46:25 | Player "Mikhail" (steamId=76561198097580497) disconnected early from server (EXIT NOW).
+20:47:12 | Player "Mikhail (2)" (steamId=76561198097580497) connected to server!
+20:47:15 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4817.869629, 176.093582, 6158.607422>)
+20:47:25 | "Mikhail (2)" (steamid=76561198097580497) healed player (steamid=76561198097580497)
+20:47:50 | "Mikhail (2)" (steamid=76561198097580497) toggled freecam
+20:48:12 | "Mikhail (2)" (steamid=76561198097580497) teleported to crosshair (pos=<4587.583496, 126.800491, 6532.341797>)
+20:48:13 | "Mikhail (2)" (steamid=76561198097580497) toggled freecam
+20:48:16 | "Mikhail (2)" (steamid=76561198097580497) toggled freecam
+20:48:18 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<4094.496582, 135.215118, 6202.066406>)
+20:48:20 | "Mikhail (2)" (steamid=76561198097580497) teleported to crosshair (pos=<4539.699707, 120.800697, 6563.013672>)
+20:48:21 | "Mikhail (2)" (steamid=76561198097580497) toggled freecam
+20:48:32 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2589.539795, 45.374557, 6285.017578>)
+20:49:2 | "Mikhail (2)" (steamid=76561198097580497) toggled freecam
+20:49:30 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3691.028564, 96.107544, 6158.093262>)
+20:50:2 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3706.562256, 128.738220, 6230.419922>)
+20:50:9 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3687.638428, 129.805618, 6236.055664>)
+20:50:21 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<3678.207764, 129.663666, 6235.556641>)
+20:50:48 | "Col.Dragomir" (steamid=76561198207165013) teleported to crosshair (pos=<2505.206299, 62.232792, 6503.688477>)

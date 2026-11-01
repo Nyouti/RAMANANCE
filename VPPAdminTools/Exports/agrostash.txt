@@ -1,0 +1,57 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "Land_Furniture_box_metall_case", "2061.120117 28.964600 4028.669922", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1893.219971 28.378000 4060.620117", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1893.000000 28.450199 4073.909912", "-3.088798 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1891.010010 29.655199 4061.840088", "-4.492795 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1873.089966 33.005402 4056.689941", "7.862379 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1585.920044 33.850800 4082.469971", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2129.870117 32.672199 4353.879883", "41.277565 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2161.760010 38.035801 4410.660156", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2480.969971 52.184700 4063.030029", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2342.360107 48.128300 4101.390137", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2346.939941 41.514999 4526.700195", "55.935211 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2255.560059 38.128601 4713.390137", "6.009109 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2187.179932 34.636002 4672.240234", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2074.560059 47.975800 4579.649902", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2074.159912 47.066799 4587.270020", "-7.413101 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2076.580078 48.051998 4569.640137", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1585.390015 39.556702 4331.729980", "88.339401 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1686.500000 37.076401 4437.069824", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1672.969971 35.078400 4438.009766", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1894.469971 38.276199 4591.680176", "-54.250446 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1541.979980 47.546600 4855.819824", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1513.000000 47.088902 4945.359863", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1675.760010 67.461197 5207.080078", "51.947853 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1656.030029 71.470901 5212.399902", "27.518360 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1662.030029 67.996101 5209.259766", "26.507481 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1645.390015 75.022102 5232.490234", "25.777395 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1974.050049 87.634399 5657.410156", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2007.599976 85.783401 5225.779785", "-23.587141 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2043.099976 64.594101 5112.180176", "32.348122 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2448.260010 40.883400 4790.450195", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2465.760010 39.432999 4781.569824", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2485.229980 37.954700 4759.049805", "-90.810509 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2576.600098 37.958000 4862.910156", "56.440617 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2582.760010 39.390999 4860.899902", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2748.409912 37.958000 4863.069824", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2675.159912 60.051601 4985.529785", "20.947662 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2679.219971 61.283100 4994.520020", "-25.552767 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1894.319946 39.620098 4471.209961", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1798.439941 42.016102 4539.819824", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1786.199951 41.257500 4552.160156", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1993.560059 30.245001 4881.259766", "10.389597 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2016.599976 29.866600 4848.890137", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2022.160034 29.163601 4854.910156", "-70.592979 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "2011.660034 30.247700 4868.229980", "0.000000 0.000000 -0.000000" );
+SpawnObject( "Land_Furniture_box_metall_case", "1773.099976 38.693100 4932.649902", "-61.551208 0.000000 -0.000000" );

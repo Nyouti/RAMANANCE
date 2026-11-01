@@ -1,0 +1,75 @@
+{
+    "ConfigVersion": 22,
+    "ID": 126,
+    "Type": 1,
+    "Title": "Les perles de Rostok",
+    "Descriptions": [
+        "Une question d'argent, %1, j'en ai peur. Ici, c'est le professeur Sakharov qui rachète les artefacts aux stalkers, et tout ce qu'il achète entre dans ses collections, sous clé. Moi, je n'ai droit qu'à ce qui reste. Le gestionnaire du détachement a obtenu une rallonge, une seule, pour une série complète à mon nom : deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, là où elles sont les plus pures. Rapportez-les-moi, pas à Sakharov. C'est le gestionnaire qui signe et qui paie, mais il ne reçoit personne : il compte, et il me laisse le reste.",
+        "Deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, à rapporter au Doc.",
+        "Deux Perles, deux Boussoles. Parfaites. Je les porte au gestionnaire : il va les compter deux fois et me faire signer trois formulaires. Je voulais vous payer ce qu'en donne Sakharov ; il m'a rappelé que ma ligne n'est pas celle du professeur. Voici donc ce que la ligne sept autorise, plus la prime qu'il a bien voulu justifier. Ne me remerciez pas, %1 : remerciez la ligne budgétaire sept."
+    ],
+    "ObjectiveText": "Rapporte deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, au Doc, au bunker des écologistes.",
+    "FollowUpQuest": 127,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_AI2_medkit_standart",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 126,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        125
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

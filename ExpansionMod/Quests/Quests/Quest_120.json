@@ -1,0 +1,92 @@
+{
+    "ConfigVersion": 22,
+    "ID": 120,
+    "Type": 1,
+    "Title": "Le carnet du Doc",
+    "Descriptions": [
+        "Asseyez-vous, %1. Le Doc. Lev Ignatiev, si vous tenez aux formalités : docteur en biophysique, et médecin du détachement quand il faut recoudre quelqu'un. Les écologistes, c'est nous. L'Institut nous a envoyés ici pour comprendre la Zone, avec trois dosimètres, un groupe électrogène et un budget de misère. Nos savants meurent vite, dehors. Alors on paie des stalkers pour faire nos relevés. Commençons doucement : trois anomalies autour du bunker. Un Tramplin à cent cinquante mètres au sud, une Voronka à deux cents mètres à l'est, une Studen à deux cent soixante mètres au sud-sud-ouest. Approchez-vous à vingt mètres de chacune, pas plus près, le temps d'un relevé. Et ne montez jamais au nord, vers l'usine. Jamais.",
+        "Les trois anomalies autour du bunker : le Tramplin au sud, la Voronka à l'est, la Studen au sud-sud-ouest. Vingt mètres, pas plus près. Et jamais l'usine au nord.",
+        "Trois relevés propres. Le Tramplin pousse, la Voronka tire, la Studen ronge : trois façons qu'a la Zone de tordre la matière. Et dans chacune, parfois, quelque chose se forme et se fige. Un artefact. C'est ça qui nous intéresse. Tenez, %1. Revenez me voir : j'ai une liste."
+    ],
+    "ObjectiveText": "Approche-toi à moins de vingt mètres des trois anomalies autour du bunker des écologistes (le Tramplin au sud, la Voronka à l'est, la Studen au sud-sud-ouest), puis reviens voir le Doc. N'approche pas de l'usine, au nord.",
+    "FollowUpQuest": 121,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        63
+    ],
+    "QuestTurnInIDs": [
+        63
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 120,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1201,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1202,
+            "ObjectiveType": 3
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

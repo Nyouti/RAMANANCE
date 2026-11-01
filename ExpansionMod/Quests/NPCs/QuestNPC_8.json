@@ -1,0 +1,24 @@
+{
+    "ConfigVersion": 6,
+    "ID": 8,
+    "ClassName": "ExpansionQuestNPCPeter",
+    "Position": [
+        4862.361328,
+        92.065010,
+        2351.786133
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Dmitri « Le Magasinier » Volkov",
+    "DefaultNPCText": "Si tu viens chercher des munitions, prends un ticket. Si tu viens me demander où est passée ta caisse, j'espère que tu as un numéro d'inventaire. Je plaisante, %1. Enfin, à moitié. Je n'ai rien à te confier pour l'instant. Repasse plus tard, et n'oublie pas de signer le registre en sortant.",
+    "NPCLoadoutFile": "VolkovLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 59,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCType": 0,
+    "Active": 1
+}

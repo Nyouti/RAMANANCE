@@ -1,0 +1,515 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-10-20_16-26-38
+====================================================================================
+16:26:38 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+16:26:38 | [PermissionManager] Perm (FreeCamera) has been registered!
+16:26:38 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuServerManager) has been registered!
+16:26:38 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+16:26:38 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+16:26:38 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+16:26:38 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+16:26:38 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+16:26:38 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+16:26:38 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+16:26:38 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+16:26:38 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuBansManager) has been registered!
+16:26:38 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+16:26:38 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+16:26:38 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:EditTemplates) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:TestSend) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuWebHooks:ViewURL) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+16:26:38 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+16:26:38 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:EditTypes) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:AddRemoveTypes) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:DistributionMap) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:ViewBackups) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:RestoreBackup) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:DeleteBackup) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:LiveScan) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:DeleteObjects) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:EditMessages) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:EditEvents) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuXMLEditor:EditSpawnables) has been registered!
+16:26:38 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:ItemHealth) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:WeaponLoad) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:CreatureHeal) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:SpawnAttachment) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:CreatureKill) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:ItemQuantity) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:VehicleRefuel) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:WeaponRefill) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:WeaponJam) has been registered!
+16:26:38 | [PermissionManager] Perm (ContextMenu:WeaponEject) has been registered!
+16:26:40 | [PermissionManager] Perm (TerjePlayerManager) has been registered!
+16:26:40 | [PermissionManager] Adding Super Admin (76561198317293678)
+16:26:40 | [PermissionManager] Adding Super Admin (76561198207165013)
+16:26:40 | [PermissionManager] Adding Super Admin (76561199417217773)
+16:26:40 | [PermissionManager] Adding Super Admin (76561198097580497)
+16:26:40 | [PermissionManager] Loaded UserGroups.json
+16:26:40 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+16:26:40 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+16:26:40 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+16:26:40 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+16:26:40 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+16:26:40 | [BuildingSetManager] Journal: 18 set(s) loaded, 0 found by the folder scan, 0 dropped
+16:26:40 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+16:26:40 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+18:35:1 | Player "Mikhail" (steamId=76561198097580497) connected to server!
+18:35:22 | "Mikhail" (steamid=76561198097580497) toggled godmode
+18:35:42 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:35:47 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2674.936035, 86.282646, 1531.221558>)
+18:35:48 | "Mikhail" (steamid=76561198097580497) toggled freecam
+18:35:57 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2672.239502, 91.362541, 1574.484985>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.050293, 90.653069, 1586.595825>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.058594, 90.652115, 1586.611206>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.067139, 90.651398, 1586.624268>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.073486, 90.650520, 1586.637817>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.080566, 90.649673, 1586.651367>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.087646, 90.649017, 1586.662842>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.095459, 90.649086, 1586.666382>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.103516, 90.649055, 1586.671143>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.111572, 90.648918, 1586.676880>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.119385, 90.648880, 1586.681519>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.127441, 90.648758, 1586.687134>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.134033, 90.649757, 1586.679199>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.135498, 90.660828, 1586.551147>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.138672, 90.670044, 1586.445801>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.142090, 90.677536, 1586.360474>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.144287, 90.686447, 1586.257690>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2678.146729, 90.695244, 1586.156860>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2681.404541, 90.375092, 1592.833618>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.367432, 90.340591, 1594.659058>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.664062, 90.339920, 1595.145630>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.752686, 90.345284, 1595.222534>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.787598, 90.347664, 1595.188110>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.822021, 90.349869, 1595.183716>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.864014, 90.352776, 1595.135254>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.873535, 90.353462, 1595.106689>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.884521, 90.354324, 1595.072266>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.895508, 90.355148, 1595.038086>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.903809, 90.355743, 1595.024658>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.913818, 90.356308, 1595.048462>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.921143, 90.356689, 1595.065308>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.928467, 90.357094, 1595.082275>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.938477, 90.357651, 1595.105957>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2682.945801, 90.358040, 1595.122803>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2683.337402, 90.380203, 1595.847290>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2683.701416, 90.398232, 1596.515503>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2684.070068, 90.406601, 1597.190430>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2684.420654, 90.414597, 1597.831421>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2684.745850, 90.421959, 1598.426758>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2685.039551, 90.429993, 1598.964233>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2685.269531, 90.442017, 1599.448608>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2685.531250, 90.451553, 1599.864014>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2685.744141, 90.468071, 1600.199341>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2685.912598, 90.487709, 1600.461548>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.056885, 90.504623, 1600.687866>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.291748, 90.535683, 1601.175537>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.517334, 90.562653, 1601.548218>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.701416, 90.584702, 1601.853271>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.848633, 90.602333, 1602.097778>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2686.965820, 90.616386, 1602.293213>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2687.056641, 90.627304, 1602.445312>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2687.572510, 90.662895, 1603.439941>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2688.016113, 90.680641, 1604.226196>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2688.343262, 90.693726, 1604.806519>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2688.557129, 90.714241, 1605.186768>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2688.694824, 90.735489, 1605.432617>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2689.125977, 90.808060, 1606.212646>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2689.428223, 90.865234, 1606.715820>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2689.633789, 90.904236, 1607.059204>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2689.771240, 90.930313, 1607.289307>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2689.861816, 90.947571, 1607.441162>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2690.380127, 91.062477, 1608.400757>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2690.696045, 91.135735, 1609.000366>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2690.899414, 91.178764, 1609.384644>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2691.019775, 91.202759, 1609.627441>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2691.086182, 91.216774, 1609.773926>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2691.121582, 91.224815, 1609.860596>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2691.659180, 91.387657, 1610.820557>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2691.950195, 91.483894, 1611.355469>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.106689, 91.537834, 1611.658203>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.187256, 91.567154, 1611.824951>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.220947, 91.582558, 1611.916504>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.241455, 91.591125, 1611.966553>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.259521, 91.597168, 1612.000122>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.272461, 91.601479, 1612.024414>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.282471, 91.605080, 1612.044678>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.290771, 91.608116, 1612.062012>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.298340, 91.610855, 1612.077637>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2692.963623, 91.808449, 1613.323730>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.268066, 91.894295, 1613.902832>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.403076, 91.932159, 1614.158325>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.461426, 91.948341, 1614.267090>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.486084, 91.954994, 1614.311646>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.495850, 91.957420, 1614.327637>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.508545, 91.960365, 1614.346558>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.523926, 91.964081, 1614.370728>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.540039, 91.968010, 1614.396484>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.556152, 91.972008, 1614.422729>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.570312, 91.975578, 1614.446289>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2693.584229, 91.979012, 1614.468750>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.273438, 92.242302, 1615.765503>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.508789, 92.330238, 1616.213257>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.587158, 92.359154, 1616.360352>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.614258, 92.368790, 1616.409424>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.628174, 92.373528, 1616.433350>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.697754, 92.398483, 1616.560181>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.704346, 92.400673, 1616.571289>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.710693, 92.402863, 1616.582397>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.717041, 92.404991, 1616.593262>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.722412, 92.406830, 1616.602539>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.729492, 92.409142, 1616.614258>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2694.930176, 92.476234, 1616.953979>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.136230, 92.541908, 1617.266846>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.321289, 92.601089, 1617.540283>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.472412, 92.650887, 1617.771606>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.614746, 92.694954, 1617.974243>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.733643, 92.731743, 1618.143188>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.844971, 92.769417, 1618.318848>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2695.986572, 92.804123, 1618.471802>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2696.097412, 92.831680, 1618.593506>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2696.196777, 92.854813, 1618.694336>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2696.290527, 92.873390, 1618.783081>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2696.669678, 92.992439, 1619.494019>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2696.978760, 93.080040, 1620.009033>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.162354, 93.161667, 1620.310791>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.305664, 93.222336, 1620.534546>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.411865, 93.266083, 1620.695923>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.489258, 93.297104, 1620.810181>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.583252, 93.350883, 1621.010498>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.697021, 93.385689, 1621.137085>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.778564, 93.409164, 1621.222412>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.836426, 93.424767, 1621.278931>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2697.884033, 93.434990, 1621.315308>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.189209, 93.569084, 1621.810791>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.480225, 93.638680, 1622.158447>)
+18:35:58 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.664307, 93.681335, 1622.372070>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.786133, 93.706535, 1622.500000>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.864258, 93.721130, 1622.574829>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2698.922119, 93.728615, 1622.615356>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2699.408203, 93.886337, 1623.382690>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2703.171143, 94.813560, 1627.665283>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.491211, 95.699341, 1632.411865>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.474609, 95.703224, 1632.420776>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.458252, 95.707092, 1632.429932>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.439941, 95.710243, 1632.435913>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.408203, 95.714592, 1632.442871>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.377197, 95.718895, 1632.449707>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.355469, 95.721954, 1632.454834>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.321777, 95.726791, 1632.462891>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.274414, 95.732506, 1632.470703>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.217041, 95.738922, 1632.478271>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.174805, 95.743599, 1632.483887>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.133057, 95.748260, 1632.489380>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.099609, 95.752052, 1632.494019>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.054932, 95.757370, 1632.500977>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.993164, 95.765343, 1632.512939>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.941895, 95.771988, 1632.522827>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.899658, 95.777428, 1632.530884>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.849609, 95.783821, 1632.540161>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.809082, 95.789032, 1632.547852>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.128174, 95.896080, 1633.000610>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.380371, 95.976700, 1633.417358>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.640869, 96.052200, 1633.817871>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.892578, 96.122437, 1634.194702>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.107666, 96.191917, 1634.552856>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.416992, 96.247643, 1634.897949>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.577637, 96.312531, 1635.175171>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.713623, 96.372490, 1635.409302>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.831299, 96.424393, 1635.611938>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.931885, 96.468605, 1635.784790>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.204590, 96.537636, 1636.116333>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.315674, 96.606133, 1636.395264>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.407471, 96.662270, 1636.624268>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.480957, 96.707382, 1636.808228>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.538818, 96.742920, 1636.953247>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.583740, 96.770737, 1637.066528>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.067139, 96.896721, 1637.694336>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.324707, 97.008545, 1638.149170>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.517090, 97.091698, 1638.487671>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.657471, 97.152473, 1638.734985>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.760498, 97.197151, 1638.916626>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.168213, 97.322296, 1639.532837>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.385986, 97.414291, 1639.975098>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.531982, 97.479263, 1640.274048>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.630127, 97.523399, 1640.475830>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.696533, 97.553398, 1640.612915>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.740479, 97.573372, 1640.703857>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.302002, 97.742638, 1641.559326>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.600342, 97.856598, 1642.100220>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.794189, 97.926682, 1642.453369>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.918213, 97.968262, 1642.679932>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.994385, 97.993843, 1642.819336>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.039307, 98.009323, 1642.903198>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.598633, 98.176277, 1643.846436>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.872314, 98.277206, 1644.382080>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.027100, 98.334648, 1644.686157>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.112305, 98.366302, 1644.853882>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.158936, 98.383873, 1644.946655>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.915771, 98.579636, 1646.198364>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.271240, 98.686028, 1646.841309>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.452393, 98.741104, 1647.170288>)
+18:35:59 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.541992, 98.768349, 1647.333008>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.209717, 100.706978, 1649.234131>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.257812, 101.832870, 1652.657227>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.258789, 101.822868, 1652.657471>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.259766, 101.812225, 1652.657593>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.260498, 101.802177, 1652.657837>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.260986, 101.791809, 1652.657959>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.261719, 101.779602, 1652.658081>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.262939, 101.766632, 1652.658325>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.263428, 101.754509, 1652.658447>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.264404, 101.741447, 1652.658691>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.265381, 101.728035, 1652.658936>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.264893, 101.714836, 1652.658813>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.264404, 101.699760, 1652.658691>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.263184, 101.682480, 1652.658447>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.262695, 101.667519, 1652.658325>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.261719, 101.650108, 1652.658081>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.261230, 101.635223, 1652.657959>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.258301, 101.617012, 1652.657349>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.254883, 101.596016, 1652.656616>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.251953, 101.576317, 1652.655884>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.249512, 101.559120, 1652.655396>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.246826, 101.540596, 1652.654785>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.263916, 102.605347, 1652.658569>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.268311, 102.912384, 1653.066284>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.269043, 103.008293, 1653.236450>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.269287, 103.038773, 1653.291138>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.269287, 103.052002, 1653.315308>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.272217, 102.912514, 1653.433350>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.271240, 102.914673, 1653.420654>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.270752, 102.916801, 1653.408203>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.269531, 102.918793, 1653.396240>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.269043, 102.920708, 1653.384888>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.266113, 102.900116, 1653.374023>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.263428, 102.881523, 1653.364502>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.261475, 102.865242, 1653.356079>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.259521, 102.851128, 1653.348877>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.257812, 102.839035, 1653.342773>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.259521, 103.136879, 1653.474487>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2716.260986, 103.382057, 1653.583130>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.364502, 101.781029, 1664.259277>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.263672, 101.853088, 1664.769531>)
+18:36:0 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.171875, 101.908112, 1665.169678>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.213623, 101.924515, 1665.421387>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.132568, 101.945518, 1665.593018>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.062500, 101.961632, 1665.715576>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.010498, 101.973434, 1665.804565>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.963135, 101.981102, 1665.871338>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.949219, 101.983246, 1665.891479>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.949951, 101.980171, 1665.853394>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.948486, 101.974213, 1665.778198>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.946045, 101.966827, 1665.684570>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.946533, 101.957779, 1665.572021>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.799316, 102.163086, 1668.068359>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.618652, 102.294312, 1669.622925>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.499756, 102.352791, 1670.699463>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.429932, 102.388145, 1671.341553>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.396973, 102.408997, 1671.721313>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.385010, 102.420914, 1671.940186>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.378662, 102.427498, 1672.060791>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.375732, 102.431007, 1672.125244>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.291260, 102.444321, 1672.356079>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.197266, 102.451195, 1672.465942>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.151123, 102.454575, 1672.519897>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.129639, 102.456108, 1672.544312>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.122314, 102.456802, 1672.556030>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.110840, 102.457741, 1672.571289>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.110840, 102.457924, 1672.574707>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.110596, 102.458115, 1672.578003>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.110840, 102.458267, 1672.580933>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.022217, 102.501472, 1673.364624>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.941650, 102.541504, 1674.090820>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.863281, 102.580627, 1674.800781>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.778809, 102.603401, 1675.559448>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.694824, 102.619225, 1676.308838>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.636475, 102.647400, 1676.994629>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.549805, 102.672394, 1677.614136>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.473145, 102.694572, 1678.163818>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.406250, 102.713860, 1678.642334>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.350098, 102.730385, 1679.052002>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.306152, 102.744125, 1679.391724>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.268066, 102.755501, 1679.673218>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.236572, 102.764725, 1679.901978>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.209961, 102.770950, 1680.092896>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.123779, 102.791893, 1680.938721>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.007568, 102.814400, 1681.858032>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.600098, 103.151741, 1689.664185>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.128418, 103.484474, 1697.682495>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.117432, 103.484001, 1697.685425>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.125000, 103.483353, 1697.670288>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.151367, 103.481964, 1697.629395>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.171875, 103.480804, 1697.596680>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.187500, 103.479851, 1697.570435>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.221680, 103.479134, 1697.531982>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.242432, 103.478920, 1697.512085>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.293701, 103.479668, 1697.479004>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.318848, 103.479996, 1697.462646>)
+18:36:1 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.355469, 103.480652, 1697.440674>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.383789, 103.481148, 1697.423950>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.409668, 103.674446, 1701.645508>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.674316, 103.748627, 1703.221313>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.447998, 103.778122, 1703.760986>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.411621, 103.789131, 1703.916992>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.459717, 103.788925, 1703.873901>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.516602, 103.789665, 1703.834717>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.565674, 103.790306, 1703.800659>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.614014, 103.790894, 1703.766846>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.625488, 103.797531, 1703.832520>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.675537, 103.797394, 1703.788696>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.724854, 103.797234, 1703.745483>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.766113, 103.796959, 1703.707764>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.816650, 103.796913, 1703.664673>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.344727, 103.850708, 1704.672974>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.986084, 103.911842, 1705.545166>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.671387, 103.970093, 1706.300049>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.404541, 104.021530, 1706.959106>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.178711, 104.067062, 1707.535645>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.999268, 104.107544, 1708.033203>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.857910, 104.142212, 1708.440552>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.751953, 104.171181, 1708.773560>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.691162, 104.190590, 1708.990356>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.754395, 104.214836, 1709.176392>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.798584, 104.232475, 1709.312622>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.849609, 104.247459, 1709.420166>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.736816, 104.278381, 1709.775146>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.775146, 104.310562, 1710.049316>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.833008, 104.337677, 1710.256104>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.907471, 104.361610, 1710.416138>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.316650, 104.532669, 1712.257568>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.181885, 104.665680, 1713.487671>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.129639, 104.750671, 1714.252808>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.130127, 104.805893, 1714.728760>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.149658, 104.840691, 1715.016846>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.202881, 104.865204, 1715.198242>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.270264, 104.883308, 1715.314331>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.249756, 104.947304, 1715.888916>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.428955, 104.990334, 1716.152832>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.555420, 105.014870, 1716.288330>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.646729, 105.029205, 1716.356812>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.715820, 105.039536, 1716.403442>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.791260, 105.049850, 1716.446411>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.864258, 105.058685, 1716.477783>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.944824, 105.068016, 1716.508789>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.629639, 105.427986, 1719.865479>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.772949, 105.573753, 1721.179321>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2704.895508, 105.629135, 1721.679199>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.006104, 105.651436, 1721.847290>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.356445, 105.717491, 1722.285400>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.701660, 105.746475, 1722.348755>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2705.880371, 105.757538, 1722.341187>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.039062, 105.764389, 1722.304077>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.183105, 105.830444, 1722.881226>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.353271, 105.884445, 1723.317505>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.495117, 105.932800, 1723.776489>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.682617, 105.976013, 1724.236328>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2706.656250, 106.035927, 1725.044067>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.056396, 106.096062, 1725.651489>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.397461, 106.149345, 1726.198120>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.699463, 106.195786, 1726.671631>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2707.951660, 106.234886, 1727.085205>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.102295, 106.257500, 1727.537598>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.246094, 106.276375, 1727.908081>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.375732, 106.292412, 1728.219238>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.495850, 106.306007, 1728.479004>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2708.634766, 106.349159, 1729.403198>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.066650, 106.381813, 1729.968506>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.398926, 106.402824, 1730.401245>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2709.679443, 106.406998, 1730.787354>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.255371, 106.407761, 1732.579102>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2710.964600, 106.405334, 1733.743652>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.549072, 106.372963, 1734.716797>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2711.987305, 106.339218, 1735.440430>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2712.593262, 106.253128, 1737.522583>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2713.520020, 106.097794, 1739.303955>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.145020, 105.990425, 1740.467896>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2714.765869, 105.842255, 1741.637573>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2715.217773, 105.727440, 1742.486450>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.514893, 103.403824, 1757.850464>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.726318, 103.650917, 1757.567993>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.836426, 103.787247, 1757.422974>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.893799, 103.861000, 1757.347656>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.701904, 104.229095, 1757.728638>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.790527, 104.444389, 1757.633545>)
+18:36:2 | "Mikhail" (steamid=76561198097580497) teleported to crosshair (pos=<2722.827637, 104.549385, 1757.597168>)
+18:36:14 | Player "Mikhail" (steamId=76561198097580497) initiated disconnect process...

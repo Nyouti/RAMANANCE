@@ -1,0 +1,85 @@
+{
+    "ConfigVersion": 22,
+    "ID": 6,
+    "Type": 1,
+    "Title": "Le prix d'une main",
+    "Descriptions": [
+        "Ici, %1, tout se paie : les cachets, les filtres, les cartouches. Alors autant que la Zone te paie aussi. Au nord-est, pas loin du tunnel, des zombifiés traînent en bande. Ce ne sont plus des hommes, ne cherche pas à leur parler. Ils sont lents et bêtes, mais jamais seuls, et le bruit les attire : garde tes distances, vise la tête et ne te laisse pas encercler. Prends ce couteau. Abats-en trois, puis découpe une main sur l'un d'eux et rapporte-la-moi. Oui, une main. Tu comprendras quand tu verras ce qu'on en donne. Et reste loin du tunnel, tu sais pourquoi.",
+        "Trois zombifiés au nord-est, près du tunnel, et une main. Garde tes distances, vise la tête et ne te laisse pas encercler. Le couteau, c'est pour après.",
+        "Ça ne sent pas la rose, hein ? Pose ça là. Dans la Zone, tout a un prix, même ça. Ceux qui achètent, ici, c'est Sidorovitch, juste derrière le refuge : une main de zombifié, une queue de chien, un œil de Chair, une patte de sanglier... Il en tire de quoi faire tourner son commerce, et toi, de quoi manger. La prochaine, c'est à lui que tu la vends. Et prends ce couteau : il coupe mieux que le tien, et dans la Zone, une bonne lame rapporte toujours un peu plus. Quelques roubles avec, pour les balles que tu as dépensées."
+    ],
+    "ObjectiveText": "Élimine 3 zombifiés au nord-est du refuge, près du tunnel, puis rapporte une main de zombifié à Papa Voronine.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "HuntingKnife",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_SpecialKnife",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 4,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        5
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

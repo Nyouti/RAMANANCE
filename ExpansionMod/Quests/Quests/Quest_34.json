@@ -1,0 +1,92 @@
+{
+    "ConfigVersion": 22,
+    "ID": 34,
+    "Type": 1,
+    "Title": "Le ciel s'est vidé",
+    "Descriptions": [
+        "Moins fort, %1. Assieds-toi. Avant, ce marais avait des gardiens : Clear Sky. Des éclaireurs, des savants, des gens qui cartographiaient les anomalies et balisaient les chemins sûrs. Leur base était à l'ouest, au bout des roseaux. Un jour, leur radio s'est tue. Quand j'y suis passé, il n'y avait plus personne. Pas de combat, pas de corps. Moi, je veux savoir ce qui leur est arrivé. Leur ancien poste de guet est à l'ouest d'ici, à quatre cents mètres, près des maisons au bord de l'eau. Ils y tenaient un carnet de patrouille. Rapporte-le-moi. Des zombifiés rôdent autour, et le terrain est truffé d'anomalies : lance un boulon avant chaque pas.",
+        "Le poste de guet, à l'ouest, près des maisons au bord de l'eau. Le carnet de patrouille. Un boulon avant chaque pas.",
+        "Montre. Leur écriture. Des relevés, des passages balisés, des noms. La dernière page parle d'une patrouille partie vers le sud-ouest. Elle n'est jamais revenue au poste, et ils n'ont plus rien écrit après. Garde ça pour toi, %1. Tiens, pour ta peine."
+    ],
+    "ObjectiveText": "Rejoins l'ancien poste de guet de Clear Sky, à l'ouest du Silencieux, retrouve le carnet de patrouille et rapporte-le-lui.",
+    "FollowUpQuest": 35,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "SFP_Can_Meat_closed",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        10
+    ],
+    "QuestTurnInIDs": [
+        10
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 34,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 34,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 34,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

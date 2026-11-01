@@ -1,0 +1,40 @@
+[
+    {
+        "waveName": "example_scouts",
+        "isDisabled": 0,
+        "spawnList": [
+            "Animal_CanisLupus_Grey",
+            "Animal_CanisLupus_White|0.5"
+        ],
+        "groupSelectMode": "",
+        "spawnMin": 3,
+        "spawnMax": 5,
+        "spawnPositions": [],
+        "spawnRadius": 0.0,
+        "completion": {},
+        "delayAfter": "10-15",
+        "cleanBefore": 0,
+        "notificationText": "",
+        "playerCountMultipliers": []
+    },
+    {
+        "waveName": "example_boss",
+        "isDisabled": 0,
+        "spawnList": [
+            "Animal_UrsusArctos"
+        ],
+        "groupSelectMode": "",
+        "spawnMin": 1,
+        "spawnMax": 1,
+        "spawnPositions": [],
+        "spawnRadius": 0.0,
+        "completion": {
+            "type": "remainingAlive",
+            "value": 0
+        },
+        "delayAfter": "",
+        "cleanBefore": 1,
+        "notificationText": "БОСС! Волна {current} из {total}!",
+        "playerCountMultipliers": []
+    }
+]

@@ -1,0 +1,253 @@
+************************** 2026-07-03T21:14:03+00:00 **************************
+2026-07-03T21:14:03+00:00 | [INFO	] GameLabs v1.963 start for server 2e5af3a9-fe3e-4c68-8f4d-76f314aae20e
+2026-07-03T21:14:03+00:00 | [DEBUG	] baseUrl=https://api.gamelabs.cloud/dz
+2026-07-03T21:14:03+00:00 | [DEBUG	] storeUrl=https://api.gamelabs.cloud/dz
+2026-07-03T21:14:03+00:00 | [DEBUG	] (Defines) GameLabs define found
+2026-07-03T21:14:11+00:00 | [INFO	] Server locked on start
+2026-07-03T21:14:11+00:00 | [DEBUG	] Loaded MissionServer
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionBuildOven" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionBuildPart" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionBuildShelter" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDestroyCodeLockOnTent" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDigGardenPlot" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDismantlePart" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionFoldBaseBuildingObject" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionPackTent" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionRaiseFlag" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionLowerFlag" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDestroyPart" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDigOutStash" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionFoldItem" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDismantleItem" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "HDSN_ActionDeployBreachingCharge" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "HDSN_ActionDefuseBreachingCharge" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionAttachCodeLockToTent" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionAttachCodeLockToFence" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionDestroyCodeLockOnFence" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] "ActionHackCodeLock" has been added as monitored action
+2026-07-03T21:14:11+00:00 | [DEBUG	] allowReporting != 2 => Reporting NOT enabled
+2026-07-03T21:14:11+00:00 | [DEBUG	] statisticsReporting = 2 => Statistics enabled
+2026-07-03T21:14:11+00:00 | [DEBUG	] authKey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2ZXJfdXVpZCI6IjJlNWFmM2E5LWZlM2UtNGM2OC04ZjRkLTc2ZjMxNGFhZTIwZSIsInNlcnZlcl9pZCI6IjZhNDgxYjljMjdiNjU0NzNkN2VmZmY4YiIsImlwdjQiOiIxNTIuMjI4LjIyNC4xNjgiLCJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wM1QyMToxNDoxMS45MDE0MjciLCJwb2xsdmVyIjoyLCJpbnZtIjo2MCwiaW52ciI6MTIwLCJrdiI6ZmFsc2V9.guBeJ4iqmPUlZVg8fOED6xATNmHpTQQeeq4bZ7dqAVA
+2026-07-03T21:14:11+00:00 | [DEBUG	] API-Register status=2, error=
+2026-07-03T21:14:12+00:00 | [INFO	] Server up (GameLabs v1.963; terrain=exclusionzone;)
+2026-07-03T21:14:12+00:00 | [INFO	] RPC interface initiated and handler registered
+2026-07-03T21:14:12+00:00 | [DEBUG	] (ItemDiscovery) Discovered 8851 items
+2026-07-03T21:14:12+00:00 | [DEBUG	] (Reporter) Metrics Dump enabled
+2026-07-03T21:14:12+00:00 | [DEBUG	] MissionServer.OnGameplayDataHandlerLoad();
+2026-07-03T21:14:12+00:00 | [DEBUG	] MissionServer.OnInit();
+2026-07-03T21:14:13+00:00 | [WARN	] "ActionDismantleBBP" has been added as monitored action by a third party application
+2026-07-03T21:14:13+00:00 | [WARN	] "ActionDestroyBBP" has been added as monitored action by a third party application
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000020E4E9419A0><Land_Wreck_offroad02_aban2_DE>, 100) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000020E56F77970><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000020E668C3F70><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000020E671B39A0><Land_ContainerLocked_Blue_DE>) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x0000020E671B3E80><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000020E6EE9D490><StaticObj_Wreck_BRDM_DE>, 100) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEvent(_Event<0x0000020E756333B0><ScientificBriefcase>) - success
+2026-07-03T21:14:15+00:00 | [DEBUG	] RegisterEventRadiusExclusiveSecondary(_Event<0x0000020E759D67C0><Land_Wreck_Volha_Police>, 50, StaticObj_Wreck_Decal_Small1) - success
+2026-07-03T21:14:16+00:00 | [DEBUG	] RegisterEventRadiusExclusive(_Event<0x0000020E7B10CF70><StaticObj_Wreck_Train_742_Red_Mil_DE>, 100) - success
+2026-07-03T21:14:16+00:00 | [DEBUG	] MissionServer.OnMissionStart();
+2026-07-03T21:14:34+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000002110EF696D0> established for CE388219-AAAF-458E-BDDF-6B163DE6AB3A @ $profile:@GameLabsStorage/CE388219-AAAF-458E-BDDF-6B163DE6AB3A.json
+2026-07-03T21:14:34+00:00 | [DEBUG	] [BaseBuildingBase] BBP_BDoor<0x000002107F7400F0> BBP_BDoor:15248 uuid=CE388219-AAAF-458E-BDDF-6B163DE6AB3A;
+2026-07-03T21:14:34+00:00 | [DEBUG	] [Storage] GLBaseBuildingMetaStorage<0x000002110EF696D0> established for CE388219-AAAF-458E-BDDF-6B163DE6AB3A @ $profile:@GameLabsStorage/CE388219-AAAF-458E-BDDF-6B163DE6AB3A.json
+2026-07-03T21:14:34+00:00 | [DEBUG	] [Storage] [Load] BBP_BDoor<0x000002107F7400F0> BBP_BDoor:15248 has no disk presence
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10160><Mutant_XZ_Dog_Brown>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A100C0><Mutant_XZ_Dog_Brown>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10110><Mutant_XZ_Dog_Brown>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10700><Mutant_XZ_Dog_Brown>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A101B0><Mutant_XZ_Izlom1>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A102A0><Zombi_XZ_Novice2>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A102F0><Zombi_XZ_Novice2>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10340><Zombi_XZ_Novice2>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A105C0><Mutant_XZ_Izlom1>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10390><Zombi_XZ_Novice2>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10570><Zombi_XZ_Monolith_Zorya>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RegisterAI(_AI<0x00000211C2A10B60><Zombi_XZ_Duty_Zorya>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A10160>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A100C0>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A10110>) - success
+2026-07-03T21:14:53+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A10700>) - success
+2026-07-03T21:14:53+00:00 | [INFO	] Mission fully loaded in 76.292s. Server ready for connections.
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 
+2026-07-03T21:17:42+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308, steam64=76561198097580497, name=Mirage)
+2026-07-03T21:17:42+00:00 | [DEBUG	] Player<SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308> no cached CFTools Id for steam64=76561198097580497, contacting api
+2026-07-03T21:17:43+00:00 | [DEBUG	] PlayerBase.SetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308, 630e2895792888b1c044b4c0)
+2026-07-03T21:17:43+00:00 | [DEBUG	] PlayerBase.SetGamesessionId(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308, 6a4826d7c82865a1a08fab4a)
+2026-07-03T21:17:43+00:00 | [DEBUG	] Player<SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308> received CFTools Id from API cftools_id=630e2895792888b1c044b4c0, gamesession_id=6a4826d7c82865a1a08fab4a
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 
+2026-07-03T21:19:52+00:00 | [DEBUG	] GameLabs_OnConnect(this=SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381, steam64=76561198207165013, name=Cpt.Dragomir)
+2026-07-03T21:19:52+00:00 | [DEBUG	] Player<SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381> no cached CFTools Id for steam64=76561198207165013, contacting api
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.SetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381, 5bc71d48c221d53cdeb306ba)
+2026-07-03T21:19:52+00:00 | [DEBUG	] PlayerBase.SetGamesessionId(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381, 6a482758c82865a1a08faf83)
+2026-07-03T21:19:52+00:00 | [DEBUG	] Player<SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381> received CFTools Id from API cftools_id=5bc71d48c221d53cdeb306ba, gamesession_id=6a482758c82865a1a08faf83
+2026-07-03T21:20:14+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:20:17+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:20:19+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:20:21+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Elias<0x0000021274950020> eAI_SurvivorM_Elias:30427) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(eAI_SurvivorM_Manua<0x000002127B9755F0> eAI_SurvivorM_Manua:30434) => 
+2026-07-03T21:22:58+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:23:11+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:23:20+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:23:35+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:25:38+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:25:52+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:25:55+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:26:23+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A101B0>) - success
+2026-07-03T21:26:24+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:05+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:29+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:30+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:38+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:40+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:27:59+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:28:00+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:28:08+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:28:10+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:30:38+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:30:41+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:30:47+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:30:48+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:31:04+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:32:03+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:32:13+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:33:09+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:33:20+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:33:24+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:34:01+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:34:02+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:34:17+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:34:54+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:35:21+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:35:37+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:36:42+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A10B60>) - success
+2026-07-03T21:37:09+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A105C0>) - success
+2026-07-03T21:37:36+00:00 | [DEBUG	] RemoveAI(_AI<0x00000211C2A10570>) - success
+2026-07-03T21:37:48+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) [630e2895792888b1c044b4c0] 
+2026-07-03T21:37:48+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308) => 630e2895792888b1c044b4c0
+2026-07-03T21:37:48+00:00 | [DEBUG	] Player<SurvivorBase<0x0000021273B93C90> SurvivorM_Mirek:30308> disconnected at <4858.19,92.2594,2374.36>
+2026-07-03T21:37:48+00:00 | [DEBUG	] PlayerBase.HasUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) [5bc71d48c221d53cdeb306ba] 
+2026-07-03T21:37:48+00:00 | [DEBUG	] PlayerBase.GetUpstreamIdentity(SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381) => 5bc71d48c221d53cdeb306ba
+2026-07-03T21:37:48+00:00 | [DEBUG	] Player<SurvivorBase<0x00000212751D2740> SurvivorM_Oliver:30381> disconnected at <2686.24,57.4512,6241.91>
+2026-07-03T21:38:24+00:00 | [INFO	] (Reporter) Disabled
+2026-07-03T21:38:24+00:00 | [DEBUG	] (Reporter) Timers gracefully closed
+2026-07-03T21:38:24+00:00 | [INFO	] (Core) Attempting graceful exit
+2026-07-03T21:38:24+00:00 | [DEBUG	] (Core) All ref holding buffers cleared
+2026-07-03T21:38:24+00:00 | [DEBUG	] Gracefully closing core logger

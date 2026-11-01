@@ -1,0 +1,84 @@
+{
+    "ConfigVersion": 22,
+    "ID": 101,
+    "Type": 1,
+    "Title": "Les chiens de l'usine",
+    "Descriptions": [
+        "Te revoilà. Écoute bien, je vais t'apprendre un mot. Pour nous, t'es un fraïer : un type qui n'est pas des nôtres. Un fraïer, ça paie, ça se tait et, parfois, ça rend service. Celui qui ne paie pas et ne rend pas service, on finit par l'oublier quelque part. Bref. Une meute de chiens s'est installée derrière l'usine, au nord-ouest, entre ici et la station. Ils font fuir les clients du péage, et un péage sans clients, c'est Borov qui fait la gueule. Va me tuer ces trois sacs à puces. Vise la tête : ils sont plus rapides qu'ils n'en ont l'air.",
+        "Les trois chiens derrière l'usine, au nord-ouest, entre ici et la station-service.",
+        "Je les ai entendus d'ici. Pas mal, pour un fraïer. Chez nous, le respect, ça se gagne comme ça : en faisant ce qu'on a dit, sans pleurer. Prends ça, et repasse me voir. J'aurai peut-être quelque chose de plus sérieux."
+    ],
+    "ObjectiveText": "Tue les trois chiens mutants installés derrière l'usine, au nord-ouest de Stas.",
+    "FollowUpQuest": 102,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "BandageDressing",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        12
+    ],
+    "QuestTurnInIDs": [
+        12
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 101,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [
+        100
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
