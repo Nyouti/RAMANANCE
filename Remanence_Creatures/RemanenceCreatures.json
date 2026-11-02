@@ -1,0 +1,26 @@
+{
+    "pseDog1": {
+        "psy": 0,
+        "clone": 1,
+        "phantomCount": 5,
+        "phantomSpawnTimer": 3,
+        "phantomRadius": 7.0,
+        "phantomEffectDistance": 30.0,
+        "phantomHealth": 1.0,
+        "minionClass": "Mutant_Aod_Pse_Dog2",
+        "cloneDespawnDelaySeconds": 20,
+        "terjeMindPerTick": 4.0
+    },
+    "pseDog2": {
+        "psy": 1,
+        "clone": 1,
+        "phantomCount": 5,
+        "phantomSpawnTimer": 3,
+        "phantomRadius": 7.0,
+        "phantomEffectDistance": 30.0,
+        "phantomHealth": 1.0,
+        "minionClass": "Mutant_Aod_Pse_Dog1",
+        "cloneDespawnDelaySeconds": 20,
+        "terjeMindPerTick": 4.0
+    }
+}

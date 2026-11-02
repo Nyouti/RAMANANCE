@@ -818,7 +818,7 @@
         "triggerDisableOnLeave": 0,
         "triggerDisabledChance": 0.0,
         "spawnPositions": [
-            "5016.060547 139.747772 3180.750000"
+            "4994.080078 139.170776 3203.053955"
         ],
         "spawnRadius": 10.0,
         "spawnMin": 4,
@@ -1191,7 +1191,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -4094,8 +4094,8 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1",
-            "Mutant_AoD_Burer1"
+            "Burer",
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -5297,8 +5297,8 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1",
-            "Mutant_AoD_Burer1",
+            "Burer",
+            "Burer",
             "Zombi_XZ_Freedom_Zorya",
             "Zombi_XZ_Duty_Zorya",
             "Zombi_XZ_Loner_Zorya",
@@ -5792,7 +5792,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -5861,7 +5861,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -5999,7 +5999,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -6279,7 +6279,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Controller1"
+            "CQRP_Controller"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -6909,7 +6909,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -7578,14 +7578,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7622,8 +7622,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -7652,14 +7652,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7696,8 +7696,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -7726,14 +7726,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7770,8 +7770,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -7800,14 +7800,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7844,8 +7844,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -7874,14 +7874,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7918,8 +7918,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -7948,14 +7948,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -7992,8 +7992,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8022,14 +8022,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -8051,7 +8051,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Controller1"
+            "CQRP_Controller"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -8061,8 +8061,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8091,14 +8091,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -8130,8 +8130,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8160,14 +8160,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -8205,8 +8205,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8235,14 +8235,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -8276,8 +8276,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8306,14 +8306,14 @@
         "triggerWidthX": "",
         "triggerWidthY": "",
         "triggerFirstDelay": "5-10",
-        "triggerCooldown": "1200",
+        "triggerCooldown": "3600",
         "triggerSafeDistance": 2.0,
         "triggerEnterDelay": 1,
         "triggerCleanupOnLeave": 0,
         "triggerCleanupOnLunchTime": 0,
         "triggerCleanupImmersive": 0,
-        "triggerCleanupDelay": 1200,
-        "triggerInactiveResetDelay": 1200,
+        "triggerCleanupDelay": 3600,
+        "triggerInactiveResetDelay": 3600,
         "triggerWorkingTime": "0-24",
         "triggerDisableOnWin": 0,
         "triggerDisableOnLeave": 0,
@@ -8345,8 +8345,8 @@
         "waveContinueOnLeave": 0,
         "waveCountdownInterval": 0,
         "waveCountdownFinalSeconds": 0,
-        "clearDeathAnimals": 1200,
-        "clearDeathZombies": 1200,
+        "clearDeathAnimals": 3600,
+        "clearDeathZombies": 3600,
         "mappingData": []
     },
     {
@@ -8829,7 +8829,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -11919,7 +11919,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -13203,8 +13203,8 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1",
-            "Mutant_AoD_Burer1"
+            "Burer",
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -15961,7 +15961,7 @@
         "triggerDisableOnLeave": 0,
         "triggerDisabledChance": 0.0,
         "spawnPositions": [
-            "1678.233398 83.009377 1797.274536"
+            "1670.463745 90.918129 1805.546387"
         ],
         "spawnRadius": 2.0,
         "spawnMin": 3,
@@ -16048,7 +16048,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Controller1"
+            "CQRP_Controller"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -16117,7 +16117,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -17301,7 +17301,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -17513,7 +17513,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -18502,7 +18502,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Burer1"
+            "Burer"
         ],
         "groupSelectMode": "",
         "waveList": [],
@@ -18641,7 +18641,7 @@
         "triggerGates": [],
         "enableEquipCE": 0,
         "spawnList": [
-            "Mutant_AoD_Controller1"
+            "CQRP_Controller"
         ],
         "groupSelectMode": "",
         "waveList": [],
