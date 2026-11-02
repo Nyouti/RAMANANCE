@@ -80,31 +80,6 @@
             ]
         },
         {
-            "SlotName": "Headgear",
-            "Items": [
-                {
-                    "ClassName": "GhillieHood_Woodland",
-                    "Include": "",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.4,
-                            "Max": 0.55,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ]
-        },
-        {
             "SlotName": "Vest",
             "Items": [
                 {
@@ -197,6 +172,25 @@
                             "Zone": ""
                         }
                     ],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Armband",
+            "Items": [
+                {
+                    "ClassName": "FS_TAG_Odin",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
                     "InventoryAttachments": [],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],

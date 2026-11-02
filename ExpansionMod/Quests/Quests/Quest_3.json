@@ -4,11 +4,11 @@
     "Type": 1,
     "Title": "Quand le ciel devient rouge",
     "Descriptions": [
-        "Assieds-toi, %1. La Zone existe depuis 86, et depuis, elle n'a jamais arrêté de grandir. Les anciens racontent que des savants faisaient des expériences là-bas, au cœur, et que c'est de ce gâchis que sont nées les anomalies et les bêtes qui n'ont plus rien de naturel. Moi, je sais surtout une chose : la Zone respire. On appelle ça l'Émission. Le ciel devient rouge, la terre gronde, et tout ce qui reste dehors meurt ou devient fou. Quand ça arrive, les stalkers du coin s'entassent ici, sous mon toit, et il faut bien les nourrir. Les gars planquent leurs affaires dans des caches un peu partout dans le Cordon. Fouilles-en quelques-unes et ramène-moi une conserve, du pain ou du saucisson, et une bouteille de vodka. Oui, de la vodka. Tu comprendras.",
-        "Il me manque encore des vivres pour l'abri : une conserve, du pain ou du saucisson, et une bouteille de vodka. Fouille les caches du Cordon, elles se remplissent régulièrement. Et si le ciel se met à rougir pendant que tu cherches, tu cours te mettre sous un vrai toit. Pas un arbre, pas une tente : du béton.",
+        "Assieds-toi, %1. La Zone existe depuis 86, et depuis, elle n'a jamais arrêté de grandir. Les anciens racontent que des savants faisaient des expériences là-bas, au cœur, et que c'est de ce gâchis que sont nées les anomalies et les bêtes qui n'ont plus rien de naturel. Moi, je sais surtout une chose : la Zone respire. On appelle ça l'Émission. Le ciel devient rouge, la terre gronde, et tout ce qui reste dehors meurt ou devient fou. Quand ça arrive, les stalkers du coin s'entassent ici, sous mon toit, et il faut bien les nourrir. Les gars planquent leurs affaires dans des caches un peu partout dans le Cordon. Fouilles-en quelques-unes et ramène-moi une conserve, une miche de pain et une bouteille de vodka Kazaks. Oui, de la vodka. Tu comprendras.",
+        "Il me manque encore des vivres pour l'abri : une conserve, une miche de pain et une bouteille de vodka Kazaks. Fouille les caches du Cordon, elles se remplissent régulièrement. Et si le ciel se met à rougir pendant que tu cherches, tu cours te mettre sous un vrai toit. Pas un arbre, pas une tente : du béton.",
         "Parfait. Avec ça, on tiendra la prochaine Émission. Retiens bien ce que je vais te dire, ça te sauvera la vie : quand le ciel vire au rouge, tu as quelques minutes, pas plus. Tu cherches une cave, un tunnel ou un bâtiment en dur, et tu n'en sors pas avant que le calme revienne. Et la vodka ? Les anciens jurent qu'elle chasse les radiations. Moi, je dis surtout qu'elle aide à attendre. Tiens, prends ce dosimètre et ces cachets d'iode : dans la Zone, ce que tu ne vois pas te tue plus sûrement que ce que tu vois."
     ],
-    "ObjectiveText": "Fouille les caches du Cordon et rapporte à Papa Voronine une conserve fermée, du pain ou du saucisson, et une bouteille de vodka pour l'abri.",
+    "ObjectiveText": "Fouille les caches du Cordon et rapporte à Papa Voronine une conserve fermée, une miche de pain et une bouteille de vodka Kazaks pour l'abri.",
     "FollowUpQuest": 4,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -29,7 +29,7 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "TerjeDosimetrMkc01A",
+            "ClassName": "TerjeDosimetrDpg05",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
