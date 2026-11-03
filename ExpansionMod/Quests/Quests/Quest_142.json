@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 142,
     "Type": 1,
-    "Title": "Ce qui ne doit pas sortir",
+    "Title": "Ce qui rôde à l'ouest",
     "Descriptions": [
-        "Une question, %1 : les artefacts que tu ramasses, tu en fais quoi ? Tu les vends. À Sakharov, quand tu as la patience de descendre jusqu'à Yantar, ou au premier qui paie. Et après ? Ce qui se vend passe de main en main, et ce qui passe de main en main finit toujours par sortir de la Zone. Un artefact, ce n'est pas un caillou. C'est un morceau de la Zone. On ne sait pas ce qu'il fait dans une poche, dans une maison, dans une ville. Les scientifiques eux-mêmes ne le savent pas. Pour la Duty, c'est simple : ce qui vient de la Zone reste dans la Zone. Ce qu'on trouve, on le donne aux écologistes de Yantar pour qu'ils l'étudient, ou on le détruit. Rapporte-moi une Perle et une Boussole. Tu en trouveras dans les anomalies, presque partout. Je te paierai moins que Sakharov. Beaucoup moins. Mais je te dirai où elles finissent.",
-        "Une Perle et une Boussole, ramassées dans les anomalies. À rapporter à Gekko, pas à vendre.",
-        "Une Perle, une Boussole. Tu aurais pu les vendre à Sakharov, et tu ne l'as pas fait : c'est déjà ça. Tiens, ta paie, et ne la compare pas à ses prix. Je vais les sceller. Elles ne resteront pas ici : la Duty ne garde rien de ce qu'elle trouve."
+        "Tu as vu ce qui traîne à l'ouest, %1 ? Des izloms. Des hommes, avant, comme les snorks : la Zone les a pliés en deux et leur a laissé un bras trop long. Ils sont deux, parfois quatre, dans la terre sauvage, à cinq cents mètres d'ici. Ils attendent les stalkers qui coupent par là pour rejoindre Rostok. La Duty ne laisse pas ça au bord d'une route. Abats-en deux, et rapporte-moi une main pour le registre : chez nous, on ne compte pas les morts sur parole.",
+        "Les izloms de la terre sauvage, à cinq cents mètres à l'ouest de Gekko. Deux bêtes, une main pour le registre.",
+        "Une main d'izlom. Je l'inscris au registre, avec ton nom à côté : c'est comme ça qu'on garde une route ouverte. Personne ne te remerciera, et ceux qui passeront par là demain ne sauront jamais pourquoi ils sont passés. C'est ça, la Duty. Tiens, ta paie."
     ],
-    "ObjectiveText": "Ramasse une Perle et une Boussole dans les anomalies et rapporte-les à Gekko, au lieu de les vendre.",
+    "ObjectiveText": "Abats deux izloms dans la terre sauvage, à cinq cents mètres à l'ouest de Gekko, puis rapporte-lui une main d'izlom.",
     "FollowUpQuest": 143,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -51,6 +51,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 142,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 142,

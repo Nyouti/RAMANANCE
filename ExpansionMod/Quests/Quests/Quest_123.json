@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 123,
     "Type": 1,
-    "Title": "Le jardin du sud-ouest",
+    "Title": "Le géant des roseaux",
     "Descriptions": [
-        "Il existe un endroit, %1, que nous appelons le jardin. Tout au sud-ouest du Marais, au sud de l'ancienne base de Clear Sky, des anomalies qu'on ne voit nulle part ailleurs ont poussé ensemble : des tempêtes de feu, une Voie lactée qui plie la lumière, des éclats de verre suspendus. Nous l'avons repéré depuis un hélicoptère, il y a des années, et personne n'y est jamais allé à pied pour nous. Rapportez-moi une Boule de feu ou un Gravi. Le Gravi, surtout : il pèse plus lourd qu'il ne devrait, et je veux savoir de combien. Et ne montez pas vers la vieille base : ce qui y vit n'aime pas les visiteurs.",
-        "Le jardin, tout au sud-ouest du Marais, au sud de l'ancienne base de Clear Sky. Une Boule de feu ou un Gravi. Pas la vieille base.",
-        "Vous êtes allé dans le jardin. Personne n'y était allé avant vous. Posez-la là, doucement. Peu importe laquelle : l'une brûle encore la paille de la caisse, l'autre fait mentir ma balance. Si l'Institut voyait ça, il doublerait notre budget. Il ne le verra pas : je la garde. Tenez, %1, vous l'avez mérité."
+        "Au nord-ouest du Marais vit une bête que les Veilleurs appellent le géant des roseaux, %1. Un pseudo-géant : deux tonnes de chair et une seule idée en tête. Il se tient à un kilomètre au nord de l'ancienne base de Clear Sky, et un chat-bayun le suit comme son ombre. Personne ne sait pourquoi l'un supporte l'autre. Moi, je veux sa main. Un pseudo-géant n'a plus de doigts : il a une masse d'os soudés, et je veux savoir comment elle s'est formée. Ne le prenez pas de face : quand il frappe le sol, tout ce qui est debout autour tombe. Et ne descendez pas vers la vieille base : ce qui y vit n'aime pas les visiteurs.",
+        "Le pseudo-géant et son chat-bayun, à un kilomètre au nord de l'ancienne base de Clear Sky, dans le Marais. Sa main.",
+        "La main du géant. Posez-la là, doucement : ma table n'est pas faite pour ça. Regardez : pas un os qui ressemble à un autre, et pourtant tout tient. Si l'Institut voyait ça, il doublerait notre budget. Il ne le verra pas : je la garde. Tenez, %1, vous l'avez mérité."
     ],
-    "ObjectiveText": "Rapporte au Doc une Boule de feu ou un Gravi, deux artefacts qui ne se forment que dans le jardin d'anomalies du sud-ouest du Marais, au sud de l'ancienne base de Clear Sky.",
+    "ObjectiveText": "Abats le pseudo-géant au nord-ouest du Marais, à un kilomètre au nord de l'ancienne base de Clear Sky, puis rapporte sa main au Doc.",
     "FollowUpQuest": 124,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -60,6 +60,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 123,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 123,

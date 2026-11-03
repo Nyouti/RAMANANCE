@@ -2,24 +2,18 @@
     "ConfigVersion": 28,
     "ID": 123,
     "ObjectiveType": 4,
-    "ObjectiveText": "Une Boule de feu ou un Gravi, nés dans le jardin du sud-ouest du Marais",
+    "ObjectiveText": "La main du pseudo-géant, pour le Doc",
     "TimeLimit": -1,
     "Active": 1,
     "Collections": [
         {
             "Amount": 1,
-            "ClassName": "MH_ART_Gravi_Redux",
-            "QuantityPercent": -1,
-            "MinQuantityPercent": -1
-        },
-        {
-            "Amount": 1,
-            "ClassName": "MH_ART_FireBall_Redux",
+            "ClassName": "Mutant_XZ_Pgigant_Hand",
             "QuantityPercent": -1,
             "MinQuantityPercent": -1
         }
     ],
     "ShowDistance": 1,
     "AddItemsToNearbyMarketZone": 0,
-    "NeedAnyCollection": 1
+    "NeedAnyCollection": 0
 }

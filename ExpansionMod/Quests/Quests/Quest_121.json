@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 121,
     "Type": 1,
-    "Title": "La batterie",
+    "Title": "La chair de la voie ferrée",
     "Descriptions": [
-        "Première commande, %1. Les artefacts naissent dans les anomalies, un peu comme une perle dans une huître : la Zone y concentre quelque chose, et ça se fige. Chaque anomalie donne ses propres pierres. La Batterie, par exemple, ne se forme que dans les Studen du Cordon, là où les vieux câbles électriques ont fondu dans la gelée : le long de la voie ferrée, entre le refuge de Voronine et la ferme des Veilleurs, et près de la vieille usine, à l'est. Il en sort une sur dix, à peu près. Il m'en faut une. Je la porterai trois jours sur moi et je noterai tout : pouls, température, sommeil, la vitesse à laquelle une coupure se referme. C'est comme ça que je travaille. Je n'expérimente que sur deux choses : les cailloux, et moi.",
-        "Une Batterie, née dans les Studen du Cordon : le long de la voie ferrée, entre le refuge et la ferme, ou près de la vieille usine, à l'est.",
-        "Une Batterie. Vous sentez ce picotement dans les doigts ? Elle garde une charge que rien n'explique. Je la porte à partir de ce soir : entrée quatre cent treize de mon journal. Tenez, %1."
+        "Première commande, %1. Les artefacts, tout le monde en ramasse, et Sakharov les achète tous : je n'en verrai jamais un. Alors je travaille sur ce que personne ne ramasse : les bêtes. À trois cents mètres au nord-est du refuge de Voronine, sur le chemin de la ferme des Veilleurs, deux chairs paissent près des anomalies de la voie ferrée. Vous les reconnaîtrez : des porcs pelés, aux yeux voilés de blanc. Ce voile m'intéresse. Je veux savoir s'il vient de la gelée des Studen, ou s'il naît avec elles. Abattez les deux et rapportez-moi un de leurs yeux. Prenez un couteau : il faudra les dépecer.",
+        "Les deux chairs, à trois cents mètres au nord-est du refuge de Voronine, vers la ferme des Veilleurs. Un œil, et un couteau pour le prendre.",
+        "Un œil de chair. Regardez ce voile : laiteux, épais, comme la cataracte d'un vieux chien. Je le mets dans le formol ce soir : entrée quatre cent treize de mon journal. Si c'est la gelée, toutes les bêtes qui boivent près des Studen devraient l'avoir. Nous verrons. Tenez, %1."
     ],
-    "ObjectiveText": "Rapporte au Doc une Batterie, l'artefact qui ne se forme que dans les Studen du Cordon.",
+    "ObjectiveText": "Abats les deux chairs entre le refuge de Voronine et la ferme des Veilleurs, puis rapporte un œil de chair au Doc.",
     "FollowUpQuest": 122,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -42,6 +42,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 121,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 121,

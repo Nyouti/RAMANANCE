@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 122,
     "Type": 1,
-    "Title": "Les cristaux",
+    "Title": "La sangsue du Marais",
     "Descriptions": [
-        "Mes mains, vous les avez vues ? Ces brûlures, c'est le Cristal. Il se forme dans les Jarkas et il en garde la chaleur pendant des semaines. Je l'ai porté contre la peau pour mesurer combien de temps il tient : trop longtemps. Il m'en faut deux, pour comparer. Les Jarkas du Marais en donnent le plus. Il paraît qu'un jeune Veilleur campe là-bas, au milieu d'un champ de Jarkas : demandez-lui le chemin, et ne le dérangez pas. Prenez des gants épais.",
-        "Deux Cristaux, nés dans les Jarkas : le Marais en a le plus. Des gants épais.",
-        "Deux Cristaux, et pas une brûlure sur vous ? Vous avez de meilleures mains que moi. Celui-ci est plus chaud que l'autre : même anomalie, même jour, pas la même pierre. Personne ne sait pourquoi, et c'est pour ça qu'on est là. Tenez, et prenez cette trousse : un médecin qui équipe ses stalkers en perd moins."
+        "Mes mains, vous les avez vues ? Ces cicatrices ne viennent pas des anomalies, %1. Elles viennent d'une sangsue, il y a des années, dans le Marais. Elle m'a laissé partir, et je n'ai jamais su pourquoi. Il y en a une, aujourd'hui, qui rôde à moins de deux cents mètres au sud du camp du jeune Veilleur, celui qui chasse dans le Marais. Il n'en dort plus. Je veux sa mâchoire : une sangsue tue avec la bouche, et je veux voir comment la Zone l'a construite. Ne restez jamais à découvert : vous ne la verrez qu'au dernier moment.",
+        "La sangsue, à moins de deux cents mètres au sud du camp du jeune Veilleur, dans le Marais. Sa mâchoire.",
+        "Une mâchoire de sangsue. Regardez ces dents : elles poussent en rangées, comme celles d'un requin, et chaque rangée remplace la précédente. Celle qui m'a mordu en avait trois. Celle-ci en a quatre. Elles changent, %1, et plus vite que nous. Tenez, et prenez cette trousse : un médecin qui équipe ses stalkers en perd moins."
     ],
-    "ObjectiveText": "Rapporte au Doc deux Cristaux, les artefacts des Jarkas ; le Marais en a le plus.",
+    "ObjectiveText": "Abats la sangsue qui rôde au sud du camp du jeune Veilleur, dans le Marais, puis rapporte sa mâchoire au Doc.",
     "FollowUpQuest": 123,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -51,6 +51,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 122,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 122,

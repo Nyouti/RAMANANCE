@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 126,
     "Type": 1,
-    "Title": "Les perles de Rostok",
+    "Title": "Les snorks de la terre sauvage",
     "Descriptions": [
-        "Une question d'argent, %1, j'en ai peur. Ici, c'est le professeur Sakharov qui rachète les artefacts aux stalkers, et tout ce qu'il achète entre dans ses collections, sous clé. Moi, je n'ai droit qu'à ce qui reste. Le gestionnaire du détachement a obtenu une rallonge, une seule, pour une série complète à mon nom : deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, là où elles sont les plus pures. Rapportez-les-moi, pas à Sakharov. C'est le gestionnaire qui signe et qui paie, mais il ne reçoit personne : il compte, et il me laisse le reste.",
-        "Deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, à rapporter au Doc.",
-        "Deux Perles, deux Boussoles. Parfaites. Je les porte au gestionnaire : il va les compter deux fois et me faire signer trois formulaires. Je voulais vous payer ce qu'en donne Sakharov ; il m'a rappelé que ma ligne n'est pas celle du professeur. Voici donc ce que la ligne sept autorise, plus la prime qu'il a bien voulu justifier. Ne me remerciez pas, %1 : remerciez la ligne budgétaire sept."
+        "Une commande en série, %1. Les snorks, vous en avez vu : ils bondissent, ils mordent, et ils portent encore des lambeaux de masques à gaz. On dit que ce sont des hommes. Je veux le vérifier. À Rostok, à trois cents mètres au nord-ouest de Gekko, l'homme de la Duty, une bande de quatre snorks a pris la terre sauvage. Abattez-en trois et rapportez-moi deux de leurs pattes : si les os de la jambe sont ceux d'un homme, je le saurai. Et si vous croisez Gekko, dites-lui que c'est pour la science : la Duty aime savoir qui tire sur son territoire.",
+        "Les quatre snorks de la terre sauvage, à trois cents mètres au nord-ouest de Gekko, à Rostok. Trois bêtes, deux pattes.",
+        "Deux pattes de snork. Le fémur, la rotule, les ligaments... C'est une jambe d'homme, %1. Tordue, épaissie, mais une jambe d'homme. Je n'écrirai pas ce que j'en pense dans le journal : l'Institut le lit par-dessus mon épaule. Tenez, et prenez cette trousse."
     ],
-    "ObjectiveText": "Rapporte deux Perles et deux Boussoles, ramassées dans les anomalies de Rostok, au Doc, au bunker des écologistes.",
+    "ObjectiveText": "Abats trois snorks dans la terre sauvage, au nord-ouest de Gekko, à Rostok, puis rapporte deux pattes de snork au Doc.",
     "FollowUpQuest": 127,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -51,6 +51,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 126,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 126,

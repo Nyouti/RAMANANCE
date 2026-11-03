@@ -4,11 +4,11 @@
     "Type": 1,
     "Title": "Ce qui est à tout le monde",
     "Descriptions": [
-        "Tu sais ce que fait la Duty des artefacts, %1 ? Elle les enferme. Elle les confie à des savants dans un bunker, ou elle les casse. Pour eux, ce qui vient de la Zone doit rester dans la Zone. Moi, je dis qu'une Perle, de l'autre côté de la barrière, c'est un médicament qu'un hôpital de province ne pourra jamais acheter, ou un mois de loyer pour une famille. Un artefact appartient à celui qui le trouve, et il doit aller à celui qui en a besoin. C'est pour ça que Svoboda a des coureurs. Rapporte-moi un Cristal et une Perle. Le Cristal se forme dans les Jarkas : il y en a une à six cents mètres à l'ouest, à côté d'un Tramplin. Fais le tour par le sud : des Izlom traînent ces temps-ci autour de la Voronka, à deux cents mètres du portail, et une tache brûlante se cache derrière l'Électra. N'approche pas celle du fond des hangars, au nord-ouest : c'est la tanière dont je t'ai parlé. Des Perles, tu en trouveras dans presque toutes les anomalies. Je te les paie mieux que Sakharov. Lui, il range les artefacts dans un tiroir.",
-        "Un Cristal et une Perle, à rapporter à Makarov. La Jarka de l'ouest, à six cents mètres, à côté d'un Tramplin, en faisant le tour par le sud. Pas celle du nord-ouest.",
-        "Un Cristal, une Perle. Belles pièces. Tiens, six mille : c'est plus que Sakharov, et je ne te demande pas de signer de reçu. Ces deux-là partiront avec le prochain coureur, vers le sud. Où elles finiront ? Chez quelqu'un qui en a besoin. Si tu croises un jour un sergent de la Duty, il te dira le contraire. Il en a le droit. Ici, tout le monde a le droit de penser ce qu'il veut, même la Duty."
+        "Tu sais ce que vaut une mâchoire de sangsue de l'autre côté de la barrière, %1 ? Un laboratoire la paie le prix d'une voiture. La Duty dirait qu'elle doit rester dans la Zone, ou finir au feu. Moi, je dis que ce qui vient de la Zone appartient à celui qui va le chercher, et qu'un billet sert mieux dans la poche d'un coureur que dans la cendre. Il y a une sangsue à moins de quatre cents mètres au nord-ouest d'ici. Elle a déjà pris deux des nôtres. Abats-la, et rapporte-moi sa mâchoire : elle partira avec le prochain coureur.",
+        "La sangsue, à moins de quatre cents mètres au nord-ouest de Makarov. Sa mâchoire, pour le prochain coureur.",
+        "Une mâchoire de sangsue. Belle pièce, et pas un trou dans l'os : tu sais viser. Tiens, six mille, et je ne te demande pas de signer de reçu. Elle partira vers le sud avec le prochain coureur. Si tu croises un sergent de la Duty, il te dira que j'ai tort. Il en a le droit. Ici, tout le monde a le droit de penser ce qu'il veut, même la Duty."
     ],
-    "ObjectiveText": "Rapporte un Cristal et une Perle à Makarov, qui les paie mieux que Sakharov. La Jarka la plus sûre est à six cents mètres à l'ouest de la base.",
+    "ObjectiveText": "Abats la sangsue à moins de quatre cents mètres au nord-ouest de Makarov, puis rapporte-lui sa mâchoire.",
     "FollowUpQuest": 152,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -51,6 +51,11 @@
     ],
     "IsAchievement": 0,
     "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 151,
+            "ObjectiveType": 2
+        },
         {
             "ConfigVersion": 28,
             "ID": 151,
