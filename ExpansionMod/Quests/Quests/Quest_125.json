@@ -4,11 +4,11 @@
     "Type": 1,
     "Title": "La fosse qui avance",
     "Descriptions": [
-        "Les taches radioactives ne sont pas figées, %1. Elles avancent, reculent, se déplacent de quelques mètres d'une année sur l'autre. Nous en tenons la carte depuis le début. La fosse de l'ouest de Garbage est la plus forte de la région, et nous n'avons plus de mesure depuis deux ans. Deux relevés : un au bord, puis un au cœur. Au bord, un filtre ordinaire suffit ; au cœur, il vous faut un GP-21. Les bandits enterrent leurs morts au bord de cette fosse : passez sans rien toucher, et ils vous laisseront tranquille.",
-        "La fosse de l'ouest de Garbage : un relevé au bord, puis un au cœur, avec un GP-21.",
-        "Trois mètres. Le cœur a avancé de trois mètres vers l'ouest depuis la dernière mesure. Ça n'a l'air de rien. Multipliez par toutes les taches de la Zone, et vous comprendrez pourquoi nos cartes ne sont jamais à jour. Tenez, %1."
+        "Troisième station, %1, et la plus dure. La fosse de l'ouest de Garbage est la tache la plus forte de la région. Si l'os dit vrai, les bêtes qui vivent à son bord portent ce qu'elle rejette. Trois chiens rôdent juste au nord, à cent mètres du cœur : deux chiens, deux queues, comme aux autres stations. Puis il me faut la source elle-même. Les taches radioactives ne sont pas figées : elles avancent, reculent, se déplacent de quelques mètres d'une année sur l'autre. Nous en tenons la carte depuis le début, et sur celle-ci nous n'avons plus de mesure depuis deux ans. Deux relevés : un au bord, puis un au cœur. Au bord, un filtre ordinaire suffit ; au cœur, il vous faut un GP-21. Les bandits enterrent leurs morts au bord de cette fosse : passez sans rien toucher, et ils vous laisseront tranquille.",
+        "La fosse de l'ouest de Garbage : deux chiens juste au nord, un relevé au bord, puis un au cœur avec un GP-21. Et deux queues de chien pour le spectromètre.",
+        "Trois mètres. Le cœur a avancé de trois mètres vers l'ouest depuis la dernière mesure. Ça n'a l'air de rien. Multipliez par toutes les taches de la Zone, et vous comprendrez pourquoi nos cartes ne sont jamais à jour. Et vos chiens : quinze fois le Cordon. Cordon, Marais, Garbage : trois stations, et je peux enfin tracer quelque chose. Pas encore une loi, %1. Une courbe, et c'est déjà plus que ce que l'Institut a obtenu en huit ans. Tenez."
     ],
-    "ObjectiveText": "Fais deux relevés dans la fosse radioactive de l'ouest de Garbage, au bord puis au cœur (filtre GP-21 obligatoire), puis reviens voir le Doc.",
+    "ObjectiveText": "Abats deux chiens au nord de la fosse radioactive de l'ouest de Garbage, fais deux relevés dans la fosse, au bord puis au cœur (filtre GP-21 obligatoire), puis rapporte deux queues de chien au Doc.",
     "FollowUpQuest": 126,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -63,12 +63,22 @@
         {
             "ConfigVersion": 28,
             "ID": 125,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 125,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
             "ID": 1251,
             "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 125,
+            "ObjectiveType": 4
         }
     ],
     "QuestColor": 0,

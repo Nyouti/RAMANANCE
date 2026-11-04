@@ -2,21 +2,22 @@
     "ConfigVersion": 28,
     "ID": 122,
     "ObjectiveType": 2,
-    "ObjectiveText": "Abats la sangsue au sud du camp du Veilleur",
+    "ObjectiveText": "Abats deux chiens sur le terrain de chasse de Kostia",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        2011.9,
-        79.7,
-        1668.2
+        1600.0,
+        82.0,
+        2040.0
     ],
-    "MaxDistance": 120.0,
+    "MaxDistance": 220.0,
     "MinDistance": -1.0,
-    "Amount": 1,
+    "Amount": 2,
     "ClassNames": [
-        "Mutant_XZ_Krovosos1",
-        "Mutant_XZ_Krovosos2",
-        "Mutant_XZ_Krovosos3"
+        "Mutant_XZ_Dog_Red",
+        "Mutant_XZ_Dog_Brown",
+        "Mutant_XZ_Dog_Fur",
+        "Mutant_XZ_Dog_White"
     ],
     "CountSelfKill": 0,
     "AllowedWeapons": [],

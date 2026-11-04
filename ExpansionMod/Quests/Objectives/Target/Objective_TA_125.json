@@ -1,20 +1,23 @@
 {
     "ConfigVersion": 28,
-    "ID": 123,
+    "ID": 125,
     "ObjectiveType": 2,
-    "ObjectiveText": "Abats le pseudo-géant des roseaux",
+    "ObjectiveText": "Abats deux chiens au nord de la fosse de l'ouest de Garbage",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        1279.3,
-        91.6,
-        2405.1
+        4706.8,
+        109.6,
+        5021.2
     ],
-    "MaxDistance": 120.0,
+    "MaxDistance": 100.0,
     "MinDistance": -1.0,
-    "Amount": 1,
+    "Amount": 2,
     "ClassNames": [
-        "Mutant_XZ_PGigant"
+        "Mutant_XZ_Dog_Red",
+        "Mutant_XZ_Dog_Brown",
+        "Mutant_XZ_Dog_Fur",
+        "Mutant_XZ_Dog_White"
     ],
     "CountSelfKill": 0,
     "AllowedWeapons": [],
