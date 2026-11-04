@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 28,
+    "ID": 123,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Fouille la caisse des renégats, à la station du Marais",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 0,
+    "MarkerName": "Caisse des renégats",
+    "MarkerVisibility": 6,
+    "Positions": [
+        [
+            1853.5,
+            79.72,
+            2223.5
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 25.0,
+    "Loot": [
+        {
+            "Name": "ExpansionQuestItem_NamalskRadio",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1.0,
+            "Max": 1,
+            "Min": 1,
+            "Variants": []
+        }
+    ]
+}

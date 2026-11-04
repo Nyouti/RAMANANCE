@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 123,
     "Type": 1,
-    "Title": "Le jardin du sud-ouest",
+    "Title": "L'enregistreur du Marais",
     "Descriptions": [
-        "Il existe un endroit, %1, que nous appelons le jardin. Tout au sud-ouest du Marais, au sud de l'ancienne base de Clear Sky, des anomalies qu'on ne voit nulle part ailleurs ont poussé ensemble : une tempête de feu, une Voie lactée qui plie la lumière, un Essaim. Nous l'avons repéré depuis un hélicoptère, il y a des années, et personne n'y est jamais allé à pied pour nous. Sur nos cartes, c'est une tache blanche. Ma question est simple : des anomalies qui n'ont rien en commun, mesurées côte à côte, gardent-elles chacune leur signature, ou répondent-elles à une seule cause ? Il me faut trois relevés, à vingt-cinq mètres de chacune, pas plus près. Et ne montez pas vers la vieille base : ce qui y vit n'aime pas les visiteurs.",
-        "Le jardin, tout au sud-ouest du Marais, au sud de l'ancienne base de Clear Sky. Trois relevés : la tempête de feu, la Voie lactée, l'Essaim. Vingt-cinq mètres, pas plus près. Pas la vieille base.",
-        "Vous êtes allé dans le jardin. Personne n'y était allé avant vous. Trois anomalies sans rien de commun et pourtant, sur le papier, trois courbes qui ont la même pente. Je ne dis pas encore ce que ça veut dire. Et vous avez vu ? Pas une bête là-bas : elles s'arrêtent à la vieille base. Elles savent quelque chose que mes instruments ignorent. Si l'Institut voyait ça, il doublerait notre budget. Il ne le verra pas avant que je l'aie mesuré deux fois. Tenez, %1, vous l'avez mérité."
+        "Je vous ai dit que je mesurerais une seconde fois, %1. Je n'ai même pas besoin d'y retourner : un témoin m'attend déjà là-bas, et celui-là n'a ni faim ni peur. Nous avons planté une station automatique dans le Marais, il y a trois ans : une sonde dans la vase, un dosimètre, et un enregistreur qui note tout, heure après heure. Les queues de vos chiens disent combien la bête a accumulé dans sa vie. L'enregistreur, lui, dit quand c'est arrivé. Deux méthodes qui ne se connaissent pas : si elles racontent la même chose, je pourrai y croire. Le problème, c'est que le stalker que je paie pour changer les batteries est revenu le mois dernier avec une balle dans la cuisse. Des renégats se sont installés à la station, à quatre cents mètres au nord-nord-ouest du camp de Kostia. Ils ont arraché l'enregistreur et l'ont mis dans leur caisse : ils le prennent pour un poste radio qu'ils pourront revendre. Le boîtier ne vaut rien ; les chiffres n'ont pas de prix. Je soigne qui saigne, et je soignerais ces trois-là s'ils frappaient à ma porte. Ils ne frapperont pas, et ils ne vous laisseront pas approcher de cette caisse tant qu'ils seront debout. Faites ce qu'il faut. Ne perdez pas de temps à fouiller les corps, et surtout n'ouvrez pas le boîtier : une série ne vaut que si personne n'y a mis les doigts.",
+        "La station automatique du Marais, à quatre cents mètres au nord-nord-ouest du camp de Kostia. Trois renégats, une caisse, et l'enregistreur dedans. N'ouvrez pas le boîtier.",
+        "Posez-le là. Les scellés sont intacts : bien. Trois ans, heure après heure, %1. Regardez : chaque printemps, quand l'eau monte, la dose grimpe dans la vase, et trois semaines plus tard dans les roseaux. C'est bien l'eau. La vase retient, les roseaux boivent, et le chien mange ce qui a mangé les roseaux. Vos queues de chien et mon enregistreur racontent la même histoire sans s'être jamais rencontrés : maintenant, je peux y croire. Mon stalker remarche, mais il ne retournera pas là-bas, et il faudra que quelqu'un replante une station, un jour. Tenez, vous l'avez mérité."
     ],
-    "ObjectiveText": "Fais trois relevés dans le jardin d'anomalies, tout au sud-ouest du Marais, au sud de l'ancienne base de Clear Sky (la tempête de feu, la Voie lactée, l'Essaim), puis reviens voir le Doc. Ne monte pas vers la vieille base.",
+    "ObjectiveText": "Élimine les trois renégats de la station automatique du Marais, à quatre cents mètres au nord-nord-ouest du camp de Kostia, récupère l'enregistreur dans leur caisse et rapporte-le au Doc.",
     "FollowUpQuest": 124,
     "Repeatable": 0,
     "IsDailyQuest": 0,
@@ -63,17 +63,17 @@
         {
             "ConfigVersion": 28,
             "ID": 123,
-            "ObjectiveType": 3
+            "ObjectiveType": 8
         },
         {
             "ConfigVersion": 28,
-            "ID": 1231,
-            "ObjectiveType": 3
+            "ID": 123,
+            "ObjectiveType": 6
         },
         {
             "ConfigVersion": 28,
-            "ID": 1232,
-            "ObjectiveType": 3
+            "ID": 123,
+            "ObjectiveType": 4
         }
     ],
     "QuestColor": 0,
@@ -86,7 +86,7 @@
     "FactionReward": "",
     "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 0,
-    "SequentialObjectives": 0,
+    "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
     "FactionReputationRewards": {},
     "SuppressQuestLogOnCompetion": 0,
