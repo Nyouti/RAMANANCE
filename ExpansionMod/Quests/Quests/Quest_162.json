@@ -1,0 +1,82 @@
+{
+    "ConfigVersion": 22,
+    "ID": 162,
+    "Type": 1,
+    "Title": "La boucle d'Agroprom",
+    "Descriptions": [
+        "Tu passes le portail, %1, et personne ne te demande rien : c'est la seule règle ici, et c'est moi qui la garde. Le jour où l'armée a envoyé son convoi de reprise, on lui a ouvert, et la moitié des soldats est restée. L'autre moitié est repartie à Agroprom, et elle n'a rien oublié. Depuis quelques semaines, quatre soldats font le tour d'Agroprom par la route, à pied, sans jamais s'arrêter. Du carrefour du nord-est, ils descendent vers le sud, tournent vers l'ouest jusqu'à leur base, la contournent par le nord, remontent par la route de l'ouest et reviennent par celle du nord. Ils notent qui passe et à quelle heure, et nos lettres pour l'adjudant Grechko n'arrivent plus. Une patrouille qui compte, ça prépare un convoi. Au feu, on a voté : personne n'ira marcher sur leur base, mais celui qui arrête ce manège sera payé. Ils ne tirent pas les premiers, ils te regarderont passer. Mets-en un en joue et les quatre répliquent, alors choisis bien ton endroit. Et reste près de la route : au milieu de la boucle, il y a un pseudo-géant. Au nord, devant l'usine, elle frôle une zone radioactive : garde ton masque et ne traîne pas.",
+        "Quatre soldats à pied, sur la route qui fait le tour d'Agroprom. Du carrefour du nord-est, ils vont vers le sud, puis l'ouest jusqu'à leur base, et reviennent par l'ouest et le nord. Ils ne tirent pas les premiers, mais mets-en un en joue et les quatre répliquent.",
+        "Quatre de moins, et plus personne pour noter qui passe. Ils en renverront peut-être d'autres. Ou peut-être que ces quatre-là étaient les derniers à qui il restait des bottes : la solde n'arrive plus à Agroprom. Ce soir, je dirai au feu que c'est fait, et le courrier repartira. Tiens, %1, c'est ce qu'on a voté. Et le portail reste ouvert, pour toi comme pour les autres. Même pour eux, s'ils arrivent un jour sans fusil."
+    ],
+    "ObjectiveText": "Élimine les quatre soldats qui font le tour d'Agroprom par la route, puis retourne voir le Freedom du poste, au portail de Svoboda.",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "Morphine",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        70
+    ],
+    "QuestTurnInIDs": [
+        70
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 162,
+            "ObjectiveType": 7
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
