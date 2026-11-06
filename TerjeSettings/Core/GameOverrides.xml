@@ -189,6 +189,173 @@ Below are examples of rewriting different types of parameters
 	<CQRP_Controller_Base>
 		<terjeOnKillHuntingExp>40</terjeOnKillHuntingExp>
 	</CQRP_Controller_Base>
+	<!-- Blessures selon le danger du mutant (remplacent le calcul par defaut du mod : TerjeOverrideProcessHit_FromConfig). Chances par coup non bloque. Le premier noeud type="[]" sert seulement a faire exister la classe TerjeCustomInjuries pour ConfigIsExisting : ne pas le retirer. A valider sur le Preprod. -->
+	<Mutant_XZ_Tushkano_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.4</lightBleedingChance>
+			<heavyBleedingChance>0.03</heavyBleedingChance>
+			<hematomaChance>0.1</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Tushkano_Base>
+	<Mutant_XZ_Fresh_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.35</lightBleedingChance>
+			<heavyBleedingChance>0.05</heavyBleedingChance>
+			<hematomaChance>0.3</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Fresh_Base>
+	<Mutant_XZ_Dog_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.5</lightBleedingChance>
+			<heavyBleedingChance>0.15</heavyBleedingChance>
+			<hematomaChance>0.1</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Dog_Base>
+	<Mutant_XZ_Boar_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.3</lightBleedingChance>
+			<heavyBleedingChance>0.25</heavyBleedingChance>
+			<hematomaChance>0.5</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Boar_Base>
+	<Mutant_XZ_Pse_Dog_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.5</lightBleedingChance>
+			<heavyBleedingChance>0.3</heavyBleedingChance>
+			<hematomaChance>0.2</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Pse_Dog_Base>
+	<Mutant_XZ_Cat_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.5</lightBleedingChance>
+			<heavyBleedingChance>0.3</heavyBleedingChance>
+			<hematomaChance>0.1</hematomaChance>
+			<lightContussionChance>0</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Cat_Base>
+	<Mutant_XZ_PGigant_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.9</heavyBleedingChance>
+			<hematomaChance>0.8</hematomaChance>
+			<lightContussionChance>0.25</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_PGigant_Base>
+	<Mutant_XZ_Himera_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>1</heavyBleedingChance>
+			<hematomaChance>0.3</hematomaChance>
+			<lightContussionChance>0.1</lightContussionChance>
+			<sepsisInfectionChance>0.01</sepsisInfectionChance>
+			<sepsisInfectionValue>0.1</sepsisInfectionValue>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Himera_Base>
+	<Mutant_XZ_Snork_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.3</lightBleedingChance>
+			<heavyBleedingChance>0.25</heavyBleedingChance>
+			<hematomaChance>0.4</hematomaChance>
+			<lightContussionChance>0.05</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Snork_Base>
+	<Mutant_XZ_Izlom_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0.3</lightBleedingChance>
+			<heavyBleedingChance>0.35</heavyBleedingChance>
+			<hematomaChance>0.4</hematomaChance>
+			<lightContussionChance>0.05</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Izlom_Base>
+	<Mutant_XZ_Krovosos_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.8</heavyBleedingChance>
+			<hematomaChance>0.3</hematomaChance>
+			<lightContussionChance>0.05</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Krovosos_Base>
+	<Mutant_XZ_Poltergeist_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.7</heavyBleedingChance>
+			<hematomaChance>0.4</hematomaChance>
+			<lightContussionChance>0.1</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Poltergeist_Base>
+	<Mutant_XZ_Burer_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.8</heavyBleedingChance>
+			<hematomaChance>0.5</hematomaChance>
+			<lightContussionChance>0.15</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Mutant_XZ_Burer_Base>
+	<Burer_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.8</heavyBleedingChance>
+			<hematomaChance>0.5</hematomaChance>
+			<lightContussionChance>0.15</lightContussionChance>
+		</TerjeCustomInjuries>
+	</Burer_Base>
+	<CQRP_Controller_Base>
+		<TerjeCustomInjuries type="[]"><i>1</i></TerjeCustomInjuries>
+		<TerjeCustomInjuries>
+			<overrideDefaultInjueries>1</overrideDefaultInjueries>
+			<lightBleedingChance>0</lightBleedingChance>
+			<heavyBleedingChance>0.9</heavyBleedingChance>
+			<hematomaChance>0.5</hematomaChance>
+			<lightContussionChance>0.2</lightContussionChance>
+		</TerjeCustomInjuries>
+	</CQRP_Controller_Base>
 	<!-- Filtres progression craft: zone Power (README 1–5). T1=zones faibles seulement ; T2 sans T3 meurt en zone dure ; T3=tout jusqu’à 5. Mauvais filtre = % protection quasi nulle = rad au fil du temps. -->
 	<GasMask_Filter>
 		<Protection>
