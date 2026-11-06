@@ -127,6 +127,68 @@ Below are examples of rewriting different types of parameters
 </CfgTerjeSkills>
 -->
 <CfgVehicles>
+	<!-- XP de chasse par famille de mutants, selon le danger : XP recue = valeur x 0,75 -->
+	<Mutant_XZ_Tushkano_Base>
+		<terjeOnKillHuntingExp>3</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>2</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>3</terjeOnButchHuntingExp>
+	</Mutant_XZ_Tushkano_Base>
+	<Mutant_XZ_Fresh_Base>
+		<terjeOnKillHuntingExp>3</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>2</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>3</terjeOnButchHuntingExp>
+	</Mutant_XZ_Fresh_Base>
+	<Mutant_XZ_Dog_Base>
+		<terjeOnKillHuntingExp>4</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>2</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>4</terjeOnButchHuntingExp>
+	</Mutant_XZ_Dog_Base>
+	<Mutant_XZ_Boar_Base>
+		<terjeOnKillHuntingExp>8</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>4</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>8</terjeOnButchHuntingExp>
+	</Mutant_XZ_Boar_Base>
+	<Mutant_XZ_Pse_Dog_Base>
+		<terjeOnKillHuntingExp>8</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>4</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>8</terjeOnButchHuntingExp>
+	</Mutant_XZ_Pse_Dog_Base>
+	<Mutant_XZ_Cat_Base>
+		<terjeOnKillHuntingExp>8</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>4</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>8</terjeOnButchHuntingExp>
+	</Mutant_XZ_Cat_Base>
+	<Mutant_XZ_PGigant_Base>
+		<terjeOnKillHuntingExp>40</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>20</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>40</terjeOnButchHuntingExp>
+	</Mutant_XZ_PGigant_Base>
+	<Mutant_XZ_Himera_Base>
+		<terjeOnKillHuntingExp>54</terjeOnKillHuntingExp>
+		<terjeOnHeadshotHuntingExp>27</terjeOnHeadshotHuntingExp>
+		<terjeOnButchHuntingExp>54</terjeOnButchHuntingExp>
+	</Mutant_XZ_Himera_Base>
+	<Mutant_XZ_Snork_Base>
+		<terjeOnKillHuntingExp>11</terjeOnKillHuntingExp>
+	</Mutant_XZ_Snork_Base>
+	<Mutant_XZ_Izlom_Base>
+		<terjeOnKillHuntingExp>14</terjeOnKillHuntingExp>
+	</Mutant_XZ_Izlom_Base>
+	<Mutant_XZ_Krovosos_Base>
+		<terjeOnKillHuntingExp>20</terjeOnKillHuntingExp>
+	</Mutant_XZ_Krovosos_Base>
+	<Mutant_XZ_Poltergeist_Base>
+		<terjeOnKillHuntingExp>24</terjeOnKillHuntingExp>
+	</Mutant_XZ_Poltergeist_Base>
+	<Mutant_XZ_Burer_Base>
+		<terjeOnKillHuntingExp>24</terjeOnKillHuntingExp>
+	</Mutant_XZ_Burer_Base>
+	<Burer_Base>
+		<terjeOnKillHuntingExp>24</terjeOnKillHuntingExp>
+	</Burer_Base>
+	<CQRP_Controller_Base>
+		<terjeOnKillHuntingExp>40</terjeOnKillHuntingExp>
+	</CQRP_Controller_Base>
 	<!-- Filtres progression craft: zone Power (README 1–5). T1=zones faibles seulement ; T2 sans T3 meurt en zone dure ; T3=tout jusqu’à 5. Mauvais filtre = % protection quasi nulle = rad au fil du temps. -->
 	<GasMask_Filter>
 		<Protection>
