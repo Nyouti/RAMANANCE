@@ -1,0 +1,470 @@
+{
+    "m_Version": 32,
+    "Enabled": 1,
+    "FormationScale": -1.0,
+    "DespawnTime": 600.0,
+    "RespawnTime": 600.0,
+    "MinDistRadius": 400.0,
+    "MaxDistRadius": 1000.0,
+    "DespawnRadius": 1100.0,
+    "AccuracyMin": -1.0,
+    "AccuracyMax": -1.0,
+    "ThreatDistanceLimit": -1.0,
+    "NoiseInvestigationDistanceLimit": -1.0,
+    "MaxFlankingDistance": -1.0,
+    "EnableFlankingOutsideCombat": -1,
+    "DamageMultiplier": -1.0,
+    "DamageReceivedMultiplier": -1.0,
+    "ShoryukenChance": 0.009999999776482582,
+    "ShoryukenDamageMultiplier": 3.0,
+    "LoadBalancingCategories": {
+        "Example": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "ContaminatedArea": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 2
+            }
+        ],
+        "MilitaryRoaming": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ],
+        "MilitaryStatic": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ],
+        "Global": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 10,
+                "MaxPatrols": 20
+            },
+            {
+                "MinPlayers": 11,
+                "MaxPlayers": 20,
+                "MaxPatrols": 16
+            },
+            {
+                "MinPlayers": 21,
+                "MaxPlayers": 30,
+                "MaxPatrols": 12
+            },
+            {
+                "MinPlayers": 31,
+                "MaxPlayers": 40,
+                "MaxPatrols": 8
+            },
+            {
+                "MinPlayers": 41,
+                "MaxPlayers": 50,
+                "MaxPatrols": 4
+            },
+            {
+                "MinPlayers": 51,
+                "MaxPlayers": 255,
+                "MaxPatrols": 0
+            }
+        ],
+        "Survivor": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 15
+            }
+        ],
+        "Quest": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "ObjectPatrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ],
+        "HelicopterWreck": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 3
+            }
+        ],
+        "Patrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ]
+    },
+    "Patrols": [
+        {
+            "Name": "Monolith City Guards Patrol",
+            "Persist": 0,
+            "Faction": "Raiders",
+            "Formation": "",
+            "FormationScale": 1.5,
+            "FormationLooseness": 0.0,
+            "Loadout": "MonolithGuardsLoadout",
+            "Units": [],
+            "NumberOfAI": 4,
+            "NumberOfAIMax": 4,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "DEFAULT | CLOTHING_BODY | CLOTHING_LEGS | CLOTHING_FEET | CLOTHING_SIMILAR",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 0,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 0.0,
+            "NoiseInvestigationDistanceLimit": 0.0,
+            "MaxFlankingDistance": -1.0,
+            "EnableFlankingOutsideCombat": -1,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": -1.0,
+            "ShoryukenDamageMultiplier": -1.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "Patrol",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "UniformCubic",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    2649.42724609375,
+                    122.125,
+                    8354.75
+                ],
+                [
+                    2938.337158203125,
+                    122.04590606689453,
+                    8361.7880859375
+                ],
+                [
+                    3063.741943359375,
+                    122.12496948242188,
+                    8353.541015625
+                ],
+                [
+                    3064.9521484375,
+                    122.12499237060547,
+                    8284.2802734375
+                ],
+                [
+                    2680.589111328125,
+                    122.125,
+                    8283.7744140625
+                ],
+                [
+                    2649.42724609375,
+                    122.125,
+                    8354.75
+                ]
+            ]
+        },
+        {
+            "Name": "Guard Post",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationScale": 1.5,
+            "FormationLooseness": 0.0,
+            "Loadout": "DutyGuardLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "NumberOfAIMax": 2,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 0,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "MaxFlankingDistance": -1.0,
+            "EnableFlankingOutsideCombat": -1,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": -1.0,
+            "ShoryukenDamageMultiplier": -1.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "Global",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    5269.78662109375,
+                    112.77953338623047,
+                    5296.04541015625
+                ]
+            ]
+        },
+        {
+            "Name": "Duty Guard Post",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationScale": 1.5,
+            "FormationLooseness": 0.0,
+            "Loadout": "DutyGuardLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "NumberOfAIMax": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 0,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "MaxFlankingDistance": -1.0,
+            "EnableFlankingOutsideCombat": -1,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": -1.0,
+            "ShoryukenDamageMultiplier": -1.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 400.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": 1100.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": 300.0,
+            "RespawnTime": -1.0,
+            "LoadBalancingCategory": "Global",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    4954.4267578125,
+                    126.82,
+                    6647.060546875
+                ]
+            ]
+        },
+        {
+            "Name": "Tower Guard",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationScale": 1.5,
+            "FormationLooseness": 0.0,
+            "Loadout": "TowerGuardLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "NumberOfAIMax": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 0,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "MaxFlankingDistance": -1.0,
+            "EnableFlankingOutsideCombat": -1,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": -1.0,
+            "ShoryukenDamageMultiplier": -1.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "Global",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    1709.183228,
+                    68.699402,
+                    4065.218994
+                ]
+            ]
+        },
+        {
+            "Name": "Patrouille militaire du Cordon",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "File",
+            "FormationScale": 1.5,
+            "FormationLooseness": 0.0,
+            "Loadout": "MilitaryLoadout",
+            "Units": [
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 3,
+            "NumberOfAIMax": 0,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "DefaultStance": "STANDING",
+            "DefaultLookAngle": 0.0,
+            "CanBeLooted": 0,
+            "LootDropOnDeath": "",
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": 0.2,
+            "AccuracyMax": 0.5,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 0.0,
+            "MaxFlankingDistance": -1.0,
+            "EnableFlankingOutsideCombat": -1,
+            "DamageMultiplier": 0.7,
+            "DamageReceivedMultiplier": 1.0,
+            "HeadshotResistance": 0.0,
+            "ShoryukenChance": 0.0,
+            "ShoryukenDamageMultiplier": -1.0,
+            "CanSpawnInContaminatedArea": 0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 60.0,
+            "MaxDistRadius": 800.0,
+            "DespawnRadius": 1000.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "LoadBalancingCategory": "Patrol",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    4696.900879,
+                    60.005913,
+                    1329.236328
+                ],
+                [
+                    4696.0,
+                    0.0,
+                    1385.0
+                ],
+                [
+                    4698.0,
+                    0.0,
+                    1412.0
+                ],
+                [
+                    4686.0,
+                    0.0,
+                    1440.0
+                ],
+                [
+                    4665.0,
+                    0.0,
+                    1495.0
+                ],
+                [
+                    4656.0,
+                    0.0,
+                    1522.0
+                ],
+                [
+                    4655.0,
+                    0.0,
+                    1550.0
+                ],
+                [
+                    4656.37207,
+                    57.214985,
+                    1604.177124
+                ]
+            ]
+        }
+    ]
+}
