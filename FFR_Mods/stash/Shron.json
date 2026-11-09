@@ -37650,6 +37650,5660 @@
       ],
       "m_LastSpawnTime": 0.0,
       "m_NextRespawnTime": 0.0
+    },
+    {
+      "groupId": "Darkscape surface",
+      "containerTypes": [
+        "ShronGreenBox",
+        "ShronBlueBox",
+        "Krest_PashkaAnsrchist"
+      ],
+      "minStashes": 1,
+      "maxStashes": 1,
+      "minItems": 2,
+      "maxItems": 6,
+      "minRespawnTime": 900,
+      "maxRespawnTime": 2700,
+      "locations": [
+        {
+          "position": [
+            4221.458008,
+            115.694969,
+            271.287476
+          ],
+          "orientation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "items": [
+        {
+          "classname": "WorkingGloves_Brown",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Bandits_Overall_Pants_Rig",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_CTG_Pants_Swamp",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PlateCarrierVest_Green",
+          "spawnChance": 0.01677,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SmershVest",
+          "spawnChance": 0.04152,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_DrinkCan_Cola",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "WaterBottle",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Drink_Buster",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "LeatherKnifeSheath",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_Mag_AKM_30rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "Remanance_Radio",
+          "spawnChance": 0.49452,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_Mag_AK74_30rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "DisinfectantAlcohol",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_JointFuture",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Cauldron",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AthleticShoes_Black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_STG44_Bttstck",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_DrinkCan_Stalker",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Lassi_Mango",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Takola",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SandalsShoes_Grey",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Pot",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Stalker_Seva_Jacket",
+          "spawnChance": 0.02465,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_Goletos_Blue",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mechanics_Gloves_Brown",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "MessTin",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mag_RK62_30rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "OKZKCap_Green",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Zagorky",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "OKZKCap_Beige",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Loner_Sweater_Black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TelnyashkaShirt",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_Kotlet_closed",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TacticalShirt_Black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BallisticHelmet_Black",
+          "spawnChance": 0.01677,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_SOK94",
+          "spawnChance": 0.00677,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Hammer",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "HipPack_Green",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PaddedGloves_Threat",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Rice",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Fronta",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_SigaPack_Camel",
+          "spawnChance": 0.86542,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_SigaPack_Magna",
+          "spawnChance": 0.86542,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "VitaminBottle",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "DuctTape",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "STO_Gasmask_Filter_GP21",
+          "spawnChance": 0.6011,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mag_G36A2_30Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "AmmoBox_762x54Tracer_30Rnd",
+          "spawnChance": 0.30055,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AmmoBox_762x39Tracer_30Rnd",
+          "spawnChance": 0.6011,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PlateCarrierHolster_Camo",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "792x33fox_AmmoBox_30rnd",
+          "spawnChance": 0.30055,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_M14_10Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 3
+        },
+        {
+          "classname": "Shemag_Red",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CJ_Unknow18_Cassette",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AmmoBox_308WinTracer_20Rnd",
+          "spawnChance": 0.30055,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "GorkaEJacket_PautRev",
+          "spawnChance": 0.05916,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "ArmyPouch_Black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SawedoffIzh18",
+          "spawnChance": 0.02708,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Longhorn",
+          "spawnChance": 0.02147,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Bandana_BlackPattern",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Bandana_Greenpattern",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_headgear_loner_black_bandana",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_xFiles_03",
+          "spawnChance": 0.6011,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "OOTS_Item_Bolt",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Crossbow_Black",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PlateCarrierVest_Winter",
+          "spawnChance": 0.01677,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_OldMilitary_Standart",
+          "spawnChance": 0.05916,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Chemlight_Blue",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Collection_Lor_Jural_10",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Collection_Lor_Jural_11",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_GulashMeatTomato",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_HuntBag_black",
+          "spawnChance": 0.03286,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_Brodaga_Jacket_Black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_MiniGloves_black",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TankerHelmet",
+          "spawnChance": 0.6011,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "HunterPants_Autumn",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BakedBeansCan",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SardinesCan",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TacticalBaconCan",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TunaCan",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TunaCan_Opened",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PeachesCan",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BakedBeansCan_Opened",
+          "spawnChance": 0.64906,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Cola",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Pipsi",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Kvass",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Molotov",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Game_VolkKura",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_item_Chetki_01",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_VAPE_Green_SMOKE",
+          "spawnChance": 0.0167,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Spraycan_Green",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Spraycan_Black",
+          "spawnChance": 0.43271,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_TocarevPistol",
+          "spawnChance": 0.04294,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_PistolTocarevMag_8rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "SFP_Kiparis",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Kiparis_Mag",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 5
+        },
+        {
+          "classname": "SFP_Makarom_Apoc",
+          "spawnChance": 0.02147,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Fort500",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_ShotgunMP153",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.5333333431174409
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_m590_Shotgun",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_WinM1912Short_Shotgun",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Fabarm_shotgun",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_UsStevens620",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "MP5K",
+          "spawnChance": 0.00677,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "MP5_PlasticHndgrd",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "MP5k_StockBttstck",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_MP5",
+          "spawnChance": 0.00677,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_MP5_30Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "FS_Mag_MP5_30Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "MP5_Compensator",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CZ61",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_CZ61_20Rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 6
+        },
+        {
+          "classname": "PM73Rak",
+          "spawnChance": 0.01354,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_PM73_25Rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 8
+        },
+        {
+          "classname": "PP19",
+          "spawnChance": 0.00677,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_PP19_64Rnd",
+          "spawnChance": 0.00959,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 21
+        },
+        {
+          "classname": "PP19_Bttstck",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CZ75",
+          "spawnChance": 0.02147,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_CZ75_15Rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 5
+        },
+        {
+          "classname": "Glock19",
+          "spawnChance": 0.02147,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_Glock_15Rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 5
+        },
+        {
+          "classname": "Colt1911",
+          "spawnChance": 0.02147,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_1911_7Rnd",
+          "spawnChance": 0.03837,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "FS_AEK918G",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_Mag_AEK918G_30Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "Vikhr",
+          "spawnChance": 0.00677,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_Vikhr_30Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "Vsk94_AoD",
+          "spawnChance": 0.00135,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Vsk94_AoD_Hndgrd",
+          "spawnChance": 0.10018,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_AoD_Vsk94_20Rnd",
+          "spawnChance": 0.01918,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 6
+        },
+        {
+          "classname": "Coat_AoD_Loner_Zorya_v2_Brown_Body",
+          "spawnChance": 0.02465,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Novice_AoD_Hood1_Blk_Body",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Novice_AoD_Hood1_Yel_Body",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_body_loner2_gorka",
+          "spawnChance": 0.05916,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_body_loner7_gorka",
+          "spawnChance": 0.05916,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_body_loner5_hunter",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_body_loner4_hunter",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_body_loner1_hiking",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_vest_clearsky_ballisticvest",
+          "spawnChance": 0.02237,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_vest_neytral_ballisticvest",
+          "spawnChance": 0.02237,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner_Bsmershvest",
+          "spawnChance": 0.04152,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner1_smershvest",
+          "spawnChance": 0.08305,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner_tacticalvest",
+          "spawnChance": 0.08305,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner1_ukassVest",
+          "spawnChance": 0.08305,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner2_ukassVest",
+          "spawnChance": 0.08305,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_Vest_loner3_ukassVest",
+          "spawnChance": 0.08305,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_helmet_military_Mich2001_damage",
+          "spawnChance": 0.05592,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_helmet_loner_Mich2001_damage",
+          "spawnChance": 0.05592,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_helmet_loner_Mich2001",
+          "spawnChance": 0.03355,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_holster_Clearsky_ballisticvest",
+          "spawnChance": 0.13841,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_holster_Monolith_ballisticvest",
+          "spawnChance": 0.13841,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_holster_neytral_ballisticvest",
+          "spawnChance": 0.13841,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_pouches_neytral_ballisticvest",
+          "spawnChance": 0.13841,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Poncho_beige",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Poncho_Blue",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Soivet_Bushlat_Beige",
+          "spawnChance": 0.05916,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Stranik_Sweeter",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Novice_jacket_Hood",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Novice_jacket",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_CTG_Pants_Brown",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Stranik_Pants",
+          "spawnChance": 0.09859,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        }
+      ],
+      "m_LastSpawnTime": 0.0,
+      "m_NextRespawnTime": 0.0
+    },
+    {
+      "groupId": "Darkscape souterrain",
+      "containerTypes": [
+        "ShronGreenBox"
+      ],
+      "minStashes": 1,
+      "maxStashes": 1,
+      "minItems": 2,
+      "maxItems": 6,
+      "minRespawnTime": 900,
+      "maxRespawnTime": 2700,
+      "locations": [
+        {
+          "position": [
+            4226.458008,
+            115.694969,
+            271.287476
+          ],
+          "orientation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "items": [
+        {
+          "classname": "FS_FACE_Mask_black",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Loner_Beginner_Jacket",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Magnum",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "DressShoes_Brown",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Reptor_Boots",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_gloves_invis",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_pouches_Clearsky_ballisticvest",
+          "spawnChance": 0.40909,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TacticalShirt_Olive",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "P1",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_PU_SCOPE",
+          "spawnChance": 0.03418,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_AEK971_hndgrd",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Camera_old",
+          "spawnChance": 0.1376,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_holster_Freedom_ballisticvest",
+          "spawnChance": 0.40909,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_AN94",
+          "spawnChance": 0.00804,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Stalker_Patch",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SVD_Wooden",
+          "spawnChance": 0.00804,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SSG82",
+          "spawnChance": 0.00804,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "NewSeva_ArmSt_Loner_Vest",
+          "spawnChance": 0.12273,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Zorya_Sunrise_AoD_ClearSky_v2_Body2",
+          "spawnChance": 0.033,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "NewSeva_ArmSt_Loner_Pants",
+          "spawnChance": 0.033,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Compass",
+          "spawnChance": 0.1376,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_Kukuruza_closed",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_ingalator_Morphine",
+          "spawnChance": 0.6799,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FaceCover_Improvised",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeAmpouleKetamin",
+          "spawnChance": 0.33995,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_xFiles_03",
+          "spawnChance": 0.3,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_xFiles_08",
+          "spawnChance": 0.3,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_Goroh_closed",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_TeftelMeat6",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Hat_Black",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Shapka_old",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Item_Access_Card_Green",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Rope",
+          "spawnChance": 0.61644,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FS_ITEM_EnergyShokolat",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_AN94_Compensator",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeDrinkGang",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeAmpouleCarboxyme",
+          "spawnChance": 0.33995,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeAmpoulePentacin",
+          "spawnChance": 0.33995,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeAmpouleAmitriptyline",
+          "spawnChance": 0.33995,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TerjeAmpoulePotassiumCyanide",
+          "spawnChance": 0.33995,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_Goletos_Green",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Headtorch_Black",
+          "spawnChance": 0.1376,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_STANAG_30Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "BMM_Items_collection_Matryoshka",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_COLT1911",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mag_G36A2_30Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "SFP_9A91_Mag_20rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 6
+        },
+        {
+          "classname": "Luger",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Loner_Mask",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Game_VolkKura",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_Aug_30Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "SFP_HardDisk_WD",
+          "spawnChance": 0.12,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_Mag_AK74_30rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "SFP_RusIRP_Sahar",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_AN94_Bttstck",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_Mag_1911_7Rnd",
+          "spawnChance": 0.08,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "SFP_RusIRP_ArmyShocolade6",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PlateCarrierPouches_Green",
+          "spawnChance": 0.40909,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "aod_M9A1_Bayonet",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_AEK_Compensator",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "WaterproofBag_Green",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "RGD5Grenade",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Item_Flash02",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Lunchmeat",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CatFoodCan",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_SSG82_5rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "SFP_RGB_FlashLight_Base",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_Cofe",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Glock19",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Rangefinder",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Ammo_GrenadeM4",
+          "spawnChance": 0.55,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 6
+        },
+        {
+          "classname": "SFP_MobileSystem_Sim75",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_AI2_medkit_standart",
+          "spawnChance": 0.6799,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_SVD_10Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 3
+        },
+        {
+          "classname": "TLRLight",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BMM_Items_collection_PuzzleCube",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "OrienteeringCompass",
+          "spawnChance": 0.1376,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Roadflare",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_P1_8Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "ReflexOptic",
+          "spawnChance": 0.03418,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_Luger_8Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "Battery9V",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "DP_LSD_AOT",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_Glock_15Rnd",
+          "spawnChance": 0.08,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 5
+        },
+        {
+          "classname": "FOX_UZI_rail_mount",
+          "spawnChance": 0.11392,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "ExpansionCircuitBoard_MK2",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FNP45_MRDSOptic",
+          "spawnChance": 0.03418,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "EpoxyPutty",
+          "spawnChance": 0.61644,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_Milk_closed",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_shprota07_closed",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Battery9V_GP",
+          "spawnChance": 0.22933,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TunaCan",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TraderPlus_Money_Euro50",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Stalker_Seva_Jacket",
+          "spawnChance": 0.033,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_RusIRP_Goletos_Blue",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mechanics_Gloves_Brown",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "MessTin",
+          "spawnChance": 0.61644,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Mag_RK62_30rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 10
+        },
+        {
+          "classname": "OKZKCap_Green",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Zagorky",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "OKZKCap_Beige",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SGE_Loner_Sweater_Black",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TelnyashkaShirt",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_Can_Kotlet_closed",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "TacticalShirt_Black",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BallisticHelmet_Black",
+          "spawnChance": 0.36,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "FOX_SOK94",
+          "spawnChance": 0.04018,
+          "states": [
+            {
+              "state": "BadlyDamaged",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Hammer",
+          "spawnChance": 0.61644,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "HipPack_Green",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PaddedGloves_Threat",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Rice",
+          "spawnChance": 0.31729,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SodaCan_Fronta",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_SigaPack_Camel",
+          "spawnChance": 0.57791,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SFP_SigaPack_Magna",
+          "spawnChance": 0.57791,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "VitaminBottle",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "DuctTape",
+          "spawnChance": 0.61644,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "STO_Gasmask_Filter_GP21",
+          "spawnChance": 0.6,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AmmoBox_762x54Tracer_30Rnd",
+          "spawnChance": 0.22,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AmmoBox_762x39Tracer_30Rnd",
+          "spawnChance": 0.44,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "PlateCarrierHolster_Camo",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "792x33fox_AmmoBox_30rnd",
+          "spawnChance": 0.22,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Mag_M14_10Rnd",
+          "spawnChance": 0.04,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 3
+        },
+        {
+          "classname": "Shemag_Red",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CJ_Unknow18_Cassette",
+          "spawnChance": 0.02143,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "AmmoBox_308WinTracer_20Rnd",
+          "spawnChance": 0.22,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "GorkaEJacket_PautRev",
+          "spawnChance": 0.07920000000000001,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "ArmyPouch_Black",
+          "spawnChance": 0.132,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "SawedoffIzh18",
+          "spawnChance": 0.16071,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Longhorn",
+          "spawnChance": 0.0275,
+          "states": [
+            {
+              "state": "Worn",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "Damaged",
+              "chance": 0.3333333431174408
+            },
+            {
+              "state": "BadlyDamaged",
+              "chance": 0.3333333431174408
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        }
+      ],
+      "m_LastSpawnTime": 0.0,
+      "m_NextRespawnTime": 0.0
     }
   ]
 }
