@@ -2,7 +2,7 @@
     "ConfigVersion": 28,
     "ID": 115,
     "ObjectiveType": 2,
-    "ObjectiveText": "Tue le pseudo-géant du ravin, au nord-nord-est de Grechko",
+    "ObjectiveText": "Tue les deux bêtes du ravin, au nord-nord-est de Grechko",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
@@ -12,9 +12,10 @@
     ],
     "MaxDistance": 200.0,
     "MinDistance": -1.0,
-    "Amount": 1,
+    "Amount": 2,
     "ClassNames": [
-        "Mutant_XZ_PGigant"
+        "SFP_ANM_Snork_Mutant",
+        "Mutant_XZ_Dog_Red"
     ],
     "CountSelfKill": 0,
     "AllowedWeapons": [],
