@@ -3496,8 +3496,14 @@
         "CP_DriedCannabisPlant,1,9999,-1,-1,20",
         "CP_JointBlueGod,1,9999,-1,-1,10",
         "CP_JointPurpleKush,1,9999,-1,-1,10",
+        "CP_JointPack_BlackFrost,1,9999,-1,-1,100",
         "CP_JointPack_BlueGod,1,9999,-1,-1,100",
-        "CP_JointPack_PurpleKush,1,9999,-1,-1,100"
+        "CP_JointPack_Future,1,9999,-1,-1,100",
+        "CP_JointPack_Nomad,1,9999,-1,-1,100",
+        "CP_JointPack_PurpleKush,1,9999,-1,-1,100",
+        "CP_JointPack_S1,1,9999,-1,-1,100",
+        "CP_JointPack_Skunk,1,9999,-1,-1,100",
+        "CP_JointPack_Stardawg,1,9999,-1,-1,100"
       ]
     },
     {
@@ -3800,7 +3806,8 @@
         "XZ_Snork_serdce,1,9999,-1,-1,390",
         "Mutant_XZ_Tushkano_Head,1,9999,-1,-1,180",
         "XZ_Tushkano_liver,1,9999,-1,-1,135",
-        "XZ_Tushkano_serdce,1,9999,-1,-1,180"
+        "XZ_Tushkano_serdce,1,9999,-1,-1,180",
+        "TraderPlus_Coin,1,9999,1,-1,1000"
       ]
     },
     {
@@ -4324,11 +4331,10 @@
       "CategoryName": "Mili — Munitions",
       "Products": [
         "M18SmokeGrenade_Green,1,-1,-1,145,14",
-        "Ammo_12gaPellets,1,-1,-1,165,16",
-        "Ammo_762x39Tracer,1,-1,-1,415,42",
-        "Ammo_45ACP,1,-1,-1,150,15",
+        "Ammo_12gaPellets,1,-1,-1,38,4",
+        "Ammo_762x39Tracer,1,-1,-1,60,6",
+        "Ammo_45ACP,1,-1,-1,21,2",
         "AmmoBox_9x19_25rnd,1,9999,-1,-1,8",
-        "Ammo_9x39,1,9999,-1,-1,41",
         "AmmoBox_762x39Tracer_20Rnd,1,9999,-1,-1,20",
         "AmmoBox_308WinTracer_20Rnd,1,9999,-1,-1,70",
         "SFP_Molotov,1,9999,-1,-1,46",
@@ -4346,9 +4352,7 @@
         "M67Grenade,1,9999,-1,-1,195",
         "FlashGrenade,1,9999,-1,-1,55",
         "AmmoBox_357_20Rnd,1,9999,-1,-1,75",
-        "Ammo_556x45Tracer,1,9999,-1,-1,55",
         "AmmoBox_762x54Tracer_30Rnd,1,9999,-1,-1,60",
-        "Ammo_9x19,1,9999,-1,-1,20",
         "M18SmokeGrenade_Yellow,1,9999,-1,-1,42",
         "AmmoBox_9x39_20Rnd,1,9999,-1,-1,14",
         "AmmoBox_762x39Tracer_30Rnd,1,9999,-1,-1,43"
@@ -4574,7 +4578,31 @@
         "XZ_Snork_serdce,1,9999,-1,-1,260",
         "Mutant_XZ_Tushkano_Head,1,9999,-1,-1,120",
         "XZ_Tushkano_liver,1,9999,-1,-1,90",
-        "XZ_Tushkano_serdce,1,9999,-1,-1,120"
+        "XZ_Tushkano_serdce,1,9999,-1,-1,120",
+        "CP_CannabisBagBlackFrost,1,9999,-1,-1,150",
+        "CP_CannabisBrickBlackFrost,1,9999,-1,-1,600",
+        "CP_JointPack_BlackFrost,1,9999,-1,-1,100",
+        "CP_CannabisBagBlueGod,1,9999,-1,-1,150",
+        "CP_CannabisBrickBlueGod,1,9999,-1,-1,600",
+        "CP_JointPack_BlueGod,1,9999,-1,-1,100",
+        "CP_CannabisBagFuture,1,9999,-1,-1,150",
+        "CP_CannabisBrickFuture,1,9999,-1,-1,600",
+        "CP_JointPack_Future,1,9999,-1,-1,100",
+        "CP_CannabisBagNomad,1,9999,-1,-1,150",
+        "CP_CannabisBrickNomad,1,9999,-1,-1,600",
+        "CP_JointPack_Nomad,1,9999,-1,-1,100",
+        "CP_CannabisBagPurpleKush,1,9999,-1,-1,150",
+        "CP_CannabisBrickPurpleKush,1,9999,-1,-1,600",
+        "CP_JointPack_PurpleKush,1,9999,-1,-1,100",
+        "CP_CannabisBagS1,1,9999,-1,-1,150",
+        "CP_CannabisBrickS1,1,9999,-1,-1,600",
+        "CP_JointPack_S1,1,9999,-1,-1,100",
+        "CP_CannabisBagSkunk,1,9999,-1,-1,150",
+        "CP_CannabisBrickSkunk,1,9999,-1,-1,600",
+        "CP_JointPack_Skunk,1,9999,-1,-1,100",
+        "CP_CannabisBagStardawg,1,9999,-1,-1,150",
+        "CP_CannabisBrickStardawg,1,9999,-1,-1,600",
+        "CP_JointPack_Stardawg,1,9999,-1,-1,100"
       ]
     },
     {
@@ -5018,7 +5046,8 @@
         "XZ_Tushkano_serdce,1,9999,-1,-1,120",
         "DP_CocaLeaves,1,9999,-1,-1,15",
         "DP_CocaBag,1,9999,-1,-1,150",
-        "DP_CocaBrick,1,9999,-1,-1,600"
+        "DP_CocaBrick,1,9999,-1,-1,600",
+        "TraderPlus_Coin,1,9999,1,-1,1000"
       ]
     },
     {
@@ -6421,14 +6450,14 @@
     {
       "CategoryName": "Militaires — Munitions",
       "Products": [
-        "Ammo_380,1,-1,-1,135,14",
-        "Ammo_556x45Tracer,1,-1,-1,200,20",
-        "Ammo_12gaPellets,1,-1,-1,165,16",
-        "Ammo_762x39Tracer,1,-1,-1,415,42",
-        "Ammo_9x39,1,-1,-1,165,16",
-        "Ammo_762x54Tracer,1,-1,-1,565,56",
-        "Ammo_45ACP,1,-1,-1,150,15",
-        "Ammo_9x19,1,-1,-1,60,6",
+        "Ammo_380,1,-1,-1,60,6",
+        "Ammo_556x45Tracer,1,-1,-1,39,4",
+        "Ammo_12gaPellets,1,-1,-1,38,4",
+        "Ammo_762x39Tracer,1,-1,-1,60,6",
+        "Ammo_9x39,1,-1,-1,29,3",
+        "Ammo_762x54Tracer,1,-1,-1,270,27",
+        "Ammo_45ACP,1,-1,-1,21,2",
+        "Ammo_9x19,1,-1,-1,15,2",
         "AmmoBox_9x19_25rnd,1,9999,-1,-1,8",
         "AmmoBox_762x39Tracer_20Rnd,1,9999,-1,-1,20",
         "AmmoBox_308WinTracer_20Rnd,1,9999,-1,-1,70",
@@ -6589,7 +6618,31 @@
         "XZ_Snork_serdce,1,9999,-1,-1,260",
         "Mutant_XZ_Tushkano_Head,1,9999,-1,-1,120",
         "XZ_Tushkano_liver,1,9999,-1,-1,90",
-        "XZ_Tushkano_serdce,1,9999,-1,-1,120"
+        "XZ_Tushkano_serdce,1,9999,-1,-1,120",
+        "CP_CannabisBagBlackFrost,1,9999,-1,-1,150",
+        "CP_CannabisBrickBlackFrost,1,9999,-1,-1,600",
+        "CP_JointPack_BlackFrost,1,9999,-1,-1,100",
+        "CP_CannabisBagBlueGod,1,9999,-1,-1,150",
+        "CP_CannabisBrickBlueGod,1,9999,-1,-1,600",
+        "CP_JointPack_BlueGod,1,9999,-1,-1,100",
+        "CP_CannabisBagFuture,1,9999,-1,-1,150",
+        "CP_CannabisBrickFuture,1,9999,-1,-1,600",
+        "CP_JointPack_Future,1,9999,-1,-1,100",
+        "CP_CannabisBagNomad,1,9999,-1,-1,150",
+        "CP_CannabisBrickNomad,1,9999,-1,-1,600",
+        "CP_JointPack_Nomad,1,9999,-1,-1,100",
+        "CP_CannabisBagPurpleKush,1,9999,-1,-1,150",
+        "CP_CannabisBrickPurpleKush,1,9999,-1,-1,600",
+        "CP_JointPack_PurpleKush,1,9999,-1,-1,100",
+        "CP_CannabisBagS1,1,9999,-1,-1,150",
+        "CP_CannabisBrickS1,1,9999,-1,-1,600",
+        "CP_JointPack_S1,1,9999,-1,-1,100",
+        "CP_CannabisBagSkunk,1,9999,-1,-1,150",
+        "CP_CannabisBrickSkunk,1,9999,-1,-1,600",
+        "CP_JointPack_Skunk,1,9999,-1,-1,100",
+        "CP_CannabisBagStardawg,1,9999,-1,-1,150",
+        "CP_CannabisBrickStardawg,1,9999,-1,-1,600",
+        "CP_JointPack_Stardawg,1,9999,-1,-1,100"
       ]
     },
     {
@@ -8631,6 +8684,12 @@
         "Mutant_XZ_Tushkano_Head,1,9999,-1,-1,120",
         "XZ_Tushkano_liver,1,9999,-1,-1,90",
         "XZ_Tushkano_serdce,1,9999,-1,-1,120"
+      ]
+    },
+    {
+      "CategoryName": "Fondeur — Échange",
+      "Products": [
+        "TraderPlus_Coin,1,-1,1,1,-1"
       ]
     }
   ]

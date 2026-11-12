@@ -48716,6 +48716,620 @@
       ],
       "m_LastSpawnTime": 0.0,
       "m_NextRespawnTime": 0.0
+    },
+    {
+      "groupId": "Planques de drogue",
+      "containerTypes": [
+        "ShronWoodBox1",
+        "ShronBoxMetall"
+      ],
+      "minStashes": 7,
+      "maxStashes": 7,
+      "minItems": 2,
+      "maxItems": 4,
+      "minRespawnTime": 900,
+      "maxRespawnTime": 2700,
+      "locations": [
+        {
+          "position": [
+            2606.873535,
+            37.878189,
+            4883.311523
+          ],
+          "orientation": [
+            24.944576,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            5500.414551,
+            115.708023,
+            4259.150879
+          ],
+          "orientation": [
+            110.645058,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            4618.040527,
+            87.540077,
+            1982.877563
+          ],
+          "orientation": [
+            65.889801,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            2725.922363,
+            84.429573,
+            2021.748047
+          ],
+          "orientation": [
+            63.751106,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            4473.302734,
+            130.637726,
+            6775.184082
+          ],
+          "orientation": [
+            10.874588,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            5605.875000,
+            141.861740,
+            8479.068359
+          ],
+          "orientation": [
+            88.912880,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            2672.551514,
+            45.674366,
+            6950.484375
+          ],
+          "orientation": [
+            -91.117485,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "items": [
+        {
+          "classname": "CP_CannabisBagBlackFrost",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagBlueGod",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagFuture",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagNomad",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagPurpleKush",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagS1",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagSkunk",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBagStardawg",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_JointPack_BlackFrost",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_BlueGod",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_Future",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_Nomad",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_PurpleKush",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_S1",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_Skunk",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_JointPack_Stardawg",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 100,
+          "maxQuantity": 100
+        },
+        {
+          "classname": "CP_CannabisBrickBlackFrost",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickBlueGod",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickFuture",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickNomad",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickPurpleKush",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickS1",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickSkunk",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "CP_CannabisBrickStardawg",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        }
+      ],
+      "m_LastSpawnTime": 0.0,
+      "m_NextRespawnTime": 0.0
+    },
+    {
+      "groupId": "Gisements",
+      "containerTypes": [
+        "ShronWoodBox1",
+        "ShronBoxMetall"
+      ],
+      "minStashes": 6,
+      "maxStashes": 6,
+      "minItems": 2,
+      "maxItems": 4,
+      "minRespawnTime": 900,
+      "maxRespawnTime": 2700,
+      "locations": [
+        {
+          "position": [
+            6029.659668,
+            157.280472,
+            8412.830078
+          ],
+          "orientation": [
+            -165.653549,
+            0.000000,
+            0.000000
+          ]
+        },
+        {
+          "position": [
+            6027.128418,
+            160.114014,
+            8439.208984
+          ],
+          "orientation": [
+            -165.653549,
+            0.000000,
+            0.000000
+          ]
+        },
+        {
+          "position": [
+            5113.302734,
+            93.680901,
+            1958.962280
+          ],
+          "orientation": [
+            -65.953102,
+            0.000000,
+            0.000000
+          ]
+        },
+        {
+          "position": [
+            3547.598633,
+            56.849045,
+            4001.313477
+          ],
+          "orientation": [
+            -84.356148,
+            0.000000,
+            0.000000
+          ]
+        },
+        {
+          "position": [
+            3537.177979,
+            60.325329,
+            4032.488281
+          ],
+          "orientation": [
+            -84.356148,
+            0.000000,
+            0.000000
+          ]
+        },
+        {
+          "position": [
+            3430.969971,
+            56.511513,
+            4047.255615
+          ],
+          "orientation": [
+            -14.942622,
+            22.841665,
+            10.848385
+          ]
+        }
+      ],
+      "items": [
+        {
+          "classname": "SmallStone",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "Stone",
+          "spawnChance": 0.72,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 0
+        },
+        {
+          "classname": "BMM_Items_OreGold",
+          "spawnChance": 0.18,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 1.0
+            }
+          ],
+          "minQuantity": 1,
+          "maxQuantity": 1
+        }
+      ],
+      "m_LastSpawnTime": 0.0,
+      "m_NextRespawnTime": 0.0
     }
   ]
 }

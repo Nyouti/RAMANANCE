@@ -72,6 +72,10 @@
         {
             "ClassName": "TraderPlus_Money_Ruble1_Coin",
             "Value": 1
+        },
+        {
+            "ClassName": "BMM_Items_OreGold",
+            "Value": 1
         }
     ],
     "Traders": [
@@ -287,6 +291,23 @@
                     0.0
                 ],
                 "Clothes": []
+        },
+        {
+            "Id": 16,
+            "Name": "mm_npc_tekhnik",
+            "GivenName": "Le Fondeur",
+            "Role": "General Trader",
+            "Position": [
+                1970.666260,
+                96.951988,
+                5341.566406
+            ],
+            "Orientation": [
+                -4.239467,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
         }
     ],
     "TraderObjects": [
