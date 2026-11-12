@@ -315,7 +315,7 @@
         },
         {
             "Id": 17,
-            "Name": "mm_npc_stalker_exo",
+            "Name": "SurvivorM_Mirek",
             "GivenName": "Le Collectionneur",
             "Role": "General Trader",
             "Position": [
@@ -324,11 +324,18 @@
                 8712.672852
             ],
             "Orientation": [
-                151.848373,
+                -28.151627,
                 0.0,
                 0.0
             ],
-            "Clothes": []
+            "Clothes": [
+                "FS_ProARM_Helm_Naem",
+                "FS_ProARM_Jacket_Naem",
+                "FS_ProARM_pants_Naem",
+                "FS_TAG_NAEM",
+                "TacticalGloves_Black",
+                "MilitaryBoots_Black"
+            ]
         }
     ],
     "TraderObjects": [
