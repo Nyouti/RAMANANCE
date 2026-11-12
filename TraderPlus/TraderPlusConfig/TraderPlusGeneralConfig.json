@@ -76,6 +76,10 @@
         {
             "ClassName": "BMM_Items_OreGold",
             "Value": 1
+        },
+        {
+            "ClassName": "TraderPlus_Coin",
+            "Value": 1
         }
     ],
     "Traders": [
@@ -304,6 +308,23 @@
             ],
             "Orientation": [
                 175.760533,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 17,
+            "Name": "mm_npc_stalker_exo",
+            "GivenName": "Le Collectionneur",
+            "Role": "General Trader",
+            "Position": [
+                2740.395996,
+                127.415207,
+                8712.672852
+            ],
+            "Orientation": [
+                151.848373,
                 0.0,
                 0.0
             ],
