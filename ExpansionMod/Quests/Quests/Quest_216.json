@@ -1,0 +1,78 @@
+{
+    "ConfigVersion": 22,
+    "ID": 216,
+    "Type": 1,
+    "Title": "Contrat moyen : les os du sud",
+    "Descriptions": [
+        "Le Doc a besoin d'os : le strontium se fixe dans l'os, et une patte de sanglier lui sert de dosimètre. Il y a deux sangliers au sud, à un peu plus d'un kilomètre et demi, au nord d'Agroprom. Abats-les et rapporte deux pattes. Je ne paie que sur pièces.",
+        "Deux sangliers, à un kilomètre et demi au sud du bunker, au nord d'Agroprom. Deux pattes, sur pièces.",
+        "Deux pattes, en bon état. Le Doc sera content, et moi, j'ai mon justificatif. Ta part."
+    ],
+    "ObjectiveText": "Abats 2 sangliers au nord d'Agroprom, au sud du bunker, puis rapporte 2 pattes de sanglier au gestionnaire.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 3,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        68
+    ],
+    "QuestTurnInIDs": [
+        68
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 216,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 216,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

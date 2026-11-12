@@ -13,12 +13,12 @@
         0.0
     ],
     "NPCName": "Gestionnaire opérationnel et financier",
-    "DefaultNPCText": "%1. Moi, je tiens l'opérationnel et la caisse du détachement : plannings, stocks, achats, avances, justificatifs. Si les papiers sont brouillons, je peux pas valider une dépense ni débloquer une sortie. Tu me préviens vite si un budget coince — au camp on rattrape encore une erreur ; dehors, elle coûte plus cher.",
+    "DefaultNPCText": "%1. Moi, je tiens l'opérationnel et la caisse du détachement : plannings, stocks, achats, avances, justificatifs. Les contrats de la ligne budgétaire sept passent par moi, et je ne paie que sur pièces. Si les papiers sont brouillons, je ne peux ni valider une dépense ni débloquer une sortie.",
     "NPCLoadoutFile": "DocLoadout",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,
     "NPCQuestCompleteEmoteID": 39,
     "NPCType": 0,
-    "Active": 0
+    "Active": 1
 }

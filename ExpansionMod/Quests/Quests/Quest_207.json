@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 207,
+    "Type": 1,
+    "Title": "Contrat moyen : les Izloms de la Voronka",
+    "Descriptions": [
+        "Juste à l'ouest-nord-ouest du portail, à deux cents mètres, les Izloms tournent autour de la Voronka. Ils frappent dur avec leur bras difforme, et l'anomalie ne pardonne pas. Abats-en trois sans te laisser pousser dedans. Et ne va pas plus loin vers l'ouest : la zone radioactive qui suit est trop forte pour un GP-21.",
+        "Trois Izloms, à deux cents mètres à l'ouest-nord-ouest du portail. Méfie-toi de la Voronka, et pas plus loin vers l'ouest.",
+        "Trois Izloms. La route de l'ouest respire un peu. Voilà, et que ça te paie un verre au feu ce soir."
+    ],
+    "ObjectiveText": "Abats 3 Izloms autour de la Voronka, à l'ouest-nord-ouest du portail des Entrepôts, puis reviens voir le Freedom du poste.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 3,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        70
+    ],
+    "QuestTurnInIDs": [
+        70
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 207,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

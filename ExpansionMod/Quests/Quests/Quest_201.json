@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 201,
+    "Type": 1,
+    "Title": "Contrat moyen : les sangliers du champ",
+    "Descriptions": [
+        "Trois sangliers retournent le champ à l'est de la ferme, à un peu moins de cinq cents mètres. Ils chargent tête baissée et ils encaissent : vise la tête, recule, et ne te laisse pas prendre entre deux. Abats-les tous les trois.",
+        "Trois sangliers dans le champ, à moins de cinq cents mètres à l'est de la ferme. Vise la tête.",
+        "Le champ respire. Tiens, ta paie. Et si tu as gardé leurs pattes, la ferme te les reprend volontiers."
+    ],
+    "ObjectiveText": "Abats 3 sangliers dans le champ à l'est de la ferme des Veilleurs, puis reviens voir le Veilleur.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        44
+    ],
+    "QuestTurnInIDs": [
+        44
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 201,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 200,
+    "Type": 1,
+    "Title": "Contrat facile : les rats du grenier",
+    "Descriptions": [
+        "%1, les rongeurs reviennent à chaque saison et s'attaquent au grain de la réserve. Leur nid est à un peu plus de trois cents mètres au nord-nord-est de la ferme, au bord d'une petite zone radioactive : garde ton masque, un filtre ordinaire suffit. Abats-en quatre. Ce n'est pas glorieux, mais une ferme, ça se défend aussi contre les petites bêtes.",
+        "Quatre rongeurs, à trois cents mètres au nord-nord-est de la ferme. Le masque sur le nez : la zone d'à côté est radioactive.",
+        "Quatre de moins. Dmitri dira que le grain a meilleure mine. Voilà ta part, et reviens demain : eux, ils reviendront."
+    ],
+    "ObjectiveText": "Abats 4 rongeurs au nord-nord-est de la ferme des Veilleurs, puis reviens voir le Veilleur.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        44
+    ],
+    "QuestTurnInIDs": [
+        44
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

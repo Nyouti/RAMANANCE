@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 206,
+    "Type": 1,
+    "Title": "Contrat facile : les rongeurs du dépôt",
+    "Descriptions": [
+        "À trois cents mètres au nord du portail, les rongeurs ont pris un coin du dépôt. Ils rongent tout, même les sacs des coureurs. Abats-en quatre. Et surtout, %1, ne pousse pas vers l'ouest depuis là-bas : la tanière des sangsues commence à deux cents mètres. Tu fais ton travail et tu reviens par où tu es venu.",
+        "Quatre rongeurs, à trois cents mètres au nord du portail. Pas un pas vers l'ouest : la tanière est juste à côté.",
+        "Quatre de moins. Les coureurs te remercient, même s'ils ne le diront pas. Ta part."
+    ],
+    "ObjectiveText": "Abats 4 rongeurs au nord du portail des Entrepôts, sans approcher la tanière à l'ouest, puis reviens voir le Freedom du poste.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        70
+    ],
+    "QuestTurnInIDs": [
+        70
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 206,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

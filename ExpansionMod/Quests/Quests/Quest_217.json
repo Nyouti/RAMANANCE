@@ -1,0 +1,69 @@
+{
+    "ConfigVersion": 22,
+    "ID": 217,
+    "Type": 1,
+    "Title": "Contrat difficile : le poltergeist de l'ouest",
+    "Descriptions": [
+        "Ce contrat-là, je le signe à chaque fois avec un pincement. À l'ouest du bunker, à deux cents mètres, il y a le poltergeist de la zone radioactive de l'ouest. C'est lui qui a tué le professeur Lebedev, et il revient toujours. Il ne se montre pas : il lance tout ce qui traîne, et il frappe fort. Approche à couvert, avec un GP-21 si le combat te pousse vers le cœur de la zone radioactive. Abats-le et rapporte un de ses yeux, pour le Doc. Si tu tombes, le contrat est perdu.",
+        "Le poltergeist, à deux cents mètres à l'ouest du bunker. À couvert, un GP-21 sous la main. Un œil pour le Doc.",
+        "Un œil de poltergeist. Le Doc le mettra sous verre, et moi, je classe la ligne « sécurité » de la semaine. Ta paie... et merci, pour Lebedev."
+    ],
+    "ObjectiveText": "Abats le poltergeist à l'ouest du bunker, puis rapporte 1 œil de poltergeist au gestionnaire. Le contrat échoue si tu meurs.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 8,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        68
+    ],
+    "QuestTurnInIDs": [
+        68
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 217,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 217,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

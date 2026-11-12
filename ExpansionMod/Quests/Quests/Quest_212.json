@@ -1,0 +1,64 @@
+{
+    "ConfigVersion": 22,
+    "ID": 212,
+    "Type": 1,
+    "Title": "Contrat facile : les chairs de la route",
+    "Descriptions": [
+        "Soldat. À l'est-sud-est de la base, à six cents mètres, sur la route des Marais, une bande de chairs bloque le passage des convois. Six bêtes, lentes. Tu en abats cinq, tu rentres, tu fais ton rapport.",
+        "Cinq chairs, à six cents mètres à l'est-sud-est de la base, sur la route des Marais.",
+        "Cinq. Bien. La route reste praticable pour aujourd'hui. Ta solde. Rompez."
+    ],
+    "ObjectiveText": "Abats 5 chairs sur la route des Marais, à l'est-sud-est de la base d'Agroprom, puis fais ton rapport à Kozlov.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        2
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 212,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

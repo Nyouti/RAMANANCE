@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 204,
+    "Type": 1,
+    "Title": "Contrat moyen : les sangliers de la route",
+    "Descriptions": [
+        "Trois sangliers ont pris la route, juste à l'est de la base, à deux cents mètres. Ils renversent les caisses et chargent tout ce qui bouge, nos gars compris. Abats-les tous les trois. Ils encaissent : vise la tête et garde ta distance.",
+        "Trois sangliers sur la route, à deux cents mètres à l'est de la base. Vise la tête.",
+        "La route est libre. Borov aime quand les choses roulent. Voilà ton dû."
+    ],
+    "ObjectiveText": "Abats 3 sangliers sur la route à l'est de la base de Borov, puis reviens voir Kaspar.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        55
+    ],
+    "QuestTurnInIDs": [
+        55
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 204,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
