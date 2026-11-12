@@ -53158,13 +53158,74 @@
         "ShronWoodBox1",
         "ShronBoxMetall"
       ],
-      "minStashes": 0,
-      "maxStashes": 0,
+      "minStashes": 5,
+      "maxStashes": 5,
       "minItems": 2,
       "maxItems": 4,
       "minRespawnTime": 900,
       "maxRespawnTime": 2700,
-      "locations": [],
+      "locations": [
+        {
+          "position": [
+            6789.889160,
+            97.859200,
+            577.843628
+          ],
+          "orientation": [
+            -70.954941,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            6785.225098,
+            97.761055,
+            583.759949
+          ],
+          "orientation": [
+            -118.083801,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            6778.323242,
+            97.545372,
+            571.648010
+          ],
+          "orientation": [
+            -139.665222,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            6781.115234,
+            96.653030,
+            568.513123
+          ],
+          "orientation": [
+            30.609970,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": [
+            6779.434082,
+            97.083626,
+            589.912842
+          ],
+          "orientation": [
+            151.240845,
+            0.0,
+            0.0
+          ]
+        }
+      ],
       "items": [
         {
           "classname": "SmallStone",
