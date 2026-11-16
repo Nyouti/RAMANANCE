@@ -25137,7 +25137,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <!-- Remanance, audit du 13/11/2026 : objets des caches (FFR_Shron) et des marchands (TraderPlus) sans type. Nominal 0 : ils n'apparaissent jamais par le CE ; le type leur donne seulement une durÃ©e de vie au sol (4 h, tente 45 j) au lieu des 240 s par dÃ©faut. -->
+    <!-- Remanance, audit du 13/11/2026 : objets des caches (FFR_Shron) et des marchands (TraderPlus) sans type. Nominal 0 : ils n'apparaissent jamais par le CE ; le type leur donne seulement une durée de vie au sol (4 h, tente 45 j) au lieu des 240 s par dÃ©faut. -->
     <type name="792x33fox_AmmoBox_30rnd">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>

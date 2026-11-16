@@ -12575,7 +12575,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "CombatKnife",
           "spawnChance": 0.22922,
@@ -13404,7 +13403,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "SFP_Hat_Green",
           "spawnChance": 0.08456,
@@ -13768,46 +13766,6 @@
         {
           "classname": "TerjeAntiradInjector",
           "spawnChance": 0.08914,
-          "states": [
-            {
-              "state": "Worn",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "Damaged",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "BadlyDamaged",
-              "chance": 0.3333333431174408
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "TerjeHeadgearPsiHelm",
-          "spawnChance": 0.35656,
-          "states": [
-            {
-              "state": "Worn",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "Damaged",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "BadlyDamaged",
-              "chance": 0.3333333431174408
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "OOTS_item_PsyHelmet",
-          "spawnChance": 0.04378,
           "states": [
             {
               "state": "Worn",
@@ -33674,7 +33632,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "Mich2001Helmet",
           "spawnChance": 0.12,
@@ -33743,7 +33700,6 @@
           "minQuantity": 0,
           "maxQuantity": 5
         },
-
         {
           "classname": "AK_PlasticBttstck_Green",
           "spawnChance": 0.15,
@@ -33768,7 +33724,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "FOX_AK_rail_hndgrd",
           "spawnChance": 0.15,
@@ -35195,26 +35150,6 @@
         },
         {
           "classname": "PetrolLighter",
-          "spawnChance": 0.9,
-          "states": [
-            {
-              "state": "Worn",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "Damaged",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "BadlyDamaged",
-              "chance": 0.3333333431174408
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "TerjeHeadgearPsiHelm",
           "spawnChance": 0.9,
           "states": [
             {
@@ -36008,7 +35943,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "Mich2001Helmet",
           "spawnChance": 0.12,
@@ -36077,7 +36011,6 @@
           "minQuantity": 0,
           "maxQuantity": 5
         },
-
         {
           "classname": "AK_PlasticBttstck_Green",
           "spawnChance": 0.15,
@@ -36102,7 +36035,6 @@
           "minQuantity": 0,
           "maxQuantity": 0
         },
-
         {
           "classname": "FOX_AK_rail_hndgrd",
           "spawnChance": 0.15,
@@ -37529,26 +37461,6 @@
         },
         {
           "classname": "PetrolLighter",
-          "spawnChance": 0.9,
-          "states": [
-            {
-              "state": "Worn",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "Damaged",
-              "chance": 0.3333333431174408
-            },
-            {
-              "state": "BadlyDamaged",
-              "chance": 0.3333333431174408
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "TerjeHeadgearPsiHelm",
           "spawnChance": 0.9,
           "states": [
             {
@@ -52649,8 +52561,8 @@
       ],
       "minStashes": 8,
       "maxStashes": 8,
-      "minItems": 2,
-      "maxItems": 4,
+      "minItems": 10,
+      "maxItems": 14,
       "minRespawnTime": 900,
       "maxRespawnTime": 2700,
       "locations": [
@@ -52753,8 +52665,104 @@
       ],
       "items": [
         {
-          "classname": "CP_CannabisBagBlackFrost",
+          "classname": "CP_CannabisBlackFrost",
           "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisFuture",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisNomad",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisS1",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisSkunk",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisStardawg",
+          "spawnChance": 0.9,
+          "states": [
+            {
+              "state": "Pristine",
+              "chance": 0.5
+            },
+            {
+              "state": "Worn",
+              "chance": 0.5
+            }
+          ],
+          "minQuantity": 2,
+          "maxQuantity": 2
+        },
+        {
+          "classname": "CP_CannabisBagBlackFrost",
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52770,7 +52778,7 @@
         },
         {
           "classname": "CP_CannabisBagBlueGod",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52786,7 +52794,7 @@
         },
         {
           "classname": "CP_CannabisBagFuture",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52802,7 +52810,7 @@
         },
         {
           "classname": "CP_CannabisBagNomad",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52818,7 +52826,7 @@
         },
         {
           "classname": "CP_CannabisBagPurpleKush",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52834,7 +52842,7 @@
         },
         {
           "classname": "CP_CannabisBagS1",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52850,7 +52858,7 @@
         },
         {
           "classname": "CP_CannabisBagSkunk",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52866,7 +52874,7 @@
         },
         {
           "classname": "CP_CannabisBagStardawg",
-          "spawnChance": 0.9,
+          "spawnChance": 0.2,
           "states": [
             {
               "state": "Pristine",
@@ -52882,7 +52890,7 @@
         },
         {
           "classname": "CP_JointPack_BlackFrost",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52898,7 +52906,7 @@
         },
         {
           "classname": "CP_JointPack_BlueGod",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52914,7 +52922,7 @@
         },
         {
           "classname": "CP_JointPack_Future",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52930,7 +52938,7 @@
         },
         {
           "classname": "CP_JointPack_Nomad",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52946,7 +52954,7 @@
         },
         {
           "classname": "CP_JointPack_PurpleKush",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52962,7 +52970,7 @@
         },
         {
           "classname": "CP_JointPack_S1",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52978,7 +52986,7 @@
         },
         {
           "classname": "CP_JointPack_Skunk",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -52994,7 +53002,7 @@
         },
         {
           "classname": "CP_JointPack_Stardawg",
-          "spawnChance": 0.72,
+          "spawnChance": 0.16,
           "states": [
             {
               "state": "Pristine",
@@ -53007,134 +53015,6 @@
           ],
           "minQuantity": 100,
           "maxQuantity": 100
-        },
-        {
-          "classname": "CP_CannabisBrickBlackFrost",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickBlueGod",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickFuture",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickNomad",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickPurpleKush",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickS1",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickSkunk",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
-        },
-        {
-          "classname": "CP_CannabisBrickStardawg",
-          "spawnChance": 0.18,
-          "states": [
-            {
-              "state": "Pristine",
-              "chance": 0.5
-            },
-            {
-              "state": "Worn",
-              "chance": 0.5
-            }
-          ],
-          "minQuantity": 0,
-          "maxQuantity": 0
         }
       ],
       "m_LastSpawnTime": 0.0,

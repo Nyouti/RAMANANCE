@@ -1,7 +1,7 @@
 {
     "_comment_00_Main": "SFP_muta_srez_logic: строки _comment нужны только для пояснений админам. В JSON оставлены только балансные настройки; стадии заморозки, материалы, звук, уведомления и видимый damage заданы внутри скрипта.",
     "_comment_EnableNegativeEffects": "true = болезни и урон включены; false = части мутантов не заражают и не бьют по здоровью.",
-    "EnableNegativeEffects": 1,
+    "EnableNegativeEffects": 0,
     "_comment_DebugMode": "true = включить подробный debug в script.log и, если DebugLogToFile=true, в отдельный файл.",
     "DebugMode": 0,
     "_comment_DebugLogToFile": "true = при DebugMode писать отдельный лог-файл; false = писать только через Print в script.log.",
