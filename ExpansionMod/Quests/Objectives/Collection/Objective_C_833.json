@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 833,
+    "ObjectiveType": 4,
+    "ObjectiveText": "3 conserves de maïs et 3 conserves de haricots blancs, fermées",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 3,
+            "ClassName": "SFP_Can_Kukuruza_closed",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        },
+        {
+            "Amount": 3,
+            "ClassName": "SFP_Can_FasolWhite_closed",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": -1
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}
