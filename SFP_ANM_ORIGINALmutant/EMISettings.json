@@ -1,0 +1,21 @@
+{
+    "SettingsVersion": 5,
+    "MutantHealth": 10000,
+    "Info_AuraRadius": "AuraRadius: EMI aura radius in meters.",
+    "AuraRadius": 45.0,
+    "Info_AuraConvulsionChance": "AuraConvulsionChance: percent chance per aura roll to start convulsions.",
+    "AuraConvulsionChance": 10,
+    "Info_ConvulsionDuration": "ConvulsionMinSeconds / ConvulsionMaxSeconds: random convulsion duration.",
+    "ConvulsionMinSeconds": 5.0,
+    "ConvulsionMaxSeconds": 10.0,
+    "Info_BurstConvulsionChance": "BurstConvulsionChance: percent chance that the energy burst uses ragdoll convulsions.",
+    "BurstConvulsionChance": 10,
+    "Info_AuraPlayerDamage": "AuraPlayerDamagePerSecond: health damage per second inside the aura. 0 disables player health damage.",
+    "AuraPlayerDamagePerSecond": 0.0,
+    "Info_AuraElectronicsDamage": "AuraElectronicsDamagePercent: percent of an electrical item's max health removed per glitch pulse.",
+    "AuraElectronicsDamagePercent": 0.4000000059604645,
+    "Info_BurstPlayerDamage": "BurstPlayerDamage: direct health damage from the EMI energy burst.",
+    "BurstPlayerDamage": 28.0,
+    "Info_BurstElectronicsDamage": "BurstElectronicsDamagePercent: percent of an electrical item's max health removed by the energy burst.",
+    "BurstElectronicsDamagePercent": 42.0
+}

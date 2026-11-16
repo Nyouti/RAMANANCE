@@ -1,0 +1,12 @@
+{
+    "_Comment_MutantHealth": "MutantHealth: effective Controller health 1..10000; default 5000. Engine global HP ceiling remains 10000; incoming direct damage is scaled.",
+    "MutantHealth": 5000,
+    "_Comment_SuicideChance": "SuicideChance: probability (0..100 percent) for each eligible nearby player on control_attack_0; default 65.",
+    "SuicideChance": 65,
+    "_Comment_AuraDamagePerSecond": "AuraDamagePerSecond: health removed per second inside the aggressive Controller aura (radius 70m). 0 disables damage, not effects. Default 2.",
+    "AuraDamagePerSecond": 2.0,
+    "_Comment_PsiHitMinDamage": "PsiHitMinDamage: minimum random health loss after a completed psi attack (0..10000). Default 10.",
+    "PsiHitMinDamage": 10.0,
+    "_Comment_PsiHitMaxDamage": "PsiHitMaxDamage: maximum random health loss after a completed psi attack (0..10000). Default 20. Value must be >= minimum.",
+    "PsiHitMaxDamage": 20.0
+}

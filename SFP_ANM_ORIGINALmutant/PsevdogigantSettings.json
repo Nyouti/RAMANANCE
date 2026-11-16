@@ -1,0 +1,12 @@
+{
+    "_SchemaVersion": 2,
+    "_Comment_MutantHealth": "MutantHealth: здоровье псевдогиганта. По умолчанию 5000, допустимо 1..40000.",
+    "MutantHealth": 5000,
+    "_Comment_GroundSlamCooldown": "GroundSlamCooldown: минимальная задержка между ударами рукой по земле stand_kick_0, секунды. По умолчанию 10.",
+    "GroundSlamCooldown": 10.0,
+    "_Comment_DisarmChance": "DisarmChance: шанс в процентах выбить предмет из рук при stand_attack_2. По умолчанию 50, допустимо 0..100.",
+    "DisarmChance": 50,
+    "_Comment_RagdollChance": "RagdollChance: шанс потери равновесия/временного ragdoll от stand_kick_0. По умолчанию 50, 0 отключает, допустимо 0..100.",
+    "RagdollChance": 50,
+    "_Comment_DamagedState": "Поврежденные анимации ходьбы включаются при здоровье <= 20% от MutantHealth."
+}
