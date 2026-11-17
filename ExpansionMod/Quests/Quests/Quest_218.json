@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 218,
+    "Type": 1,
+    "Title": "Contrat facile : les chairs des Voronka",
+    "Descriptions": [
+        "%1, on a posé des capteurs dans le champ d'anomalies à un peu plus d'un kilomètre à l'est du Silencieux : Voronka, Studen, Tramplin, tout le catalogue. Une harde de chairs vient y fouiller et renverse nos relevés. Abats-en trois. Regarde où tu poses les pieds : les anomalies, elles, ne reculent pas.",
+        "Trois chairs, dans le champ d'anomalies à un kilomètre à l'est du Silencieux. Attention aux Voronka.",
+        "Trois. Les capteurs vont enfin mesurer autre chose que des sabots. Ta part. Demain, on aura de nouveau besoin de bras."
+    ],
+    "ObjectiveText": "Abats 3 chairs dans le champ d'anomalies à l'est du Silencieux, puis reviens voir l'officier.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        67
+    ],
+    "QuestTurnInIDs": [
+        67
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 218,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

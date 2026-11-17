@@ -1,0 +1,73 @@
+{
+    "ConfigVersion": 22,
+    "ID": 219,
+    "Type": 1,
+    "Title": "Contrat moyen : les sangliers de la Jarka",
+    "Descriptions": [
+        "Des sangliers tiennent le terrain à cinq cents mètres à l'est-nord-est du Silencieux, au bord d'une Jarka. Ils chargent tout ce qui approche, et nos équipes de mesure ont dû rebrousser chemin deux fois. Abats-en deux. Ils encaissent : vise la tête, et ne recule pas dans le feu de la Jarka.",
+        "Deux sangliers, à cinq cents mètres à l'est-nord-est du Silencieux, près de la Jarka. Vise la tête.",
+        "Le passage est libre. Nos équipes vont pouvoir faire leurs relevés. Ta paie."
+    ],
+    "ObjectiveText": "Abats 2 sangliers à l'est-nord-est du Silencieux, puis reviens voir l'officier.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        67
+    ],
+    "QuestTurnInIDs": [
+        67
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 219,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

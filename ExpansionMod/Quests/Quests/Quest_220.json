@@ -1,0 +1,69 @@
+{
+    "ConfigVersion": 22,
+    "ID": 220,
+    "Type": 1,
+    "Title": "Contrat difficile : la sangsue du champ d'anomalies",
+    "Descriptions": [
+        "Celui-là, je ne le confie qu'à ceux qui savent tenir leur arme. Une sangsue s'est installée au milieu du grand champ d'anomalies, à moins de deux cents mètres au sud du camp de Zaïtsev, le chasseur. Jarka, Électra, Studen : elle s'en sert comme d'un rempart, et elle frappe invisible. Ne pars pas seul, garde un œil sur le sol, et rapporte sa mâchoire : on veut savoir ce que le champ lui a fait.",
+        "La sangsue, au milieu du champ d'anomalies au sud du camp de Zaïtsev. Pas seul. Et sa mâchoire.",
+        "Sa mâchoire... On l'étudiera. Le champ est de nouveau praticable pour nos équipes. Ta paie de la semaine, et elle est méritée."
+    ],
+    "ObjectiveText": "Abats la sangsue du champ d'anomalies au sud du camp de Zaïtsev, puis rapporte 1 mâchoire de sangsue à l'officier. Le contrat échoue si tu meurs.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Amount": 5,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        67
+    ],
+    "QuestTurnInIDs": [
+        67
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 220,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 220,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
