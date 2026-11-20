@@ -172,11 +172,9 @@
 	<Loadout id="ML" displayName="Militaire">
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
-				<Item classname="SGE_Military_Beryl_Jacket" health="0.6:0.8" />
 				<Item classname="SGE_Military_Bulat_Jacket" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
-				<Item classname="SGE_Military_Beryl_Pants" health="0.6:0.8" />
 				<Item classname="SGE_Military_Bulat_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
@@ -217,15 +215,9 @@
 	<Loadout id="EC" displayName="Ecologiste">
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
-				<Item classname="FS_Eco_Orange_Jacket" health="0.6:0.8" />
-				<Item classname="FS_Eco_Green_Jacket" health="0.6:0.8" />
-				<Item classname="FS_Eco_Gray_Jacket" health="0.6:0.8" />
 				<Item classname="NewSeva_AoD_Ecolog_v2_Body_Hood1" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
-				<Item classname="FS_Eco_Orange_Pants" health="0.6:0.8" />
-				<Item classname="FS_Eco_Green_Pants" health="0.6:0.8" />
-				<Item classname="FS_Eco_Gray_Pants" health="0.6:0.8" />
 				<Item classname="NewSeva_AoD_Ecolog_v2_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
@@ -262,12 +254,10 @@
 	<Loadout id="VE" displayName="Veilleur">
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
-				<Item classname="SGE_Stalker_Sunrise_Jacket_3" health="0.6:0.8" />
 				<Item classname="SGE_Stalker_Sunrise_Jacket_Dw" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
-				<Item classname="SGE_Stalker_Sunrise_Pants_3" health="0.6:0.8" />
-				<Item classname="SGE_Sunrise_Wind_Pants" health="0.6:0.8" />
+				<Item classname="SGE_Stalker_Sunrise_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -303,11 +293,9 @@
 	<Loadout id="DV" displayName="Devoir">
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
-				<Item classname="SGE_Duty_Bulat_Jacket" health="0.6:0.8" />
 				<Item classname="SGE_Duty_Wind_Jacket_Dw" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
-				<Item classname="SGE_Duty_Bulat_Pants" health="0.6:0.8" />
 				<Item classname="SGE_Duty_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
@@ -348,11 +336,9 @@
 	<Loadout id="BD" displayName="Bandit">
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
-				<Item classname="FS_BomberJack_Bandos" health="0.6:0.8" />
 				<Item classname="SGE_Bandits_Wind_Jacket" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
-				<Item classname="SGE_Bandits_Overall_Pants_Rig" health="0.6:0.8" />
 				<Item classname="SGE_Bandits_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">

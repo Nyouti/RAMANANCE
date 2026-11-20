@@ -80,6 +80,38 @@
         {
             "ClassName": "TraderPlus_Coin",
             "Value": 1
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro200",
+            "Value": 200
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro100",
+            "Value": 100
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro50",
+            "Value": 50
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro20",
+            "Value": 20
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro10",
+            "Value": 10
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro5",
+            "Value": 5
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro2",
+            "Value": 2
+        },
+        {
+            "ClassName": "TraderPlus_Money_Euro1",
+            "Value": 1
         }
     ],
     "Traders": [
@@ -324,7 +356,7 @@
                 8712.672852
             ],
             "Orientation": [
-                -28.151627,
+                151.848373,
                 0.0,
                 0.0
             ],
@@ -359,6 +391,58 @@
                 "HikingBoots_Brown",
                 "FS_TAG_Odin"
             ]
+        },
+        {
+            "Id": 19,
+            "Name": "mm_npc_stalker_2",
+            "GivenName": "Le Vieux Mitia",
+            "Role": "General Trader",
+            "Position": [ 6596.255859375, 69.16000366210938, 798.2040405273438 ],
+            "Orientation": [
+                167.22,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 20,
+            "Name": "mm_npc_stalker_2",
+            "GivenName": "Le Passeur",
+            "Role": "General Trader",
+            "Position": [ 9658.9521484375, 47.0617790222168, 1213.2764892578126 ],
+            "Orientation": [
+                -58.86,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 21,
+            "Name": "mm_npc_stalker_2",
+            "GivenName": "L'Ermite",
+            "Role": "General Trader",
+            "Position": [ 8437.0810546875, 89.23133850097656, 1152.1514892578126 ],
+            "Orientation": [
+                -92.34,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 22,
+            "Name": "Land_Roadblock_WoodenCrate",
+            "GivenName": "Caisse du Passeur",
+            "Role": "Armes des souterrains",
+            "Position": [ 9661.536133, 47.101730, 1213.453125 ],
+            "Orientation": [
+                133.292068,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
         }
     ],
     "TraderObjects": [
