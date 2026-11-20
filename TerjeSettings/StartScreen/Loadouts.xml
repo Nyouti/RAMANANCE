@@ -134,6 +134,7 @@
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_ClearSky_Sunrise_Pants" health="0.6:0.8" />
+				<Item classname="aod_pants_clearsky2_marpat" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -147,6 +148,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -167,9 +173,11 @@
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
 				<Item classname="SGE_Military_Beryl_Jacket" health="0.6:0.8" />
+				<Item classname="SGE_Military_Bulat_Jacket" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_Military_Beryl_Pants" health="0.6:0.8" />
+				<Item classname="SGE_Military_Bulat_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -183,6 +191,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -207,11 +220,13 @@
 				<Item classname="FS_Eco_Orange_Jacket" health="0.6:0.8" />
 				<Item classname="FS_Eco_Green_Jacket" health="0.6:0.8" />
 				<Item classname="FS_Eco_Gray_Jacket" health="0.6:0.8" />
+				<Item classname="NewSeva_AoD_Ecolog_v2_Body_Hood1" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="FS_Eco_Orange_Pants" health="0.6:0.8" />
 				<Item classname="FS_Eco_Green_Pants" health="0.6:0.8" />
 				<Item classname="FS_Eco_Gray_Pants" health="0.6:0.8" />
+				<Item classname="NewSeva_AoD_Ecolog_v2_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -225,6 +240,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -243,9 +263,11 @@
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
 				<Item classname="SGE_Stalker_Sunrise_Jacket_3" health="0.6:0.8" />
+				<Item classname="SGE_Stalker_Sunrise_Jacket_Dw" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_Stalker_Sunrise_Pants_3" health="0.6:0.8" />
+				<Item classname="SGE_Sunrise_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -259,6 +281,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -277,9 +304,11 @@
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
 				<Item classname="SGE_Duty_Bulat_Jacket" health="0.6:0.8" />
+				<Item classname="SGE_Duty_Wind_Jacket_Dw" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_Duty_Bulat_Pants" health="0.6:0.8" />
+				<Item classname="SGE_Duty_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -293,6 +322,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -315,9 +349,11 @@
 		<Items>
 			<Selector type="SINGLE" displayName="Haut">
 				<Item classname="FS_BomberJack_Bandos" health="0.6:0.8" />
+				<Item classname="SGE_Bandits_Wind_Jacket" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_Bandits_Overall_Pants_Rig" health="0.6:0.8" />
+				<Item classname="SGE_Bandits_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -331,6 +367,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">
@@ -358,6 +399,7 @@
 			</Selector>
 			<Selector type="SINGLE" displayName="Bas">
 				<Item classname="SGE_Freedom_MK2_Pants" health="0.6:0.8" />
+				<Item classname="SGE_Freedom_Wind_Pants" health="0.6:0.8" />
 			</Selector>
 			<Selector type="SINGLE" displayName="chaussure">
 				<Item classname="JungleBoots_Black" />
@@ -371,6 +413,11 @@
 				<Item classname="Chemlight_Yellow" />
 				<Item classname="Chemlight_White" />
 			</Selector>
+			<Item classname="CombatKnife" />
+			<Item classname="MakarovIJ70" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Mag_IJ70_8Rnd" ammoType="Ammo_380" ammoCount="8" />
+			<Item classname="Ammo_380" count="24" />
 		</Items>
 		<Conditions>
 			<SpecificPlayers hideOwnerWhenFalse="1">

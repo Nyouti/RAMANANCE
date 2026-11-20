@@ -2019,39 +2019,6 @@
  		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
  		<Can_Throw_Stones			Day="0"		Night="0"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
     </type>
-	<type name="PseudoGiant">									<!-- mod PseudoGiant : 100 balles AKM au torse (34 PV par balle, vie du mod 3500) -->
-        <Health_Points				Day="3410" 	Night="3410"/> 	<!-- Integer (Quantity) [1 to 10000] -->		
-        <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
-        <Resistance_to_Melees		Day="3.0" 	Night="3.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
-        <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
-        <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
-        <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->
-		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->		
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
-		<Special_HeadShot_Weapons	Day="0"		Night="0"/>		<!-- Integer [0 or 1] -->
-		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [0.0 to 3.0] -->
-		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Decimal (Quantity) [1.0 to 3.0] -->		
-		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [-0.5 to 0.5 (0.0 to disable)] -->
-		<Animation_Type				Day="-9" 	Night="-9"/>	<!-- Integer [0, 1, 3 (not 2) or -9 (-9: random)] -->
-        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>	<!-- Decimal (Ratio) [-1.0 to 1.0] -->		
-		<Can_Dodge					Day="0" 	Night="0"/>		<!-- Integer [0 or 1] -->
- 		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>		<!-- Integer [0 or 1] -->
- 		<Immune_To_MultiHit 		Day="0"		Night="0"/>		<!-- Integer [0:Not Immune or 1:Immune] -->
- 		<Attack_Speed 				Day="1.0"	Night="1.0"/>	<!-- Integer [0.0 to 2.0] -->
-		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0-infinite] -->	
-		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0-infinite] -->
-		<Bleeding_Chance			LightAttack_NotBlocked="-1"  LightAttack_Blocked="0.0"  HeavyAttack_NotBlocked="-1"  HeavyAttack_Blocked="0.0"  NightRatio="1.0"/> <!-- Decimal (Ratio) [0.0 to 1.0 or -1 to let vanilla system manage bleeding sources] -->		
-		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/> <!-- Integer (Quantity) [0-5000] -->
-		<Damage_Stamina				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/> <!-- Integer (Quantity) [0-100] -->
-		<Vision_Distance_Ratio		Day="1.5" Night="1.5" WithBloodyHands="1.5" WithSpecialMask="1.5" MinimumRatioDistance="1.1"/> <!-- Decimal (Ratio) [0.0 - 1.0] -->
- 		<Can_Be_Backstabbed 		Day="1"		Night="1"/>		<!-- Integer [0:No Backstabbed or 1: Backstabbed possible] -->
- 		<Resist_Contaminated_Effect	Day="0"		Night="0"/>		<!-- Integer [0: Don't Resist or 1: Restist] -->
- 		<Numb_Of_Hit_To_Break_Doors	Day="5"		Night="5"/>		<!-- Integer [0 to infinite] (0: Zombie can't break doors, 2: zombie need two hit to break a door...) -->
- 		<Size_Mini 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
- 		<Size_Maxi 					Day="1.0"	Night="1.0"/>	<!-- Decimal (Ratio) [0.01 to infinite] (Size changes only apply to new spawned zombies) -->
- 		<Can_Throw_Stones			Day="0"		Night="0"/>		<!-- Integer [0:Deactivated or 1:Activated or 2:Activated even if player is not on an obstacle] -->
-    </type>
 	<!--______________________________ DAYZ VANILLA ZOMBIE CLASSES ____________________________________________-->
 	
 	<!-- Weak but Fast --> 
